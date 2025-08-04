@@ -12,8 +12,8 @@
   "scenes": [
     {
       "id": "as-1",
-      "prompt": "Vista aérea majestosa da floresta amazônica",
-      "imageUrl": "https://pollinations.ai/p/Vista%20aérea%20majestosa%20da%20floresta%20amazônica%20ao%20nascer%20do%20sol?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Vista aérea majestosa da floresta amazônica, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "https://pollinations.ai/p/Vista%20aérea%20majestosa%20da%20floresta%20amazônica?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Do alto, a Amazônia se estende infinitamente como um mar verde, lar de milhões de espécies.",
@@ -21,7 +21,7 @@
     },
     {
       "id": "as-2",
-      "prompt": "Jaguares caçando na mata fechada",
+      "prompt": "Jaguares caçando na mata fechada, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
       "imageUrl": "https://pollinations.ai/p/Jaguar%20caçando%20na%20mata%20fechada%20da%20Amazônia?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
@@ -30,7 +30,7 @@
     },
     {
       "id": "as-3",
-      "prompt": "Aves exóticas voando sobre o dossel",
+      "prompt": "Aves exóticas voando sobre o dossel, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
       "imageUrl": "https://pollinations.ai/p/Aves%20exóticas%20coloridas%20voando%20sobre%20dossel%20amazônico?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
@@ -39,7 +39,7 @@
     },
     {
       "id": "as-4",
-      "prompt": "Tribos indígenas preservando tradições",
+      "prompt": "Tribos indígenas preservando tradições, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
       "imageUrl": "https://pollinations.ai/p/Tribo%20indígena%20amazônica%20preservando%20tradições%20ancestrais?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
@@ -48,16 +48,244 @@
     },
     {
       "id": "as-5",
-      "prompt": "Rio Amazonas serpenteando pela floresta",
+      "prompt": "Rio Amazonas serpenteando pela floresta, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
       "imageUrl": "https://pollinations.ai/p/Rio%20Amazonas%20serpenteando%20pela%20floresta%20com%20vida%20aquática?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "O poderoso Rio Amazonas é a artéria vital que alimenta toda esta biodiversidade única.",
       "visualDescription": "Rio Amazonas com vida aquática abundante e floresta nas margens"
+    },
+
+    {
+      "id": "as-6",
+      "prompt": "Boto-cor-de-rosa emergindo do rio, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Dr. Ana Silva: 'O boto-cor-de-rosa, uma lenda viva dos rios amazônicos, desliza silencioso sob as águas turvas.'",
+      "visualDescription": "Boto-cor-de-rosa saltando no rio com floresta ao fundo"
+    },
+    {
+      "id": "as-7",
+      "prompt": "Macacos bugios balançando nas árvores, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Os bugios ecoam sua presença com rugidos potentes, lembrando que esta floresta é viva.",
+      "visualDescription": "Macacos bugios entre galhos, com luz filtrando pela copa"
+    },
+    {
+      "id": "as-8",
+      "prompt": "Cacique Raoni observando a floresta, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Cacique Raoni: 'Cada árvore que cai, leva consigo um pedaço da nossa história e do mundo.'",
+      "visualDescription": "Cacique Raoni com cocar, olhando para a floresta ao entardecer"
+    },
+    {
+      "id": "as-9",
+      "prompt": "Nuvens de borboletas azuis morpho sobre o rio, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Borboletas morpho dançam ao vento, iluminando a mata com flashes azul-metálicos.",
+      "visualDescription": "Borboletas morpho azuis voando sobre um rio tranquilo"
+    },
+    {
+      "id": "as-10",
+      "prompt": "Sapos coloridos entre folhas molhadas, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Pequenos sapos venenosos brilham como joias vivas, símbolos do frágil equilíbrio amazônico.",
+      "visualDescription": "Sapo colorido em close-up sobre folhas verdes com gotas de água"
+    },
+
+    {
+      "id": "as-11",
+      "prompt": "Anaconda deslizando silenciosa na água, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Dr. Ana Silva: 'A anaconda, senhora das águas calmas, caça sem pressa e sem piedade.'",
+      "visualDescription": "Anaconda parcialmente submersa em rio barrento"
+    },
+    {
+      "id": "as-12",
+      "prompt": "Pôr do sol dourado refletindo no rio, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "O sol se despede pintando o rio de ouro e a floresta de sombras mágicas.",
+      "visualDescription": "Pôr do sol refletindo no rio com silhuetas da floresta"
+    },
+    {
+      "id": "as-13",
+      "prompt": "Onças bebendo água à beira do rio, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Silenciosas, as onças saciam sua sede, soberanas de seu território.",
+      "visualDescription": "Onça adulta e filhote bebendo água na margem do rio"
+    },
+    {
+      "id": "as-14",
+      "prompt": "Cacique Raoni em ritual noturno à luz do fogo, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Cacique Raoni: 'A floresta fala à noite, e nós ouvimos seus conselhos.'",
+      "visualDescription": "Ritual indígena noturno com fogo iluminando rostos pintados"
+    },
+    {
+      "id": "as-15",
+      "prompt": "Relâmpagos iluminando a floresta sob tempestade, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A tempestade cai sobre a selva, renovando a vida que pulsa entre raízes e rios.",
+      "visualDescription": "Floresta amazônica sob chuva intensa com relâmpagos ao fundo"
+    },
+
+    {
+      "id": "as-16",
+      "prompt": "Peixes saltando nas corredeiras, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Cardumes prateados saltam, alimentando aves e ribeirinhos.",
+      "visualDescription": "Peixes prateados saltando em corredeira com spray de água"
+    },
+    {
+      "id": "as-17",
+      "prompt": "Crianças indígenas brincando na beira do rio, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Risos infantis ecoam entre as árvores, onde a infância floresce livre.",
+      "visualDescription": "Crianças indígenas sorrindo e mergulhando em rio cristalino"
+    },
+    {
+      "id": "as-18",
+      "prompt": "Pássaro Harpia em voo majestoso, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Dr. Ana Silva: 'A harpia, rainha dos céus, patrulha a floresta de ponta a ponta.'",
+      "visualDescription": "Harpia voando sobre a copa das árvores com asas abertas"
+    },
+    {
+      "id": "as-19",
+      "prompt": "Tronco caído coberto por fungos e musgos, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A cada tronco caído, nasce uma nova vida em forma de musgos, fungos e insetos.",
+      "visualDescription": "Close-up de tronco úmido coberto de musgos e fungos coloridos"
+    },
+    {
+      "id": "as-20",
+      "prompt": "Nuvem de mosquitos ao pôr do sol, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A vida pulsa em todas as escalas, até nas minúsculas nuvens de insetos.",
+      "visualDescription": "Nuvem de mosquitos iluminada pelo pôr do sol na floresta"
+    },
+
+    {
+      "id": "as-21",
+      "prompt": "Flor Vitória-Régia se abrindo à noite, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A Vitória-Régia floresce sob a lua, rainha silenciosa das águas calmas.",
+      "visualDescription": "Flor branca de Vitória-Régia iluminada pela lua sobre água calma"
+    },
+    {
+      "id": "as-22",
+      "prompt": "Tamanduá-bandeira caminhando na mata, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "O tamanduá-bandeira percorre seu território, sempre atento à presença de formigueiros.",
+      "visualDescription": "Tamanduá-bandeira em passo lento entre clareira e mata fechada"
+    },
+    {
+      "id": "as-23",
+      "prompt": "Chuva fina formando neblina sobre a floresta, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A névoa matinal abraça a floresta, guardando seus segredos.",
+      "visualDescription": "Neblina baixa cobrindo árvores e rios ao amanhecer"
+    },
+    {
+      "id": "as-24",
+      "prompt": "Colônia de formigas cortadeiras carregando folhas, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Pequenos exércitos trabalham incansáveis, sustentando o equilíbrio da floresta.",
+      "visualDescription": "Formigas cortadeiras carregando folhas verdes em fila"
+    },
+    {
+      "id": "as-25",
+      "prompt": "Arco-íris duplo sobre o rio Amazonas, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Entre chuva e sol, o arco-íris celebra a riqueza desta terra sagrada.",
+      "visualDescription": "Arco-íris duplo refletido no rio com floresta ao fundo"
+    },
+
+    {
+      "id": "as-26",
+      "prompt": "Caboclo pescando de canoa ao amanhecer, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "O homem e o rio vivem em harmonia, um depende do outro desde sempre.",
+      "visualDescription": "Caboclo em canoa com vara de pesca sob luz dourada da manhã"
+    },
+    {
+      "id": "as-27",
+      "prompt": "Ninho de araras com filhotes, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Filhotes de arara aguardam ansiosos, protegidos por galhos altos e folhas largas.",
+      "visualDescription": "Ninho de arara com filhotes coloridos em tronco alto"
+    },
+    {
+      "id": "as-28",
+      "prompt": "Fogueira na aldeia com histórias sendo contadas, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Cacique Raoni: 'Quando contamos histórias, mantemos a floresta viva em nossas memórias.'",
+      "visualDescription": "Roda em torno de fogueira com indígenas ouvindo histórias"
+    },
+    {
+      "id": "as-29",
+      "prompt": "Estrelas refletindo no rio durante a noite, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A floresta dorme sob um manto de estrelas, e o rio as leva consigo.",
+      "visualDescription": "Reflexo de estrelas no rio escuro com silhuetas de árvores"
+    },
+    {
+      "id": "as-30",
+      "prompt": "Vista aérea da floresta amanhecendo com névoa, cinematic documentary style, ultra realistic, vibrant colors, detailed wildlife, amazonia, 16:9",
+      "imageUrl": "",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Dr. Ana Silva: 'Aqui termina nossa jornada, mas a vida da Amazônia segue infinita e pulsante.'",
+      "visualDescription": "Floresta coberta por névoa ao amanhecer vista de cima"
     }
   ],
   "createdAt": "2024-01-01T00:00:00.000Z",
-  "thumbnail": "https://pollinations.ai/p/Cartaz%20documentário%20Amazônia%20Selvagem%2C%20natureza%20exuberante?width=768&height=1366&enhance=true&nologo=true",
-  "aspectRatio": "16:9",
-  "type": "movie"
-}
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20documentário%20Amazônia%20Selvagem%2C%20natureza%20exuberante?width=768&height=1366&enhance=true&nologo=true
+
