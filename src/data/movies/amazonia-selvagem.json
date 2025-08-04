@@ -287,5 +287,7 @@
     }
   ],
   "createdAt": "2024-01-01T00:00:00.000Z",
-  "thumbnail": "https://pollinations.ai/p/Cartaz%20documentário%20Amazônia%20Selvagem%2C%20natureza%20exuberante?width=768&height=1366&enhance=true&nologo=true
-
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20documentário%20Amazônia%20Selvagem%2C%20natureza%20exuberante?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}
