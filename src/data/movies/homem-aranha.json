@@ -3,436 +3,396 @@
   "title": "Homem-Aranha",
   "genre": "Super-Herói",
   "style": "Ação Jovem",
-  "imageStyle": "O filme deve ser renderizado com um estilo visual vibrante e dinâmico, destacando as cores vivas do uniforme do Homem-Aranha e os contrastes entre as cenas de ação e os momentos cotidianos. As cenas de ação devem ter um senso de movimento e energia, com ângulos de câmera criativos para enfatizar a agilidade e os poderes do herói. Os personagens devem ser representados de forma expressiva, com atenção aos detalhes emocionais e às interações entre eles.",
+  "imageStyle": "O filme deve ser renderizado com um estilo visual vibrante e dinâmico, destacando as cores vivas do uniforme do Homem-Aranha e os contrastes entre as cenas de ação e os momentos cotidianos.",
   "duration": "2 minutos",
   "synopsis": "Um jovem estudante ganha poderes de aranha e deve aprender que com grandes poderes vêm grandes responsabilidades.",
   "characters": [
     {
       "name": "Peter Parker",
-      "description": "Peter Parker é um jovem tímido e inteligente, com cabelos castanhos bagunçados e óculos redondos. Ele é magro e geralmente veste roupas casuais, como camisetas e jeans. Após ser picado por uma aranha radioativa, ele ganha poderes incríveis, incluindo força sobre-humana, agilidade, a capacidade de escalar paredes e um 'sentido de aranha' que o alerta sobre perigos.",
+      "description": "Peter Parker é um jovem tímido e inteligente, com cabelos castanhos bagunçados e óculos redondos. Ele é magro e geralmente veste roupas casuais, como camisetas e jeans.",
       "voice": "male"
     },
     {
       "name": "Mary Jane",
-      "description": "Mary Jane, ou MJ, é uma jovem bonita e carismática com cabelos ruivos longos e olhos verdes. Ela é corajosa e tem um espírito independente. MJ é o interesse romântico de Peter e trabalha como atriz aspirante. Ela é conhecida por sua personalidade extrovertida e seu senso de humor.",
+      "description": "Mary Jane, ou MJ, é uma jovem bonita e carismática com cabelos ruivos longos e olhos verdes. Ela é corajosa e tem um espírito independente.",
       "voice": "female"
     },
     {
       "name": "Duende Verde",
-      "description": "O Duende Verde é um vilão assustador com uma armadura tecnológica verde e roxa. Ele usa uma máscara que esconde seu rosto desfigurado e pilota um planador em forma de morcego. Sua personalidade é maníaca e ele tem uma risada característica que ecoa pela cidade. Ele é extremamente inteligente e usa sua tecnologia avançada para aterrorizar Nova York.",
+      "description": "O Duende Verde é um vilão assustador com uma armadura tecnológica verde e roxa. Ele usa uma máscara que esconde seu rosto desfigurado e pilota um planador em forma de morcego.",
       "voice": "male"
     },
     {
       "name": "Tio Ben",
-      "description": "Tio Ben é um homem mais velho, sábio e gentil, com cabelos grisalhos e um bigode. Ele é o tio de Peter e uma figura paterna em sua vida. Ben é conhecido por sua sabedoria e seus conselhos, especialmente a famosa frase: 'Com grandes poderes vêm grandes responsabilidades.'",
+      "description": "Tio Ben é um homem mais velho, sábio e gentil, com cabelos grisalhos e um bigode. Ele é o tio de Peter e uma figura paterna em sua vida.",
       "voice": "male"
     },
     {
       "name": "Tia May",
-      "description": "Tia May é uma senhora idosa, mas cheia de energia, com cabelos brancos e um sorriso acolhedor. Ela é a tia de Peter e cuida dele com muito carinho. May é conhecida por sua bondade e preocupação com Peter, sempre tentando garantir que ele esteja seguro e feliz.",
+      "description": "Tia May é uma senhora idosa, mas cheia de energia, com cabelos brancos e um sorriso acolhedor. Ela é a tia de Peter e cuida dele com muito carinho.",
       "voice": "female"
     }
   ],
   "scenes": [
     {
       "id": "ha-1",
-      "prompt": "Peter Parker, um estudante tímido e inteligente, está em sua sala de aula na escola secundária, cercado por outros alunos. Ele usa óculos redondos e veste uma camiseta por baixo de um suéter.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20estudante%20tímido%20na%20escola%20secundária?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker, um estudante tímido e inteligente, está em sua sala de aula na escola secundária, cercado por outros alunos.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker,%20um%20estudante%20tímido%20e%20inteligente%20com%20cabelos%20castanhos%20bagunçados%20e%20óculos%20redondos,%20em%20sua%20sala%20de%20aula%20na%20escola%20secundária,%20cercado%20por%20outros%20alunos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter Parker é um estudante tímido e inteligente do ensino médio.",
-      "dialogue": "Peter Parker: 'Só queria ser notado por alguém além dos valentões.'",
-      "visualDescription": "Escola secundária com carteiras enfileiradas e um quadro-negro. Peter está sentado em sua carteira, olhando para baixo enquanto os outros alunos conversam ao redor."
+      "dialogue": "Peter Parker: 'Só queria ser notado por alguém além dos valentões.'"
     },
     {
       "id": "ha-2",
-      "prompt": "Peter Parker sendo intimidado por valentões no pátio da escola. Os valentões são maiores e mais fortes, cercando Peter enquanto ele tenta se afastar.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20sendo%20intimidado%20por%20valentões%20na%20escola?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker sendo intimidado por valentões no pátio da escola.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20sendo%20intimidado%20por%20valentões%20no%20pátio%20da%20escola,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter é intimidado por valentões na escola, mas evita confrontos.",
-      "dialogue": "Valentão: 'E aí, Parker? Vai chorar para a mamãe?'",
-      "visualDescription": "Pátio da escola com mesas de piquenique e árvores ao fundo. Os valentões estão em pé, cercando Peter, que parece nervoso."
+      "dialogue": "Valentão: 'E aí, Parker? Vai chorar para a mamãe?'"
     },
     {
       "id": "ha-3",
-      "prompt": "Peter Parker ajudando um colega de classe com a lição de casa na biblioteca da escola. Eles estão sentados em uma mesa, cercados por livros e cadernos.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20ajudando%20um%20colega%20de%20classe%20com%20lição%20de%20casa?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker ajudando um colega de classe com a lição de casa na biblioteca da escola.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20ajudando%20um%20colega%20de%20classe%20com%20a%20lição%20de%20casa%20na%20biblioteca%20da%20escola,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter ajuda um colega de classe com a lição de casa, mostrando sua bondade.",
-      "dialogue": "Colega: 'Obrigado, Peter. Você é um amigo incrível.'",
-      "visualDescription": "Biblioteca da escola com estantes de livros e mesas de estudo. Peter e seu colega estão sentados juntos, olhando para um livro aberto."
+      "dialogue": "Colega: 'Obrigado, Peter. Você é um amigo incrível.'"
     },
     {
       "id": "ha-4",
-      "prompt": "A turma de Peter visita um laboratório de pesquisa genética. O laboratório é moderno, com equipamentos científicos avançados e luzes brilhantes.",
-      "imageUrl": "https://pollinations.ai/p/Excursão%20escolar%20ao%20laboratório%20de%20pesquisa%20científica?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "A turma de Peter visita um laboratório de pesquisa genética.",
+      "imageUrl": "https://pollinations.ai/p/A%20turma%20de%20estudantes%20visitando%20um%20laboratório%20de%20pesquisa%20genética,%20com%20Peter%20Parker%20entre%20eles,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "A turma visita um laboratório de pesquisa genética.",
-      "dialogue": "Mary Jane: 'Peter, você sempre se empolga com essas coisas científicas.'",
-      "visualDescription": "Laboratório moderno com equipamentos científicos e estudantes em excursão. Peter está olhando para um microscópio, com Mary Jane ao seu lado."
+      "dialogue": "Mary Jane: 'Peter, você sempre se empolga com essas coisas científicas.'"
     },
     {
       "id": "ha-5",
-      "prompt": "Peter Parker impressionado com a tecnologia do laboratório. Ele está olhando para um equipamento científico avançado com admiração.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20impressionado%20com%20tecnologia%20do%20laboratório%20científico?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker impressionado com a tecnologia do laboratório.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20impressionado%20com%20a%20tecnologia%20do%20laboratório,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter fica fascinado com os equipamentos avançados do laboratório.",
-      "dialogue": "Peter Parker: 'Isso é incrível! Nunca vi nada assim antes.'",
-      "visualDescription": "Peter está em frente a um equipamento científico grande e complexo, com uma expressão de admiração no rosto."
+      "dialogue": "Peter Parker: 'Isso é incrível! Nunca vi nada assim antes.'"
     },
     {
       "id": "ha-6",
-      "prompt": "Uma aranha geneticamente modificada escapa de seu recipiente no laboratório. A aranha é grande e brilhante, com um tom esverdeado.",
-      "imageUrl": "https://pollinations.ai/p/Aranha%20radioativa%20escapando%20no%20laboratório%20científico?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Uma aranha geneticamente modificada escapa de seu recipiente no laboratório.",
+      "imageUrl": "https://pollinations.ai/p/Uma%20aranha%20geneticamente%20modificada%20escapando%20de%20seu%20recipiente%20no%20laboratório,%20com%20Peter%20Parker%20observando,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Uma aranha geneticamente modificada escapa de seu recipiente.",
-      "dialogue": "Peter Parker: 'Que aranha estranha... parece estar brilhando.'",
-      "visualDescription": "Aranha radioativa se movendo pelo laboratório, com cientistas tentando contê-la. Peter está observando a cena com curiosidade."
+      "dialogue": "Peter Parker: 'Que aranha estranha... parece estar brilhando.'"
     },
     {
       "id": "ha-7",
-      "prompt": "A aranha radioativa pica Peter Parker. Peter está com a mão estendida, olhando para a aranha com surpresa.",
-      "imageUrl": "https://pollinations.ai/p/Jovem%20estudante%20sendo%20picado%20por%20aranha%20radioativa?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "A aranha radioativa pica Peter Parker.",
+      "imageUrl": "https://pollinations.ai/p/A%20aranha%20radioativa%20picando%20Peter%20Parker,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "A aranha pica Peter antes que ele possa reagir.",
-      "dialogue": "Peter Parker: 'Ai! Essa aranha me picou!'",
-      "visualDescription": "Momento da picada da aranha radioativa, com Peter olhando para sua mão com uma expressão de dor e surpresa."
+      "dialogue": "Peter Parker: 'Ai! Essa aranha me picou!'"
     },
     {
       "id": "ha-8",
-      "prompt": "Peter Parker começa a se sentir mal no caminho para casa. Ele está andando pela rua, segurando a cabeça com uma expressão de desconforto.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20se%20sentindo%20mal%20após%20picada?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker começa a se sentir mal no caminho para casa.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20começando%20a%20se%20sentir%20mal%20no%20caminho%20para%20casa,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter começa a se sentir estranho no caminho para casa.",
-      "dialogue": "Peter Parker: 'Não me sinto bem... algo está acontecendo comigo.'",
-      "visualDescription": "Peter caminhando para casa em uma rua movimentada, com prédios e carros ao fundo. Ele parece desorientado e desconfortável."
+      "dialogue": "Peter Parker: 'Não me sinto bem... algo está acontecendo comigo.'"
     },
     {
       "id": "ha-9",
-      "prompt": "Peter Parker chega em casa e desmaia. Ele está no chão da cozinha, com Tia May correndo em sua direção, preocupada.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20chegando%20em%20casa%20e%20desmaiando%20após%20picada%20da%20aranha?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker chega em casa e desmaia.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20chegando%20em%20casa%20e%20desmaiando,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter chega em casa e desmaia, preocupando sua tia May.",
-      "dialogue": "Tia May: 'Peter! O que aconteceu com você?'",
-      "visualDescription": "Cozinha aconchegante com móveis de madeira e eletrodomésticos modernos. Peter está desmaiado no chão, com Tia May ajoelhada ao seu lado, tentando acordá-lo."
+      "dialogue": "Tia May: 'Peter! O que aconteceu com você?'"
     },
     {
       "id": "ha-10",
-      "prompt": "Peter Parker acorda com novos sentidos. Ele está em sua cama, olhando ao redor com uma expressão de surpresa e curiosidade.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20acordando%20com%20novos%20sentidos%20agçucados?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker acorda com novos sentidos.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20acordando%20com%20novos%20sentidos,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter acorda com sentidos aguçados e uma nova percepção do mundo.",
-      "dialogue": "Peter Parker: 'Posso ouvir tudo! Até o coração das pessoas batendo.'",
-      "visualDescription": "Quarto de Peter com paredes azuis e pôsteres de ciência. Ele está sentado em sua cama, olhando ao redor com uma expressão de surpresa."
+      "dialogue": "Peter Parker: 'Posso ouvir tudo! Até o coração das pessoas batendo.'"
     },
     {
       "id": "ha-11",
-      "prompt": "Peter Parker descobre sua força sobre-humana. Ele está segurando um objeto esmagado, olhando para ele com uma expressão de choque.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20descobrindo%20sua%20força%20sobre-humana%20ao%20esmagar%20um%20objeto?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker descobre sua força sobre-humana.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20descobrindo%20sua%20força%20sobre-humana,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter descobre que tem força sobre-humana ao esmagar um objeto sem querer.",
-      "dialogue": "Peter Parker: 'Uau! Não acredito que fiz isso.'",
-      "visualDescription": "Peter está em seu quarto, segurando um objeto metálico esmagado, com uma expressão de choque no rosto."
+      "dialogue": "Peter Parker: 'Uau! Não acredito que fiz isso.'"
     },
     {
       "id": "ha-12",
-      "prompt": "Peter Parker testando sua agilidade. Ele está pulando e esquivando-se de objetos em seu quarto, com uma expressão de empolgação.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20testando%20sua%20agilidade%20e%20reflexos%20aprimorados?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker testando sua agilidade.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20testando%20sua%20agilidade,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter testa sua agilidade e reflexos aprimorados, pulando e esquivando-se de objetos.",
-      "dialogue": "Peter Parker: 'Isso é incrível! Nunca me senti tão ágil.'",
-      "visualDescription": "Peter está em seu quarto, pulando e esquivando-se de móveis, com uma expressão de empolgação e diversão."
+      "dialogue": "Peter Parker: 'Isso é incrível! Nunca me senti tão ágil.'"
     },
     {
       "id": "ha-13",
-      "prompt": "Peter Parker descobre seus poderes de teia. Ele está disparando teias de suas mãos, olhando para elas com uma expressão de surpresa e curiosidade.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20descobrindo%20poderes%20de%20teia%20de%20aranha?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker descobre seus poderes de teia.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20descobrindo%20seus%20poderes%20de%20teia,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter descobre que pode produzir teias orgânicas.",
-      "dialogue": "Peter Parker: 'Isso é impossível! Estou disparando teias!'",
-      "visualDescription": "Peter está em seu quarto, disparando teias de suas mãos e olhando para elas com uma expressão de surpresa e curiosidade."
+      "dialogue": "Peter Parker: 'Isso é impossível! Estou disparando teias!'"
     },
     {
       "id": "ha-14",
-      "prompt": "Peter Parker testando seus poderes de escalada. Ele está escalando a parede de seu quarto, olhando para baixo com uma expressão de empolgação.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20testando%20poderes%20escalando%20parede?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker testando seus poderes de escalada.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20testando%20seus%20poderes%20de%20escalada,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter descobre que pode aderir às paredes como uma aranha.",
-      "dialogue": "Peter Parker: 'Estou grudando na parede! Como uma aranha de verdade!'",
-      "visualDescription": "Peter está escalando a parede de seu quarto, olhando para baixo com uma expressão de empolgação e diversão."
+      "dialogue": "Peter Parker: 'Estou grudando na parede! Como uma aranha de verdade!'"
     },
     {
       "id": "ha-15",
-      "prompt": "Peter Parker conversando com Tio Ben sobre responsabilidade. Eles estão sentados na sala de estar, com Tio Ben dando conselhos a Peter.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20conversando%20com%20Tio%20Ben%20sobre%20responsabilidade?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker conversando com Tio Ben sobre responsabilidade.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20conversando%20com%20Tio%20Ben%20sobre%20responsabilidade,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter conversa com seu Tio Ben sobre responsabilidade e fazer a coisa certa.",
-      "dialogue": "Tio Ben: 'Com grandes poderes vêm grandes responsabilidades, Peter.'",
-      "visualDescription": "Sala de estar aconchegante com um sofá e uma cadeira. Peter e Tio Ben estão sentados, conversando seriamente."
+      "dialogue": "Tio Ben: 'Com grandes poderes vêm grandes responsabilidades, Peter.'"
     },
     {
       "id": "ha-16",
-      "prompt": "Peter Parker criando seu uniforme do Homem-Aranha. Ele está em seu quarto, costurando o uniforme vermelho e azul.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20criando%20uniforme%20do%20Homem-Aranha?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker criando seu uniforme do Homem-Aranha.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20criando%20seu%20uniforme%20do%20Homem-Aranha,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter cria seu primeiro uniforme de Homem-Aranha.",
-      "dialogue": "Peter Parker: 'Se vou ser um herói, preciso de um visual apropriado.'",
-      "visualDescription": "Quarto de Peter com uma máquina de costura e tecidos espalhados. Ele está costurando o uniforme vermelho e azul, concentrado em seu trabalho."
+      "dialogue": "Peter Parker: 'Se vou ser um herói, preciso de um visual apropriado.'"
     },
     {
       "id": "ha-17",
-      "prompt": "Peter Parker testando seu uniforme do Homem-Aranha. Ele está se olhando no espelho, vestindo o uniforme completo.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20testando%20seu%20uniforme%20do%20Homem-Aranha%20pela%20primeira%20vez?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker testando seu uniforme do Homem-Aranha.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20testando%20seu%20uniforme%20do%20Homem-Aranha,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter veste seu uniforme pela primeira vez e testa suas habilidades.",
-      "dialogue": "Peter Parker: 'Parece que nasci para usar isso.'",
-      "visualDescription": "Peter está em frente a um espelho, vestindo o uniforme completo do Homem-Aranha, com uma expressão de satisfação e empolgação."
+      "dialogue": "Peter Parker: 'Parece que nasci para usar isso.'"
     },
     {
       "id": "ha-18",
-      "prompt": "Homem-Aranha testando suas habilidades balançando pela cidade. Ele está balançando entre os prédios, com a cidade ao fundo.",
-      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20fazendo%20primeiros%20testes%20balançando%20na%20cidade?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem-Aranha testando suas habilidades balançando pela cidade.",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20testando%20suas%20habilidades%20balançando%20pela%20cidade,%20com%20seu%20uniforme%20vermelho%20e%20azul?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "O Homem-Aranha testa suas habilidades balançando pela cidade.",
-      "dialogue": "Peter Parker: 'Incrível! Posso viajar por toda Nova York assim!'",
-      "visualDescription": "Homem-Aranha balançando entre os prédios da cidade, com o céu azul e nuvens ao fundo. Ele parece empolgado e livre."
+      "dialogue": "Peter Parker: 'Incrível! Posso viajar por toda Nova York assim!'"
     },
     {
       "id": "ha-19",
-      "prompt": "Homem-Aranha salvando um gato em uma árvore. Ele está segurando o gato, descendo da árvore com cuidado.",
-      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20salvando%20um%20gato%20em%20uma%20árvore?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem-Aranha salvando um gato em uma árvore.",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20salvando%20um%20gato%20em%20uma%20árvore,%20com%20seu%20uniforme%20vermelho%20e%20azul?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "O Homem-Aranha salva um gato preso em uma árvore, ganhando a atenção da mídia.",
-      "dialogue": "Criança: 'Obrigado, Homem-Aranha! Você é o melhor!'",
-      "visualDescription": "Homem-Aranha está em um parque, segurando um gato e descendo de uma árvore alta. Crianças estão ao redor, olhando com admiração."
+      "dialogue": "Criança: 'Obrigado, Homem-Aranha! Você é o melhor!'"
     },
     {
       "id": "ha-20",
-      "prompt": "Homem-Aranha impedindo seu primeiro assalto. Ele está em uma rua escura, enfrentando ladrões com uma expressão de determinação.",
-      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20impedindo%20primeiro%20crime%20na%20cidade?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem-Aranha impedindo seu primeiro assalto.",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20impedindo%20seu%20primeiro%20assalto,%20com%20seu%20uniforme%20vermelho%20e%20azul?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter impede seu primeiro assalto como Homem-Aranha.",
-      "dialogue": "Peter Parker: 'Alto aí, ladrões! O Homem-Aranha chegou!'",
-      "visualDescription": "Homem-Aranha está em uma rua escura, enfrentando ladrões que estão tentando roubar uma loja. Ele parece determinado e corajoso."
+      "dialogue": "Peter Parker: 'Alto aí, ladrões! O Homem-Aranha chegou!'"
     },
     {
       "id": "ha-21",
-      "prompt": "Homem-Aranha sendo elogiado pela cidade. Ele está em uma rua movimentada, com pessoas aplaudindo e tirando fotos.",
-      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20sendo%20elogiado%20pela%20cidade%20após%20impedir%20crime?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem-Aranha sendo elogiado pela cidade.",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20sendo%20elogiado%20pela%20cidade,%20com%20seu%20uniforme%20vermelho%20e%20azul?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "O Homem-Aranha recebe elogios da cidade por suas ações heroicas.",
-      "dialogue": "Repórter: 'O Homem-Aranha é o novo herói de Nova York!'",
-      "visualDescription": "Homem-Aranha está em uma rua movimentada, com pessoas ao redor aplaudindo e tirando fotos. Ele acena para a multidão, sorrindo."
+      "dialogue": "Repórter: 'O Homem-Aranha é o novo herói de Nova York!'"
     },
     {
       "id": "ha-22",
-      "prompt": "Peter Parker conversando com Mary Jane sobre seus sentimentos. Eles estão em um parque, sentados em um banco, conversando seriamente.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20conversando%20com%20Mary%20Jane%20sobre%20seus%20sentimentos?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker conversando com Mary Jane sobre seus sentimentos.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20conversando%20com%20Mary%20Jane%20sobre%20seus%20sentimentos,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter conversa com Mary Jane sobre seus sentimentos por ela.",
-      "dialogue": "Peter Parker: 'Mary Jane, eu sempre tive sentimentos por você.'",
-      "visualDescription": "Peter e Mary Jane estão em um parque, sentados em um banco sob uma árvore. Eles estão conversando seriamente, olhando um para o outro."
+      "dialogue": "Peter Parker: 'Mary Jane, eu sempre tive sentimentos por você.'"
     },
     {
       "id": "ha-23",
-      "prompt": "Duende Verde aparecendo pela primeira vez. Ele está em seu planador, voando sobre a cidade com uma expressão ameaçadora.",
-      "imageUrl": "https://pollinations.ai/p/Duende%20Verde%20aparecendo%20pela%20primeira%20vez%20ameaçador?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Duende Verde aparecendo pela primeira vez.",
+      "imageUrl": "https://pollinations.ai/p/Duende%20Verde%20aparecendo%20pela%20primeira%20vez,%20com%20sua%20armadura%20tecnológica%20verde%20e%20roxa?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Um novo vilão emerge nas ruas de Nova York.",
-      "dialogue": "Duende Verde: 'Nova York precisa de um novo rei! E esse rei sou eu!'",
-      "visualDescription": "Duende Verde está em seu planador, voando sobre a cidade à noite. Ele parece ameaçador e maníaco, com uma risada característica."
+      "dialogue": "Duende Verde: 'Nova York precisa de um novo rei! E esse rei sou eu!'"
     },
     {
       "id": "ha-24",
-      "prompt": "Duende Verde causando caos na cidade. Ele está voando sobre a cidade, causando destruição com seu planador.",
-      "imageUrl": "https://pollinations.ai/p/Duende%20Verde%20causando%20caos%20na%20cidade%20com%20seu%20planador?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Duende Verde causando caos na cidade.",
+      "imageUrl": "https://pollinations.ai/p/Duende%20Verde%20causando%20caos%20na%20cidade,%20com%20sua%20armadura%20tecnológica%20verde%20e%20roxa?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "O Duende Verde causa caos e destruição pela cidade, desafiando as autoridades.",
-      "dialogue": "Duende Verde: 'Ninguém pode me parar! Eu sou o Duende Verde!'",
-      "visualDescription": "Duende Verde está voando sobre a cidade, causando destruição com bombas e lasers. A cidade está em caos, com pessoas correndo e gritando."
+      "dialogue": "Duende Verde: 'Ninguém pode me parar! Eu sou o Duende Verde!'"
     },
     {
       "id": "ha-25",
-      "prompt": "Primeiro confronto entre Homem-Aranha e Duende Verde. Eles estão em uma batalha intensa, com explosões e destruição ao redor.",
-      "imageUrl": "https://pollinations.ai/p/Primeiro%20confronto%20entre%20Homem-Aranha%20e%20Duende%20Verde?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Primeiro confronto entre Homem-Aranha e Duende Verde.",
+      "imageUrl": "https://pollinations.ai/p/Primeiro%20confronto%20entre%20Homem-Aranha%20e%20Duende%20Verde,%20com%20seus%20respectivos%20trajes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Homem-Aranha enfrenta o Duende Verde pela primeira vez.",
-      "dialogue": "Peter Parker: 'Não vou deixar você aterrorizar pessoas inocentes!'",
-      "visualDescription": "Homem-Aranha e Duende Verde estão em uma batalha intensa, com explosões e destruição ao redor. Eles estão em um telhado, com a cidade ao fundo."
+      "dialogue": "Peter Parker: 'Não vou deixar você aterrorizar pessoas inocentes!'"
     },
     {
       "id": "ha-26",
-      "prompt": "Homem-Aranha sendo derrotado pelo Duende Verde. Ele está caído no chão, com o Duende Verde em pé, olhando para ele com uma expressão de triunfo.",
-      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20sendo%20derrotado%20pelo%20Duende%20Verde%20em%20batalha?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem-Aranha sendo derrotado pelo Duende Verde.",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20sendo%20derrotado%20pelo%20Duende%20Verde,%20com%20seus%20respectivos%20trajes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "O Homem-Aranha é derrotado pelo Duende Verde em sua primeira batalha.",
-      "dialogue": "Duende Verde: 'Você não é páreo para mim, aranha!'",
-      "visualDescription": "Homem-Aranha está caído no chão, com o Duende Verde em pé, olhando para ele com uma expressão de triunfo. A cidade está em chamas ao fundo."
+      "dialogue": "Duende Verde: 'Você não é páreo para mim, aranha!'"
     },
     {
       "id": "ha-27",
-      "prompt": "Peter Parker refletindo sobre sua derrota. Ele está sentado em seu quarto, olhando para o chão com uma expressão de tristeza e determinação.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20refletindo%20sobre%20sua%20derrota%20para%20o%20Duende%20Verde?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker refletindo sobre sua derrota.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20refletindo%20sobre%20sua%20derrota,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter reflete sobre sua derrota e como pode melhorar.",
-      "dialogue": "Peter Parker: 'Preciso me preparar melhor. Não posso falhar novamente.'",
-      "visualDescription": "Peter está sentado em sua cama, olhando para o chão com uma expressão de tristeza e determinação. Seu quarto está escuro, com apenas uma luz fraca iluminando o ambiente."
+      "dialogue": "Peter Parker: 'Preciso me preparar melhor. Não posso falhar novamente.'"
     },
     {
       "id": "ha-28",
-      "prompt": "Mary Jane em perigo, capturada pelo Duende Verde. Ela está amarrada em uma cadeira, com o Duende Verde em pé ao lado dela, olhando com uma expressão de malícia.",
-      "imageUrl": "https://pollinations.ai/p/Mary%20Jane%20em%20perigo%20capturada%20pelo%20Duende%20Verde?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Mary Jane em perigo, capturada pelo Duende Verde.",
+      "imageUrl": "https://pollinations.ai/p/Mary%20Jane%20em%20perigo,%20capturada%20pelo%20Duende%20Verde,%20com%20seus%20cabelos%20ruivos%20longos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "O Duende Verde sequestra Mary Jane para atrair o Homem-Aranha.",
-      "dialogue": "Mary Jane: 'Peter, me ajude! Onde está o Homem-Aranha?'",
-      "visualDescription": "Mary Jane está amarrada em uma cadeira em um armazém escuro, com o Duende Verde em pé ao lado dela, olhando com uma expressão de malícia. A luz é fraca e sombria."
+      "dialogue": "Mary Jane: 'Peter, me ajude! Onde está o Homem-Aranha?'"
     },
     {
       "id": "ha-29",
-      "prompt": "Peter Parker descobrindo o sequestro de Mary Jane. Ele está em seu quarto, segurando um bilhete com uma expressão de desespero.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20descobrindo%20o%20sequestro%20de%20Mary%20Jane%20pelo%20Duende%20Verde?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker descobrindo o sequestro de Mary Jane.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20descobrindo%20o%20sequestro%20de%20Mary%20Jane,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter descobre que Mary Jane foi sequestrada pelo Duende Verde.",
-      "dialogue": "Peter Parker: 'Não! Eu preciso salvar a MJ!'",
-      "visualDescription": "Peter está em seu quarto, segurando um bilhete com uma expressão de desespero. A luz é fraca, e ele parece determinado a agir."
+      "dialogue": "Peter Parker: 'Não! Eu preciso salvar a MJ!'"
     },
     {
       "id": "ha-30",
-      "prompt": "Homem-Aranha em corrida contra o tempo para salvar Mary Jane. Ele está balançando pela cidade, com uma expressão de determinação e urgência.",
-      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20em%20corrida%20contra%20tempo%20para%20salvar%20Mary%20Jane?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem-Aranha em corrida contra o tempo para salvar Mary Jane.",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20em%20corrida%20contra%20o%20tempo%20para%20salvar%20Mary%20Jane,%20com%20seu%20uniforme%20vermelho%20e%20azul?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter corre contra o tempo para salvar Mary Jane.",
-      "dialogue": "Peter Parker: 'Aguente firme, MJ! Estou chegando!'",
-      "visualDescription": "Homem-Aranha está balançando pela cidade, com uma expressão de determinação e urgência. A cidade está escura, com luzes piscando ao fundo."
+      "dialogue": "Peter Parker: 'Aguente firme, MJ! Estou chegando!'"
     },
     {
       "id": "ha-31",
-      "prompt": "Homem-Aranha enfrentando o Duende Verde novamente. Eles estão em uma batalha intensa, com explosões e destruição ao redor.",
-      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20enfrentando%20o%20Duende%20Verde%20novamente%20para%20salvar%20Mary%20Jane?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem-Aranha enfrentando o Duende Verde novamente.",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20enfrentando%20o%20Duende%20Verde%20novamente,%20com%20seus%20respectivos%20trajes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "O Homem-Aranha enfrenta o Duende Verde novamente para salvar Mary Jane.",
-      "dialogue": "Peter Parker: 'Dessa vez, você não vai vencer, Duende!'",
-      "visualDescription": "Homem-Aranha e Duende Verde estão em uma batalha intensa, com explosões e destruição ao redor. Eles estão em um telhado, com a cidade ao fundo."
+      "dialogue": "Peter Parker: 'Dessa vez, você não vai vencer, Duende!'"
     },
     {
       "id": "ha-32",
-      "prompt": "Batalha final entre Homem-Aranha e Duende Verde na ponte. Eles estão em uma batalha épica, com a cidade ao fundo.",
-      "imageUrl": "https://pollinations.ai/p/Batalha%20final%20entre%20Homem-Aranha%20e%20Duende%20Verde%20na%20ponte?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Batalha final entre Homem-Aranha e Duende Verde na ponte.",
+      "imageUrl": "https://pollinations.ai/p/Batalha%20final%20entre%20Homem-Aranha%20e%20Duende%20Verde%20na%20ponte,%20com%20seus%20respectivos%20trajes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "O confronto final acontece na ponte de Manhattan.",
-      "dialogue": "Duende Verde: 'Escolha, aranhaço! Salve a cidade ou a garota!'",
-      "visualDescription": "Homem-Aranha e Duende Verde estão em uma batalha épica na ponte, com a cidade ao fundo. A ponte está em chamas, e a batalha é intensa."
+      "dialogue": "Duende Verde: 'Escolha, aranhaço! Salve a cidade ou a garota!'"
     },
     {
       "id": "ha-33",
-      "prompt": "Homem-Aranha salvando Mary Jane heroicamente. Ele está segurando Mary Jane com teias, descendo da ponte com cuidado.",
-      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20salvando%20Mary%20Jane%20heroicamente%20da%20ponte?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem-Aranha salvando Mary Jane heroicamente.",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20salvando%20Mary%20Jane%20heroicamente,%20com%20seu%20uniforme%20vermelho%20e%20azul?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter consegue salvar Mary Jane da queda da ponte.",
-      "dialogue": "Peter Parker: 'Eu não vou deixar você cair, MJ!'",
-      "visualDescription": "Homem-Aranha está segurando Mary Jane com teias, descendo da ponte com cuidado. A ponte está em chamas, e a cidade está ao fundo."
+      "dialogue": "Peter Parker: 'Eu não vou deixar você cair, MJ!'"
     },
     {
       "id": "ha-34",
-      "prompt": "Homem-Aranha derrotando o Duende Verde. Ele está capturando o Duende Verde, com uma expressão de triunfo.",
-      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20derrotando%20o%20Duende%20Verde%20na%20batalha%20final?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem-Aranha derrotando o Duende Verde.",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20derrotando%20o%20Duende%20Verde,%20com%20seus%20respectivos%20trajes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "O Homem-Aranha finalmente derrota o Duende Verde.",
-      "dialogue": "Duende Verde: 'Isso não acabou, Homem-Aranha! Voltarei!'",
-      "visualDescription": "Homem-Aranha está capturando o Duende Verde, com uma expressão de triunfo. A ponte está em chamas, e a cidade está ao fundo."
+      "dialogue": "Duende Verde: 'Isso não acabou, Homem-Aranha! Voltarei!'"
     },
     {
       "id": "ha-35",
-      "prompt": "Mary Jane agradecendo ao Homem-Aranha. Ela está abraçando o Homem-Aranha, com uma expressão de gratidão.",
-      "imageUrl": "https://pollinations.ai/p/Mary%20Jane%20agradecendo%20ao%20Homem-Aranha%20após%20ser%20salva?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Mary Jane agradecendo ao Homem-Aranha.",
+      "imageUrl": "https://pollinations.ai/p/Mary%20Jane%20agradecendo%20ao%20Homem-Aranha,%20com%20seus%20cabelos%20ruivos%20longos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Mary Jane agradece ao Homem-Aranha por salvá-la.",
-      "dialogue": "Mary Jane: 'Obrigado, Homem-Aranha. Você salvou todos nós.'",
-      "visualDescription": "Mary Jane está abraçando o Homem-Aranha, com uma expressão de gratidão. Eles estão em um telhado, com a cidade ao fundo."
+      "dialogue": "Mary Jane: 'Obrigado, Homem-Aranha. Você salvou todos nós.'"
     },
     {
       "id": "ha-36",
-      "prompt": "Homem-Aranha sendo reconhecido como herói pela cidade. Ele está em uma rua movimentada, com pessoas aplaudindo e tirando fotos.",
-      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20sendo%20reconhecido%20como%20herói%20pela%20cidade?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem-Aranha sendo reconhecido como herói pela cidade.",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20sendo%20reconhecido%20como%20herói%20pela%20cidade,%20com%20seu%20uniforme%20vermelho%20e%20azul?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Nova York reconhece o Homem-Aranha como seu novo protetor.",
-      "dialogue": "Repórter: 'O Homem-Aranha é o novo herói de Nova York!'",
-      "visualDescription": "Homem-Aranha está em uma rua movimentada, com pessoas ao redor aplaudindo e tirando fotos. Ele acena para a multidão, sorrindo."
+      "dialogue": "Repórter: 'O Homem-Aranha é o novo herói de Nova York!'"
     },
     {
       "id": "ha-37",
-      "prompt": "Peter Parker conversando com Tia May sobre Tio Ben. Eles estão sentados na cozinha, conversando seriamente.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20conversando%20com%20Tia%20May%20sobre%20Tio%20Ben?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker conversando com Tia May sobre Tio Ben.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20conversando%20com%20Tia%20May%20sobre%20Tio%20Ben,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter conversa com sua Tia May sobre a morte de seu Tio Ben e a responsabilidade que sente.",
-      "dialogue": "Tia May: 'Seu tio Ben sempre acreditou em você, Peter.'",
-      "visualDescription": "Peter e Tia May estão sentados na cozinha, conversando seriamente. A cozinha é aconchegante, com móveis de madeira e eletrodomésticos modernos."
+      "dialogue": "Tia May: 'Seu tio Ben sempre acreditou em você, Peter.'"
     },
     {
       "id": "ha-38",
-      "prompt": "Peter Parker aceitando sua responsabilidade como herói. Ele está em um telhado, olhando para a cidade com uma expressão de determinação.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20aceitando%20responsabilidade%20como%20herói?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker aceitando sua responsabilidade como herói.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20aceitando%20sua%20responsabilidade%20como%20herói,%20com%20cabelos%20castanhos%20e%20óculos%20redondos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter abraça seu destino como protetor de Nova York.",
-      "dialogue": "Peter Parker: 'Com grandes poderes vêm grandes responsabilidades. E eu aceito essa responsabilidade.'",
-      "visualDescription": "Peter está em um telhado, vestindo o uniforme do Homem-Aranha, olhando para a cidade com uma expressão de determinação. A cidade está iluminada ao fundo."
+      "dialogue": "Peter Parker: 'Com grandes poderes vêm grandes responsabilidades. E eu aceito essa responsabilidade.'"
     },
     {
       "id": "ha-39",
-      "prompt": "Peter Parker e Mary Jane em um encontro romântico no parque. Eles estão sentados em um banco, sorrindo e conversando.",
-      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20e%20Mary%20Jane%20em%20um%20encontro%20romântico%20no%20parque?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Peter Parker e Mary Jane em um encontro romântico no parque.",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20e%20Mary%20Jane%20em%20um%20encontro%20romântico%20no%20parque,%20com%20cabelos%20castanhos%20e%20ruivos%20longos?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "Peter e Mary Jane têm um encontro romântico no parque, fortalecendo seu relacionamento.",
-      "dialogue": "Mary Jane: 'Você é incrível, Peter. Sempre soube disso.'",
-      "visualDescription": "Peter e Mary Jane estão sentados em um banco no parque, sorrindo e conversando. O parque está verde e ensolarado, com árvores e flores ao redor."
+      "dialogue": "Mary Jane: 'Você é incrível, Peter. Sempre soube disso.'"
     },
     {
       "id": "ha-40",
-      "prompt": "Homem-Aranha balançando pela cidade ao pôr do sol. Ele está balançando entre os prédios, com o pôr do sol ao fundo.",
-      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20balançando%20pela%20cidade%20ao%20pôr%20do%20sol?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem-Aranha balançando pela cidade ao pôr do sol.",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20balançando%20pela%20cidade%20ao%20pôr%20do%20sol,%20com%20seu%20uniforme%20vermelho%20e%20azul?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 6,
       "text": "O Homem-Aranha balança pela cidade ao pôr do sol, pronto para novas aventuras.",
-      "dialogue": "Peter Parker: 'Estou pronto para o que vier. Nova York, estou aqui para proteger você.'",
-      "visualDescription": "Homem-Aranha está balançando entre os prédios da cidade, com o pôr do sol ao fundo. A cidade está calma e bonita, com luzes douradas iluminando o céu."
+      "dialogue": "Peter Parker: 'Estou pronto para o que vier. Nova York, estou aqui para proteger você.'"
     }
   ],
   "createdAt": "2024-01-01T00:00:00.000Z",
