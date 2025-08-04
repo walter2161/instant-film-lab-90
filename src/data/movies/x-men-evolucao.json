@@ -3,41 +3,41 @@
   "title": "X-Men: Evolução",
   "genre": "Super-Herói",
   "style": "Ficção Científica",
-  "imageStyle": "O filme deve ser renderizado com um estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. As cenas devem ter uma iluminação dramática e um design de personagens carismáticos que enfatizam a emoção e a ação.",
+  "imageStyle": "O filme deve ser renderizado com um estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. As cenas devem ter uma iluminação dramática com contrastes suaves e sombras bem definidas, criando uma atmosfera que mistura futurismo e emoção. As cores são ricas e profundas, com tons que variam de acordo com a cena, enfatizando a tensão e a ação. Os personagens são desenhados com traços carismáticos e expressões faciais detalhadas, refletindo suas emoções e personalidades únicas.",
   "duration": "2 minutos",
   "synopsis": "Mutantes com poderes extraordinários lutam por aceitação em um mundo que os teme, defendendo tanto humanos quanto mutantes.",
   "characters": [
     {
       "name": "Professor X",
-      "description": "O Professor X é um líder telepata dos X-Men, com cabelos grisalhos e uma expressão sábia. Ele é calmo e ponderado, sempre usando um terno elegante e uma cadeira de rodas.",
+      "description": "O Professor X é um líder telepata dos X-Men, com cabelos grisalhos e uma expressão sábia. Ele é calmo e ponderado, sempre usando um terno elegante e uma cadeira de rodas. Sua postura é ereta e confiante, e ele geralmente está posicionado no centro da cena, transmitindo autoridade e sabedoria. Ele veste um terno cinza com detalhes em preto, e sua cadeira de rodas é moderna e sofisticada.",
       "voice": "male"
     },
     {
       "name": "Tempestade",
-      "description": "Tempestade é uma mutante que controla o clima, com cabelos brancos e olhos penetrantes. Ela é forte e compassiva, usando roupas que refletem sua herança africana.",
+      "description": "Tempestade é uma mutante que controla o clima, com cabelos brancos e olhos penetrantes. Ela é forte e compassiva, usando roupas que refletem sua herança africana. Sua postura é imponente e segura, e ela geralmente está posicionada em destaque na cena, com uma expressão de determinação. Ela veste um traje branco com detalhes em prata, e seu cabelo é longo e fluido.",
       "voice": "female"
     },
     {
       "name": "Wolverine",
-      "description": "Wolverine é um mutante com garras de adamantium, com cabelos pretos e um olhar intenso. Ele é feroz e protetor, sempre usando seu uniforme característico amarelo e azul.",
+      "description": "Wolverine é um mutante com garras de adamantium, com cabelos pretos e um olhar intenso. Ele é feroz e protetor, sempre usando seu uniforme característico amarelo e azul. Sua postura é agressiva e pronta para a ação, e ele geralmente está posicionado em uma pose de combate. Ele veste um uniforme amarelo e azul com detalhes em preto, e suas garras são visíveis e brilhantes.",
       "voice": "male"
     },
     {
       "name": "Ciclope",
-      "description": "Ciclope é um mutante que dispara rajadas ópticas, com cabelos castanhos e óculos especiais. Ele é disciplinado e focado, sempre usando seu uniforme dos X-Men.",
+      "description": "Ciclope é um mutante que dispara rajadas ópticas, com cabelos castanhos e óculos especiais. Ele é disciplinado e focado, sempre usando seu uniforme dos X-Men. Sua postura é firme e estável, e ele geralmente está posicionado em uma pose de liderança. Ele veste um uniforme preto e vermelho com detalhes em dourado, e seus óculos são grandes e cobrem seus olhos.",
       "voice": "male"
     },
     {
       "name": "Jean Grey",
-      "description": "Jean Grey é uma mutante com poderes telecinéticos e telepáticos, com cabelos ruivos e olhos verdes. Ela é poderosa e compassiva, sempre usando seu uniforme dos X-Men.",
+      "description": "Jean Grey é uma mutante com poderes telecinéticos e telepáticos, com cabelos ruivos e olhos verdes. Ela é poderosa e compassiva, sempre usando seu uniforme dos X-Men. Sua postura é elegante e controlada, e ela geralmente está posicionada em uma pose de concentração. Ela veste um uniforme verde e dourado com detalhes em preto, e seu cabelo é longo e ondulado.",
       "voice": "female"
     }
   ],
   "scenes": [
     {
       "id": "xe-1",
-      "prompt": "Escola para jovens mutantes dotados, com o Professor X liderando uma aula. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Escola%20futurista%20para%20jovens%20mutantes%20dotados,%20com%20o%20Professor%20X%20liderando%20uma%20aula.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Escola para jovens mutantes dotados, com o Professor X liderando uma aula. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. O Professor X está no centro da cena, usando um terno cinza com detalhes em preto, e sua cadeira de rodas é moderna e sofisticada. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Escola%20futurista%20para%20jovens%20mutantes%20dotados,%20com%20o%20Professor%20X%20liderando%20uma%20aula.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20O%20Professor%20X%20está%20no%20centro%20da%20cena,%20usando%20um%20terno%20cinza%20com%20detalhes%20em%20preto,%20e%20sua%20cadeira%20de%20rodas%20é%20moderna%20e%20sofisticada.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Na Escola Xavier, jovens mutantes aprendem a controlar seus poderes únicos.",
@@ -45,8 +45,8 @@
     },
     {
       "id": "xe-2",
-      "prompt": "Professor X conversando com Wolverine no salão da escola. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Professor%20X%20conversando%20com%20Wolverine%20no%20salão%20da%20escola.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Professor X conversando com Wolverine no salão da escola. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. O Professor X está sentado em sua cadeira de rodas, usando um terno cinza com detalhes em preto, e Wolverine está em uma pose de combate, usando seu uniforme amarelo e azul com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20conversando%20com%20Wolverine%20no%20salão%20da%20escola.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20O%20Professor%20X%20está%20sentado%20em%20sua%20cadeira%20de%20rodas,%20usando%20um%20terno%20cinza%20com%20detalhes%20em%20preto,%20e%20Wolverine%20está%20em%20uma%20pose%20de%20combate,%20usando%20seu%20uniforme%20amarelo%20e%20azul%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Professor X e Wolverine discutem estratégias para proteger os jovens mutantes.",
@@ -54,8 +54,8 @@
     },
     {
       "id": "xe-3",
-      "prompt": "Tempestade treinando jovens mutantes no pátio da escola. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Tempestade%20treinando%20jovens%20mutantes%20no%20pátio%20da%20escola.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Tempestade treinando jovens mutantes no pátio da escola. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Tempestade está em destaque na cena, usando um traje branco com detalhes em prata, e os jovens mutantes estão em poses de treinamento. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20treinando%20jovens%20mutantes%20no%20pátio%20da%20escola.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Tempestade%20está%20em%20destaque%20na%20cena,%20usando%20um%20traje%20branco%20com%20detalhes%20em%20prata,%20e%20os%20jovens%20mutantes%20estão%20em%20poses%20de%20treinamento.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Tempestade treina jovens mutantes no pátio, ensinando-os a controlar seus poderes.",
@@ -63,8 +63,8 @@
     },
     {
       "id": "xe-4",
-      "prompt": "Jean Grey em uma sessão de meditação na biblioteca da escola. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20sessão%20de%20meditação%20na%20biblioteca%20da%20escola.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Jean Grey em uma sessão de meditação na biblioteca da escola. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Jean Grey está em uma pose de concentração, usando um uniforme verde e dourado com detalhes em preto. A iluminação é suave e tranquila, com tons quentes.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20sessão%20de%20meditação%20na%20biblioteca%20da%20escola.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Jean%20Grey%20está%20em%20uma%20pose%20de%20concentração,%20usando%20um%20uniforme%20verde%20e%20dourado%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20suave%20e%20tranquila,%20com%20tons%20quentes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Jean Grey medita na biblioteca, tentando aprimorar seus poderes telecinéticos.",
@@ -72,8 +72,8 @@
     },
     {
       "id": "xe-5",
-      "prompt": "Ciclope praticando tiro ao alvo no campo de treinamento. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Ciclope%20praticando%20tiro%20ao%20alvo%20no%20campo%20de%20treinamento.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Ciclope praticando tiro ao alvo no campo de treinamento. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Ciclope está em uma pose de liderança, usando um uniforme preto e vermelho com detalhes em dourado. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Ciclope%20praticando%20tiro%20ao%20alvo%20no%20campo%20de%20treinamento.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Ciclope%20está%20em%20uma%20pose%20de%20liderança,%20usando%20um%20uniforme%20preto%20e%20vermelho%20com%20detalhes%20em%20dourado.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Ciclope pratica tiro ao alvo, tentando melhorar sua precisão com suas rajadas ópticas.",
@@ -81,8 +81,8 @@
     },
     {
       "id": "xe-6",
-      "prompt": "X-Men em missão de salvamento, usando poderes mutantes em uma cidade. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/X-Men%20em%20missão%20de%20salvamento,%20usando%20poderes%20mutantes%20em%20uma%20cidade.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "X-Men em missão de salvamento, usando poderes mutantes em uma cidade. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Os X-Men estão em poses de ação, usando seus uniformes característicos. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/X-Men%20em%20missão%20de%20salvamento,%20usando%20poderes%20mutantes%20em%20uma%20cidade.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Os%20X-Men%20estão%20em%20poses%20de%20ação,%20usando%20seus%20uniformes%20característicos.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Os X-Men usam seus poderes únicos para salvar tanto humanos quanto mutantes em perigo.",
@@ -90,8 +90,8 @@
     },
     {
       "id": "xe-7",
-      "prompt": "Wolverine lutando contra inimigos em um armazém abandonado. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Wolverine%20lutando%20contra%20inimigos%20em%20um%20armazen%20abandonado.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Wolverine lutando contra inimigos em um armazém abandonado. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Wolverine está em uma pose de combate, usando seu uniforme amarelo e azul com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20lutando%20contra%20inimigos%20em%20um%20armazen%20abandonado.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Wolverine%20está%20em%20uma%20pose%20de%20combate,%20usando%20seu%20uniforme%20amarelo%20e%20azul%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Wolverine luta contra inimigos em um armazém abandonado, usando suas garras de adamantium.",
@@ -99,8 +99,8 @@
     },
     {
       "id": "xe-8",
-      "prompt": "Tempestade controlando elementos naturais em uma batalha épica. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Tempestade%20controlando%20elementos%20naturais%20em%20uma%20batalha%20épica.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Tempestade controlando elementos naturais em uma batalha épica. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Tempestade está em uma pose de determinação, usando um traje branco com detalhes em prata. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20controlando%20elementos%20naturais%20em%20uma%20batalha%20épica.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Tempestade%20está%20em%20uma%20pose%20de%20determinação,%20usando%20um%20traje%20branco%20com%20detalhes%20em%20prata.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Tempestade invoca raios e ventos poderosos para proteger seus companheiros mutantes.",
@@ -108,8 +108,8 @@
     },
     {
       "id": "xe-9",
-      "prompt": "Professor X usando seus poderes telepáticos para ajudar os X-Men. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Professor%20X%20usando%20seus%20poderes%20telepáticos%20para%20ajudar%20os%20X-Men.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Professor X usando seus poderes telepáticos para ajudar os X-Men. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. O Professor X está em sua cadeira de rodas, usando um terno cinza com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20usando%20seus%20poderes%20telepáticos%20para%20ajudar%20os%20X-Men.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20O%20Professor%20X%20está%20em%20sua%20cadeira%20de%20rodas,%20usando%20um%20terno%20cinza%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Professor X usa seus poderes telepáticos para coordenar os X-Men durante uma missão.",
@@ -117,8 +117,8 @@
     },
     {
       "id": "xe-10",
-      "prompt": "Jean Grey usando seus poderes telecinéticos para salvar um companheiro. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20usando%20seus%20poderes%20telecinéticos%20para%20salvar%20um%20companheiro.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Jean Grey usando seus poderes telecinéticos para salvar um companheiro. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Jean Grey está em uma pose de concentração, usando um uniforme verde e dourado com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20usando%20seus%20poderes%20telecinéticos%20para%20salvar%20um%20companheiro.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Jean%20Grey%20está%20em%20uma%20pose%20de%20concentração,%20usando%20um%20uniforme%20verde%20e%20dourado%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Jean Grey usa seus poderes telecinéticos para salvar um companheiro em perigo.",
@@ -126,8 +126,8 @@
     },
     {
       "id": "xe-11",
-      "prompt": "Ciclope liderando uma equipe de jovens mutantes em uma missão. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Ciclope%20liderando%20uma%20equipe%20de%20jovens%20mutantes%20em%20uma%20missão.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Ciclope liderando uma equipe de jovens mutantes em uma missão. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Ciclope está em uma pose de liderança, usando um uniforme preto e vermelho com detalhes em dourado. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Ciclope%20liderando%20uma%20equipe%20de%20jovens%20mutantes%20em%20uma%20missão.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Ciclope%20está%20em%20uma%20pose%20de%20liderança,%20usando%20um%20uniforme%20preto%20e%20vermelho%20com%20detalhes%20em%20dourado.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Ciclope lidera uma equipe de jovens mutantes em uma missão perigosa.",
@@ -135,8 +135,8 @@
     },
     {
       "id": "xe-12",
-      "prompt": "Wolverine e Tempestade em uma batalha contra sentinelas robóticas. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Wolverine%20e%20Tempestade%20em%20uma%20batalha%20contra%20sentinelas%20robóticas.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Wolverine e Tempestade em uma batalha contra sentinelas robóticas. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Wolverine está em uma pose de combate, usando seu uniforme amarelo e azul com detalhes em preto, e Tempestade está em uma pose de determinação, usando um traje branco com detalhes em prata. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20e%20Tempestade%20em%20uma%20batalha%20contra%20sentinelas%20robóticas.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Wolverine%20está%20em%20uma%20pose%20de%20combate,%20usando%20seu%20uniforme%20amarelo%20e%20azul%20com%20detalhes%20em%20preto,%20e%20Tempestade%20está%20em%20uma%20pose%20de%20determinação,%20usando%20um%20traje%20branco%20com%20detalhes%20em%20prata.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Wolverine e Tempestade lutam juntos contra sentinelas robóticas, usando seus poderes únicos.",
@@ -144,8 +144,8 @@
     },
     {
       "id": "xe-13",
-      "prompt": "Professor X e Jean Grey em uma sessão de treinamento telepático. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Professor%20X%20e%20Jean%20Grey%20em%20uma%20sessão%20de%20treinamento%20telepático.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Professor X e Jean Grey em uma sessão de treinamento telepático. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. O Professor X está em sua cadeira de rodas, usando um terno cinza com detalhes em preto, e Jean Grey está em uma pose de concentração, usando um uniforme verde e dourado com detalhes em preto. A iluminação é suave e tranquila, com tons quentes.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20e%20Jean%20Grey%20em%20uma%20sessão%20de%20treinamento%20telepático.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20O%20Professor%20X%20está%20em%20sua%20cadeira%20de%20rodas,%20usando%20um%20terno%20cinza%20com%20detalhes%20em%20preto,%20e%20Jean%20Grey%20está%20em%20uma%20pose%20de%20concentração,%20usando%20um%20uniforme%20verde%20e%20dourado%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20suave%20e%20tranquila,%20com%20tons%20quentes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Professor X e Jean Grey treinam juntos, aprimorando seus poderes telepáticos.",
@@ -153,8 +153,8 @@
     },
     {
       "id": "xe-14",
-      "prompt": "X-Men em uma reunião estratégica na sala de guerra da escola. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/X-Men%20em%20uma%20reunião%20estratégica%20na%20sala%20de%20guerra%20da%20escola.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "X-Men em uma reunião estratégica na sala de guerra da escola. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Os X-Men estão em poses de planejamento, usando seus uniformes característicos. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/X-Men%20em%20uma%20reunião%20estratégica%20na%20sala%20de%20guerra%20da%20escola.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Os%20X-Men%20estão%20em%20poses%20de%20planejamento,%20usando%20seus%20uniformes%20característicos.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Os X-Men se reúnem na sala de guerra para planejar sua próxima missão.",
@@ -162,8 +162,8 @@
     },
     {
       "id": "xe-15",
-      "prompt": "Wolverine em um confronto solo contra um grupo de inimigos. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Wolverine%20em%20um%20confronto%20solo%20contra%20um%20grupo%20de%20inimigos.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Wolverine em um confronto solo contra um grupo de inimigos. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Wolverine está em uma pose de combate, usando seu uniforme amarelo e azul com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20em%20um%20confronto%20solo%20contra%20um%20grupo%20de%20inimigos.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Wolverine%20está%20em%20uma%20pose%20de%20combate,%20usando%20seu%20uniforme%20amarelo%20e%20azul%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Wolverine enfrenta um grupo de inimigos sozinho, usando suas garras de adamantium.",
@@ -171,8 +171,8 @@
     },
     {
       "id": "xe-16",
-      "prompt": "Tempestade voando sobre a cidade, observando a paisagem. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Tempestade%20voando%20sobre%20a%20cidade,%20observando%20a%20paisagem.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Tempestade voando sobre a cidade, observando a paisagem. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Tempestade está em uma pose de contemplação, usando um traje branco com detalhes em prata. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20voando%20sobre%20a%20cidade,%20observando%20a%20paisagem.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Tempestade%20está%20em%20uma%20pose%20de%20contemplação,%20usando%20um%20traje%20branco%20com%20detalhes%20em%20prata.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Tempestade voa sobre a cidade, observando a paisagem e refletindo sobre sua missão.",
@@ -180,8 +180,8 @@
     },
     {
       "id": "xe-17",
-      "prompt": "Jean Grey em uma batalha mental contra um inimigo telepático. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20batalha%20mental%20contra%20um%20inimigo%20telepático.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Jean Grey em uma batalha mental contra um inimigo telepático. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Jean Grey está em uma pose de concentração, usando um uniforme verde e dourado com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20batalha%20mental%20contra%20um%20inimigo%20telepático.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Jean%20Grey%20está%20em%20uma%20pose%20de%20concentração,%20usando%20um%20uniforme%20verde%20e%20dourado%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Jean Grey enfrenta um inimigo telepático em uma batalha mental, usando seus poderes únicos.",
@@ -189,8 +189,8 @@
     },
     {
       "id": "xe-18",
-      "prompt": "Ciclope e Wolverine em uma missão de resgate em um prédio em chamas. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Ciclope%20e%20Wolverine%20em%20uma%20missão%20de%20resgate%20em%20um%20prédio%20em%20chamas.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Ciclope e Wolverine em uma missão de resgate em um prédio em chamas. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Ciclope está em uma pose de liderança, usando um uniforme preto e vermelho com detalhes em dourado, e Wolverine está em uma pose de combate, usando seu uniforme amarelo e azul com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Ciclope%20e%20Wolverine%20em%20uma%20missão%20de%20resgate%20em%20um%20prédio%20em%20chamas.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Ciclope%20está%20em%20uma%20pose%20de%20liderança,%20usando%20um%20uniforme%20preto%20e%20vermelho%20com%20detalhes%20em%20dourado,%20e%20Wolverine%20está%20em%20uma%20pose%20de%20combate,%20usando%20seu%20uniforme%20amarelo%20e%20azul%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Ciclope e Wolverine trabalham juntos em uma missão de resgate em um prédio em chamas.",
@@ -198,8 +198,8 @@
     },
     {
       "id": "xe-19",
-      "prompt": "Professor X em uma conversa com Tempestade sobre liderança. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20conversa%20com%20Tempestade%20sobre%20liderança.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Professor X em uma conversa com Tempestade sobre liderança. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. O Professor X está em sua cadeira de rodas, usando um terno cinza com detalhes em preto, e Tempestade está em uma pose de determinação, usando um traje branco com detalhes em prata. A iluminação é suave e tranquila, com tons quentes.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20conversa%20com%20Tempestade%20sobre%20liderança.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20O%20Professor%20X%20está%20em%20sua%20cadeira%20de%20rodas,%20usando%20um%20terno%20cinza%20com%20detalhes%20em%20preto,%20e%20Tempestade%20está%20em%20uma%20pose%20de%20determinação,%20usando%20um%20traje%20branco%20com%20detalhes%20em%20prata.%20A%20iluminação%20é%20suave%20e%20tranquila,%20com%20tons%20quentes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Professor X conversa com Tempestade sobre liderança e responsabilidade.",
@@ -207,8 +207,8 @@
     },
     {
       "id": "xe-20",
-      "prompt": "Jean Grey e Ciclope em um treinamento conjunto na sala de perigo. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20e%20Ciclope%20em%20um%20treinamento%20conjunto%20na%20sala%20de%20perigo.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Jean Grey e Ciclope em um treinamento conjunto na sala de perigo. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Jean Grey está em uma pose de concentração, usando um uniforme verde e dourado com detalhes em preto, e Ciclope está em uma pose de liderança, usando um uniforme preto e vermelho com detalhes em dourado. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20e%20Ciclope%20em%20um%20treinamento%20conjunto%20na%20sala%20de%20perigo.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Jean%20Grey%20está%20em%20uma%20pose%20de%20concentração,%20usando%20um%20uniforme%20verde%20e%20dourado%20com%20detalhes%20em%20preto,%20e%20Ciclope%20está%20em%20uma%20pose%20de%20liderança,%20usando%20um%20uniforme%20preto%20e%20vermelho%20com%20detalhes%20em%20dourado.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Jean Grey e Ciclope treinam juntos na sala de perigo, aprimorando suas habilidades.",
@@ -216,8 +216,8 @@
     },
     {
       "id": "xe-21",
-      "prompt": "Wolverine em um confronto com um inimigo poderoso em uma floresta. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Wolverine%20em%20um%20confronto%20com%20um%20inimigo%20poderoso%20em%20uma%20floresta.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Wolverine em um confronto com um inimigo poderoso em uma floresta. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Wolverine está em uma pose de combate, usando seu uniforme amarelo e azul com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20em%20um%20confronto%20com%20um%20inimigo%20poderoso%20em%20uma%20floresta.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Wolverine%20está%20em%20uma%20pose%20de%20combate,%20usando%20seu%20uniforme%20amarelo%20e%20azul%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Wolverine enfrenta um inimigo poderoso em uma floresta, usando suas garras de adamantium.",
@@ -225,8 +225,8 @@
     },
     {
       "id": "xe-22",
-      "prompt": "Tempestade em uma batalha aérea contra um inimigo voador. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Tempestade%20em%20uma%20batalha%20aérea%20contra%20um%20inimigo%20voador.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Tempestade em uma batalha aérea contra um inimigo voador. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Tempestade está em uma pose de determinação, usando um traje branco com detalhes em prata. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20em%20uma%20batalha%20aérea%20contra%20um%20inimigo%20voador.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Tempestade%20está%20em%20uma%20pose%20de%20determinação,%20usando%20um%20traje%20branco%20com%20detalhes%20em%20prata.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Tempestade enfrenta um inimigo voador em uma batalha aérea, usando seus poderes de controle do clima.",
@@ -234,8 +234,8 @@
     },
     {
       "id": "xe-23",
-      "prompt": "Professor X em uma sessão de meditação profunda em seu escritório. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20sessão%20de%20meditação%20profunda%20em%20seu%20escritório.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Professor X em uma sessão de meditação profunda em seu escritório. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. O Professor X está em sua cadeira de rodas, usando um terno cinza com detalhes em preto. A iluminação é suave e tranquila, com tons quentes.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20sessão%20de%20meditação%20profunda%20em%20seu%20escritório.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20O%20Professor%20X%20está%20em%20sua%20cadeira%20de%20rodas,%20usando%20um%20terno%20cinza%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20suave%20e%20tranquila,%20com%20tons%20quentes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Professor X medita profundamente em seu escritório, tentando aprimorar seus poderes telepáticos.",
@@ -243,8 +243,8 @@
     },
     {
       "id": "xe-24",
-      "prompt": "Jean Grey em uma missão solo para resgatar um mutante capturado. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20missão%20solo%20para%20resgatar%20um%20mutante%20capturado.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Jean Grey em uma missão solo para resgatar um mutante capturado. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Jean Grey está em uma pose de concentração, usando um uniforme verde e dourado com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20missão%20solo%20para%20resgatar%20um%20mutante%20capturado.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Jean%20Grey%20está%20em%20uma%20pose%20de%20concentração,%20usando%20um%20uniforme%20verde%20e%20dourado%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Jean Grey parte em uma missão solo para resgatar um mutante capturado, usando seus poderes telecinéticos.",
@@ -252,8 +252,8 @@
     },
     {
       "id": "xe-25",
-      "prompt": "Ciclope em um confronto com um inimigo em um deserto. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Ciclope%20em%20um%20confronto%20com%20um%20inimigo%20em%20um%20deserto.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Ciclope em um confronto com um inimigo em um deserto. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Ciclope está em uma pose de liderança, usando um uniforme preto e vermelho com detalhes em dourado. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Ciclope%20em%20um%20confronto%20com%20um%20inimigo%20em%20um%20deserto.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Ciclope%20está%20em%20uma%20pose%20de%20liderança,%20usando%20um%20uniforme%20preto%20e%20vermelho%20com%20detalhes%20em%20dourado.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Ciclope enfrenta um inimigo em um deserto, usando suas rajadas ópticas.",
@@ -261,8 +261,8 @@
     },
     {
       "id": "xe-26",
-      "prompt": "Wolverine e Jean Grey em uma missão de infiltração em uma base inimiga. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Wolverine%20e%20Jean%20Grey%20em%20uma%20missão%20de%20infiltração%20em%20uma%20base%20inimiga.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Wolverine e Jean Grey em uma missão de infiltração em uma base inimiga. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Wolverine está em uma pose de combate, usando seu uniforme amarelo e azul com detalhes em preto, e Jean Grey está em uma pose de concentração, usando um uniforme verde e dourado com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20e%20Jean%20Grey%20em%20uma%20missão%20de%20infiltração%20em%20uma%20base%20inimiga.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Wolverine%20está%20em%20uma%20pose%20de%20combate,%20usando%20seu%20uniforme%20amarelo%20e%20azul%20com%20detalhes%20em%20preto,%20e%20Jean%20Grey%20está%20em%20uma%20pose%20de%20concentração,%20usando%20um%20uniforme%20verde%20e%20dourado%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Wolverine e Jean Grey trabalham juntos em uma missão de infiltração em uma base inimiga.",
@@ -270,8 +270,8 @@
     },
     {
       "id": "xe-27",
-      "prompt": "Professor X em uma conversa com Wolverine sobre estratégias de combate. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20conversa%20com%20Wolverine%20sobre%20estratégias%20de%20combate.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Professor X em uma conversa com Wolverine sobre estratégias de combate. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. O Professor X está em sua cadeira de rodas, usando um terno cinza com detalhes em preto, e Wolverine está em uma pose de combate, usando seu uniforme amarelo e azul com detalhes em preto. A iluminação é suave e tranquila, com tons quentes.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20conversa%20com%20Wolverine%20sobre%20estratégias%20de%20combate.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20O%20Professor%20X%20está%20em%20sua%20cadeira%20de%20rodas,%20usando%20um%20terno%20cinza%20com%20detalhes%20em%20preto,%20e%20Wolverine%20está%20em%20uma%20pose%20de%20combate,%20usando%20seu%20uniforme%20amarelo%20e%20azul%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20suave%20e%20tranquila,%20com%20tons%20quentes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Professor X conversa com Wolverine sobre estratégias de combate e táticas de equipe.",
@@ -279,8 +279,8 @@
     },
     {
       "id": "xe-28",
-      "prompt": "Tempestade em uma missão de resgate em um navio em alto mar. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Tempestade%20em%20uma%20missão%20de%20resgate%20em%20um%20navio%20em%20alto%20mar.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Tempestade em uma missão de resgate em um navio em alto mar. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Tempestade está em uma pose de determinação, usando um traje branco com detalhes em prata. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20em%20uma%20missão%20de%20resgate%20em%20um%20navio%20em%20alto%20mar.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Tempestade%20está%20em%20uma%20pose%20de%20determinação,%20usando%20um%20traje%20branco%20com%20detalhes%20em%20prata.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Tempestade parte em uma missão de resgate em um navio em alto mar, usando seus poderes de controle do clima.",
@@ -288,8 +288,8 @@
     },
     {
       "id": "xe-29",
-      "prompt": "Jean Grey em uma batalha contra um inimigo em uma cidade destruída. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20batalha%20contra%20um%20inimigo%20em%20uma%20cidade%20destruída.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Jean Grey em uma batalha contra um inimigo em uma cidade destruída. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Jean Grey está em uma pose de concentração, usando um uniforme verde e dourado com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20batalha%20contra%20um%20inimigo%20em%20uma%20cidade%20destruída.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Jean%20Grey%20está%20em%20uma%20pose%20de%20concentração,%20usando%20um%20uniforme%20verde%20e%20dourado%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Jean Grey enfrenta um inimigo em uma cidade destruída, usando seus poderes telecinéticos.",
@@ -297,8 +297,8 @@
     },
     {
       "id": "xe-30",
-      "prompt": "Ciclope em uma missão de reconhecimento em uma floresta. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Ciclope%20em%20uma%20missão%20de%20reconhecimento%20em%20uma%20floresta.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Ciclope em uma missão de reconhecimento em uma floresta. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Ciclope está em uma pose de liderança, usando um uniforme preto e vermelho com detalhes em dourado. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Ciclope%20em%20uma%20missão%20de%20reconhecimento%20em%20uma%20floresta.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Ciclope%20está%20em%20uma%20pose%20de%20liderança,%20usando%20um%20uniforme%20preto%20e%20vermelho%20com%20detalhes%20em%20dourado.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Ciclope parte em uma missão de reconhecimento em uma floresta, usando suas habilidades de liderança.",
@@ -306,8 +306,8 @@
     },
     {
       "id": "xe-31",
-      "prompt": "Wolverine em um confronto com um inimigo em um prédio abandonado. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Wolverine%20em%20um%20confronto%20com%20um%20inimigo%20em%20um%20prédio%20abandonado.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Wolverine em um confronto com um inimigo em um prédio abandonado. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Wolverine está em uma pose de combate, usando seu uniforme amarelo e azul com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20em%20um%20confronto%20com%20um%20inimigo%20em%20um%20prédio%20abandonado.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Wolverine%20está%20em%20uma%20pose%20de%20combate,%20usando%20seu%20uniforme%20amarelo%20e%20azul%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Wolverine enfrenta um inimigo em um prédio abandonado, usando suas garras de adamantium.",
@@ -315,8 +315,8 @@
     },
     {
       "id": "xe-32",
-      "prompt": "Tempestade em uma batalha contra um inimigo em um deserto. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Tempestade%20em%20uma%20batalha%20contra%20um%20inimigo%20em%20um%20deserto.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Tempestade em uma batalha contra um inimigo em um deserto. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Tempestade está em uma pose de determinação, usando um traje branco com detalhes em prata. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20em%20uma%20batalha%20contra%20um%20inimigo%20em%20um%20deserto.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Tempestade%20está%20em%20uma%20pose%20de%20determinação,%20usando%20um%20traje%20branco%20com%20detalhes%20em%20prata.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Tempestade enfrenta um inimigo em um deserto, usando seus poderes de controle do clima.",
@@ -324,8 +324,8 @@
     },
     {
       "id": "xe-33",
-      "prompt": "Professor X em uma conversa com Jean Grey sobre o futuro dos X-Men. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20conversa%20com%20Jean%20Grey%20sobre%20o%20futuro%20dos%20X-Men.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Professor X em uma conversa com Jean Grey sobre o futuro dos X-Men. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. O Professor X está em sua cadeira de rodas, usando um terno cinza com detalhes em preto, e Jean Grey está em uma pose de concentração, usando um uniforme verde e dourado com detalhes em preto. A iluminação é suave e tranquila, com tons quentes.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20conversa%20com%20Jean%20Grey%20sobre%20o%20futuro%20dos%20X-Men.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20O%20Professor%20X%20está%20em%20sua%20cadeira%20de%20rodas,%20usando%20um%20terno%20cinza%20com%20detalhes%20em%20preto,%20e%20Jean%20Grey%20está%20em%20uma%20pose%20de%20concentração,%20usando%20um%20uniforme%20verde%20e%20dourado%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20suave%20e%20tranquila,%20com%20tons%20quentes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Professor X conversa com Jean Grey sobre o futuro dos X-Men e suas responsabilidades.",
@@ -333,8 +333,8 @@
     },
     {
       "id": "xe-34",
-      "prompt": "Jean Grey em uma missão de resgate em uma montanha. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20missão%20de%20resgate%20em%20uma%20montanha.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Jean Grey em uma missão de resgate em uma montanha. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Jean Grey está em uma pose de concentração, usando um uniforme verde e dourado com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20missão%20de%20resgate%20em%20uma%20montanha.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Jean%20Grey%20está%20em%20uma%20pose%20de%20concentração,%20usando%20um%20uniforme%20verde%20e%20dourado%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Jean Grey parte em uma missão de resgate em uma montanha, usando seus poderes telecinéticos.",
@@ -342,8 +342,8 @@
     },
     {
       "id": "xe-35",
-      "prompt": "Ciclope em uma batalha contra um inimigo em uma cidade. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Ciclope%20em%20uma%20batalha%20contra%20um%20inimigo%20em%20uma%20cidade.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Ciclope em uma batalha contra um inimigo em uma cidade. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Ciclope está em uma pose de liderança, usando um uniforme preto e vermelho com detalhes em dourado. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Ciclope%20em%20uma%20batalha%20contra%20um%20inimigo%20em%20uma%20cidade.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Ciclope%20está%20em%20uma%20pose%20de%20liderança,%20usando%20um%20uniforme%20preto%20e%20vermelho%20com%20detalhes%20em%20dourado.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Ciclope enfrenta um inimigo em uma cidade, usando suas rajadas ópticas.",
@@ -351,8 +351,8 @@
     },
     {
       "id": "xe-36",
-      "prompt": "Wolverine em uma missão de infiltração em uma base inimiga. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Wolverine%20em%20uma%20missão%20de%20infiltração%20em%20uma%20base%20inimiga.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Wolverine em uma missão de infiltração em uma base inimiga. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Wolverine está em uma pose de combate, usando seu uniforme amarelo e azul com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20em%20uma%20missão%20de%20infiltração%20em%20uma%20base%20inimiga.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Wolverine%20está%20em%20uma%20pose%20de%20combate,%20usando%20seu%20uniforme%20amarelo%20e%20azul%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Wolverine parte em uma missão de infiltração em uma base inimiga, usando suas habilidades de combate.",
@@ -360,8 +360,8 @@
     },
     {
       "id": "xe-37",
-      "prompt": "Tempestade em uma batalha contra um inimigo em uma floresta. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Tempestade%20em%20uma%20batalha%20contra%20um%20inimigo%20em%20uma%20floresta.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Tempestade em uma batalha contra um inimigo em uma floresta. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Tempestade está em uma pose de determinação, usando um traje branco com detalhes em prata. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20em%20uma%20batalha%20contra%20um%20inimigo%20em%20uma%20floresta.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Tempestade%20está%20em%20uma%20pose%20de%20determinação,%20usando%20um%20traje%20branco%20com%20detalhes%20em%20prata.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Tempestade enfrenta um inimigo em uma floresta, usando seus poderes de controle do clima.",
@@ -369,8 +369,8 @@
     },
     {
       "id": "xe-38",
-      "prompt": "Professor X em uma conversa com Ciclope sobre liderança. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20conversa%20com%20Ciclope%20sobre%20liderança.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Professor X em uma conversa com Ciclope sobre liderança. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. O Professor X está em sua cadeira de rodas, usando um terno cinza com detalhes em preto, e Ciclope está em uma pose de liderança, usando um uniforme preto e vermelho com detalhes em dourado. A iluminação é suave e tranquila, com tons quentes.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20conversa%20com%20Ciclope%20sobre%20liderança.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20O%20Professor%20X%20está%20em%20sua%20cadeira%20de%20rodas,%20usando%20um%20terno%20cinza%20com%20detalhes%20em%20preto,%20e%20Ciclope%20está%20em%20uma%20pose%20de%20liderança,%20usando%20um%20uniforme%20preto%20e%20vermelho%20com%20detalhes%20em%20dourado.%20A%20iluminação%20é%20suave%20e%20tranquila,%20com%20tons%20quentes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Professor X conversa com Ciclope sobre liderança e responsabilidade.",
@@ -378,8 +378,8 @@
     },
     {
       "id": "xe-39",
-      "prompt": "Jean Grey em uma missão de resgate em um prédio em chamas. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20missão%20de%20resgate%20em%20um%20prédio%20em%20chamas.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Jean Grey em uma missão de resgate em um prédio em chamas. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Jean Grey está em uma pose de concentração, usando um uniforme verde e dourado com detalhes em preto. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20missão%20de%20resgate%20em%20um%20prédio%20em%20chamas.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Jean%20Grey%20está%20em%20uma%20pose%20de%20concentração,%20usando%20um%20uniforme%20verde%20e%20dourado%20com%20detalhes%20em%20preto.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Jean Grey parte em uma missão de resgate em um prédio em chamas, usando seus poderes telecinéticos.",
@@ -387,8 +387,8 @@
     },
     {
       "id": "xe-40",
-      "prompt": "União entre humanos e mutantes pela paz, em uma cena de celebração. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens.",
-      "imageUrl": "https://pollinations.ai/p/União%20entre%20humanos%20e%20mutantes%20pela%20paz,%20em%20uma%20cena%20de%20celebração.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "União entre humanos e mutantes pela paz, em uma cena de celebração. Estilo visual Pixar 3D, destacando as cores vibrantes e os detalhes expressivos dos personagens. Os personagens estão em poses de celebração, usando seus uniformes característicos. A iluminação é dramática com contrastes suaves e sombras bem definidas.",
+      "imageUrl": "https://pollinations.ai/p/União%20entre%20humanos%20e%20mutantes%20pela%20paz,%20em%20uma%20cena%20de%20celebração.%20Estilo%20visual%20Pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens.%20Os%20personagens%20estão%20em%20poses%20de%20celebração,%20usando%20seus%20uniformes%20característicos.%20A%20iluminação%20é%20dramática%20com%20contrastes%20suaves%20e%20sombras%20bem%20definidas?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "X-Men provam que mutantes e humanos podem coexistir em paz e harmonia.",
@@ -396,7 +396,7 @@
     }
   ],
   "createdAt": "2024-01-01T00:00:00.000Z",
-  "thumbnail": "https://pollinations.ai/p/Cartaz%20X-Men%20Evolução%20super-heróis%20mutantes%20pixar%203D?width=768&height=1366&enhance=true&nologo=true",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20X-Men%20Evolução%20super-heróis%20mutantes%20pixar%203D,%20destacando%20as%20cores%20vibrantes%20e%20os%20detalhes%20expressivos%20dos%20personagens?width=768&height=1366&enhance=true&nologo=true",
   "aspectRatio": "16:9",
   "type": "movie"
 }
