@@ -1,0 +1,64 @@
+{
+  "id": "mulher-maravilha",
+  "title": "Mulher Maravilha",
+  "genre": "Super-Herói",
+  "style": "Aventura Mitológica",
+  "duration": "2 minutos",
+  "synopsis": "Uma amazona guerreira deixa sua ilha paradisíaca para lutar na guerra mundial e descobrir seu verdadeiro destino divino.",
+  "characters": [
+    { "name": "Diana Prince", "description": "Princesa amazona guerreira", "voice": "female" },
+    { "name": "Steve Trevor", "description": "Piloto corajoso e romântico", "voice": "male" },
+    { "name": "Ares", "description": "Deus da guerra inimigo", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "mm-1",
+      "prompt": "Diana treinando na ilha das amazonas",
+      "imageUrl": "https://pollinations.ai/p/Princesa%20amazona%20treinando%20em%20ilha%20paradisíaca%20mitológica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Na ilha de Themyscira, Diana treina como guerreira amazona sob o olhar das deusas.",
+      "visualDescription": "Ilha paradisíaca com amazonas guerreiras treinando em ambiente mitológico"
+    },
+    {
+      "id": "mm-2",
+      "prompt": "Chegada ao mundo dos homens durante guerra",
+      "imageUrl": "https://pollinations.ai/p/Mulher%20Maravilha%20chegando%20ao%20mundo%20dos%20homens%20em%20guerra?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Diana deixa Themyscira para ajudar Steve Trevor a acabar com a Grande Guerra.",
+      "visualDescription": "Chegada da heroína ao mundo em guerra com cenários históricos"
+    },
+    {
+      "id": "mm-3",
+      "prompt": "Batalha épica contra soldados inimigos",
+      "imageUrl": "https://pollinations.ai/p/Mulher%20Maravilha%20em%20batalha%20épica%20contra%20soldados%20na%20guerra?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Diana usa sua força amazona e habilidades divinas para enfrentar exércitos inteiros.",
+      "visualDescription": "Batalha espetacular com heroína usando poderes amazônicos na guerra"
+    },
+    {
+      "id": "mm-4",
+      "prompt": "Confronto final com Ares deus da guerra",
+      "imageUrl": "https://pollinations.ai/p/Confronto%20épico%20entre%20Mulher%20Maravilha%20e%20Ares%20deus%20da%20guerra?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Diana enfrenta Ares em uma batalha divina pelo destino da humanidade.",
+      "visualDescription": "Duelo mitológico épico entre deusa guerreira e deus da guerra"
+    },
+    {
+      "id": "mm-5",
+      "prompt": "Diana aceita seu papel como protetora mundial",
+      "imageUrl": "https://pollinations.ai/p/Mulher%20Maravilha%20aceitando%20destino%20como%20protetora%20da%20humanidade?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Diana abraça seu destino como protetora da humanidade, trazendo esperança ao mundo.",
+      "visualDescription": "Heroína triunfante abraçando seu destino como guardiã da humanidade"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Mulher%20Maravilha%20heroína%20amazona%20épica?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

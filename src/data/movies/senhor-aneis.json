@@ -1,0 +1,64 @@
+{
+  "id": "senhor-aneis",
+  "title": "Senhor dos Anéis",
+  "genre": "Fantasia Épica",
+  "style": "Aventura Medieval",
+  "duration": "2 minutos",
+  "synopsis": "Um hobbit deve destruir um anel mágico poderoso para salvar a Terra Média das forças do mal.",
+  "characters": [
+    { "name": "Frodo Bolseiro", "description": "Hobbit corajoso portador do anel", "voice": "male" },
+    { "name": "Gandalf", "description": "Mago sábio e poderoso", "voice": "male" },
+    { "name": "Aragorn", "description": "Ranger e futuro rei", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "sa-1",
+      "prompt": "Hobbit recebe anel mágico do destino",
+      "imageUrl": "https://pollinations.ai/p/Hobbit%20recebendo%20anel%20mágico%20poderoso%20no%20Condado%20idílico?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No Condado pacífico, Frodo Bolseiro herda um anel que carrega o destino da Terra Média.",
+      "visualDescription": "Condado idílico com hobbit recebendo anel mágico brilhante"
+    },
+    {
+      "id": "sa-2",
+      "prompt": "Sociedade do Anel em jornada épica",
+      "imageUrl": "https://pollinations.ai/p/Sociedade%20do%20Anel%20em%20jornada%20épica%20através%20da%20Terra%20Média?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A Sociedade do Anel inicia uma jornada perigosa através de montanhas e florestas ancestrais.",
+      "visualDescription": "Grupo de heróis viajando através de paisagens épicas da Terra Média"
+    },
+    {
+      "id": "sa-3",
+      "prompt": "Batalhas contra orcs e criaturas sombrias",
+      "imageUrl": "https://pollinations.ai/p/Batalhas%20épicas%20contra%20orcs%20e%20criaturas%20sombrias%20na%20Terra%20Média?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Aragorn e a sociedade enfrentam hordas de orcs em batalhas épicas pela liberdade.",
+      "visualDescription": "Batalhas medievais épicas com heróis lutando contra criaturas sombrias"
+    },
+    {
+      "id": "sa-4",
+      "prompt": "Frodo chegando ao Monte da Perdição",
+      "imageUrl": "https://pollinations.ai/p/Hobbit%20chegando%20ao%20Monte%20da%20Perdição%20vulcânico%20dramático?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Frodo finalmente chega ao Monte da Perdição para destruir o anel único.",
+      "visualDescription": "Monte vulcânico dramático com hobbit se aproximando do destino"
+    },
+    {
+      "id": "sa-5",
+      "prompt": "Destruição do anel e vitória do bem",
+      "imageUrl": "https://pollinations.ai/p/Destruição%20do%20anel%20único%20e%20vitória%20final%20do%20bem?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O anel é destruído nas chamas do Monte da Perdição, trazendo paz à Terra Média.",
+      "visualDescription": "Explosão mágica da destruição do anel com vitória luminosa"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Senhor%20dos%20Anéis%20fantasia%20épica%20medieval?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

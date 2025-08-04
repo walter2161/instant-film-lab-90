@@ -1,0 +1,154 @@
+{
+  "id": "oceano-infinito",
+  "title": "Oceano Infinito",
+  "genre": "Aventura Aquática",
+  "style": "Épico Submarino",
+  "duration": "2 minutos",
+  "synopsis": "Uma biologista marinha descobre uma civilização perdida nas profundezas do oceano e deve protegê-la de corporações que querem explorar seus recursos.",
+  "characters": [
+    { "name": "Dra. Marina Santos", "description": "Biologista marinha especialista em vida aquática", "voice": "female" },
+    { "name": "Capitão Torres", "description": "Veterano da marinha que comanda a expedição", "voice": "male" },
+    { "name": "Atlante", "description": "Príncipe da civilização submarina perdida", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "oi-1",
+      "prompt": "Marina descobre sinais de vida inteligente nas profundezas",
+      "imageUrl": "https://pollinations.ai/p/Cientista%20mergulhando%20nas%20profundezas%20descobrindo%20luzes%20misteriosas%20submarinas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Marina mergulha nas fossas abissais e detecta padrões de luz que sugerem inteligência.",
+      "visualDescription": "Mergulhadora com equipamento científico observando luzes bioluminescentes no fundo do oceano"
+    },
+    {
+      "id": "oi-2", 
+      "prompt": "Primeira visão da cidade submarina perdida",
+      "imageUrl": "https://pollinations.ai/p/Cidade%20submarina%20majestosa%20com%20arquitetura%20coral%20e%20tecnologia%20aquática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma cidade magnífica feita de corais vivos e tecnologia aquática se revela diante de Marina.",
+      "visualDescription": "Cidade submarina épica com estruturas de coral, bolhas de ar e tecnologia bioluminescente"
+    },
+    {
+      "id": "oi-3",
+      "prompt": "Marina conhece o Príncipe Atlante",
+      "imageUrl": "https://pollinations.ai/p/Encontro%20entre%20cientista%20humana%20e%20príncipe%20atlante%20submarino?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Atlante emerge das águas para se comunicar com Marina, revelando a existência de seu povo.",
+      "visualDescription": "Príncipe atlante com características aquáticas encontrando cientista humana"
+    },
+    {
+      "id": "oi-4",
+      "prompt": "Corporação descobre a localização da cidade",
+      "imageUrl": "https://pollinations.ai/p/Navios%20corporativos%20com%20equipamentos%20de%20mineração%20ameaçando%20oceano?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Navios da corporação chegam com equipamentos de mineração, ameaçando destruir o habitat submarino.",
+      "visualDescription": "Frota industrial com dragas e equipamentos de mineração oceânica"
+    },
+    {
+      "id": "oi-5",
+      "prompt": "Marina e Atlante formam aliança",
+      "imageUrl": "https://pollinations.ai/p/Aliança%20entre%20humanos%20e%20atlantes%20para%20proteger%20oceano?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Marina convence Atlante a se aliar aos humanos conscientes para proteger ambos os mundos.",
+      "visualDescription": "Cerimônia de aliança submarina entre representantes humanos e atlantes"
+    },
+    {
+      "id": "oi-6",
+      "prompt": "Batalha naval contra a corporação",
+      "imageUrl": "https://pollinations.ai/p/Batalha%20naval%20épica%20com%20criaturas%20marinhas%20defendendo%20oceano?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Atlantes controlam criaturas marinhas gigantes para defender seu território da invasão.",
+      "visualDescription": "Batalha oceânica com baleias, polvos gigantes e atlantes lutando contra navios industriais"
+    },
+    {
+      "id": "oi-7",
+      "prompt": "Marina usa tecnologia atlante para comunicação",
+      "imageUrl": "https://pollinations.ai/p/Cientista%20usando%20tecnologia%20submarina%20para%20comunicação%20global?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Com tecnologia atlante, Marina transmite evidências para o mundo, expondo os crimes corporativos.",
+      "visualDescription": "Marina usando dispositivo bioluminescente atlante para transmissão global"
+    },
+    {
+      "id": "oi-8",
+      "prompt": "Vitória e estabelecimento de santuário marinho",
+      "imageUrl": "https://pollinations.ai/p/Santuário%20marinho%20protegido%20com%20cooperação%20humano-atlante?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A área é declarada santuário marinho internacional, protegendo a civilização atlante.",
+      "visualDescription": "Oceano protegido com humanos e atlantes trabalhando juntos em harmonia"
+    },
+    {
+      "id": "oi-9",
+      "prompt": "Marina se torna embaixadora entre os mundos",
+      "imageUrl": "https://pollinations.ai/p/Embaixadora%20científica%20mediando%20entre%20civilizações%20humana%20e%20atlante?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Marina é nomeada embaixadora científica, estabelecendo comunicação permanente entre as espécies.",
+      "visualDescription": "Marina em papel diplomático entre líderes humanos e atlantes"
+    },
+    {
+      "id": "oi-10",
+      "prompt": "Descobertas científicas revolucionárias",
+      "imageUrl": "https://pollinations.ai/p/Laboratório%20submarino%20com%20descobertas%20científicas%20atlantes%20revolucionárias?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A ciência atlante revela segredos sobre purificação oceânica e energia sustentável.",
+      "visualDescription": "Laboratório submarino atlante com tecnologia de purificação e energia oceânica"
+    },
+    {
+      "id": "oi-11",
+      "prompt": "Restauração dos ecossistemas marinhos",
+      "imageUrl": "https://pollinations.ai/p/Oceano%20sendo%20restaurado%20com%20tecnologia%20atlante%2C%20vida%20marinha%20florescendo?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Usando tecnologia atlante, os oceanos começam a se regenerar, trazendo vida de volta.",
+      "visualDescription": "Oceano se regenerando com corais coloridos e vida marinha abundante"
+    },
+    {
+      "id": "oi-12",
+      "prompt": "Novas expedições de cooperação científica",
+      "imageUrl": "https://pollinations.ai/p/Expedições%20científicas%20conjuntas%20explorando%20mistérios%20oceânicos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Expedições conjuntas exploram os mistérios mais profundos dos oceanos com nova tecnologia.",
+      "visualDescription": "Equipes mistas de humanos e atlantes explorando fossas oceânicas"
+    },
+    {
+      "id": "oi-13",
+      "prompt": "Marina documenta a nova era oceânica",
+      "imageUrl": "https://pollinations.ai/p/Cientista%20documentando%20nova%20era%20de%20cooperação%20oceânica%20entre%20espécies?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Marina documenta esta nova era de cooperação, mudando para sempre nossa relação com os oceanos.",
+      "visualDescription": "Marina registrando atividades de cooperação em ambiente submarino próspero"
+    },
+    {
+      "id": "oi-14",
+      "prompt": "Outras civilizações submarinas são descobertas",
+      "imageUrl": "https://pollinations.ai/p/Descoberta%20de%20múltiplas%20civilizações%20submarinas%20em%20diferentes%20oceanos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A descoberta inspira a busca por outras civilizações submarinas ao redor do mundo.",
+      "visualDescription": "Mapa mundial mostrando múltiplas civilizações submarinas sendo descobertas"
+    },
+    {
+      "id": "oi-15",
+      "prompt": "O futuro azul da humanidade",
+      "imageUrl": "https://pollinations.ai/p/Futuro%20sustentável%20com%20oceanos%20limpos%20e%20cooperação%20entre%20espécies?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um futuro azul se desenha onde humanos e atlantes protegem juntos o planeta aquático.",
+      "visualDescription": "Visão futura de planeta azul próspero com oceanos limpos e vida abundante"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Oceano%20Infinito%2C%20aventura%20submarina%20épica%2C%20cientista%20e%20cidade%20atlante?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "cinquenta-tons",
+  "title": "Cinquenta Tons",
+  "genre": "Romance Adulto",
+  "style": "Drama Erótico",
+  "duration": "2 minutos",
+  "synopsis": "Uma jovem universitária se envolve em um relacionamento complexo com um empresário misterioso e seus segredos obscuros.",
+  "characters": [
+    { "name": "Ana Steele", "description": "Jovem universitária inocente", "voice": "female" },
+    { "name": "Christian Grey", "description": "Empresário misterioso e sedutor", "voice": "male" },
+    { "name": "Kate", "description": "Melhor amiga e confidente", "voice": "female" }
+  ],
+  "scenes": [
+    {
+      "id": "ct-1",
+      "prompt": "Primeiro encontro em escritório executivo",
+      "imageUrl": "https://pollinations.ai/p/Primeiro%20encontro%20elegante%20em%20escritório%20executivo%20sofisticado?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Ana conhece Christian em seu imponente escritório durante uma entrevista para o jornal da faculdade.",
+      "visualDescription": "Escritório executivo elegante com primeiro encontro tenso"
+    },
+    {
+      "id": "ct-2",
+      "prompt": "Sedução sofisticada em eventos sociais",
+      "imageUrl": "https://pollinations.ai/p/Sedução%20sofisticada%20em%20eventos%20sociais%20de%20alta%20classe?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Christian seduz Ana em eventos sofisticados, mostrando um mundo de luxo e mistério.",
+      "visualDescription": "Eventos sociais elegantes com atmosfera de sedução"
+    },
+    {
+      "id": "ct-3",
+      "prompt": "Revelação de segredos e desejos ocultos",
+      "imageUrl": "https://pollinations.ai/p/Revelação%20de%20segredos%20íntimos%20em%20ambiente%20luxuoso%20privado?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Christian revela seus segredos mais íntimos e desejos ocultos para Ana em sua cobertura.",
+      "visualDescription": "Ambiente luxuoso privado com revelações íntimas"
+    },
+    {
+      "id": "ct-4",
+      "prompt": "Conflitos emocionais e decisões difíceis",
+      "imageUrl": "https://pollinations.ai/p/Conflitos%20emocionais%20e%20decisões%20difíceis%20em%20relacionamento%20complexo?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Ana enfrenta conflitos internos sobre os desejos de Christian e suas próprias necessidades.",
+      "visualDescription": "Cena emotiva com conflitos internos e decisões difíceis"
+    },
+    {
+      "id": "ct-5",
+      "prompt": "Encontro do equilíbrio no amor verdadeiro",
+      "imageUrl": "https://pollinations.ai/p/Casal%20encontrando%20equilíbrio%20no%20amor%20verdadeiro%20e%20aceitação?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Ana e Christian encontram o equilíbrio entre paixão e amor verdadeiro, aceitando um ao outro.",
+      "visualDescription": "Casal em harmonia encontrando o equilíbrio no amor"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Cinquenta%20Tons%20romance%20adulto%20elegante%20sedutor?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

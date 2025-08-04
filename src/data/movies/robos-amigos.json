@@ -1,0 +1,64 @@
+{
+  "id": "robos-amigos",
+  "title": "Robôs Amigos",
+  "genre": "Animação Infantil", 
+  "style": "Futurismo Infantil",
+  "duration": "2 minutos",
+  "synopsis": "Um pequeno robô quebrado encontra amigos especiais que o ajudam a descobrir que ser diferente é o que o torna único e especial.",
+  "characters": [
+    { "name": "Bolt", "description": "Robozinho enferrujado mas corajoso", "voice": "male" },
+    { "name": "Sparkle", "description": "Robô bailarina brilhante", "voice": "female" },
+    { "name": "Gear", "description": "Robô sábio e gentil", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "ra-1",
+      "prompt": "Bolt sozinho no ferro-velho robótico",
+      "imageUrl": "https://pollinations.ai/p/Robozinho%20triste%20sozinho%20em%20ferro-velho%20robótico%20infantil?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Bolt se sente sozinho no ferro-velho. Ele não brilha como os outros robôs.",
+      "visualDescription": "Ferro-velho colorido com robozinho triste mas fofo"
+    },
+    {
+      "id": "ra-2",
+      "prompt": "Conhecendo Sparkle que dança com luzes",
+      "imageUrl": "https://pollinations.ai/p/Robô%20bailarina%20brilhante%20dançando%20com%20luzes%20coloridas%20infantil?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Sparkle mostra a Bolt que dançar é mais importante que brilhar perfeitamente!",
+      "visualDescription": "Robô bailarina fofa dançando com efeitos luminosos coloridos"
+    },
+    {
+      "id": "ra-3",
+      "prompt": "Gear ensina sobre amizade e aceitação",
+      "imageUrl": "https://pollinations.ai/p/Robô%20sábio%20ensinando%20sobre%20amizade%20para%20robozinhos%20infantis?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Gear explica que cada robô tem um talento especial escondido dentro do coração!",
+      "visualDescription": "Robô sábio e carinhoso ensinando lições de vida para robozinhos"
+    },
+    {
+      "id": "ra-4",
+      "prompt": "Bolt descobre seu talento único",
+      "imageUrl": "https://pollinations.ai/p/Robozinho%20descobrindo%20talento%20único%20com%20habilidades%20especiais?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Bolt descobre que pode fazer música com seus barulhos! Ele é um robô musical!",
+      "visualDescription": "Robozinho feliz descobrindo habilidades musicais únicas"
+    },
+    {
+      "id": "ra-5",
+      "prompt": "Concerto dos robôs amigos unidos",
+      "imageUrl": "https://pollinations.ai/p/Concerto%20de%20robôs%20amigos%20fazendo%20música%20juntos%20infantil?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Todos os robôs fazem um concerto lindo! Cada um contribui com seu talento especial!",
+      "visualDescription": "Grupo de robôs fofinhos fazendo música juntos em harmonia"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20animação%20infantil%20Robôs%20Amigos%20futurismo%20fofo?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

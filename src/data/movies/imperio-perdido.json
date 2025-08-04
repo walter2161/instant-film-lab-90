@@ -1,0 +1,154 @@
+{
+  "id": "imperio-perdido",
+  "title": "Império Perdido",
+  "genre": "Épico Histórico",
+  "style": "Civilização Antiga",
+  "duration": "2 minutos",
+  "synopsis": "Uma jovem princesa deve reconstruir seu império que foi destruído por invasores, unindo tribos dispersas e redescobrir antigas magias.",
+  "characters": [
+    { "name": "Princesa Zara", "description": "Última herdeira de um império antigo", "voice": "female" },
+    { "name": "Mago Theron", "description": "Guardião dos segredos mágicos imperiais", "voice": "male" },
+    { "name": "General Koros", "description": "Líder dos invasores conquistadores", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "ip-1",
+      "prompt": "Queda do império ancestral",
+      "imageUrl": "https://pollinations.ai/p/Império%20antigo%20sendo%20destruído%20por%20invasores%2C%20cidade%20em%20chamas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O poderoso império de Zara é destruído pelos invasores, forçando-a ao exílio.",
+      "visualDescription": "Cidade imperial em chamas com arquitetura antiga sendo destruída"
+    },
+    {
+      "id": "ip-2",
+      "prompt": "Zara escapa com ajuda do Mago Theron",
+      "imageUrl": "https://pollinations.ai/p/Princesa%20e%20mago%20escapando%20de%20cidade%20em%20chamas%20com%20magia?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Theron usa magia ancestral para ajudar Zara a escapar da capital em ruínas.",
+      "visualDescription": "Mago usando magia para criar passagem de fuga para princesa"
+    },
+    {
+      "id": "ip-3",
+      "prompt": "Exílio nas terras selvagens",
+      "imageUrl": "https://pollinations.ai/p/Princesa%20exilada%20vagando%20por%20terras%20selvagens%20e%20desoladas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Zara vaga pelas terras selvagens, aprendendo a sobreviver longe do luxo palaciano.",
+      "visualDescription": "Paisagem desolada com princesa caminhando solitária entre rochas"
+    },
+    {
+      "id": "ip-4",
+      "prompt": "Primeiro encontro com tribo nômade",
+      "imageUrl": "https://pollinations.ai/p/Princesa%20conhecendo%20tribo%20nômade%20hostil%20em%20acampamento%20no%20deserto?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Zara é capturada por uma tribo nômade, mas prova seu valor salvando uma criança.",
+      "visualDescription": "Acampamento nômade no deserto com tendas e fogueiras"
+    },
+    {
+      "id": "ip-5",
+      "prompt": "Zara ganha respeito da primeira tribo",
+      "imageUrl": "https://pollinations.ai/p/Princesa%20sendo%20aceita%20por%20guerreiros%20nômades%20após%20ato%20heroico?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Após demonstrar coragem e liderança, Zara é aceita como guerreira pela tribo.",
+      "visualDescription": "Cerimônia tribal com guerreiros aceitando princesa como uma deles"
+    },
+    {
+      "id": "ip-6",
+      "prompt": "Descoberta de templo com magia ancestral",
+      "imageUrl": "https://pollinations.ai/p/Templo%20antigo%20escondido%20com%20runas%20mágicas%20e%20poder%20ancestral?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Theron leva Zara a um templo secreto onde ela pode aprender as magias imperiais.",
+      "visualDescription": "Templo místico com runas brilhantes e energia mágica ancestral"
+    },
+    {
+      "id": "ip-7",
+      "prompt": "Zara desperta seus poderes mágicos",
+      "imageUrl": "https://pollinations.ai/p/Princesa%20despertando%20poderes%20mágicos%20ancestrais%20em%20ritual%20sagrado?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Em um ritual sagrado, Zara desperta os poderes mágicos da linhagem imperial.",
+      "visualDescription": "Princesa no centro de círculo mágico com energia dourada a envolvendo"
+    },
+    {
+      "id": "ip-8",
+      "prompt": "Recrutamento da segunda tribo guerreira",
+      "imageUrl": "https://pollinations.ai/p/Princesa%20convencendo%20tribo%20guerreira%20das%20montanhas%20a%20se%20juntar%20à%20causa?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Zara convence uma tribo guerreira das montanhas a se juntar à sua causa de reconquista.",
+      "visualDescription": "Aldeia nas montanhas com guerreiros se juntando à causa da princesa"
+    },
+    {
+      "id": "ip-9",
+      "prompt": "Terceira tribo dos artesãos se alia",
+      "imageUrl": "https://pollinations.ai/p/Tribo%20de%20artesãos%20criando%20armas%20e%20armaduras%20para%20exército%20da%20princesa?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A tribo dos artesãos forja armas mágicas e armaduras para o crescente exército de Zara.",
+      "visualDescription": "Forja tribal com artesãos criando equipamentos mágicos"
+    },
+    {
+      "id": "ip-10",
+      "prompt": "Primeira batalha contra as forças invasoras",
+      "imageUrl": "https://pollinations.ai/p/Batalha%20épica%20entre%20tribos%20unidas%20e%20exército%20invasor?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "As tribos unidas enfrentam os invasores em sua primeira grande batalha.",
+      "visualDescription": "Campo de batalha épico com exércitos tribais lutando contra invasores"
+    },
+    {
+      "id": "ip-11",
+      "prompt": "Zara usa magia para virar a batalha",
+      "imageUrl": "https://pollinations.ai/p/Princesa%20usando%20magia%20poderosa%20para%20derrotar%20inimigos%20em%20batalha?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Zara canaliza a magia ancestral para invocar uma tempestade que derrota os invasores.",
+      "visualDescription": "Princesa canalizando magia para criar tempestade mágica devastadora"
+    },
+    {
+      "id": "ip-12",
+      "prompt": "Confronto final com General Koros",
+      "imageUrl": "https://pollinations.ai/p/Duelo%20final%20entre%20princesa%20mágica%20e%20general%20invasor%20blindado?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No duelo final, Zara enfrenta Koros usando tanto espada quanto magia.",
+      "visualDescription": "Duelo épico entre princesa com poderes mágicos e general com armadura"
+    },
+    {
+      "id": "ip-13",
+      "prompt": "Vitória e reconstrução do império",
+      "imageUrl": "https://pollinations.ai/p/Cidade%20imperial%20sendo%20reconstruída%20com%20arquitetura%20majestosa?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Com a vitória, Zara inicia a reconstrução do império, unindo todas as tribos.",
+      "visualDescription": "Cidade sendo reconstruída com arquitetura imperial grandiosa"
+    },
+    {
+      "id": "ip-14",
+      "prompt": "Coroação da nova imperatriz",
+      "imageUrl": "https://pollinations.ai/p/Cerimônia%20de%20coroação%20épica%20com%20representantes%20de%20todas%20as%20tribos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Zara é coroada imperatriz em uma cerimônia que une todas as tribos do continente.",
+      "visualDescription": "Cerimônia grandiosa de coroação com representantes de várias tribos"
+    },
+    {
+      "id": "ip-15",
+      "prompt": "Novo império próspero e unificado",
+      "imageUrl": "https://pollinations.ai/p/Império%20próspero%20e%20unificado%20com%20diferentes%20culturas%20em%20harmonia?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O novo império prospera como uma união de culturas, mais forte que o anterior.",
+      "visualDescription": "Vista aérea de império próspero com diversas culturas vivendo em harmonia"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Império%20Perdido%2C%20épico%20histórico%2C%20princesa%20guerreira%20rebuilding%20empire?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

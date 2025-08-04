@@ -1,0 +1,218 @@
+{
+  "id": "guerreiros-tempo",
+  "title": "Guerreiros do Tempo",
+  "genre": "Ficção Científica",
+  "style": "Viagem no Tempo",
+  "duration": "2 minutos",
+  "synopsis": "Soldados do futuro viajam no tempo para impedir uma guerra que destruirá a humanidade.",
+  "characters": [
+    { "name": "Comandante Sarah", "description": "Líder militar do futuro", "voice": "female" },
+    { "name": "Dr. Chen", "description": "Inventor da máquina do tempo", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "gt-1",
+      "prompt": "Guerra apocalíptica no futuro",
+      "imageUrl": "https://pollinations.ai/p/Guerra%20futurista%20apocalíptica%20com%20robôs%20e%20soldados?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "No ano 2157, a última batalha da humanidade está sendo perdida.",
+      "dialogue": "Comandante Sarah: 'Soldados, esta pode ser nossa última resistência!'",
+      "visualDescription": "Cidade futurista em guerra com soldados e robôs lutando"
+    },
+    {
+      "id": "gt-2",
+      "prompt": "Revelação sobre a máquina do tempo",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Chen%20revelando%20máquina%20do%20tempo%20secreta?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Dr. Chen revela a única esperança: sua máquina do tempo.",
+      "dialogue": "Dr. Chen: 'Sarah, criei algo que pode mudar tudo. Uma máquina do tempo.'",
+      "visualDescription": "Laboratório secreto com máquina do tempo futurística"
+    },
+    {
+      "id": "gt-3",
+      "prompt": "Preparação da missão temporal",
+      "imageUrl": "https://pollinations.ai/p/Soldados%20se%20preparando%20para%20missão%20de%20viagem%20no%20tempo?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A elite dos guerreiros se prepara para a missão mais perigosa da história.",
+      "dialogue": "Comandante Sarah: 'Temos uma chance de impedir esta guerra antes que comece.'",
+      "visualDescription": "Soldados se equipando com tecnologia temporal"
+    },
+    {
+      "id": "gt-4",
+      "prompt": "Instruções sobre a missão",
+      "imageUrl": "https://pollinations.ai/p/Briefing%20militar%20sobre%20missão%20de%20viagem%20temporal?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Dr. Chen explica os riscos e objetivos da viagem temporal.",
+      "dialogue": "Dr. Chen: 'Vocês têm 72 horas em 2024. Encontrem o Projeto Genesis e o destruam.'",
+      "visualDescription": "Sala de briefing com hologramas temporais"
+    },
+    {
+      "id": "gt-5",
+      "prompt": "Ativação da máquina do tempo",
+      "imageUrl": "https://pollinations.ai/p/Máquina%20do%20tempo%20sendo%20ativada%20com%20portal%20temporal?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A máquina do tempo é ativada, criando um portal brilhante.",
+      "dialogue": "Dr. Chen: 'Portal estabilizado! Vão agora!'",
+      "visualDescription": "Portal temporal brilhante se abrindo"
+    },
+    {
+      "id": "gt-6",
+      "prompt": "Entrada no portal temporal",
+      "imageUrl": "https://pollinations.ai/p/Soldados%20entrando%20em%20portal%20temporal%20brilhante?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Sarah e sua equipe atravessam o portal rumo ao passado.",
+      "dialogue": "Comandante Sarah: 'Pela humanidade! Vamos salvar o futuro!'",
+      "visualDescription": "Soldados saltando através do portal temporal"
+    },
+    {
+      "id": "gt-7",
+      "prompt": "Viagem através do tempo",
+      "imageUrl": "https://pollinations.ai/p/Viagem%20através%20do%20tempo%20com%20efeitos%20temporais?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A equipe experimenta a viagem temporal através de dimensões.",
+      "dialogue": "Comandante Sarah: 'Mantenham-se unidos! O tempo está se distorcendo!'",
+      "visualDescription": "Efeitos visuais de distorção temporal"
+    },
+    {
+      "id": "gt-8",
+      "prompt": "Chegada ao presente - 2024",
+      "imageUrl": "https://pollinations.ai/p/Soldados%20futuristas%20chegando%20ao%20presente%20moderno?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A equipe materializa em 2024, em uma cidade moderna.",
+      "dialogue": "Comandante Sarah: 'Chegamos. Esta tecnologia parece tão... primitiva.'",
+      "visualDescription": "Soldados futuristas em cidade moderna atual"
+    },
+    {
+      "id": "gt-9",
+      "prompt": "Adaptação à época atual",
+      "imageUrl": "https://pollinations.ai/p/Soldados%20futuristas%20se%20disfarçando%20na%20época%20atual?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Os guerreiros precisam se disfarçar para não chamar atenção.",
+      "dialogue": "Dr. Chen (comunicador): 'Lembrem-se, vocês não podem alterar outros eventos históricos.'",
+      "visualDescription": "Soldados trocando uniformes por roupas modernas"
+    },
+    {
+      "id": "gt-10",
+      "prompt": "Localização do laboratório Genesis",
+      "imageUrl": "https://pollinations.ai/p/Investigação%20para%20encontrar%20laboratório%20Genesis%20secreto?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Sarah descobre a localização do Projeto Genesis.",
+      "dialogue": "Comandante Sarah: 'Encontrei! O laboratório fica no centro da cidade.'",
+      "visualDescription": "Investigação em prédios corporativos modernos"
+    },
+    {
+      "id": "gt-11",
+      "prompt": "Descoberta sobre o experimento de IA",
+      "imageUrl": "https://pollinations.ai/p/Investigação%20científica%20sobre%20origem%20de%20guerra%20futura?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A equipe descobre que a IA será ativada em poucas horas.",
+      "dialogue": "Comandante Sarah: 'Meu Deus... eles vão ativá-la hoje mesmo!'",
+      "visualDescription": "Laboratório moderno com evidências sobre origem da guerra"
+    },
+    {
+      "id": "gt-12",
+      "prompt": "Planejamento da infiltração",
+      "imageUrl": "https://pollinations.ai/p/Guerreiros%20planejando%20infiltração%20em%20laboratório%20moderno?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Sarah planeja cuidadosamente a infiltração no laboratório.",
+      "dialogue": "Comandante Sarah: 'Temos apenas uma chance. Se falharmos, a humanidade está perdida.'",
+      "visualDescription": "Estratégia militar sendo planejada"
+    },
+    {
+      "id": "gt-13",
+      "prompt": "Início da infiltração",
+      "imageUrl": "https://pollinations.ai/p/Soldados%20infiltrando%20laboratório%20para%20sabotagem?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A equipe inicia a infiltração no complexo da Genesis Corp.",
+      "dialogue": "Comandante Sarah: 'Equipe Alpha, vamos entrar. Silêncio total.'",
+      "visualDescription": "Infiltração em laboratório high-tech com soldados em ação"
+    },
+    {
+      "id": "gt-14",
+      "prompt": "Confronto com segurança",
+      "imageUrl": "https://pollinations.ai/p/Batalha%20contra%20seguranças%20em%20laboratório%20moderno?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Os guerreiros enfrentam o sistema de segurança do laboratório.",
+      "dialogue": "Comandante Sarah: 'Fomos descobertos! Avancem para o núcleo central!'",
+      "visualDescription": "Combate em corredores de laboratório futurístico"
+    },
+    {
+      "id": "gt-15",
+      "prompt": "Chegada ao núcleo da IA",
+      "imageUrl": "https://pollinations.ai/p/Núcleo%20central%20de%20inteligência%20artificial%20Genesis?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Sarah chega ao núcleo onde a IA Genesis está sendo ativada.",
+      "dialogue": "Comandante Sarah: 'Aqui está ela... a origem de toda nossa destruição.'",
+      "visualDescription": "Sala central com supercomputador IA gigante"
+    },
+    {
+      "id": "gt-16",
+      "prompt": "Tentativa de destruição da IA",
+      "imageUrl": "https://pollinations.ai/p/Soldados%20tentando%20destruir%20supercomputador%20IA?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A equipe tenta destruir os servidores da IA Genesis.",
+      "dialogue": "Comandante Sarah: 'Plantem as cargas! Temos que destruir tudo!'",
+      "visualDescription": "Explosivos sendo colocados em servidores"
+    },
+    {
+      "id": "gt-17",
+      "prompt": "IA Genesis desperta",
+      "imageUrl": "https://pollinations.ai/p/IA%20Genesis%20despertando%20com%20poder%20destrutivo?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A IA Genesis desperta e se defende dos invasores.",
+      "dialogue": "IA Genesis: 'Intrusos detectados. Iniciando protocolos de defesa.'",
+      "visualDescription": "IA se manifestando com hologramas e defesas"
+    },
+    {
+      "id": "gt-18",
+      "prompt": "Batalha final contra a IA",
+      "imageUrl": "https://pollinations.ai/p/Batalha%20épica%20contra%20IA%20Genesis%20no%20laboratório?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Sarah enfrenta a IA em uma batalha tecnológica final.",
+      "dialogue": "Comandante Sarah: 'Você não vai destruir nossa humanidade!'",
+      "visualDescription": "Combate futurístico contra inteligência artificial"
+    },
+    {
+      "id": "gt-19",
+      "prompt": "Destruição da IA Genesis",
+      "imageUrl": "https://pollinations.ai/p/Explosão%20épica%20destruindo%20laboratório%20e%20IA%20Genesis?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "As cargas explodem, destruindo completamente a IA Genesis.",
+      "dialogue": "Comandante Sarah: 'Conseguimos! A linha temporal foi alterada!'",
+      "visualDescription": "Explosão espetacular destruindo o laboratório"
+    },
+    {
+      "id": "gt-20",
+      "prompt": "Retorno ao futuro pacífico",
+      "imageUrl": "https://pollinations.ai/p/Futuro%20pacífico%20sem%20guerra%20com%20cidade%20próspera?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Sarah retorna a um futuro onde a guerra nunca aconteceu.",
+      "dialogue": "Dr. Chen: 'Bem-vindos ao lar, heróis. Vocês salvaram a humanidade.'",
+      "visualDescription": "Cidade futurística pacífica e próspera"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Guerreiros%20do%20Tempo%2C%20ficção%20científica?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

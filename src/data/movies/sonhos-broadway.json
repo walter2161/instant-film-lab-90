@@ -1,0 +1,64 @@
+{
+  "id": "sonhos-broadway",
+  "title": "Sonhos de Broadway",
+  "genre": "Musical",
+  "style": "Teatro Musical",
+  "duration": "2 minutos",
+  "synopsis": "Uma jovem bailarina do interior sonha em estrellar na Broadway, enfrentando desafios e descobrindo que o verdadeiro sucesso vem de dentro.",
+  "characters": [
+    { "name": "Luna Martinez", "description": "Jovem bailarina sonhadora", "voice": "female" },
+    { "name": "Marcus Thompson", "description": "Diretor experiente da Broadway", "voice": "male" },
+    { "name": "Stella Shine", "description": "Estrela veterana dos musicais", "voice": "female" }
+  ],
+  "scenes": [
+    {
+      "id": "sb-1",
+      "prompt": "Luna dançando em cidade pequena sonhando com Broadway",
+      "imageUrl": "https://pollinations.ai/p/Jovem%20bailarina%20dançando%20em%20cidade%20pequena%20sonhando%20com%20Broadway?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Na pequena cidade, Luna dança sozinha imaginando os palcos brilhantes de Nova York.",
+      "visualDescription": "Cidade pequena com jovem dançarina sonhando com grandes palcos"
+    },
+    {
+      "id": "sb-2",
+      "prompt": "Chegada mágica à Times Square e teatros da Broadway",
+      "imageUrl": "https://pollinations.ai/p/Times%20Square%20mágica%20com%20teatros%20da%20Broadway%20iluminados?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "As luzes de neon da Times Square recebem Luna. Cada teatro é uma nova possibilidade!",
+      "visualDescription": "Times Square noturna com teatros brilhantes e energia vibrante"
+    },
+    {
+      "id": "sb-3",
+      "prompt": "Audições desafiadoras nos teatros da Broadway",
+      "imageUrl": "https://pollinations.ai/p/Audições%20teatrais%20desafiadoras%20em%20teatro%20da%20Broadway?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Nas audições, Luna compete com centenas de talentos. Cada passo é uma batalha.",
+      "visualDescription": "Teatro com audições intensas e competição entre dançarinos"
+    },
+    {
+      "id": "sb-4",
+      "prompt": "Stella mentora Luna nos bastidores do teatro",
+      "imageUrl": "https://pollinations.ai/p/Mentoria%20nos%20bastidores%20de%20teatro%20da%20Broadway%20entre%20veterana%20e%20jovem?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Stella ensina Luna que o verdadeiro brilho vem da paixão, não apenas da técnica.",
+      "visualDescription": "Bastidores de teatro com mentoria entre estrela veterana e jovem"
+    },
+    {
+      "id": "sb-5",
+      "prompt": "Luna estrelando em grande musical da Broadway",
+      "imageUrl": "https://pollinations.ai/p/Grande%20musical%20da%20Broadway%20com%20estrela%20principal%20brilhando%20no%20palco?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No palco da Broadway, Luna brilha realizando seu sonho. A plateia aplaude de pé!",
+      "visualDescription": "Palco grandioso da Broadway com performance musical espetacular"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20musical%20Sonhos%20de%20Broadway%20teatro%20brilhante?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "gospel-esperanca",
+  "title": "Gospel da Esperança",
+  "genre": "Musical",
+  "style": "Gospel Contemporâneo",
+  "duration": "2 minutos", 
+  "synopsis": "Um coral de uma comunidade carente transforma vidas através da música gospel, levando esperança e fé para toda a cidade.",
+  "characters": [
+    { "name": "Pastor Miguel", "description": "Líder carismático do coral", "voice": "male" },
+    { "name": "Joana Santos", "description": "Jovem com voz angelical", "voice": "female" },
+    { "name": "Dona Maria", "description": "Veterana do coral com sabedoria", "voice": "female" }
+  ],
+  "scenes": [
+    {
+      "id": "ge-1",
+      "prompt": "Igreja simples da comunidade com coral ensaiando",
+      "imageUrl": "https://pollinations.ai/p/Igreja%20simples%20da%20comunidade%20com%20coral%20gospel%20ensaiando?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Na humilde igreja da comunidade, vozes se unem em harmonia celestial durante os ensaios.",
+      "visualDescription": "Igreja comunitária simples com coral gospel ensaiando"
+    },
+    {
+      "id": "ge-2",
+      "prompt": "Joana descobrindo seu dom musical especial",
+      "imageUrl": "https://pollinations.ai/p/Jovem%20descobrindo%20dom%20musical%20gospel%20na%20igreja%20comunitária?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Joana descobre que sua voz tem o poder de tocar corações e transformar vidas.",
+      "visualDescription": "Jovem cantando gospel com emoção na igreja"
+    },
+    {
+      "id": "ge-3",
+      "prompt": "Coral levando música para as ruas da comunidade",
+      "imageUrl": "https://pollinations.ai/p/Coral%20gospel%20cantando%20nas%20ruas%20da%20comunidade%20carente?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O coral sai às ruas levando esperança. Cada música planta sementes de fé.",
+      "visualDescription": "Coral gospel cantando nas ruas para a comunidade"
+    },
+    {
+      "id": "ge-4",
+      "prompt": "Grande apresentação no estádio da cidade",
+      "imageUrl": "https://pollinations.ai/p/Grande%20apresentação%20gospel%20em%20estádio%20lotado%20da%20cidade?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No estádio lotado, o coral emociona milhares. A música gospel une toda a cidade.",
+      "visualDescription": "Estádio lotado com grande apresentação musical gospel"
+    },
+    {
+      "id": "ge-5",
+      "prompt": "Comunidade transformada pela música e fé",
+      "imageUrl": "https://pollinations.ai/p/Comunidade%20transformada%20pela%20música%20gospel%20e%20esperança?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A comunidade floresce em harmonia. A música gospel trouxe renovação e esperança.",
+      "visualDescription": "Comunidade renovada e feliz através da música e fé"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20musical%20Gospel%20da%20Esperança%20coral%20inspirador?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

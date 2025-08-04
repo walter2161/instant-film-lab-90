@@ -1,0 +1,154 @@
+{
+  "id": "ultimo-samurai",
+  "title": "O Último Samurai",
+  "genre": "Drama Histórico",
+  "style": "Épico Oriental",
+  "duration": "2 minutos",
+  "synopsis": "No Japão feudal, o último samurai deve escolher entre a tradição ancestral e a modernização, defendendo seu povo contra invasores em uma batalha final pela honra.",
+  "characters": [
+    { "name": "Takeshi Yamamoto", "description": "Último samurai de uma linhagem ancestral", "voice": "male" },
+    { "name": "Yuki", "description": "Jovem guerreira ninja que se torna sua aliada", "voice": "female" },
+    { "name": "Senhor Nobunaga", "description": "Líder tradicional que busca modernizar o Japão", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "us-1",
+      "prompt": "Takeshi medita no templo ancestral ao amanhecer",
+      "imageUrl": "https://pollinations.ai/p/Samurai%20meditando%20em%20templo%20japonês%20tradicional%20ao%20amanhecer?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Takeshi contempla os ensinamentos ancestrais, sabendo que pode ser o último a seguir o código bushido.",
+      "visualDescription": "Samurai em posição de meditação em templo tradicional japonês com cerejeiras"
+    },
+    {
+      "id": "us-2",
+      "prompt": "Invasores estrangeiros ameaçam a aldeia",
+      "imageUrl": "https://pollinations.ai/p/Invasores%20armados%20ameaçando%20aldeia%20japonesa%20tradicional?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Soldados estrangeiros chegam à aldeia exigindo submissão ou enfrentarão destruição.",
+      "visualDescription": "Aldeia japonesa sendo ameaçada por soldados estrangeiros armados"
+    },
+    {
+      "id": "us-3",
+      "prompt": "Takeshi empunha a katana ancestral",
+      "imageUrl": "https://pollinations.ai/p/Samurai%20empunhando%20katana%20ancestral%20sagrada%20em%20ritual?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Takeshi empunha a katana de seus ancestrais, sentindo o peso da responsabilidade sobre seus ombros.",
+      "visualDescription": "Samurai em armadura tradicional segurando katana brilhante em cerimônia sagrada"
+    },
+    {
+      "id": "us-4",
+      "prompt": "Conhece Yuki e forma aliança",
+      "imageUrl": "https://pollinations.ai/p/Encontro%20entre%20samurai%20e%20guerreira%20ninja%20formando%20aliança?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Yuki, uma hábil ninja, oferece sua ajuda para proteger a aldeia e preservar as tradições.",
+      "visualDescription": "Samurai e ninja se cumprimentando com respeito em floresta de bambu"
+    },
+    {
+      "id": "us-5",
+      "prompt": "Treinamento conjunto para a batalha final",
+      "imageUrl": "https://pollinations.ai/p/Samurai%20e%20ninja%20treinando%20juntos%20para%20batalha%20épica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Takeshi e Yuki treinam técnicas antigas, combinando a força samurai com a agilidade ninja.",
+      "visualDescription": "Treino intenso com samurai e ninja praticando técnicas de combate"
+    },
+    {
+      "id": "us-6",
+      "prompt": "Confronto com o Senhor Nobunaga",
+      "imageUrl": "https://pollinations.ai/p/Encontro%20tenso%20entre%20samurai%20tradicional%20e%20líder%20modernizador?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Nobunaga tenta convencer Takeshi a abandonar as tradições em prol da modernização.",
+      "visualDescription": "Confronto ideológico em palácio japonês entre tradição e modernidade"
+    },
+    {
+      "id": "us-7",
+      "prompt": "Primeira batalha contra os invasores",
+      "imageUrl": "https://pollinations.ai/p/Batalha%20épica%20samurai%20vs%20invasores%20em%20campo%20de%20batalha%20japonês?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Takeshi lidera a defesa da aldeia, provando que as antigas tradições ainda têm valor.",
+      "visualDescription": "Batalha intensa com samurai lutando contra soldados invasores"
+    },
+    {
+      "id": "us-8",
+      "prompt": "Yuki sacrifica-se para salvar Takeshi",
+      "imageUrl": "https://pollinations.ai/p/Ninja%20se%20sacrificando%20heroicamente%20para%20salvar%20samurai?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Em momento crucial, Yuki se sacrifica para salvar Takeshi, provando a força da honra.",
+      "visualDescription": "Momento dramático de sacrifício heroico em campo de batalha"
+    },
+    {
+      "id": "us-9",
+      "prompt": "Takeshi enfrenta o líder dos invasores",
+      "imageUrl": "https://pollinations.ai/p/Duelo%20final%20samurai%20vs%20comandante%20invasor%20em%20combate%20singular?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No duelo final, Takeshi enfrenta o comandante invasor em combate singular pela honra.",
+      "visualDescription": "Duelo épico entre samurai e comandante estrangeiro com katana vs espada"
+    },
+    {
+      "id": "us-10",
+      "prompt": "Vitória através da sabedoria ancestral",
+      "imageUrl": "https://pollinations.ai/p/Samurai%20vitorioso%20usando%20sabedoria%20ancestral%20para%20derrotar%20inimigo?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Takeshi vence usando uma técnica ancestral, provando que tradição e estratégia superam força bruta.",
+      "visualDescription": "Samurai vitorioso em postura tradicional após técnica ancestral decisiva"
+    },
+    {
+      "id": "us-11",
+      "prompt": "Invasores recuam respeitando a honra samurai",
+      "imageUrl": "https://pollinations.ai/p/Invasores%20recuando%20em%20respeito%20à%20honra%20e%20coragem%20samurai?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Impressionados com a honra e coragem, os invasores recuam respeitando o código samurai.",
+      "visualDescription": "Soldados estrangeiros se retirando em respeito ao código de honra"
+    },
+    {
+      "id": "us-12",
+      "prompt": "Takeshi ensina novos samurais",
+      "imageUrl": "https://pollinations.ai/p/Samurai%20mestre%20ensinando%20jovens%20aprendizes%20código%20bushido?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Takeshi estabelece uma escola para ensinar o código bushido às novas gerações.",
+      "visualDescription": "Dojo tradicional com mestre samurai ensinando jovens estudantes"
+    },
+    {
+      "id": "us-13",
+      "prompt": "Equilíbrio entre tradição e modernidade",
+      "imageUrl": "https://pollinations.ai/p/Japão%20equilibrando%20tradições%20antigas%20com%20progresso%20moderno?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O Japão encontra um caminho que honra as tradições enquanto abraça o progresso necessário.",
+      "visualDescription": "Visão do Japão moderno mantendo templos e tradições junto com desenvolvimento"
+    },
+    {
+      "id": "us-14",
+      "prompt": "Cerimônia em honra de Yuki",
+      "imageUrl": "https://pollinations.ai/p/Cerimônia%20memorial%20japonesa%20honrando%20guerreira%20ninja%20heroína?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma cerimônia honra Yuki como heroína, mostrando que coragem não tem gênero.",
+      "visualDescription": "Cerimônia memorial tradicional com flores de cerejeira e honrarias"
+    },
+    {
+      "id": "us-15",
+      "prompt": "Takeshi contempla o futuro do bushido",
+      "imageUrl": "https://pollinations.ai/p/Samurai%20idoso%20contemplando%20futuro%20das%20tradições%20ao%20pôr%20do%20sol?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Ao pôr do sol, Takeshi contempla como as tradições podem evoluir sem perder sua essência.",
+      "visualDescription": "Samurai maduro observando o horizonte em jardim zen ao entardecer"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20O%20Último%20Samurai%2C%20drama%20histórico%20épico%2C%20guerreiro%20japonês%20tradicional?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

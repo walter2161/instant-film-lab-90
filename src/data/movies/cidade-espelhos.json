@@ -1,0 +1,154 @@
+{
+  "id": "cidade-espelhos",
+  "title": "Cidade dos Espelhos",
+  "genre": "Thriller Psicológico",
+  "style": "Surrealista",
+  "duration": "2 minutos",
+  "synopsis": "Uma psicóloga descobre uma cidade onde cada espelho mostra uma realidade diferente. Ela deve navegar entre dimensões para encontrar a verdade sobre sua própria identidade.",
+  "characters": [
+    { "name": "Dra. Helena Cross", "description": "Psicóloga especialista em transtornos de personalidade", "voice": "female" },
+    { "name": "Espelho", "description": "Entidade misteriosa que controla as dimensões", "voice": "male" },
+    { "name": "Helena Alternativa", "description": "Versão de Helena de outra dimensão", "voice": "female" }
+  ],
+  "scenes": [
+    {
+      "id": "ce-1",
+      "prompt": "Helena chega à misteriosa cidade dos espelhos",
+      "imageUrl": "https://pollinations.ai/p/Cidade%20surreal%20cheia%20de%20espelhos%20gigantes%20refletindo%20realidades%20diferentes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Helena caminha por ruas onde cada vitrine é um espelho mostrando versões diferentes da realidade.",
+      "visualDescription": "Cidade surreal com edifícios cobertos de espelhos refletindo múltiplas dimensões"
+    },
+    {
+      "id": "ce-2",
+      "prompt": "Primeiro contato com seu reflexo independente",
+      "imageUrl": "https://pollinations.ai/p/Mulher%20observando%20reflexo%20que%20age%20independentemente%20no%20espelho?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No primeiro espelho, Helena vê seu reflexo agindo por conta própria, tentando se comunicar.",
+      "visualDescription": "Helena diante de espelho ornamentado onde seu reflexo gesticula independentemente"
+    },
+    {
+      "id": "ce-3",
+      "prompt": "Helena entra na dimensão espelhada",
+      "imageUrl": "https://pollinations.ai/p/Pessoa%20atravessando%20espelho%20para%20dimensão%20alternativa%20surreal?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Helena toca o espelho e é puxada para dentro, emergindo numa versão invertida da cidade.",
+      "visualDescription": "Passagem através de espelho para mundo espelhado com física invertida"
+    },
+    {
+      "id": "ce-4",
+      "prompt": "Encontro com a versão alternativa de si mesma",
+      "imageUrl": "https://pollinations.ai/p/Duas%20versões%20da%20mesma%20pessoa%20se%20encontrando%20em%20dimensão%20espelhada?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Helena conhece sua versão alternativa, que viveu uma vida completamente diferente.",
+      "visualDescription": "Duas Helenas com roupas e personalidades diferentes conversando em ambiente surreal"
+    },
+    {
+      "id": "ce-5",
+      "prompt": "Descoberta de múltiplas versões de Helena",
+      "imageUrl": "https://pollinations.ai/p/Múltiplas%20versões%20da%20mesma%20pessoa%20em%20corredor%20infinito%20de%20espelhos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Em um corredor infinito de espelhos, Helena descobre dezenas de versões de si mesma.",
+      "visualDescription": "Corredor infinito com espelhos mostrando diferentes versões de Helena"
+    },
+    {
+      "id": "ce-6",
+      "prompt": "A entidade Espelho se revela",
+      "imageUrl": "https://pollinations.ai/p/Entidade%20misteriosa%20feita%20de%20reflexos%20e%20luz%20se%20manifestando?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma entidade feita de reflexos fragmentados explica que Helena está presa entre dimensões.",
+      "visualDescription": "Ser sobrenatural composto por fragmentos de espelhos e reflexos distorcidos"
+    },
+    {
+      "id": "ce-7",
+      "prompt": "Helena descobre que é um experimento",
+      "imageUrl": "https://pollinations.ai/p/Laboratório%20surreal%20onde%20identidades%20são%20testadas%20através%20de%20espelhos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A verdade se revela: Helena é cobaia de um experimento sobre identidade e realidade.",
+      "visualDescription": "Laboratório científico surreal com espelhos como equipamentos de teste psicológico"
+    },
+    {
+      "id": "ce-8",
+      "prompt": "Luta entre as diferentes versões de Helena",
+      "imageUrl": "https://pollinations.ai/p/Batalha%20surreal%20entre%20múltiplas%20versões%20da%20mesma%20pessoa?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "As versões de Helena entram em conflito, cada uma querendo ser a 'verdadeira'.",
+      "visualDescription": "Confronto surreal entre diferentes Helenas em ambiente de espelhos quebrados"
+    },
+    {
+      "id": "ce-9",
+      "prompt": "Helena questiona sua própria realidade",
+      "imageUrl": "https://pollinations.ai/p/Pessoa%20questionando%20realidade%20cercada%20por%20fragmentos%20de%20espelhos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Confusa entre tantas versões, Helena questiona qual delas é realmente ela.",
+      "visualDescription": "Helena cercada por fragmentos de espelhos questionando sua identidade"
+    },
+    {
+      "id": "ce-10",
+      "prompt": "Descoberta da verdadeira natureza do experimento",
+      "imageUrl": "https://pollinations.ai/p/Revelação%20de%20experimento%20científico%20sobre%20consciência%20e%20identidade?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Helena descobre que está em coma e as dimensões são sua mente tentando despertar.",
+      "visualDescription": "Hospital moderno com Helena em coma conectada a equipamentos neurológicos"
+    },
+    {
+      "id": "ce-11",
+      "prompt": "Helena une todas suas versões",
+      "imageUrl": "https://pollinations.ai/p/Múltiplas%20versões%20se%20fundindo%20em%20uma%20única%20identidade%20integrada?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Helena decide integrar todas suas versões, aceitando a complexidade de sua identidade.",
+      "visualDescription": "Fusão visual de múltiplas Helenas se tornando uma pessoa integrada"
+    },
+    {
+      "id": "ce-12",
+      "prompt": "Quebra dos espelhos e libertação",
+      "imageUrl": "https://pollinations.ai/p/Espelhos%20se%20quebrando%20e%20pessoa%20se%20libertando%20de%20ilusões?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Com um grito libertador, Helena quebra todos os espelhos, destruindo as ilusões.",
+      "visualDescription": "Espelhos explodindo em cascata enquanto Helena caminha livre"
+    },
+    {
+      "id": "ce-13",
+      "prompt": "Despertar no mundo real",
+      "imageUrl": "https://pollinations.ai/p/Pessoa%20despertando%20do%20coma%20em%20hospital%20moderno?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Helena desperta no hospital, lembrando-se de quem realmente é e do que viveu.",
+      "visualDescription": "Helena abrindo os olhos em leito hospitalar com família ao lado"
+    },
+    {
+      "id": "ce-14",
+      "prompt": "Helena usa a experiência para ajudar outros",
+      "imageUrl": "https://pollinations.ai/p/Psicóloga%20ajudando%20pacientes%20com%20transtornos%20de%20identidade?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "De volta ao trabalho, Helena usa sua experiência para ajudar pacientes com crises de identidade.",
+      "visualDescription": "Consultório psicológico onde Helena atende pacientes com empáticos"
+    },
+    {
+      "id": "ce-15",
+      "prompt": "Helena aceita a multiplicidade do ser",
+      "imageUrl": "https://pollinations.ai/p/Pessoa%20em%20paz%20consigo%20mesma%20aceitando%20múltiplas%20facetas%20da%20personalidade?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Helena aprende que todos temos múltiplas facetas, e isso nos torna humanos, não fragmentados.",
+      "visualDescription": "Helena serena refletida em espelho normal, aceitando sua complexidade"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Cidade%20dos%20Espelhos%2C%20thriller%20psicológico%20surrealista%2C%20múltiplas%20identidades?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

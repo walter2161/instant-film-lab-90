@@ -1,0 +1,64 @@
+{
+  "id": "portal-dimensao",
+  "title": "Portal da Dimensão",
+  "genre": "Ficção Científica",
+  "style": "Space Opera",
+  "duration": "2 minutos",
+  "synopsis": "Um físico descobre um portal para uma dimensão paralela onde a humanidade evoluiu diferentemente. Ele deve escolher entre salvar nossa dimensão ou a nova que descobriu.",
+  "characters": [
+    { "name": "Dr. Nathan Pierce", "description": "Físico quântico brilhante", "voice": "male" },
+    { "name": "Zara-7", "description": "Líder da humanidade alternativa", "voice": "female" },
+    { "name": "General Morrison", "description": "Militar que quer usar o portal como arma", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "pd-1",
+      "prompt": "Nathan ativa acidentalmente o portal quântico",
+      "imageUrl": "https://pollinations.ai/p/Nathan%20ativa%20acidentalmente%20o%20portal%20quântico?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No laboratório, Nathan ajusta as frequências quânticas quando um pulso de energia rasga o espaço-tempo. Um portal brilhante se abre revelando outro mundo.",
+      "visualDescription": "Laboratório científico avançado com portal dimensional brilhante se abrindo, energias quânticas ao redor"
+    },
+    {
+      "id": "pd-2",
+      "prompt": "Nathan explora a dimensão alternativa",
+      "imageUrl": "https://pollinations.ai/p/Nathan%20explora%20a%20dimensão%20alternativa?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Do outro lado, Nathan encontra uma Terra onde a humanidade evoluiu para ser pacífica e tecnologicamente avançada. Cidades flutuam nas nuvens, sustentadas por energia limpa.",
+      "visualDescription": "Mundo futurístico com cidades flutuantes, tecnologia orgânica e habitantes humanoides evoluídos"
+    },
+    {
+      "id": "pd-3",
+      "prompt": "Zara-7 explica a diferença entre os mundos",
+      "imageUrl": "https://pollinations.ai/p/Zara-7%20explica%20a%20diferença%20entre%20os%20mundos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Zara-7 revela que sua dimensão superou a guerra e a destruição há milênios. Eles observaram nossa dimensão e sabem que estamos à beira do colapso.",
+      "visualDescription": "Sala de conselho futurística com hologramas mostrando as duas dimensões em comparação"
+    },
+    {
+      "id": "pd-4",
+      "prompt": "O General descobre o portal e planeja invasão",
+      "imageUrl": "https://pollinations.ai/p/O%20General%20descobre%20o%20portal%20e%20planeja%20invasão?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O General Morrison invade o laboratório com tropas militares. Ele vê o portal como oportunidade para conquistar recursos da dimensão pacífica.",
+      "visualDescription": "Soldados militares cercando o portal, General observando a dimensão alternativa com ganância"
+    },
+    {
+      "id": "pd-5",
+      "prompt": "Nathan deve escolher qual mundo salvar",
+      "imageUrl": "https://pollinations.ai/p/Nathan%20deve%20escolher%20qual%20mundo%20salvar?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Nathan percebe que só pode manter um portal ativo. Ele escolhe selar nossa dimensão para proteger a pacífica, sacrificando nossa chance de evolução.",
+      "visualDescription": "Nathan no centro do portal se fechando, energias dimensionais colapsando ao redor"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Portal%20da%20Dimensão%2C%20ficção%20científica?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

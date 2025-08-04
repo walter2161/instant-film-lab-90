@@ -1,0 +1,64 @@
+{
+  "id": "mundo-magico",
+  "title": "Mundo Mágico",
+  "genre": "Fantasia",
+  "style": "Aventura Mágica",
+  "duration": "2 minutos",
+  "synopsis": "Um jovem bruxo descobre seus poderes em uma escola de magia e deve enfrentar um poderoso feiticeiro das trevas que ameaça o mundo mágico.",
+  "characters": [
+    { "name": "Harry Mason", "description": "Jovem bruxo corajoso", "voice": "male" },
+    { "name": "Luna Bright", "description": "Bruxa inteligente e leal", "voice": "female" },
+    { "name": "Professor Merlin", "description": "Sábio diretor da escola", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "mm-1",
+      "prompt": "Harry descobre que é um bruxo na escola mágica",
+      "imageUrl": "https://pollinations.ai/p/Jovem%20bruxo%20descobrindo%20poderes%20em%20escola%20de%20magia%20majestosa?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Harry Mason descobre que é um bruxo ao receber uma carta misteriosa para a Escola de Magia.",
+      "visualDescription": "Escola de magia impressionante com jovem bruxo descobrindo seus poderes"
+    },
+    {
+      "id": "mm-2",
+      "prompt": "Primeiras aulas de magia e feitiços",
+      "imageUrl": "https://pollinations.ai/p/Aulas%20de%20magia%20com%20jovens%20bruxos%20aprendendo%20feitiços?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Nas salas de aula mágicas, Harry aprende seus primeiros feitiços ao lado de Luna.",
+      "visualDescription": "Sala de aula mágica com jovens bruxos praticando feitiços"
+    },
+    {
+      "id": "mm-3",
+      "prompt": "Descoberta sobre o feiticeiro das trevas",
+      "imageUrl": "https://pollinations.ai/p/Revelação%20sobre%20feiticeiro%20das%20trevas%20ameaçando%20mundo%20mágico?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Professor Merlin revela que Voldemort, o feiticeiro das trevas, retornou para destruir o mundo mágico.",
+      "visualDescription": "Biblioteca mágica com revelação sombria sobre o vilão"
+    },
+    {
+      "id": "mm-4",
+      "prompt": "Batalha mágica épica contra as trevas",
+      "imageUrl": "https://pollinations.ai/p/Batalha%20mágica%20épica%20entre%20jovens%20bruxos%20e%20forças%20das%20trevas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Harry e seus amigos enfrentam criaturas das trevas em uma batalha mágica espetacular.",
+      "visualDescription": "Batalha mágica com feitiços e criaturas fantásticas"
+    },
+    {
+      "id": "mm-5",
+      "prompt": "Harry vence o mal com o poder da amizade",
+      "imageUrl": "https://pollinations.ai/p/Jovem%20bruxo%20vencendo%20mal%20com%20poder%20da%20amizade%20e%20amor?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Com o poder da amizade e do amor, Harry derrota Voldemort e salva o mundo mágico.",
+      "visualDescription": "Vitória luminosa do bem sobre o mal com magia dourada"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Mundo%20Mágico%20fantasia%20aventura%20jovem%20bruxo?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

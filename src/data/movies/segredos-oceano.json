@@ -1,0 +1,63 @@
+{
+  "id": "segredos-oceano",
+  "title": "Segredos do Oceano",
+  "genre": "Documentário",
+  "style": "Vida Marinha",
+  "duration": "2 minutos",
+  "synopsis": "Uma expedição às profundezas dos oceanos revela criaturas extraordinárias e ecossistemas únicos que jamais foram filmados antes.",
+  "characters": [
+    { "name": "Dr. Marina Costa", "description": "Bióloga marinha especialista", "voice": "female" },
+    { "name": "Capitão Torres", "description": "Experiente explorador submarino", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "so-1",
+      "prompt": "Submersão em águas cristalinas do oceano",
+      "imageUrl": "https://pollinations.ai/p/Submersão%20em%20águas%20cristalinas%20do%20oceano%20com%20vida%20marinha?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Mergulhamos nas águas cristalinas revelando um mundo subaquático de beleza indescritível.",
+      "visualDescription": "Águas oceânicas cristalinas com vida marinha abundante"
+    },
+    {
+      "id": "so-2",
+      "prompt": "Cardumes gigantescas de peixes tropicais",
+      "imageUrl": "https://pollinations.ai/p/Cardumes%20gigantescas%20de%20peixes%20tropicais%20coloridos%20no%20oceano?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Cardumes de milhares de peixes dançam sincronizados, criando espetáculos naturais únicos.",
+      "visualDescription": "Cardumes massivos de peixes coloridos em formação sincronizada"
+    },
+    {
+      "id": "so-3",
+      "prompt": "Encontro com baleias majestosas",
+      "imageUrl": "https://pollinations.ai/p/Encontro%20com%20baleias%20majestosas%20nas%20profundezas%20do%20oceano?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "As baleias cantam suas melodias ancestrais, comunicando-se através dos oceanos.",
+      "visualDescription": "Baleias majestosas cantando nas profundezas oceânicas"
+    },
+    {
+      "id": "so-4",
+      "prompt": "Descoberta de espécies nunca vistas antes",
+      "imageUrl": "https://pollinations.ai/p/Descoberta%20de%20espécies%20marinhas%20nunca%20vistas%20nas%20profundezas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Nas profundezas, descobrimos criaturas bioluminescentes que parecem alienígenas.",
+      "visualDescription": "Criaturas marinhas bioluminescentes únicas nas profundezas"
+    },
+    {
+      "id": "so-5",
+      "prompt": "Recifes de corais em toda sua glória",
+      "imageUrl": "https://pollinations.ai/p/Recifes%20de%20corais%20coloridos%20em%20toda%20sua%20glória%20natural?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Os recifes de coral são verdadeiras metrópoles subaquáticas, lar de milhares de espécies.",
+      "visualDescription": "Recifes de coral vibrantes com ecosistema marinho diverso"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20documentário%20Segredos%20do%20Oceano%20vida%20marinha?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

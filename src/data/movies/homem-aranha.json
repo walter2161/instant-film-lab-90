@@ -1,0 +1,219 @@
+{
+  "id": "homem-aranha",
+  "title": "Homem-Aranha",
+  "genre": "Super-Herói",
+  "style": "Ação Jovem",
+  "duration": "2 minutos",
+  "synopsis": "Um jovem estudante ganha poderes de aranha e deve aprender que com grandes poderes vêm grandes responsabilidades.",
+  "characters": [
+    { "name": "Peter Parker", "description": "Estudante com poderes de aranha", "voice": "male" },
+    { "name": "Mary Jane", "description": "Interesse romântico corajosa", "voice": "female" },
+    { "name": "Duende Verde", "description": "Vilão com armadura tecnológica", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "ha-1",
+      "prompt": "Peter Parker estudante comum",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20estudante%20tímido%20na%20escola%20secundária?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Peter Parker é um estudante tímido e inteligente do ensino médio.",
+      "dialogue": "Peter Parker: 'Só queria ser notado por alguém além dos valentões.'",
+      "visualDescription": "Escola secundária com estudante tímido"
+    },
+    {
+      "id": "ha-2",
+      "prompt": "Excursão ao laboratório científico",
+      "imageUrl": "https://pollinations.ai/p/Excursão%20escolar%20ao%20laboratório%20de%20pesquisa%20científica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A turma visita um laboratório de pesquisa genética.",
+      "dialogue": "Mary Jane: 'Peter, você sempre se empolga com essas coisas científicas.'",
+      "visualDescription": "Laboratório moderno com estudantes em excursão"
+    },
+    {
+      "id": "ha-3",
+      "prompt": "A aranha radioativa",
+      "imageUrl": "https://pollinations.ai/p/Aranha%20radioativa%20escapando%20no%20laboratório%20científico?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Uma aranha geneticamente modificada escapa de seu recipiente.",
+      "dialogue": "Peter Parker: 'Que aranha estranha... parece estar brilhando.'",
+      "visualDescription": "Aranha radioativa se movendo pelo laboratório"
+    },
+    {
+      "id": "ha-4",
+      "prompt": "Peter é picado pela aranha",
+      "imageUrl": "https://pollinations.ai/p/Jovem%20estudante%20sendo%20picado%20por%20aranha%20radioativa?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A aranha pica Peter antes que ele possa reagir.",
+      "dialogue": "Peter Parker: 'Ai! Essa aranha me picou!'",
+      "visualDescription": "Momento da picada da aranha radioativa"
+    },
+    {
+      "id": "ha-5",
+      "prompt": "Peter sente-se mal",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20se%20sentindo%20mal%20após%20picada?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Peter começa a se sentir estranho no caminho para casa.",
+      "dialogue": "Peter Parker: 'Não me sinto bem... algo está acontecendo comigo.'",
+      "visualDescription": "Peter caminhando para casa se sentindo mal"
+    },
+    {
+      "id": "ha-6",
+      "prompt": "Despertar com poderes",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20despertando%20com%20poderes%20de%20aranha?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Peter desperta com força sobre-humana e sentidos aguçados.",
+      "dialogue": "Peter Parker: 'O que está acontecendo comigo? Posso ouvir tudo!'",
+      "visualDescription": "Peter descobrindo seus novos sentidos aguçados"
+    },
+    {
+      "id": "ha-7",
+      "prompt": "Descoberta dos poderes de teia",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20descobrindo%20poderes%20de%20teia%20de%20aranha?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Peter descobre que pode produzir teias orgânicas.",
+      "dialogue": "Peter Parker: 'Isso é impossível! Estou disparando teias!'",
+      "visualDescription": "Primeiros testes dos poderes de teia"
+    },
+    {
+      "id": "ha-8",
+      "prompt": "Testando poderes de escalada",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20testando%20poderes%20escalando%20parede?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Peter descobre que pode aderir às paredes como uma aranha.",
+      "dialogue": "Peter Parker: 'Estou grudando na parede! Como uma aranha de verdade!'",
+      "visualDescription": "Peter escalando parede pela primeira vez"
+    },
+    {
+      "id": "ha-9",
+      "prompt": "Criação do uniforme",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20criando%20uniforme%20do%20Homem-Aranha?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Peter cria seu primeiro uniforme de Homem-Aranha.",
+      "dialogue": "Peter Parker: 'Se vou ser um herói, preciso de um visual apropriado.'",
+      "visualDescription": "Peter costurando o uniforme vermelho e azul"
+    },
+    {
+      "id": "ha-10",
+      "prompt": "Primeiros testes como herói",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20fazendo%20primeiros%20testes%20balançando%20na%20cidade?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "O Homem-Aranha testa suas habilidades balançando pela cidade.",
+      "dialogue": "Peter Parker: 'Incrível! Posso viajar por toda Nova York assim!'",
+      "visualDescription": "Homem-Aranha balançando entre prédios pela primeira vez"
+    },
+    {
+      "id": "ha-11",
+      "prompt": "Primeiro crime impedido",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20impedindo%20primeiro%20crime%20na%20cidade?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Peter impede seu primeiro assalto como Homem-Aranha.",
+      "dialogue": "Peter Parker: 'Alto aí, ladrões! O Homem-Aranha chegou!'",
+      "visualDescription": "Primeira ação heroica impedindo assalto"
+    },
+    {
+      "id": "ha-12",
+      "prompt": "Surgimento do Duende Verde",
+      "imageUrl": "https://pollinations.ai/p/Duende%20Verde%20aparecendo%20pela%20primeira%20vez%20ameaçador?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Um novo vilão emerge nas ruas de Nova York.",
+      "dialogue": "Duende Verde: 'Nova York precisa de um novo rei! E esse rei sou eu!'",
+      "visualDescription": "Duende Verde em seu planador sobre a cidade"
+    },
+    {
+      "id": "ha-13",
+      "prompt": "Primeiro confronto com Duende",
+      "imageUrl": "https://pollinations.ai/p/Primeiro%20confronto%20entre%20Homem-Aranha%20e%20Duende%20Verde?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Homem-Aranha enfrenta o Duende Verde pela primeira vez.",
+      "dialogue": "Peter Parker: 'Não vou deixar você aterrorizar pessoas inocentes!'",
+      "visualDescription": "Primeira batalha entre herói e vilão"
+    },
+    {
+      "id": "ha-14",
+      "prompt": "Mary Jane em perigo",
+      "imageUrl": "https://pollinations.ai/p/Mary%20Jane%20em%20perigo%20capturada%20pelo%20Duende%20Verde?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "O Duende Verde sequestra Mary Jane para atrair o Homem-Aranha.",
+      "dialogue": "Mary Jane: 'Peter, me ajude! Onde está o Homem-Aranha?'",
+      "visualDescription": "Mary Jane em perigo nas mãos do vilão"
+    },
+    {
+      "id": "ha-15",
+      "prompt": "Corrida contra o tempo",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20em%20corrida%20contra%20tempo%20para%20salvar%20Mary%20Jane?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Peter corre contra o tempo para salvar Mary Jane.",
+      "dialogue": "Peter Parker: 'Aguente firme, MJ! Estou chegando!'",
+      "visualDescription": "Homem-Aranha balançando desesperadamente pela cidade"
+    },
+    {
+      "id": "ha-16",
+      "prompt": "Batalha final na ponte",
+      "imageUrl": "https://pollinations.ai/p/Batalha%20final%20entre%20Homem-Aranha%20e%20Duende%20Verde%20na%20ponte?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "O confronto final acontece na ponte de Manhattan.",
+      "dialogue": "Duende Verde: 'Escolha, aranhaço! Salve a cidade ou a garota!'",
+      "visualDescription": "Batalha épica na ponte com a cidade ao fundo"
+    },
+    {
+      "id": "ha-17",
+      "prompt": "Salvamento heroico",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20salvando%20Mary%20Jane%20heroicamente?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Peter consegue salvar Mary Jane e derrotar o Duende.",
+      "dialogue": "Peter Parker: 'Posso fazer os dois! Com grandes poderes...'",
+      "visualDescription": "Salvamento dramático com teias"
+    },
+    {
+      "id": "ha-18",
+      "prompt": "Vitória sobre o Duende Verde",
+      "imageUrl": "https://pollinations.ai/p/Vitória%20do%20Homem-Aranha%20sobre%20Duende%20Verde?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "O Duende Verde é finalmente derrotado pelo Homem-Aranha.",
+      "dialogue": "Duende Verde: 'Isso não acabou, Homem-Aranha! Voltarei!'",
+      "visualDescription": "Duende Verde derrotado e capturado"
+    },
+    {
+      "id": "ha-19",
+      "prompt": "Reconhecimento como herói",
+      "imageUrl": "https://pollinations.ai/p/Homem-Aranha%20sendo%20reconhecido%20como%20herói%20pela%20cidade?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Nova York reconhece o Homem-Aranha como seu novo protetor.",
+      "dialogue": "Mary Jane: 'Obrigada, Homem-Aranha. Você salvou todos nós.'",
+      "visualDescription": "Multidão aplaudindo o herói"
+    },
+    {
+      "id": "ha-20",
+      "prompt": "Peter aceita sua responsabilidade",
+      "imageUrl": "https://pollinations.ai/p/Peter%20Parker%20aceitando%20responsabilidade%20como%20herói?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Peter abraça seu destino como protetor de Nova York.",
+      "dialogue": "Peter Parker: '...vêm grandes responsabilidades. E eu aceito essa responsabilidade.'",
+      "visualDescription": "Homem-Aranha observando a cidade do alto de um prédio"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Homem-Aranha%20super-herói%20jovem%20ação?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

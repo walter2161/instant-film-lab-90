@@ -1,0 +1,64 @@
+{
+  "id": "cavaleiro-trevas",
+  "title": "Cavaleiro das Trevas",
+  "genre": "Super-Herói",
+  "style": "Ação Urbana",
+  "duration": "2 minutos",
+  "synopsis": "O homem morcego protege Gotham City de criminosos perigosos, enfrentando o caótico Coringa em uma batalha psicológica.",
+  "characters": [
+    { "name": "Bruce Wayne", "description": "Bilionário vigilante mascarado", "voice": "male" },
+    { "name": "Coringa", "description": "Vilão psicopata caótico", "voice": "male" },
+    { "name": "Comissário Gordon", "description": "Policial honesto aliado", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "ct-1",
+      "prompt": "Batman patrulhando Gotham City noturna",
+      "imageUrl": "https://pollinations.ai/p/Batman%20patrulhando%20Gotham%20City%20noturna%20sombria%20urbana?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Nas sombras de Gotham, o Cavaleiro das Trevas patrulha as ruas protegendo inocentes.",
+      "visualDescription": "Gotham City noturna com Batman nas sombras urbanas"
+    },
+    {
+      "id": "ct-2",
+      "prompt": "Coringa causando caos nas ruas",
+      "imageUrl": "https://pollinations.ai/p/Coringa%20causando%20caos%20e%20terror%20nas%20ruas%20de%20Gotham?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O Coringa espalha o caos pelas ruas de Gotham com seus planos diabólicos e risada sinistra.",
+      "visualDescription": "Caos urbano com Coringa semeando terror na cidade"
+    },
+    {
+      "id": "ct-3",
+      "prompt": "Perseguição épica pelos telhados",
+      "imageUrl": "https://pollinations.ai/p/Perseguição%20épica%20pelos%20telhados%20de%20Gotham%20entre%20herói%20e%20vilão?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma perseguição intensa pelos telhados de Gotham coloca Batman face a face com o Coringa.",
+      "visualDescription": "Perseguição noturna pelos telhados urbanos de Gotham"
+    },
+    {
+      "id": "ct-4",
+      "prompt": "Confronto psicológico final",
+      "imageUrl": "https://pollinations.ai/p/Confronto%20psicológico%20épico%20entre%20Batman%20e%20Coringa?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Batman e Coringa enfrentam-se em uma batalha psicológica sobre ordem versus caos.",
+      "visualDescription": "Confronto dramático entre ordem e caos em ambiente urbano sombrio"
+    },
+    {
+      "id": "ct-5",
+      "prompt": "Batman salvando Gotham da destruição",
+      "imageUrl": "https://pollinations.ai/p/Batman%20salvando%20Gotham%20City%20da%20destruição%20total?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O Cavaleiro das Trevas salva Gotham, provando que mesmo na escuridão, a esperança prevalece.",
+      "visualDescription": "Batman triunfante salvando a cidade da destruição"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Cavaleiro%20das%20Trevas%20super-herói%20urbano%20sombrio?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

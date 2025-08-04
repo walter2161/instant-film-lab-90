@@ -1,0 +1,64 @@
+{
+  "id": "codigo-divino",
+  "title": "Código Divino",
+  "genre": "Thriller",
+  "style": "Mistério Religioso",
+  "duration": "2 minutos",
+  "synopsis": "Um simbologista deve decifrar códigos antigos para encontrar um segredo que pode abalar as bases do cristianismo.",
+  "characters": [
+    { "name": "Dr. Robert Langston", "description": "Simbologista e professor universitário", "voice": "male" },
+    { "name": "Sophie Neveu", "description": "Criptóloga francesa", "voice": "female" },
+    { "name": "Sir Leigh Teabing", "description": "Historiador especialista no Graal", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "cd-1",
+      "prompt": "Assassinato misterioso no Museu do Louvre",
+      "imageUrl": "https://pollinations.ai/p/Assassinato%20misterioso%20no%20Museu%20do%20Louvre%20com%20símbolos%20secretos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No Louvre, um curador é assassinado deixando pistas crípticas que apontam para um segredo milenar.",
+      "visualDescription": "Museu do Louvre com cena de crime e símbolos misteriosos"
+    },
+    {
+      "id": "cd-2",
+      "prompt": "Decifração de códigos da Vinci",
+      "imageUrl": "https://pollinations.ai/p/Decifrando%20códigos%20secretos%20de%20Leonardo%20da%20Vinci%20e%20símbolos%20antigos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Robert e Sophie descobrem que os códigos levam a obras de Leonardo da Vinci e segredos templários.",
+      "visualDescription": "Códigos e símbolos antigos sendo decifrados com obras de arte"
+    },
+    {
+      "id": "cd-3",
+      "prompt": "Perseguição através de locais históricos",
+      "imageUrl": "https://pollinations.ai/p/Perseguição%20dramática%20através%20de%20locais%20históricos%20europeus?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma perseguição intensa leva os protagonistas através de igrejas e castelos históricos.",
+      "visualDescription": "Perseguição emocionante em locais históricos europeus"
+    },
+    {
+      "id": "cd-4",
+      "prompt": "Revelação sobre o Santo Graal",
+      "imageUrl": "https://pollinations.ai/p/Revelação%20chocante%20sobre%20Santo%20Graal%20e%20segredos%20religiosos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A verdade sobre o Santo Graal é revelada, abalando tudo que conheciam sobre a história.",
+      "visualDescription": "Revelação dramática em local sagrado com símbolos religiosos"
+    },
+    {
+      "id": "cd-5",
+      "prompt": "Proteção do segredo sagrado",
+      "imageUrl": "https://pollinations.ai/p/Proteção%20final%20do%20segredo%20sagrado%20em%20local%20histórico?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Robert e Sophie decidem proteger o segredo, compreendendo sua importância para a humanidade.",
+      "visualDescription": "Conclusão solene em local histórico com protagonistas refletivos"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Código%20Divino%20thriller%20mistério%20religioso%20símbolos?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "noites-proibidas",
+  "title": "Noites Proibidas",
+  "genre": "Thriller Sexy",
+  "style": "Erótico Elegante",
+  "duration": "2 minutos",
+  "synopsis": "Uma dançarina de clube noturno elite se envolve em jogos de sedução perigosos com um misterioso magnata, descobrindo segredos que podem destruí-los.",
+  "characters": [
+    { "name": "Scarlett", "description": "Dançarina sensual e inteligente", "voice": "female" },
+    { "name": "Viktor", "description": "Magnata misterioso e sedutor", "voice": "male" },
+    { "name": "Madame Elena", "description": "Dona do clube sofisticado", "voice": "female" }
+  ],
+  "scenes": [
+    {
+      "id": "np-1",
+      "prompt": "Clube noturno sofisticado com atmosfera sensual",
+      "imageUrl": "https://pollinations.ai/p/Clube%20noturno%20sofisticado%20e%20elegante%20com%20atmosfera%20sensual?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No clube mais exclusivo da cidade, Scarlett domina o palco com sua dança hipnotizante.",
+      "visualDescription": "Clube noturno luxuoso com iluminação sensual e ambiente sofisticado"
+    },
+    {
+      "id": "np-2",
+      "prompt": "Primeiro encontro sedutor entre protagonistas",
+      "imageUrl": "https://pollinations.ai/p/Primeiro%20encontro%20sedutor%20elegante%20entre%20casal%20sofisticado?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Viktor observa Scarlett do camarote VIP. O olhar entre eles promete perigo e paixão.",
+      "visualDescription": "Encontro elegante com tensão sexual e atmosfera sofisticada"
+    },
+    {
+      "id": "np-3",
+      "prompt": "Jantar romântico em cobertura luxuosa",
+      "imageUrl": "https://pollinations.ai/p/Jantar%20romântico%20em%20cobertura%20luxuosa%20com%20vista%20da%20cidade?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Na cobertura de Viktor, o jantar íntimo revela segredos perigosos por trás do charme.",
+      "visualDescription": "Cobertura luxuosa com jantar romântico e vista noturna da cidade"
+    },
+    {
+      "id": "np-4",
+      "prompt": "Descoberta de segredos obscuros e traições",
+      "imageUrl": "https://pollinations.ai/p/Descoberta%20de%20segredos%20obscuros%20em%20ambiente%20elegante%20e%20tenso?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett descobre que Viktor não é quem parece. O jogo de sedução se torna mortal.",
+      "visualDescription": "Cena tensa com revelação de segredos em ambiente sofisticado"
+    },
+    {
+      "id": "np-5",
+      "prompt": "Confronto final passional e decisivo",
+      "imageUrl": "https://pollinations.ai/p/Confronto%20final%20passional%20entre%20casal%20em%20ambiente%20dramático?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No confronto final, paixão e traição se misturam. Só um pode sobreviver ao jogo.",
+      "visualDescription": "Confronto dramático e passional com alta tensão emocional"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20elegante%20Noites%20Proibidas%20thriller%20sensual?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

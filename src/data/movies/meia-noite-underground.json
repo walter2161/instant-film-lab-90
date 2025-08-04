@@ -1,0 +1,64 @@
+{
+  "id": "meia-noite-underground",
+  "title": "Meia-Noite Underground",
+  "genre": "Cult",
+  "style": "Underground Experimental",
+  "duration": "2 minutos",
+  "synopsis": "Em túneis abandonados do metrô, artistas renegados criam uma sociedade secreta onde a arte proibida floresce longe dos olhos da censura.",
+  "characters": [
+    { "name": "Raven Black", "description": "Artista grafiteira rebelde", "voice": "female" },
+    { "name": "Echo", "description": "Músico experimental underground", "voice": "male" },
+    { "name": "Professor Void", "description": "Líder da comunidade artística", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "mu-1",
+      "prompt": "Entrada secreta aos túneis abandonados do metrô",
+      "imageUrl": "https://pollinations.ai/p/Entrada%20secreta%20para%20túneis%20abandonados%20underground%20com%20grafites?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Nas profundezas da cidade, uma entrada secreta leva ao mundo underground dos artistas.",
+      "visualDescription": "Túneis de metrô abandonados com grafites e atmosfera underground"
+    },
+    {
+      "id": "mu-2",
+      "prompt": "Galeria de arte subterrânea iluminada por velas",
+      "imageUrl": "https://pollinations.ai/p/Galeria%20de%20arte%20subterrânea%20iluminada%20por%20velas%20experimental?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Raven cria murais proibidos nas paredes. Arte que nunca verá a luz do dia oficial.",
+      "visualDescription": "Galeria subterrânea com arte experimental e iluminação atmosférica"
+    },
+    {
+      "id": "mu-3",
+      "prompt": "Concerto experimental em estação abandonada",
+      "imageUrl": "https://pollinations.ai/p/Concerto%20experimental%20underground%20em%20estação%20de%20metrô%20abandonada?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Echo toca instrumentos improvisados. Sons que ecoam pelos túneis como fantasmas urbanos.",
+      "visualDescription": "Performance musical experimental em estação abandonada"
+    },
+    {
+      "id": "mu-4",
+      "prompt": "Professor Void revelando filosofia da arte livre",
+      "imageUrl": "https://pollinations.ai/p/Líder%20filosófico%20underground%20ensinando%20sobre%20arte%20livre%20experimental?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Professor Void prega que a verdadeira arte só existe quando é perigosa e livre.",
+      "visualDescription": "Ambiente filosófico underground com líder carismático"
+    },
+    {
+      "id": "mu-5",
+      "prompt": "Revolução artística emergindo das sombras",
+      "imageUrl": "https://pollinations.ai/p/Revolução%20artística%20underground%20emergindo%20das%20sombras%20urbanas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A arte underground explode para as ruas. A revolução cultural emerge das profundezas.",
+      "visualDescription": "Arte underground explodindo para a superfície urbana"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20cult%20Meia-Noite%20Underground%20arte%20experimental?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

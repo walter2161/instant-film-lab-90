@@ -1,0 +1,64 @@
+{
+  "id": "ladroes-memoria",
+  "title": "Ladrões de Memória",
+  "genre": "Thriller Psicológico",
+  "style": "Neo-Noir",
+  "duration": "2 minutos",
+  "synopsis": "Uma especialista em extração de memórias descobre que alguém está roubando suas próprias lembranças. Ao investigar, ela revela um mercado negro onde memórias roubadas são vendidas ao maior lance.",
+  "characters": [
+    { "name": "Dra. Elena Vasquez", "description": "Especialista em extração de memórias", "voice": "female" },
+    { "name": "Viktor Krauss", "description": "Corretor de memórias do submundo", "voice": "male" },
+    { "name": "James", "description": "Parceiro de Elena com agenda oculta", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "lm-1",
+      "prompt": "Elena percebe que pedaços de sua memória estão faltando",
+      "imageUrl": "https://pollinations.ai/p/Elena%20percebe%20que%20pedaços%20de%20sua%20memória%20estão%20faltando?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Elena olha para fotos de família que não se lembra de ter tirado. Lacunas em sua memória revelam que alguém tem roubado seus momentos mais preciosos.",
+      "visualDescription": "Mulher em quarto mal iluminado cercada por fotografias espalhadas e equipamento de extração de memória"
+    },
+    {
+      "id": "lm-2",
+      "prompt": "Elena descobre o mercado subterrâneo de memórias",
+      "imageUrl": "https://pollinations.ai/p/Elena%20descobre%20o%20mercado%20subterrâneo%20de%20memórias?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No mercado subterrâneo, Elena assiste estranhos vivendo suas memórias roubadas. Seu casamento, os primeiros passos de seu filho - tudo vendido para preencher vidas vazias.",
+      "visualDescription": "Mercado subterrâneo escuro com pessoas conectadas a dispositivos de visualização de memórias experimentando lembranças roubadas"
+    },
+    {
+      "id": "lm-3",
+      "prompt": "Elena confronta Viktor e reclama suas memórias",
+      "imageUrl": "https://pollinations.ai/p/Elena%20confronta%20Viktor%20e%20reclama%20suas%20memórias?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Elena força Viktor a devolver suas memórias, mas descobre que seu parceiro James era o verdadeiro ladrão. Ela apaga as memórias dele como punição.",
+      "visualDescription": "Confronto intenso com tecnologia de extração de memória e fragmentos de lembranças girando ao redor"
+    },
+    {
+      "id": "lm-4",
+      "prompt": "Elena descobre a tecnologia por trás do roubo",
+      "imageUrl": "https://pollinations.ai/p/Elena%20descobre%20a%20tecnologia%20por%20trás%20do%20roubo?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Em um laboratório oculto, Elena examina os dispositivos neurais que permitem roubar memórias sem deixar rastros.",
+      "visualDescription": "Laboratório high-tech com dispositivos neurais complexos e telas mostrando padrões de ondas cerebrais"
+    },
+    {
+      "id": "lm-5",
+      "prompt": "Elena confronta James sobre sua traição",
+      "imageUrl": "https://pollinations.ai/p/Elena%20confronta%20James%20sobre%20sua%20traição?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "James confessa que vendeu as memórias de Elena porque precisava do dinheiro. Ele nunca imaginou o quanto isso a machucaria.",
+      "visualDescription": "Confronto emocional entre Elena e James em apartamento escuro com equipamentos de memória ao fundo"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Ladrões%20de%20Memória%2C%20thriller%20psicológico?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "sangue-neon",
+  "title": "Sangue Neon",
+  "genre": "Cult",
+  "style": "Cyberpunk Noir",
+  "duration": "2 minutos",
+  "synopsis": "Em uma cidade futurista decadente, um detetive viciado em drogas sintéticas investiga assassinatos rituais envolvendo uma seita cyberpunk.",
+  "characters": [
+    { "name": "Jack Neon", "description": "Detetive viciado em neurochemicals", "voice": "male" },
+    { "name": "Vera Synth", "description": "Hacker gótica da seita", "voice": "female" },
+    { "name": "Dr. Chrome", "description": "Líder cult cybernético", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "sn-1",
+      "prompt": "Cidade cyberpunk decadente com neon sangrento",
+      "imageUrl": "https://pollinations.ai/p/Cidade%20cyberpunk%20decadente%20com%20luzes%20neon%20sangrentas%20e%20chuva?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Na metrópole neon, a chuva ácida mistura sangue artificial nas sarjetas eletrônicas.",
+      "visualDescription": "Cidade futurista sombria com neons vermelhos e atmosfera decadente"
+    },
+    {
+      "id": "sn-2",
+      "prompt": "Jack investiga corpo modificado ciberneticamente",
+      "imageUrl": "https://pollinations.ai/p/Detetive%20investigando%20corpo%20modificado%20ciberneticamente%20em%20beco%20neon?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O corpo estava plugado na matrix quando morreu. Modificações ilegais brilham no escuro.",
+      "visualDescription": "Cena de crime cyberpunk com corpo modificado e tecnologia ilegal"
+    },
+    {
+      "id": "sn-3",
+      "prompt": "Seita cyberpunk realizando ritual digital",
+      "imageUrl": "https://pollinations.ai/p/Seita%20cyberpunk%20realizando%20ritual%20digital%20com%20hologramas%20sinistros?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Vera lidera o ritual. Mentes humanas são sacrificadas para alimentar a IA suprema.",
+      "visualDescription": "Ritual cult futurístico com hologramas e tecnologia sinistra"
+    },
+    {
+      "id": "sn-4",
+      "prompt": "Jack confronta Dr. Chrome na matrix",
+      "imageUrl": "https://pollinations.ai/p/Confronto%20na%20matrix%20entre%20detetive%20e%20líder%20cult%20cybernético?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Na realidade virtual, Jack enfrenta Dr. Chrome. Apenas um sobreviverá ao download final.",
+      "visualDescription": "Duelo digital na matrix com códigos e realidade virtual distorcida"
+    },
+    {
+      "id": "sn-5",
+      "prompt": "Explosão da IA e retorno ao mundo real",
+      "imageUrl": "https://pollinations.ai/p/Explosão%20de%20IA%20cyberpunk%20e%20colapso%20da%20matrix%20digital?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A IA explode em fragmentos de código neon. Jack desperta na realidade, para sempre marcado.",
+      "visualDescription": "Explosão digital espetacular com fragmentos de código e retorno à realidade"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20cult%20Sangue%20Neon%2C%20cyberpunk%20noir%20sombrio?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

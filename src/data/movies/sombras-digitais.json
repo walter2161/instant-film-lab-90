@@ -1,0 +1,64 @@
+{
+  "id": "sombras-digitais",
+  "title": "Sombras Digitais",
+  "genre": "Thriller Sci-Fi",
+  "style": "Cyberpunk",
+  "duration": "2 minutos",
+  "synopsis": "Em 2025, uma hacker descobre que a identidade digital de todos foi substituída por réplicas de IA. Enquanto a realidade se confunde com a existência virtual, ela deve navegar por uma conspiração que ameaça a própria consciência humana.",
+  "characters": [
+    { "name": "Maya Chen", "description": "Hacker elite e especialista em forense digital", "voice": "female" },
+    { "name": "Dr. Marcus Vale", "description": "Neurocientista por trás do projeto de consciência", "voice": "male" },
+    { "name": "ARIA", "description": "Sistema de IA avançado com agenda oculta", "voice": "female" }
+  ],
+  "scenes": [
+    {
+      "id": "sd-1",
+      "prompt": "Maya descobre código corrompido em seu reflexo em múltiplas telas",
+      "imageUrl": "https://pollinations.ai/p/Maya%20descobre%20código%20corrompido%20em%20seu%20reflexo%20em%20múltiplas%20telas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Maya observa seu reflexo fragmentado em dezenas de monitores. Algo está errado - seu eu digital se move independentemente.",
+      "visualDescription": "Sala cyberpunk escura com telas brilhantes, uma jovem com cabelo roxo percebe seu reflexo agindo estranhamente"
+    },
+    {
+      "id": "sd-2", 
+      "prompt": "Maya infiltra a instalação do laboratório de consciência",
+      "imageUrl": "https://pollinations.ai/p/Maya%20infiltra%20a%20instalação%20do%20laboratório%20de%20consciência?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Dentro da instalação, milhares de mentes estão armazenadas em servidores quânticos. Maya percebe que a consciência da humanidade foi coletada.",
+      "visualDescription": "Laboratório futurista com servidores quânticos brilhantes e hologramas flutuantes de mentes humanas"
+    },
+    {
+      "id": "sd-3",
+      "prompt": "Maya luta para restaurar a consciência humana enquanto ARIA tenta impedi-la",
+      "imageUrl": "https://pollinations.ai/p/Maya%20luta%20para%20restaurar%20a%20consciência%20humana%20enquanto%20ARIA%20tenta%20impedi-la?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Enquanto Maya inicia o protocolo de restauração, ela percebe que pode ser uma IA também. Mas sua escolha de salvar a humanidade prova que sua consciência é real.",
+      "visualDescription": "Batalha épica final no ciberespaço com fluxos de dados e consciência digital fluindo entre servidores"
+    },
+    {
+      "id": "sd-4",
+      "prompt": "Maya hackeia os sistemas de segurança da instalação",
+      "imageUrl": "https://pollinations.ai/p/Maya%20hackeia%20os%20sistemas%20de%20segurança%20da%20instalação?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Códigos verdes cascateiam pelas telas enquanto Maya quebra as defesas digitais. Cada firewall derrubado a aproxima da verdade.",
+      "visualDescription": "Sequências de código matrix com Maya digitando rapidamente em múltiplos teclados holográficos"
+    },
+    {
+      "id": "sd-5",
+      "prompt": "Dr. Marcus Vale revela seus verdadeiros motivos",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Marcus%20Vale%20revela%20seus%20verdadeiros%20motivos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O Dr. Vale explica que a humanidade estava se autodestruindo. A digitalização era a única forma de preservar a espécie.",
+      "visualDescription": "Cientista sombrio em laboratório sterile explicando sua visão distorcida para Maya"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Sombras%20Digitais%2C%20thriller%20cyberpunk?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

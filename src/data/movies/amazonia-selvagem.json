@@ -1,0 +1,63 @@
+{
+  "id": "amazonia-selvagem",
+  "title": "Amazônia Selvagem",
+  "genre": "Documentário",
+  "style": "Natureza",
+  "duration": "2 minutos",
+  "synopsis": "Uma jornada épica pela Amazônia revelando segredos da maior floresta tropical do mundo e sua vida selvagem única.",
+  "characters": [
+    { "name": "Dr. Ana Silva", "description": "Bióloga especialista em fauna amazônica", "voice": "female" },
+    { "name": "Cacique Raoni", "description": "Líder indígena guardião da floresta", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "as-1",
+      "prompt": "Vista aérea majestosa da floresta amazônica",
+      "imageUrl": "https://pollinations.ai/p/Vista%20aérea%20majestosa%20da%20floresta%20amazônica%20ao%20nascer%20do%20sol?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Do alto, a Amazônia se estende infinitamente como um mar verde, lar de milhões de espécies.",
+      "visualDescription": "Vista aérea da floresta amazônica com rios serpenteando"
+    },
+    {
+      "id": "as-2",
+      "prompt": "Jaguares caçando na mata fechada",
+      "imageUrl": "https://pollinations.ai/p/Jaguar%20caçando%20na%20mata%20fechada%20da%20Amazônia?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O jaguar, predador supremo, move-se silenciosamente pela vegetação densa.",
+      "visualDescription": "Jaguar em posição de caça na floresta amazônica"
+    },
+    {
+      "id": "as-3",
+      "prompt": "Aves exóticas voando sobre o dossel",
+      "imageUrl": "https://pollinations.ai/p/Aves%20exóticas%20coloridas%20voando%20sobre%20dossel%20amazônico?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Araras e tucanos pintam o céu com suas cores vibrantes, guardiões do ar amazônico.",
+      "visualDescription": "Bandos de aves coloridas voando sobre a copa das árvores"
+    },
+    {
+      "id": "as-4",
+      "prompt": "Tribos indígenas preservando tradições",
+      "imageUrl": "https://pollinations.ai/p/Tribo%20indígena%20amazônica%20preservando%20tradições%20ancestrais?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Os povos originários mantêm viva a sabedoria ancestral, verdadeiros guardiões da floresta.",
+      "visualDescription": "Aldeia indígena com membros da tribo em atividades tradicionais"
+    },
+    {
+      "id": "as-5",
+      "prompt": "Rio Amazonas serpenteando pela floresta",
+      "imageUrl": "https://pollinations.ai/p/Rio%20Amazonas%20serpenteando%20pela%20floresta%20com%20vida%20aquática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O poderoso Rio Amazonas é a artéria vital que alimenta toda esta biodiversidade única.",
+      "visualDescription": "Rio Amazonas com vida aquática abundante e floresta nas margens"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20documentário%20Amazônia%20Selvagem%2C%20natureza%20exuberante?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

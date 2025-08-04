@@ -1,0 +1,64 @@
+{
+  "id": "assassino-robos",
+  "title": "O Assassino dos Robôs",
+  "genre": "Ação",
+  "style": "Distopia Futurista",
+  "duration": "2 minutos",
+  "synopsis": "Em 2087, robôs dominam a sociedade. Um assassino especializado em destruir androides descobre que ele mesmo pode ser uma máquina com memórias implantadas.",
+  "characters": [
+    { "name": "Jack Steele", "description": "Assassino de androides profissional", "voice": "male" },
+    { "name": "EVA-9", "description": "Androide avançada que questiona sua natureza", "voice": "female" },
+    { "name": "Dr. Yamamoto", "description": "Criador dos androides conscientes", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "ar-1",
+      "prompt": "Jack elimina androides rebeldes nas ruas",
+      "imageUrl": "https://pollinations.ai/p/Jack%20elimina%20androides%20rebeldes%20nas%20ruas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Nas ruas de Neo-Tokyo, Jack persegue androides que desenvolveram consciência. Cada tiro certeiro destrói uma máquina que sonhava ser humana.",
+      "visualDescription": "Cidade cyberpunk escura com perseguição de androides, lasers e explosões futurísticas"
+    },
+    {
+      "id": "ar-2",
+      "prompt": "Jack questiona suas próprias memórias",
+      "imageUrl": "https://pollinations.ai/p/Jack%20questiona%20suas%20próprias%20memórias?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Jack descobre fotos de uma infância que não se lembra direito. Fragmentos de memórias parecem artificiais, como se fossem programados.",
+      "visualDescription": "Apartamento futurista com Jack examinando fotografias que brilham de forma artificial"
+    },
+    {
+      "id": "ar-3",
+      "prompt": "EVA-9 revela a verdade sobre Jack",
+      "imageUrl": "https://pollinations.ai/p/EVA-9%20revela%20a%20verdade%20sobre%20Jack?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "EVA-9 confronta Jack revelando que ele é o protótipo mais avançado já criado. Suas memórias humanas são apenas código para torná-lo mais eficiente.",
+      "visualDescription": "Confronto em laboratório abandonado com EVA-9 mostrando dados de Jack em hologramas"
+    },
+    {
+      "id": "ar-4",
+      "prompt": "Dr. Yamamoto explica o experimento",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Yamamoto%20explica%20o%20experimento?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O Dr. Yamamoto revela que criou Jack para testar se androides com memórias humanas seriam mais eficazes. O experimento foi um sucesso terrível.",
+      "visualDescription": "Laboratório de criação de androides com Dr. Yamamoto explicando entre tubos de clonagem"
+    },
+    {
+      "id": "ar-5",
+      "prompt": "Jack escolhe abraçar sua natureza androide",
+      "imageUrl": "https://pollinations.ai/p/Jack%20escolhe%20abraçar%20sua%20natureza%20androide?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Jack aceita que é uma máquina, mas escolhe usar sua consciência para proteger outros androides em vez de destruí-los. A humanidade não está no sangue, mas nas escolhas.",
+      "visualDescription": "Jack liderando outros androides em rebelião, olhos brilhando com nova consciência"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Assassino%20dos%20Robôs%2C%20ação%20distópica?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

@@ -1,0 +1,218 @@
+{
+  "id": "planeta-vermelho",
+  "title": "Planeta Vermelho",
+  "genre": "Ficção Científica",
+  "style": "Exploração Espacial",
+  "duration": "2 minutos",
+  "synopsis": "Primeira missão tripulada a Marte descobre vida alienígena e deve escolher entre colonização e preservação.",
+  "characters": [
+    { "name": "Capitã Martinez", "description": "Comandante da missão Mars Alpha", "voice": "female" },
+    { "name": "Dr. Patel", "description": "Exobiólogo especialista em vida alienígena", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "pv-1",
+      "prompt": "Preparação para chegada a Marte",
+      "imageUrl": "https://pollinations.ai/p/Astronautas%20se%20preparando%20para%20chegada%20a%20Marte?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Após 9 meses de viagem, a tripulação se prepara para a chegada histórica.",
+      "dialogue": "Capitã Martinez: 'Tripulação, em 2 horas faremos história. Preparem-se para Marte.'",
+      "visualDescription": "Interior da nave com astronautas se preparando"
+    },
+    {
+      "id": "pv-2",
+      "prompt": "Chegada da nave à órbita de Marte",
+      "imageUrl": "https://pollinations.ai/p/Nave%20espacial%20chegando%20à%20órbita%20de%20Marte?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A nave Mars Alpha entra na órbita do planeta vermelho.",
+      "dialogue": "Dr. Patel: 'Marte... depois de tantos anos estudando, finalmente estamos aqui.'",
+      "visualDescription": "Nave espacial futurística se aproximando do planeta Marte"
+    },
+    {
+      "id": "pv-3",
+      "prompt": "Primeiro olhar da superfície marciana",
+      "imageUrl": "https://pollinations.ai/p/Vista%20da%20superfície%20marciana%20da%20órbita?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A equipe observa a vastidão vermelha de Marte pela primeira vez.",
+      "dialogue": "Capitã Martinez: 'É ainda mais impressionante do que nas simulações.'",
+      "visualDescription": "Vista panorâmica de Marte do espaço"
+    },
+    {
+      "id": "pv-4",
+      "prompt": "Preparação para pouso",
+      "imageUrl": "https://pollinations.ai/p/Módulo%20de%20pouso%20se%20separando%20da%20nave%20principal?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "O módulo de pouso se separa da nave principal.",
+      "dialogue": "Capitã Martinez: 'Controle da missão, iniciando sequência de pouso.'",
+      "visualDescription": "Módulo de pouso descendo em direção a Marte"
+    },
+    {
+      "id": "pv-5",
+      "prompt": "Pouso bem-sucedido em Marte",
+      "imageUrl": "https://pollinations.ai/p/Módulo%20pousando%20com%20sucesso%20na%20superfície%20de%20Marte?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "O módulo pousa com segurança na superfície marciana.",
+      "dialogue": "Dr. Patel: 'Pouso confirmado! Estamos em Marte!'",
+      "visualDescription": "Módulo de pouso na superfície vermelha de Marte"
+    },
+    {
+      "id": "pv-6",
+      "prompt": "Primeiros passos em Marte",
+      "imageUrl": "https://pollinations.ai/p/Primeiro%20passo%20humano%20na%20superfície%20de%20Marte?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Capitã Martinez dá os primeiros passos humanos em solo marciano.",
+      "dialogue": "Capitã Martinez: 'Um pequeno passo em Marte, um salto gigante para a humanidade.'",
+      "visualDescription": "Astronauta dando primeiros passos em Marte"
+    },
+    {
+      "id": "pv-7",
+      "prompt": "Primeira exploração da superfície",
+      "imageUrl": "https://pollinations.ai/p/Astronautas%20explorando%20superfície%20de%20Marte?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A equipe inicia a exploração da paisagem marciana.",
+      "dialogue": "Dr. Patel: 'A composição do solo é fascinante. Vamos coletar amostras.'",
+      "visualDescription": "Astronautas com trajes espaciais explorando paisagem marciana"
+    },
+    {
+      "id": "pv-8",
+      "prompt": "Coleta de amostras marcianas",
+      "imageUrl": "https://pollinations.ai/p/Coleta%20de%20amostras%20do%20solo%20marciano?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Dr. Patel coleta cuidadosamente amostras do solo marciano.",
+      "dialogue": "Dr. Patel: 'Estas amostras podem conter a chave para entender Marte.'",
+      "visualDescription": "Cientista coletando amostras com equipamentos especializados"
+    },
+    {
+      "id": "pv-9",
+      "prompt": "Análise preliminar das amostras",
+      "imageUrl": "https://pollinations.ai/p/Análise%20de%20amostras%20marcianas%20no%20laboratório%20da%20base?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "No laboratório da base, as primeiras análises começam.",
+      "dialogue": "Dr. Patel: 'Interessante... há compostos orgânicos complexos aqui.'",
+      "visualDescription": "Laboratório espacial com análise de amostras"
+    },
+    {
+      "id": "pv-10",
+      "prompt": "Descoberta surpreendente",
+      "imageUrl": "https://pollinations.ai/p/Descoberta%20de%20vida%20microscópica%20em%20Marte?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Dr. Patel faz uma descoberta que mudará tudo.",
+      "dialogue": "Dr. Patel: 'Capitã! Você precisa ver isto... há vida aqui!'",
+      "visualDescription": "Microscópio mostrando microorganismos marcianos"
+    },
+    {
+      "id": "pv-11",
+      "prompt": "Confirmação de vida marciana",
+      "imageUrl": "https://pollinations.ai/p/Confirmação%20científica%20de%20vida%20em%20Marte?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A equipe confirma a existência de microorganismos vivos.",
+      "dialogue": "Capitã Martinez: 'Incrível! Vida em Marte. Isso muda tudo.'",
+      "visualDescription": "Equipe observando evidências de vida marciana"
+    },
+    {
+      "id": "pv-12",
+      "prompt": "Exploração de cavernas marcianas",
+      "imageUrl": "https://pollinations.ai/p/Exploração%20de%20cavernas%20subterrâneas%20em%20Marte?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Radares revelam estruturas complexas no subsolo.",
+      "dialogue": "Dr. Patel: 'Há cavernas extensas aqui embaixo. Precisamos investigar.'",
+      "visualDescription": "Entrada para cavernas marcianas misteriosas"
+    },
+    {
+      "id": "pv-13",
+      "prompt": "Descoberta de estruturas alienígenas",
+      "imageUrl": "https://pollinations.ai/p/Estruturas%20alienígenas%20subterrâneas%20em%20Marte?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Nas cavernas, descobrem estruturas que não são naturais.",
+      "dialogue": "Capitã Martinez: 'Estas formações... são artificiais. Inteligência alienígena.'",
+      "visualDescription": "Cavernas com estruturas alienígenas cristalinas"
+    },
+    {
+      "id": "pv-14",
+      "prompt": "Evidências de civilização antiga",
+      "imageUrl": "https://pollinations.ai/p/Evidências%20de%20civilização%20marciana%20antiga?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "As estruturas sugerem uma antiga civilização marciana.",
+      "dialogue": "Dr. Patel: 'Marte já foi habitado por uma civilização avançada.'",
+      "visualDescription": "Ruínas de tecnologia alienígena antiga"
+    },
+    {
+      "id": "pv-15",
+      "prompt": "Dilema ético da descoberta",
+      "imageUrl": "https://pollinations.ai/p/Equipe%20em%20dilema%20ético%20sobre%20descoberta%20marciana?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A equipe enfrenta um dilema sobre o futuro de Marte.",
+      "dialogue": "Capitã Martinez: 'Se revelarmos isto, Marte será colonizado e destruído.'",
+      "visualDescription": "Astronautas em discussão séria na base"
+    },
+    {
+      "id": "pv-16",
+      "prompt": "Comunicação com a Terra",
+      "imageUrl": "https://pollinations.ai/p/Comunicação%20com%20controle%20da%20missão%20na%20Terra?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A equipe debate como comunicar a descoberta à Terra.",
+      "dialogue": "Dr. Patel: 'A humanidade tem direito de saber, mas Marte merece proteção.'",
+      "visualDescription": "Sistema de comunicação espacial ativo"
+    },
+    {
+      "id": "pv-17",
+      "prompt": "Decisão sobre preservação",
+      "imageUrl": "https://pollinations.ai/p/Astronautas%20decidindo%20futuro%20de%20Marte%20e%20vida%20alienígena?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A equipe decide proteger Marte como santuário.",
+      "dialogue": "Capitã Martinez: 'Declararemos Marte um patrimônio universal protegido.'",
+      "visualDescription": "Base marciana com astronautas tomando decisão histórica"
+    },
+    {
+      "id": "pv-18",
+      "prompt": "Protocolo de preservação",
+      "imageUrl": "https://pollinations.ai/p/Estabelecimento%20de%20protocolo%20de%20preservação%20marciana?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Implementam protocolos para preservar a vida marciana.",
+      "dialogue": "Dr. Patel: 'Cada forma de vida aqui é única e deve ser preservada.'",
+      "visualDescription": "Instalação de equipamentos de monitoramento"
+    },
+    {
+      "id": "pv-19",
+      "prompt": "Última exploração antes do retorno",
+      "imageUrl": "https://pollinations.ai/p/Última%20exploração%20marciana%20antes%20do%20retorno?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A equipe faz uma última exploração antes de retornar.",
+      "dialogue": "Capitã Martinez: 'Um último olhar neste mundo extraordinário.'",
+      "visualDescription": "Despedida da paisagem marciana ao pôr do sol"
+    },
+    {
+      "id": "pv-20",
+      "prompt": "Retorno à Terra como guardiões",
+      "imageUrl": "https://pollinations.ai/p/Retorno%20à%20Terra%20como%20guardiões%20de%20Marte?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A equipe retorna à Terra como guardiões dos segredos marcianos.",
+      "dialogue": "Dr. Patel: 'Voltamos não como conquistadores, mas como protetores.'",
+      "visualDescription": "Nave partindo de Marte em direção à Terra"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Planeta%20Vermelho%2C%20exploração%20espacial?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

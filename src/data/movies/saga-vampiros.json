@@ -1,0 +1,219 @@
+{
+  "id": "saga-vampiros",
+  "title": "Saga dos Vampiros",
+  "genre": "Romance Sobrenatural",
+  "style": "Fantasy Romance",
+  "duration": "2 minutos",
+  "synopsis": "Uma adolescente se apaixona por um vampiro centenário e deve escolher entre o amor eterno e sua vida mortal.",
+  "characters": [
+    { "name": "Bella Swan", "description": "Adolescente apaixonada", "voice": "female" },
+    { "name": "Edward Cullen", "description": "Vampiro centenário e sedutor", "voice": "male" },
+    { "name": "Jacob Black", "description": "Lobisomem protetor", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "sv-1",
+      "prompt": "Chegada de Bella a Forks",
+      "imageUrl": "https://pollinations.ai/p/Adolescente%20chegando%20à%20cidade%20nebulosa%20de%20Forks?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Bella Swan se muda para a pequena e nebulosa cidade de Forks.",
+      "dialogue": "Bella Swan: 'Forks... definitivamente não é Phoenix. Tudo aqui é tão... sombrio.'",
+      "visualDescription": "Cidade pequena e nebulosa com atmosfera melancólica"
+    },
+    {
+      "id": "sv-2",
+      "prompt": "Primeiro dia na nova escola",
+      "imageUrl": "https://pollinations.ai/p/Primeiro%20dia%20de%20escola%20em%20Forks%20High%20School?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Bella enfrenta seu primeiro dia na Forks High School.",
+      "dialogue": "Bella Swan: 'Espero conseguir me enturmar aqui... ser a garota nova é sempre complicado.'",
+      "visualDescription": "Escola secundária com atmosfera típica de cidade pequena"
+    },
+    {
+      "id": "sv-3",
+      "prompt": "Primeiro encontro com Edward",
+      "imageUrl": "https://pollinations.ai/p/Primeiro%20encontro%20entre%20Bella%20e%20Edward%20na%20cafeteria?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Na cafeteria, Bella vê Edward Cullen pela primeira vez.",
+      "dialogue": "Bella Swan: 'Quem é aquele? Ele é... diferente dos outros.'",
+      "visualDescription": "Cafeteria escolar com primeiro encontro misterioso"
+    },
+    {
+      "id": "sv-4",
+      "prompt": "Edward evita Bella misteriosamente",
+      "imageUrl": "https://pollinations.ai/p/Edward%20evitando%20Bella%20misteriosamente%20na%20escola?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Edward parece evitar Bella, deixando-a intrigada.",
+      "dialogue": "Edward Cullen: 'Ela não pode estar aqui... isso é perigoso demais.'",
+      "visualDescription": "Corredores escolares com tensão misteriosa"
+    },
+    {
+      "id": "sv-5",
+      "prompt": "Edward salva Bella do acidente",
+      "imageUrl": "https://pollinations.ai/p/Edward%20salvando%20Bella%20de%20acidente%20com%20velocidade%20sobre-humana?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Edward salva Bella de um acidente usando velocidade sobre-humana.",
+      "dialogue": "Bella Swan: 'Como você chegou aqui tão rápido? Isso é impossível!'",
+      "visualDescription": "Estacionamento da escola com salvamento dramático"
+    },
+    {
+      "id": "sv-6",
+      "prompt": "Bella questiona Edward sobre seus poderes",
+      "imageUrl": "https://pollinations.ai/p/Bella%20questionando%20Edward%20sobre%20seus%20poderes%20misteriosos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Bella confronta Edward sobre o que realmente aconteceu.",
+      "dialogue": "Bella Swan: 'Eu sei que você não é normal. O que você está escondendo?'",
+      "visualDescription": "Conversa tensa entre os protagonistas"
+    },
+    {
+      "id": "sv-7",
+      "prompt": "Edward luta contra seus sentimentos",
+      "imageUrl": "https://pollinations.ai/p/Edward%20lutando%20contra%20sentimentos%20por%20Bella?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Edward tenta se afastar de Bella, sabendo dos perigos.",
+      "dialogue": "Edward Cullen: 'Você deveria ficar longe de mim. Eu não sou bom para você.'",
+      "visualDescription": "Momento de conflito interno em ambiente sombrio"
+    },
+    {
+      "id": "sv-8",
+      "prompt": "Crescimento da atração entre eles",
+      "imageUrl": "https://pollinations.ai/p/Crescimento%20da%20atração%20romántica%20entre%20Bella%20e%20Edward?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Apesar dos avisos, a atração entre Bella e Edward cresce.",
+      "dialogue": "Bella Swan: 'Não me importo com o perigo. Há algo especial em você.'",
+      "visualDescription": "Momento romântico com tensão crescente"
+    },
+    {
+      "id": "sv-9",
+      "prompt": "Jacob Black aparece como amigo",
+      "imageUrl": "https://pollinations.ai/p/Jacob%20Black%20aparecendo%20como%20amigo%20protetor%20de%20Bella?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Jacob Black, velho amigo da família, retorna à vida de Bella.",
+      "dialogue": "Jacob Black: 'Bella! Que bom ver você de volta. Cuidado com os Cullen...'",
+      "visualDescription": "Encontro caloroso com amigo da infância"
+    },
+    {
+      "id": "sv-10",
+      "prompt": "Jacob conta lendas sobre vampiros",
+      "imageUrl": "https://pollinations.ai/p/Jacob%20contando%20lendas%20tribais%20sobre%20vampiros?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Jacob conta antigas lendas tribais sobre 'bebedores de sangue'.",
+      "dialogue": "Jacob Black: 'Meu povo tem lendas sobre criaturas frias... vampiros.'",
+      "visualDescription": "Conversa à beira-mar com atmosfera misteriosa"
+    },
+    {
+      "id": "sv-11",
+      "prompt": "Bella pesquisa sobre vampiros",
+      "imageUrl": "https://pollinations.ai/p/Bella%20pesquisando%20sobre%20vampiros%20na%20internet?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Bella pesquisa sobre vampiros, conectando as pistas sobre Edward.",
+      "dialogue": "Bella Swan: 'Pele fria, força sobre-humana, evita o sol... meu Deus!'",
+      "visualDescription": "Quarto com pesquisa intensa no computador"
+    },
+    {
+      "id": "sv-12",
+      "prompt": "Confronto na floresta",
+      "imageUrl": "https://pollinations.ai/p/Confronto%20entre%20Bella%20e%20Edward%20na%20floresta%20misteriosa?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Bella confronta Edward na floresta com suas descobertas.",
+      "dialogue": "Bella Swan: 'Eu sei o que você é, Edward. Você é um vampiro.'",
+      "visualDescription": "Floresta sombria com confronto dramático"
+    },
+    {
+      "id": "sv-13",
+      "prompt": "Edward revela sua verdadeira natureza",
+      "imageUrl": "https://pollinations.ai/p/Edward%20revelando%20natureza%20vampiresca%20brilhando%20ao%20sol?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Edward revela sua natureza vampiresca, brilhando ao sol.",
+      "dialogue": "Edward Cullen: 'Veja o que eu sou! Um monstro que brilha como diamante!'",
+      "visualDescription": "Revelação sobrenatural com pele brilhante ao sol"
+    },
+    {
+      "id": "sv-14",
+      "prompt": "Bella aceita Edward como ele é",
+      "imageUrl": "https://pollinations.ai/p/Bella%20aceitando%20Edward%20apesar%20de%20ser%20vampiro?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Bella aceita Edward completamente, apesar de sua natureza.",
+      "dialogue": "Bella Swan: 'Você não é um monstro. Para mim, você é perfeito.'",
+      "visualDescription": "Momento de aceitação e amor incondicional"
+    },
+    {
+      "id": "sv-15",
+      "prompt": "Vampiros rivais ameaçam Bella",
+      "imageUrl": "https://pollinations.ai/p/Vampiros%20rivais%20perigosos%20ameaçando%20Bella?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Um trio de vampiros nômades descobre Bella e a ameaça.",
+      "dialogue": "James: 'Que interessante... uma humana que conhece nosso segredo.'",
+      "visualDescription": "Ameaça sobrenatural com vampiros perigosos"
+    },
+    {
+      "id": "sv-16",
+      "prompt": "Family Cullen protege Bella",
+      "imageUrl": "https://pollinations.ai/p/Família%20Cullen%20protegendo%20Bella%20dos%20vampiros%20rivais?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "A família Cullen se une para proteger Bella dos vampiros caçadores.",
+      "dialogue": "Edward Cullen: 'Não vou deixar nada acontecer com você, Bella.'",
+      "visualDescription": "Família vampira unida em proteção"
+    },
+    {
+      "id": "sv-17",
+      "prompt": "Perseguição dramática",
+      "imageUrl": "https://pollinations.ai/p/Perseguição%20dramática%20de%20vampiros%20caçadores?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Uma perseguição mortal se inicia quando James caça Bella.",
+      "dialogue": "James: 'Vou desfrutar caçando você, pequena humana.'",
+      "visualDescription": "Perseguição sobrenatural intensa"
+    },
+    {
+      "id": "sv-18",
+      "prompt": "Batalha final contra James",
+      "imageUrl": "https://pollinations.ai/p/Batalha%20épica%20entre%20Edward%20e%20vampiro%20caçador%20James?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Edward enfrenta James em uma batalha vampiresca mortal.",
+      "dialogue": "Edward Cullen: 'Não vai tocar nela! Nunca mais!'",
+      "visualDescription": "Combate sobrenatural entre vampiros"
+    },
+    {
+      "id": "sv-19",
+      "prompt": "Vitória do amor sobre o perigo",
+      "imageUrl": "https://pollinations.ai/p/Vitória%20do%20amor%20entre%20Bella%20e%20Edward%20sobre%20perigo?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "O amor triunfa quando Edward salva Bella definitivamente.",
+      "dialogue": "Bella Swan: 'Sempre soube que nosso amor era mais forte que qualquer perigo.'",
+      "visualDescription": "Triunfo do amor verdadeiro"
+    },
+    {
+      "id": "sv-20",
+      "prompt": "Escolha entre mortalidade e eternidade",
+      "imageUrl": "https://pollinations.ai/p/Bella%20escolhendo%20entre%20mortalidade%20e%20eternidade%20vampiresca?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 6,
+      "text": "Bella encara a escolha final: permanecer humana ou se tornar vampira.",
+      "dialogue": "Bella Swan: 'Quero ficar com você para sempre, Edward. Para sempre.'",
+      "visualDescription": "Momento decisivo entre eternidade e mortalidade"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Saga%20dos%20Vampiros%20romance%20sobrenatural%20gótico?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

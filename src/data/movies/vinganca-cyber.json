@@ -1,0 +1,64 @@
+{
+  "id": "vinganca-cyber",
+  "title": "Vingança Cyber",
+  "genre": "Thriller Tecnológico",
+  "style": "Cyberpunk",
+  "duration": "2 minutos",
+  "synopsis": "Uma hacker talentosa descobre que sua irmã foi assassinada por uma corporação tecnológica. Ela inicia uma jornada de vingança usando suas habilidades cibernéticas para expor a verdade.",
+  "characters": [
+    { "name": "Maya Chen", "description": "Hacker especialista em segurança digital", "voice": "female" },
+    { "name": "CEO Marcus Steel", "description": "Executivo corrupto da megacorporação", "voice": "male" },
+    { "name": "Alex Santos", "description": "Ex-funcionário whistleblower", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "vc-1",
+      "prompt": "Maya descobre a morte misteriosa de sua irmã",
+      "imageUrl": "https://pollinations.ai/p/Maya%20descobre%20a%20morte%20misteriosa%20de%20sua%20irmã?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Maya recebe a ligação devastadora. Sua irmã cientista foi encontrada morta em circunstâncias suspeitas. Os arquivos de pesquisa dela desapareceram misteriosamente.",
+      "visualDescription": "Apartamento cyberpunk com múltiplas telas mostrando notícias sobre morte misteriosa, Maya chorando"
+    },
+    {
+      "id": "vc-2",
+      "prompt": "Maya invade os sistemas da corporação",
+      "imageUrl": "https://pollinations.ai/p/Maya%20invade%20os%20sistemas%20da%20corporação?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Usando códigos complexos, Maya quebra as defesas digitais da NeoTech Corp. Cada linha de código é um passo mais próximo da verdade sobre sua irmã.",
+      "visualDescription": "Interface hacker futurística com códigos verdes fluindo, sistemas sendo invadidos em tempo real"
+    },
+    {
+      "id": "vc-3",
+      "prompt": "Maya descobre experimentos ilegais",
+      "imageUrl": "https://pollinations.ai/p/Maya%20descobre%20experimentos%20ilegais?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Os arquivos revelam experimentos com inteligência artificial em cobaias humanas. Sua irmã descobriu e ameaçou expor tudo antes de morrer.",
+      "visualDescription": "Telas mostrando dados de experimentos secretos, gráficos de IA e fotos de vítimas"
+    },
+    {
+      "id": "vc-4",
+      "prompt": "Maya confronta o CEO da corporação",
+      "imageUrl": "https://pollinations.ai/p/Maya%20confronta%20o%20CEO%20da%20corporação?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No topo do arranha-céu corporativo, Maya confronta Marcus Steel. Ele admite friamente que sua irmã era um obstáculo aos lucros.",
+      "visualDescription": "Escritório executivo futurista no topo de prédio, confronto tenso entre Maya e CEO corrupto"
+    },
+    {
+      "id": "vc-5",
+      "prompt": "Maya expõe a verdade para o mundo",
+      "imageUrl": "https://pollinations.ai/p/Maya%20expõe%20a%20verdade%20para%20o%20mundo?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Maya transmite todas as evidências ao vivo. A corporação desmorona enquanto a verdade sobre os experimentos choca o mundo. Sua irmã é vingada.",
+      "visualDescription": "Transmissão global com documentos sendo expostos, multidões protestando, justiça sendo feita"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Vingança%20Cyber%2C%20thriller%20tecnológico?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

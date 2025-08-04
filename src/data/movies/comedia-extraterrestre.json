@@ -1,0 +1,64 @@
+{
+  "id": "comedia-extraterrestre",
+  "title": "Comédia Extraterrestre",
+  "genre": "Comédia",
+  "style": "Comédia Sci-Fi",
+  "duration": "2 minutos",
+  "synopsis": "Aliens incompetentes tentam invadir a Terra, mas são tão desastrados que acabam se tornando sensações da internet. Eles devem escolher entre dominar o mundo ou virar influencers digitais.",
+  "characters": [
+    { "name": "Zyx-42", "description": "Comandante alien atrapalhado", "voice": "male" },
+    { "name": "Blob-7", "description": "Alien assistente ainda mais incompetente", "voice": "male" },
+    { "name": "Jenny Williams", "description": "Influencer que descobre os aliens", "voice": "female" }
+  ],
+  "scenes": [
+    {
+      "id": "ce-1",
+      "prompt": "Aliens chegam à Terra com nave mal funcionando",
+      "imageUrl": "https://pollinations.ai/p/Aliens%20chegam%20à%20Terra%20com%20nave%20mal%20funcionando?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A nave alien pousa de cara no estacionamento de um shopping. Zyx-42 sai cambaleando, o capacete rachado, enquanto Blob-7 tropeça na rampa da nave.",
+      "visualDescription": "Nave espacial fumegante no estacionamento, aliens verdes saindo desajeitadamente com equipamentos quebrados"
+    },
+    {
+      "id": "ce-2",
+      "prompt": "Aliens tentam usar tecnologia humana",
+      "imageUrl": "https://pollinations.ai/p/Aliens%20tentam%20usar%20tecnologia%20humana?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No shopping, Zyx-42 confunde um aspirador com arma de destruição. Blob-7 fica preso numa porta giratória enquanto tentam 'dominar' o local.",
+      "visualDescription": "Shopping center com aliens confusos usando objetos comuns incorretamente, causando comoção engraçada"
+    },
+    {
+      "id": "ce-3",
+      "prompt": "Jenny filma os aliens e eles viram viral",
+      "imageUrl": "https://pollinations.ai/p/Jenny%20filma%20os%20aliens%20e%20eles%20viram%20viral?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Jenny filma os aliens atrapalhados e posta no TikTok. O vídeo 'Aliens Incompetentes' explode com milhões de views e eles viram meme mundial.",
+      "visualDescription": "Jenny filmando com celular enquanto aliens fazem coisas engraçadas, tela mostrando viral nas redes sociais"
+    },
+    {
+      "id": "ce-4",
+      "prompt": "Aliens descobrem a fama nas redes sociais",
+      "imageUrl": "https://pollinations.ai/p/Aliens%20descobrem%20a%20fama%20nas%20redes%20sociais?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Zyx-42 descobre que é mais famoso na Terra do que em seu planeta natal. Eles começam a fazer conteúdo colaborativo, esquecendo completamente da invasão.",
+      "visualDescription": "Aliens aprendendo a fazer vídeos para redes sociais, cercados de likes e comentários virtuais"
+    },
+    {
+      "id": "ce-5",
+      "prompt": "Aliens escolhem ficar como influencers da Terra",
+      "imageUrl": "https://pollinations.ai/p/Aliens%20escolhem%20ficar%20como%20influencers%20da%20Terra?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Quando a nave-mãe chama para retornar, Zyx-42 e Blob-7 decidem ficar na Terra. Eles abrem canal no YouTube e fazem fortune vendendo produtos intergalácticos.",
+      "visualDescription": "Aliens em estúdio de gravação profissional, produzindo conteúdo com equipamentos terrestres e cósmicos"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Comédia%20Extraterrestre%2C%20comédia%20sci-fi?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

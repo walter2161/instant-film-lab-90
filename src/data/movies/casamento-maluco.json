@@ -1,0 +1,64 @@
+{
+  "id": "casamento-maluco",
+  "title": "Casamento Maluco",
+  "genre": "Comédia",
+  "style": "Humor Brasileiro",
+  "duration": "2 minutos",
+  "synopsis": "Um casamento simples se transforma no maior caos cômico quando tudo que pode dar errado, dá errado de forma hilariante.",
+  "characters": [
+    { "name": "Carlinhos", "description": "Noivo nervoso e atrapalhado", "voice": "male" },
+    { "name": "Fernanda", "description": "Noiva perfeccionista", "voice": "female" },
+    { "name": "Tio Zé", "description": "Parente bêbado e bagunceiro", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "cm-1",
+      "prompt": "Preparativos caóticos do casamento brasileiro",
+      "imageUrl": "https://pollinations.ai/p/Preparativos%20caóticos%20de%20casamento%20brasileiro%20com%20família%20maluca?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A família toda em pânico! O bolo desabou, as flores murcharam e o padre se atrasou!",
+      "visualDescription": "Caos cômico nos preparativos com família correndo e situações hilariantes"
+    },
+    {
+      "id": "cm-2",
+      "prompt": "Noivo tentando chegar na igreja com problemas",
+      "imageUrl": "https://pollinations.ai/p/Noivo%20tentando%20chegar%20na%20igreja%20com%20carro%20quebrado%20e%20problemas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Carlinhos: 'O carro quebrou, a gravata rasgou e ainda perdi as alianças!' Desespero total!",
+      "visualDescription": "Noivo desesperado com carro quebrado e situações cômicas na rua"
+    },
+    {
+      "id": "cm-3",
+      "prompt": "Cerimônia com padre confuso e família bagunçando",
+      "imageUrl": "https://pollinations.ai/p/Cerimônia%20de%20casamento%20com%20padre%20confuso%20e%20família%20fazendo%20bagunça?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O padre mistura os nomes, Tio Zé derruba o altar e os cachorros invadem a igreja!",
+      "visualDescription": "Igreja em caos cômico com padre confuso e situações absurdas"
+    },
+    {
+      "id": "cm-4",
+      "prompt": "Festa de casamento com confusões hilariantes",
+      "imageUrl": "https://pollinations.ai/p/Festa%20de%20casamento%20brasileira%20com%20confusões%20hilariantes%20e%20bagunça?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Na festa: banda toca música errada, garçons tropeçam e a sogra cai na piscina!",
+      "visualDescription": "Festa de casamento brasileira em total bagunça cômica"
+    },
+    {
+      "id": "cm-5",
+      "prompt": "Final feliz com todos rindo dos problemas",
+      "imageUrl": "https://pollinations.ai/p/Final%20feliz%20de%20casamento%20com%20todos%20rindo%20dos%20problemas%20cômicos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No final, todos riem das confusões. O importante é que o amor venceu o caos!",
+      "visualDescription": "Família reunida rindo e celebrando apesar de toda a bagunça"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20comédia%20Casamento%20Maluco%20brasileiro%20hilariante?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

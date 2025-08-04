@@ -1,0 +1,64 @@
+{
+  "id": "mortos-vivos",
+  "title": "Mortos Vivos",
+  "genre": "Terror",
+  "style": "Apocalipse Zumbi",
+  "duration": "2 minutos",
+  "synopsis": "Sobreviventes lutam contra hordas de zumbis em um mundo pós-apocalíptico, descobrindo que o verdadeiro inimigo pode ser outros humanos.",
+  "characters": [
+    { "name": "Rick Grimes", "description": "Xerife líder dos sobreviventes", "voice": "male" },
+    { "name": "Michonne", "description": "Guerreira especialista em katana", "voice": "female" },
+    { "name": "Negan", "description": "Líder tirânico de grupo rival", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "mv-1",
+      "prompt": "Rick desperta em hospital pós-apocalíptico",
+      "imageUrl": "https://pollinations.ai/p/Hospital%20abandonado%20pós-apocalíptico%20com%20sobrevivente%20despertando?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Rick desperta de um coma para descobrir que o mundo foi tomado por mortos-vivos.",
+      "visualDescription": "Hospital abandonado e decadente com atmosfera pós-apocalíptica"
+    },
+    {
+      "id": "mv-2",
+      "prompt": "Grupo de sobreviventes fugindo de horda",
+      "imageUrl": "https://pollinations.ai/p/Grupo%20de%20sobreviventes%20fugindo%20de%20horda%20de%20zumbis?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O grupo luta para sobreviver enquanto hordas de zumbis os perseguem constantemente.",
+      "visualDescription": "Fuga desesperada de sobreviventes perseguidos por zumbis"
+    },
+    {
+      "id": "mv-3",
+      "prompt": "Michonne lutando com katana contra zumbis",
+      "imageUrl": "https://pollinations.ai/p/Guerreira%20lutando%20com%20katana%20contra%20zumbis%20apocalípticos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Michonne usa sua katana letal para atravessar hordas de mortos-vivos.",
+      "visualDescription": "Guerreira habilidosa lutando com espada contra zumbis"
+    },
+    {
+      "id": "mv-4",
+      "prompt": "Confronto com Negan e seu grupo",
+      "imageUrl": "https://pollinations.ai/p/Confronto%20tenso%20entre%20grupos%20rivais%20de%20sobreviventes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O verdadeiro perigo surge quando Negan e seu grupo ameaçam os sobreviventes.",
+      "visualDescription": "Confronto tenso entre grupos rivais em ambiente pós-apocalíptico"
+    },
+    {
+      "id": "mv-5",
+      "prompt": "Sobreviventes unidos contra ameaça comum",
+      "imageUrl": "https://pollinations.ai/p/Sobreviventes%20unidos%20lutando%20contra%20ameaça%20zumbi%20comum?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Os grupos se unem para enfrentar uma ameaça zumbi maior, descobrindo força na união.",
+      "visualDescription": "Grupos unidos em batalha épica contra horda massiva de zumbis"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Mortos%20Vivos%20terror%20apocalipse%20zumbi?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

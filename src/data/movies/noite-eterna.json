@@ -1,0 +1,154 @@
+{
+  "id": "noite-eterna",
+  "title": "Noite Eterna",
+  "genre": "Terror Sobrenatural",
+  "style": "Horror Gótico",
+  "duration": "2 minutos",
+  "synopsis": "Uma pequena cidade fica presa em uma noite que nunca acaba. Uma investigadora paranormal deve descobrir o ritual sombrio que aprisionou a cidade na escuridão.",
+  "characters": [
+    { "name": "Sarah Mitchell", "description": "Investigadora paranormal especialista em fenômenos sobrenaturais", "voice": "female" },
+    { "name": "Padre Gabriel", "description": "Sacerdote local que conhece os segredos da cidade", "voice": "male" },
+    { "name": "A Bruxa", "description": "Entidade ancestral responsável pela maldição", "voice": "female" }
+  ],
+  "scenes": [
+    {
+      "id": "ne-1",
+      "prompt": "Sarah chega à cidade perpetuamente noturna",
+      "imageUrl": "https://pollinations.ai/p/Cidade%20pequena%20presa%20em%20noite%20eterna%2C%20atmosfera%20sombria%20e%20misteriosa?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Sarah entra na cidade e percebe que não há amanhecer há semanas, apenas uma noite perpétua.",
+      "visualDescription": "Cidade pequena em noite eterna com casas abandonadas e atmosfera sombria"
+    },
+    {
+      "id": "ne-2",
+      "prompt": "Habitantes em estado de terror constante",
+      "imageUrl": "https://pollinations.ai/p/Moradores%20aterrorizados%20se%20escondendo%20em%20casas%20durante%20noite%20eterna?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Os poucos habitantes restantes se escondem em suas casas, sussurrando sobre criaturas na escuridão.",
+      "visualDescription": "Moradores apavorados espiando através de cortinas em casas barricadas"
+    },
+    {
+      "id": "ne-3",
+      "prompt": "Sarah conhece o Padre Gabriel",
+      "imageUrl": "https://pollinations.ai/p/Investigadora%20conhecendo%20padre%20em%20igreja%20gótica%20sombria?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Na igreja, o Padre Gabriel revela que a cidade foi amaldiçoada por profanar um local sagrado.",
+      "visualDescription": "Igreja gótica sombria com velas, investigadora conversando com padre preocupado"
+    },
+    {
+      "id": "ne-4",
+      "prompt": "Primeira aparição das criaturas sombrias",
+      "imageUrl": "https://pollinations.ai/p/Criaturas%20sombrias%20emergindo%20das%20trevas%20da%20noite%20eterna?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Sombras ganham vida própria, perseguindo Sarah pelas ruas desertas da cidade.",
+      "visualDescription": "Criaturas de sombra disforme emergindo de becos escuros"
+    },
+    {
+      "id": "ne-5",
+      "prompt": "Sarah descobre o cemitério profanado",
+      "imageUrl": "https://pollinations.ai/p/Cemitério%20antigo%20profanado%20com%20túmulos%20violados%20e%20símbolos%20sombrios?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No cemitério, Sarah encontra túmulos violados e símbolos de magia negra gravados nas lápides.",
+      "visualDescription": "Cemitério gótico com túmulos abertos e símbolos ocultistas nas pedras"
+    },
+    {
+      "id": "ne-6",
+      "prompt": "Investigação dos registros históricos",
+      "imageUrl": "https://pollinations.ai/p/Biblioteca%20antiga%20com%20livros%20de%20ocultismo%20e%20registros%20históricos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Sarah descobre nos arquivos que uma bruxa foi executada injustamente no local há séculos.",
+      "visualDescription": "Biblioteca empoeirada com livros antigos de ocultismo e registros históricos"
+    },
+    {
+      "id": "ne-7",
+      "prompt": "A Bruxa se manifesta pela primeira vez",
+      "imageUrl": "https://pollinations.ai/p/Bruxa%20ancestral%20se%20manifestando%20em%20aparição%20sobrenatural%20aterrorizante?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A bruxa aparece para Sarah, revelando sua sede de vingança contra os descendentes da cidade.",
+      "visualDescription": "Aparição aterrorizante de bruxa ancestral com poderes sobrenaturais"
+    },
+    {
+      "id": "ne-8",
+      "prompt": "Sarah tenta comunicar-se com a bruxa",
+      "imageUrl": "https://pollinations.ai/p/Investigadora%20tentando%20se%20comunicar%20com%20espírito%20vingativo%20através%20de%20ritual?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Sarah usa um ritual de comunicação para entender a dor e raiva da bruxa.",
+      "visualDescription": "Círculo ritual com velas e símbolos, investigadora se comunicando com espírito"
+    },
+    {
+      "id": "ne-9",
+      "prompt": "Descoberta do verdadeiro culpado histórico",
+      "imageUrl": "https://pollinations.ai/p/Revelação%20histórica%20sobre%20injustiça%20cometida%20contra%20bruxa%20inocente?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Sarah descobre que a bruxa era na verdade uma curandeira inocente, executada por inveja.",
+      "visualDescription": "Flashback histórico mostrando injustiça cometida contra curandeira inocente"
+    },
+    {
+      "id": "ne-10",
+      "prompt": "Padre Gabriel confessa segredo familiar",
+      "imageUrl": "https://pollinations.ai/p/Padre%20confessando%20segredo%20sombrio%20sobre%20família%20e%20injustiça%20histórica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O padre revela que seu ancestral foi responsável pela execução injusta da bruxa.",
+      "visualDescription": "Confessonário gótico com padre revelando verdade dolorosa sobre família"
+    },
+    {
+      "id": "ne-11",
+      "prompt": "Sarah prepara ritual de reconciliação",
+      "imageUrl": "https://pollinations.ai/p/Preparação%20de%20ritual%20de%20reconciliação%20com%20velas%20e%20oferendas%20sagradas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Sarah prepara um ritual de reconciliação para dar à bruxa o reconhecimento que merecia.",
+      "visualDescription": "Altar sagrado com oferendas e velas para ritual de reconciliação"
+    },
+    {
+      "id": "ne-12",
+      "prompt": "Confronto final com a bruxa",
+      "imageUrl": "https://pollinations.ai/p/Confronto%20final%20entre%20investigadora%20e%20bruxa%20em%20cemitério%20sob%20lua?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No cemitério, Sarah oferece justiça e reconhecimento à bruxa, apelando para sua humanidade.",
+      "visualDescription": "Confronto final no cemitério com lua sangrenta e energias sobrenaturais"
+    },
+    {
+      "id": "ne-13",
+      "prompt": "A bruxa aceita a reconciliação",
+      "imageUrl": "https://pollinations.ai/p/Bruxa%20encontrando%20paz%20e%20perdão%2C%20energia%20sombria%20se%20dissipando?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Tocada pela sinceridade, a bruxa aceita o pedido de perdão e libera a cidade da maldição.",
+      "visualDescription": "Bruxa encontrando paz, energia sombria se transformando em luz suave"
+    },
+    {
+      "id": "ne-14",
+      "prompt": "O amanhecer finalmente chega",
+      "imageUrl": "https://pollinations.ai/p/Primeiro%20amanhecer%20após%20noite%20eterna%2C%20cidade%20sendo%20iluminada%20pelo%20sol?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Após semanas, o sol finalmente nasce, banhando a cidade em luz dourada e esperança.",
+      "visualDescription": "Amanhecer glorioso iluminando cidade livre da maldição, moradores saindo das casas"
+    },
+    {
+      "id": "ne-15",
+      "prompt": "Memorial para a curandeira injustiçada",
+      "imageUrl": "https://pollinations.ai/p/Memorial%20honrando%20curandeira%20injustiçada%2C%20cidade%20em%20paz%20e%20gratidão?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A cidade erege um memorial para a curandeira, prometendo nunca esquecer as lições do passado.",
+      "visualDescription": "Memorial beautiful honrando curandeira, moradores prestando respeitos em paz"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Noite%20Eterna%2C%20terror%20sobrenatural%20gótico%2C%20cidade%20amaldiçoada?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

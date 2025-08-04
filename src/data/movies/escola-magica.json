@@ -1,0 +1,64 @@
+{
+  "id": "escola-magica",
+  "title": "Escola Mágica Moderna",
+  "genre": "Aventura",
+  "style": "Fantasia Urbana",
+  "duration": "2 minutos",
+  "synopsis": "Uma adolescente descobre que sua escola normal é na verdade uma academia mágica disfarçada. Ela deve dominar seus poderes para salvar a escola de uma invasão de criaturas sombrias.",
+  "characters": [
+    { "name": "Luna Martinez", "description": "Estudante descobrindo poderes mágicos", "voice": "female" },
+    { "name": "Professor Astrix", "description": "Diretor mago da escola secreta", "voice": "male" },
+    { "name": "Marcus Shadow", "description": "Estudante rival com magia sombria", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "em-1",
+      "prompt": "Luna descobre que sua escola tem magia escondida",
+      "imageUrl": "https://pollinations.ai/p/Luna%20descobre%20que%20sua%20escola%20tem%20magia%20escondida?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Durante a aula de química, Luna acidentalmente faz uma poção explodir. Os outros alunos parecem não se importar - ela percebe que toda a escola esconde segredos mágicos.",
+      "visualDescription": "Sala de aula moderna se transformando magicamente, equipamentos científicos virando caldeirões mágicos"
+    },
+    {
+      "id": "em-2",
+      "prompt": "Professor Astrix revela a verdade sobre a escola",
+      "imageUrl": "https://pollinations.ai/p/Professor%20Astrix%20revela%20a%20verdade%20sobre%20a%20escola?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No escritório principal, o Professor Astrix remove o feitiço de ilusão. A escola se revela como uma academia mágica onde jovens bruxos aprendem disfarçados.",
+      "visualDescription": "Escritório se transformando de moderno para mágico, livros antigos e cristais aparecendo"
+    },
+    {
+      "id": "em-3",
+      "prompt": "Luna treina seus poderes de elemental",
+      "imageUrl": "https://pollinations.ai/p/Luna%20treina%20seus%20poderes%20de%20elemental?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No ginásio secreto, Luna aprende a controlar fogo, água, terra e ar. Cada elemento responde diferentemente aos seus sentimentos e concentração.",
+      "visualDescription": "Ginásio mágico com Luna praticando elementos, chamas, água, pedras e vento ao seu redor"
+    },
+    {
+      "id": "em-4",
+      "prompt": "Criaturas sombrias invadem a escola",
+      "imageUrl": "https://pollinations.ai/p/Criaturas%20sombrias%20invadem%20a%20escola?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Marcus invoca criaturas das trevas que atacam a escola. Os corredores se enchem de sombras vivas enquanto estudantes lutam com magia defensiva.",
+      "visualDescription": "Escola sendo invadida por criaturas sombrias, estudantes usando magia para se defender nos corredores"
+    },
+    {
+      "id": "em-5",
+      "prompt": "Luna une todos os elementos para salvar a escola",
+      "imageUrl": "https://pollinations.ai/p/Luna%20une%20todos%20os%20elementos%20para%20salvar%20a%20escola?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Luna combina todos os elementos num feitiço supremo de luz pura. As criaturas sombrias são banidas e Marcus é purificado, aprendendo o verdadeiro valor da magia.",
+      "visualDescription": "Luna no centro da escola com todos os elementos girando ao redor, luz pura purificando as trevas"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Escola%20Mágica%20Moderna%2C%20aventura%20fantasia?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

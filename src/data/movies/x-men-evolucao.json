@@ -1,0 +1,64 @@
+{
+  "id": "x-men-evolucao",
+  "title": "X-Men: Evolução",
+  "genre": "Super-Herói",
+  "style": "Ficção Científica",
+  "duration": "2 minutos",
+  "synopsis": "Mutantes com poderes extraordinários lutam por aceitação em um mundo que os teme, defendendo tanto humanos quanto mutantes.",
+  "characters": [
+    { "name": "Professor X", "description": "Líder telepata dos X-Men", "voice": "male" },
+    { "name": "Tempestade", "description": "Mutante que controla o clima", "voice": "female" },
+    { "name": "Wolverine", "description": "Mutante com garras de adamantium", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "xe-1",
+      "prompt": "Escola para jovens mutantes dotados",
+      "imageUrl": "https://pollinations.ai/p/Escola%20para%20jovens%20mutantes%20com%20poderes%20extraordinários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Na Escola Xavier, jovens mutantes aprendem a controlar seus poderes únicos.",
+      "visualDescription": "Escola futurística com jovens mutantes treinando poderes especiais"
+    },
+    {
+      "id": "xe-2",
+      "prompt": "X-Men em missão de salvamento",
+      "imageUrl": "https://pollinations.ai/p/X-Men%20em%20missão%20de%20salvamento%20usando%20poderes%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Os X-Men usam seus poderes únicos para salvar tanto humanos quanto mutantes em perigo.",
+      "visualDescription": "Equipe de mutantes em ação usando poderes especiais coordenadamente"
+    },
+    {
+      "id": "xe-3",
+      "prompt": "Confronto com sentinelas robóticas",
+      "imageUrl": "https://pollinations.ai/p/Batalha%20épica%20contra%20sentinelas%20robóticas%20gigantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Robôs gigantes caçadores de mutantes atacam, forçando os X-Men a uma batalha épica.",
+      "visualDescription": "Batalha futurística contra robôs gigantes caçadores de mutantes"
+    },
+    {
+      "id": "xe-4",
+      "prompt": "Tempestade controlando elementos naturais",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20controlando%20elementos%20naturais%20em%20batalha?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Tempestade invoca raios e ventos poderosos para proteger seus companheiros mutantes.",
+      "visualDescription": "Mutante controlando tempestades e elementos naturais em batalha"
+    },
+    {
+      "id": "xe-5",
+      "prompt": "União entre humanos e mutantes pela paz",
+      "imageUrl": "https://pollinations.ai/p/União%20pacífica%20entre%20humanos%20e%20mutantes%20pelo%20futuro?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "X-Men provam que mutantes e humanos podem coexistir em paz e harmonia.",
+      "visualDescription": "Cena de união pacífica entre humanos e mutantes"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20X-Men%20Evolução%20super-heróis%20mutantes%20épico?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "pesadelo-realidade",
+  "title": "Pesadelo da Realidade",
+  "genre": "Terror Psicológico",
+  "style": "Horror Moderno",
+  "duration": "2 minutos",
+  "synopsis": "Uma terapeuta descobre que os pesadelos de seus pacientes estão se manifestando na realidade. Ela deve entrar no mundo dos sonhos para enfrentar a entidade que está quebrando as barreiras entre dimensões.",
+  "characters": [
+    { "name": "Dr. Sarah Mitchell", "description": "Terapeuta especialista em distúrbios do sono", "voice": "female" },
+    { "name": "Thomas Gray", "description": "Paciente com pesadelos violentos", "voice": "male" },
+    { "name": "A Entidade", "description": "Ser sombrio que habita pesadelos", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "pr-1",
+      "prompt": "Sarah investiga pesadelos recorrentes de pacientes",
+      "imageUrl": "https://pollinations.ai/p/Sarah%20investiga%20pesadelos%20recorrentes%20de%20pacientes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No consultório escuro, Sarah ouve relatos idênticos de pesadelos. Todos descrevem a mesma figura sombria que promete escapar para o mundo real.",
+      "visualDescription": "Consultório psicológico sombrio com pacientes descrevendo pesadelos, sombras se movendo"
+    },
+    {
+      "id": "pr-2",
+      "prompt": "Os pesadelos começam a se manifestar fisicamente",
+      "imageUrl": "https://pollinations.ai/p/Os%20pesadelos%20começam%20a%20se%20manifestar%20fisicamente?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Criaturas dos pesadelos aparecem na clínica durante o dia. Monstros sombrios aterrorizam pessoas acordadas, borrando a linha entre sonho e realidade.",
+      "visualDescription": "Clínica durante o dia sendo invadida por criaturas sombrias dos pesadelos, realidade se distorcendo"
+    },
+    {
+      "id": "pr-3",
+      "prompt": "Sarah descobre a origem da Entidade",
+      "imageUrl": "https://pollinations.ai/p/Sarah%20descobre%20a%20origem%20da%20Entidade?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Em arquivos antigos, Sarah descobre que a Entidade foi criada por experimentos militares em sonhos lúcidos. Agora ela busca liberdade total.",
+      "visualDescription": "Arquivo subterrâneo com documentos militares classificados, sombras se movendo entre os papéis"
+    },
+    {
+      "id": "pr-4",
+      "prompt": "Sarah entra no mundo dos sonhos para enfrentar a Entidade",
+      "imageUrl": "https://pollinations.ai/p/Sarah%20entra%20no%20mundo%20dos%20sonhos%20para%20enfrentar%20a%20Entidade?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Usando drogas experimentais, Sarah entra no plano dos sonhos. Lá, a realidade se dobra e ela deve navegar por pesadelos para encontrar a Entidade.",
+      "visualDescription": "Mundo onírico surreal com paisagens impossíveis, Sarah navegando entre pesadelos distorcidos"
+    },
+    {
+      "id": "pr-5",
+      "prompt": "Sarah prende a Entidade no mundo dos sonhos",
+      "imageUrl": "https://pollinations.ai/p/Sarah%20prende%20a%20Entidade%20no%20mundo%20dos%20sonhos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Sarah confronta a Entidade e usa sua própria mente como prisão, selando-a para sempre no mundo dos sonhos. O preço é nunca mais poder acordar completamente.",
+      "visualDescription": "Confronto final em dimensão onírica, Sarah se sacrificando para selar a entidade sombria"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Pesadelo%20da%20Realidade%2C%20terror%20psicológico?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

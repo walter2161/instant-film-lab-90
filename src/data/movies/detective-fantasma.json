@@ -1,0 +1,64 @@
+{
+  "id": "detective-fantasma",
+  "title": "Detective Fantasma",
+  "genre": "Mistério Sobrenatural",
+  "style": "Film Noir Supernatural",
+  "duration": "2 minutos",
+  "synopsis": "Um detetive morto em serviço retorna como fantasma para resolver seu próprio assassinato. Ele deve trabalhar com uma médium para descobrir quem o matou antes de sua alma encontrar paz.",
+  "characters": [
+    { "name": "Detective Ray Sullivan", "description": "Detetive morto buscando justiça", "voice": "male" },
+    { "name": "Sophia Chen", "description": "Médium que pode ver fantasmas", "voice": "female" },
+    { "name": "Captain Brooks", "description": "Chefe corrupto da polícia", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "df-1",
+      "prompt": "Ray desperta como fantasma na cena do crime",
+      "imageUrl": "https://pollinations.ai/p/Ray%20desperta%20como%20fantasma%20na%20cena%20do%20crime?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Ray desperta translúcido no beco onde foi morto. Ele vê sua própria silhueta gizada no chão e percebe que agora é um fantasma buscando respostas.",
+      "visualDescription": "Beco escuro com silhueta de corpo no chão, fantasma semi-transparente observando cena do crime"
+    },
+    {
+      "id": "df-2",
+      "prompt": "Ray encontra Sophia, a única que pode vê-lo",
+      "imageUrl": "https://pollinations.ai/p/Ray%20encontra%20Sophia%2C%20a%20única%20que%20pode%20vê-lo?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Na loja de cristais, Sophia se assusta ao ver Ray. Ela é médium e a única pessoa viva que pode vê-lo e se comunicar com seu espírito.",
+      "visualDescription": "Loja mística com cristais e velas, médium assustada vendo fantasma de detetive"
+    },
+    {
+      "id": "df-3",
+      "prompt": "Ray e Sophia investigam pistas sobrenaturais",
+      "imageUrl": "https://pollinations.ai/p/Ray%20e%20Sophia%20investigam%20pistas%20sobrenaturais?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Juntos, eles seguem pistas que só um fantasma pode encontrar. Ray atravessa paredes para descobrir evidências escondidas enquanto Sophia lida com o mundo físico.",
+      "visualDescription": "Dupla investigando, fantasma atravessando paredes enquanto médium coleta evidências físicas"
+    },
+    {
+      "id": "df-4",
+      "prompt": "Ray descobre que foi traído pelo próprio chefe",
+      "imageUrl": "https://pollinations.ai/p/Ray%20descobre%20que%20foi%20traído%20pelo%20próprio%20chefe?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "As evidências revelam que Captain Brooks estava envolvido com o crime organizado. Ray foi morto porque estava muito perto de expor a corrupção policial.",
+      "visualDescription": "Escritório policial corrupto com fantasma descobrindo documentos secretos e fotos comprometedoras"
+    },
+    {
+      "id": "df-5",
+      "prompt": "Ray consegue justiça e encontra paz eterna",
+      "imageUrl": "https://pollinations.ai/p/Ray%20consegue%20justiça%20e%20encontra%20paz%20eterna?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Com a ajuda de Sophia, Ray expõe a corrupção. Brooks é preso e Ray finalmente pode descansar em paz, desvanecendo numa luz dourada.",
+      "visualDescription": "Prisão de capitão corrupto com fantasma se desvanecendo em luz dourada, encontrando paz final"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Detective%20Fantasma%2C%20mistério%20sobrenatural?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

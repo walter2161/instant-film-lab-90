@@ -1,0 +1,64 @@
+{
+  "id": "herdeiro-dragao",
+  "title": "O Herdeiro do Dragão",
+  "genre": "Fantasia",
+  "style": "Épico Medieval",
+  "duration": "2 minutos",
+  "synopsis": "Um jovem camponês descobre ser o último descendente dos Domadores de Dragões. Ele deve despertar seus poderes para salvar o reino de um dragão ancestral corrompido.",
+  "characters": [
+    { "name": "Kael Ironfist", "description": "Jovem camponês com linhagem mágica", "voice": "male" },
+    { "name": "Lyanna Moonwhisper", "description": "Maga élfica guardiã dos segredos", "voice": "female" },
+    { "name": "Malachar", "description": "Dragão ancestral corrompido pela escuridão", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "hd-1",
+      "prompt": "Kael descobre seus poderes dracônicos",
+      "imageUrl": "https://pollinations.ai/p/Kael%20descobre%20seus%20poderes%20dracônicos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Durante um ataque de lobos, Kael grita e chamas brotam de suas mãos. As antigas runas em seus braços brilham revelando sua verdadeira linhagem dracônica.",
+      "visualDescription": "Jovem camponês em floresta com chamas mágicas saindo das mãos, runas antigas brilhando"
+    },
+    {
+      "id": "hd-2",
+      "prompt": "Lyanna revela a profecia do Último Domador",
+      "imageUrl": "https://pollinations.ai/p/Lyanna%20revela%20a%20profecia%20do%20Último%20Domador?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Na torre élfica, Lyanna mostra pergaminhos antigos. A profecia fala de um último domador que despertará quando o reino estiver em maior perigo.",
+      "visualDescription": "Torre mágica élfica com pergaminhos flutuantes e runas brilhantes, maga élfica explicando profecia"
+    },
+    {
+      "id": "hd-3",
+      "prompt": "Malachar ataca a capital do reino",
+      "imageUrl": "https://pollinations.ai/p/Malachar%20ataca%20a%20capital%20do%20reino?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O dragão negro Malachar emerge das montanhas, cuspindo fogo sombrio sobre a capital. Seus olhos vermelhos prometem destruição total para todos os humanos.",
+      "visualDescription": "Dragão negro gigante atacando cidade medieval, chamas sombrias destruindo castelos"
+    },
+    {
+      "id": "hd-4",
+      "prompt": "Kael enfrenta Malachar no céu",
+      "imageUrl": "https://pollinations.ai/p/Kael%20enfrenta%20Malachar%20no%20céu?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Invocando asas de fogo, Kael voa para confrontar Malachar. O duelo épico nos céus decide o destino do reino entre luz e trevas.",
+      "visualDescription": "Batalha aérea épica entre jovem com asas de fogo e dragão negro gigante nas nuvens"
+    },
+    {
+      "id": "hd-5",
+      "prompt": "Kael purifica Malachar com poder ancestral",
+      "imageUrl": "https://pollinations.ai/p/Kael%20purifica%20Malachar%20com%20poder%20ancestral?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Kael canaliza o poder de todos os domadores ancestrais, purificando a corrupção de Malachar. O dragão recupera sua natureza nobre e se torna guardião do reino.",
+      "visualDescription": "Luz dourada purificando dragão negro, transformação épica com ancestrais aparecendo em espírito"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Herdeiro%20do%20Dragão%2C%20fantasia%20épica?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}

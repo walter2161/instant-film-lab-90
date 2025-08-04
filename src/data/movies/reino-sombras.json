@@ -1,0 +1,154 @@
+{
+  "id": "reino-sombras",
+  "title": "Reino das Sombras",
+  "genre": "Fantasia Épica",
+  "style": "Medieval Dark",
+  "duration": "2 minutos",
+  "synopsis": "Um jovem príncipe deve unir as cinco casas do reino para derrotar uma antiga maldição que está consumindo a terra com trevas eternas.",
+  "characters": [
+    { "name": "Príncipe Alaric", "description": "Herdeiro do trono com poderes mágicos latentes", "voice": "male" },
+    { "name": "Seraphina", "description": "Maga élfica aliada do príncipe", "voice": "female" },
+    { "name": "Morgath", "description": "Senhor das Trevas que lançou a maldição", "voice": "male" }
+  ],
+  "scenes": [
+    {
+      "id": "rs-1",
+      "prompt": "Príncipe Alaric descobre o reino sendo consumido pelas trevas",
+      "imageUrl": "https://pollinations.ai/p/Reino%20medieval%20sendo%20consumido%20por%20trevas%20místicas%2C%20príncipe%20observando%20do%20castelo?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Alaric observa do alto da torre como as trevas avançam pelas terras, engolindo vilarejos inteiros.",
+      "visualDescription": "Reino medieval com trevas sobrenaturais avançando, príncipe na torre do castelo"
+    },
+    {
+      "id": "rs-2",
+      "prompt": "Seraphina revela a origem da maldição ancestral",
+      "imageUrl": "https://pollinations.ai/p/Maga%20élfica%20revelando%20pergaminhos%20antigos%20sobre%20maldição%2C%20biblioteca%20mágica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Seraphina revela pergaminhos milenares que falam sobre Morgath e sua sede de vingança contra o reino.",
+      "visualDescription": "Biblioteca mágica com pergaminhos antigos e runas brilhantes"
+    },
+    {
+      "id": "rs-3",
+      "prompt": "Alaric reúne os líderes das cinco casas nobres",
+      "imageUrl": "https://pollinations.ai/p/Conselho%20de%20guerra%20medieval%20com%20cinco%20líderes%20de%20casas%20nobres%2C%20mesa%20redonda?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No salão real, Alaric convence os líderes das casas nobres a unirem forças contra as trevas.",
+      "visualDescription": "Salão medieval com mesa redonda e cinco líderes de diferentes casas nobres"
+    },
+    {
+      "id": "rs-4",
+      "prompt": "A primeira batalha contra as criaturas das trevas",
+      "imageUrl": "https://pollinations.ai/p/Batalha%20épica%20contra%20criaturas%20sombrias%2C%20guerreiros%20medievais%20em%20combate?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Guerreiros das cinco casas enfrentam criaturas sombrias que emergem das trevas.",
+      "visualDescription": "Campo de batalha medieval com guerreiros lutando contra monstros das trevas"
+    },
+    {
+      "id": "rs-5",
+      "prompt": "Alaric descobre seus poderes mágicos hereditários",
+      "imageUrl": "https://pollinations.ai/p/Príncipe%20descobrindo%20poderes%20mágicos%2C%20luz%20dourada%20emanando%20das%20mãos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Em momento de desespero, Alaric libera uma luz dourada que repele as trevas ao seu redor.",
+      "visualDescription": "Príncipe com luz mágica dourada emanando de suas mãos"
+    },
+    {
+      "id": "rs-6",
+      "prompt": "Jornada até a fortaleza de Morgath",
+      "imageUrl": "https://pollinations.ai/p/Jornada%20épica%20através%20de%20terras%20desoladas%20até%20fortaleza%20sombria?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O grupo atravessa terras devastadas pelas trevas rumo à fortaleza de Morgath.",
+      "visualDescription": "Paisagem desolada com fortaleza sombria ao fundo e grupo de heróis marchando"
+    },
+    {
+      "id": "rs-7",
+      "prompt": "Confronto final entre Alaric e Morgath",
+      "imageUrl": "https://pollinations.ai/p/Duelo%20mágico%20épico%20entre%20príncipe%20e%20senhor%20das%20trevas%2C%20luz%20vs%20trevas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No topo da fortaleza, Alaric e Morgath duelam com magia, luz contra trevas.",
+      "visualDescription": "Duelo mágico épico no topo de torre com luz dourada contra energia sombria"
+    },
+    {
+      "id": "rs-8",
+      "prompt": "Alaric quebra a maldição e restaura o reino",
+      "imageUrl": "https://pollinations.ai/p/Reino%20sendo%20restaurado%2C%20trevas%20se%20dissipando%20e%20luz%20retornando?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Com Morgath derrotado, as trevas se dissipam e a luz retorna ao reino, restaurando a paz.",
+      "visualDescription": "Reino medieval retornando à normalidade com luz solar e natureza florescendo"
+    },
+    {
+      "id": "rs-9",
+      "prompt": "Coroação de Alaric como o novo rei",
+      "imageUrl": "https://pollinations.ai/p/Cerimônia%20de%20coroação%20medieval%2C%20príncipe%20sendo%20coroado%20rei?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Alaric é coroado rei em uma cerimônia grandiosa, unindo definitivamente as cinco casas.",
+      "visualDescription": "Cerimônia de coroação medieval com multidão celebrando"
+    },
+    {
+      "id": "rs-10",
+      "prompt": "O reino prospera sob o novo rei",
+      "imageUrl": "https://pollinations.ai/p/Reino%20medieval%20próspero%20com%20paz%20e%20abundância%2C%20vista%20aérea?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Anos depois, o reino floresce em paz e prosperidade sob a sábia liderança de Alaric.",
+      "visualDescription": "Vista aérea de reino medieval próspero com campos verdes e cidades florescentes"
+    },
+    {
+      "id": "rs-11",
+      "prompt": "Seraphina ensina magia às novas gerações",
+      "imageUrl": "https://pollinations.ai/p/Maga%20élfica%20ensinando%20magia%20para%20jovens%20aprendizes%20em%20academia?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Seraphina estabelece uma academia de magia, ensinando as artes místicas para proteger o reino.",
+      "visualDescription": "Academia mágica com Seraphina ensinando jovens magos"
+    },
+    {
+      "id": "rs-12",
+      "prompt": "As cinco casas em harmonia eterna",
+      "imageUrl": "https://pollinations.ai/p/Representantes%20das%20cinco%20casas%20nobres%20em%20união%20pacífica%2C%20brasões%20unidos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Os brasões das cinco casas se unem permanentemente, simbolizando a união eterna do reino.",
+      "visualDescription": "Salão do trono com brasões das cinco casas unidos em harmonia"
+    },
+    {
+      "id": "rs-13",
+      "prompt": "Alaric contempla o futuro do reino",
+      "imageUrl": "https://pollinations.ai/p/Rei%20contemplando%20o%20futuro%20do%20reino%20do%20alto%20do%20castelo%20ao%20pôr%20do%20sol?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Do alto de seu castelo, o Rei Alaric contempla o horizonte, guardião eterno da luz e da paz.",
+      "visualDescription": "Rei no alto do castelo observando o reino ao pôr do sol dourado"
+    },
+    {
+      "id": "rs-14",
+      "prompt": "Lenda de Alaric se espalha por outras terras",
+      "imageUrl": "https://pollinations.ai/p/Bardos%20cantando%20lendas%20do%20rei%20herói%20em%20tavernas%20de%20outros%20reinos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A lenda do Rei Alaric se espalha por terras distantes, inspirando esperança em outros reinos.",
+      "visualDescription": "Tavernas medievais com bardos contando a lenda do rei herói"
+    },
+    {
+      "id": "rs-15",
+      "prompt": "O reino se prepara para futuras ameaças",
+      "imageUrl": "https://pollinations.ai/p/Reino%20medieval%20forte%20e%20preparado%2C%20guardiões%20treinando%20para%20proteger%20a%20paz?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Vigilantes eternos, os guardiões do reino treinam constantemente, prontos para proteger a luz conquistada.",
+      "visualDescription": "Guardiões treinando com magia e espadas, protegendo o reino próspero"
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20épico%20Reino%20das%20Sombras%2C%20fantasia%20medieval%20dark%2C%20príncipe%20herói%20com%20espada%20brilhante?width=768&height=1366&enhance=true&nologo=true",
+  "aspectRatio": "16:9",
+  "type": "movie"
+}
