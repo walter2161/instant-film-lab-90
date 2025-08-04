@@ -3,58 +3,296 @@
   "title": "Noites Proibidas",
   "genre": "Thriller Sexy",
   "style": "Erótico Elegante",
+  "imageStyle": "O filme deve ser renderizado com um estilo visual sofisticado e sensual, destacando a elegância dos cenários e a tensão erótica entre os personagens. As cenas devem ter uma iluminação suave e sombria, com cores ricas e profundas que enfatizam a atmosfera de mistério e sedução.",
   "duration": "2 minutos",
   "synopsis": "Uma dançarina de clube noturno elite se envolve em jogos de sedução perigosos com um misterioso magnata, descobrindo segredos que podem destruí-los.",
   "characters": [
-    { "name": "Scarlett", "description": "Dançarina sensual e inteligente", "voice": "female" },
-    { "name": "Viktor", "description": "Magnata misterioso e sedutor", "voice": "male" },
-    { "name": "Madame Elena", "description": "Dona do clube sofisticado", "voice": "female" }
+    {
+      "name": "Scarlett",
+      "description": "Scarlett é uma dançarina sensual e inteligente, com cabelos longos e ondulados, geralmente loiros ou castanhos, e olhos penetrantes. Ela é confiante e misteriosa, usando roupas elegantes e provocantes que destacam sua beleza e carisma.",
+      "voice": "female"
+    },
+    {
+      "name": "Viktor",
+      "description": "Viktor é um magnata misterioso e sedutor, com cabelos escuros e um olhar intenso. Ele é charmoso e perigoso, sempre vestido com ternos caros e elegantes que refletem seu status e poder.",
+      "voice": "male"
+    },
+    {
+      "name": "Madame Elena",
+      "description": "Madame Elena é a dona do clube noturno, uma mulher sofisticada e elegante com cabelos grisalhos e um ar de autoridade. Ela é astuta e observadora, sempre vestindo roupas luxuosas e joias caras.",
+      "voice": "female"
+    }
   ],
   "scenes": [
     {
       "id": "np-1",
-      "prompt": "Clube noturno sofisticado com atmosfera sensual",
-      "imageUrl": "https://pollinations.ai/p/Clube%20noturno%20sofisticado%20e%20elegante%20com%20atmosfera%20sensual?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Clube noturno sofisticado com atmosfera sensual, Scarlett dançando no palco.",
+      "imageUrl": "https://pollinations.ai/p/Clube%20noturno%20sofisticado%20e%20elegante%20com%20atmosfera%20sensual,%20Scarlett%20dançando%20no%20palco.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "No clube mais exclusivo da cidade, Scarlett domina o palco com sua dança hipnotizante.",
-      "visualDescription": "Clube noturno luxuoso com iluminação sensual e ambiente sofisticado"
+      "visualDescription": "Clube noturno luxuoso com iluminação sensual e ambiente sofisticado."
     },
     {
       "id": "np-2",
-      "prompt": "Primeiro encontro sedutor entre protagonistas",
-      "imageUrl": "https://pollinations.ai/p/Primeiro%20encontro%20sedutor%20elegante%20entre%20casal%20sofisticado?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Scarlett se preparando nos bastidores do clube, olhando no espelho.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20se%20preparando%20nos%20bastidores%20do%20clube,%20olhando%20no%20espelho.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
-      "text": "Viktor observa Scarlett do camarote VIP. O olhar entre eles promete perigo e paixão.",
-      "visualDescription": "Encontro elegante com tensão sexual e atmosfera sofisticada"
+      "text": "Nos bastidores, Scarlett se prepara para sua performance, refletindo sobre sua vida e ambições.",
+      "visualDescription": "Bastidores do clube com iluminação suave e espelhos grandes."
     },
     {
       "id": "np-3",
-      "prompt": "Jantar romântico em cobertura luxuosa",
-      "imageUrl": "https://pollinations.ai/p/Jantar%20romântico%20em%20cobertura%20luxuosa%20com%20vista%20da%20cidade?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Madame Elena observando o clube do seu escritório, com um ar de autoridade.",
+      "imageUrl": "https://pollinations.ai/p/Madame%20Elena%20observando%20o%20clube%20do%20seu%20escritório,%20com%20um%20ar%20de%20autoridade.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
-      "text": "Na cobertura de Viktor, o jantar íntimo revela segredos perigosos por trás do charme.",
-      "visualDescription": "Cobertura luxuosa com jantar romântico e vista noturna da cidade"
+      "text": "Madame Elena observa o clube do seu escritório, garantindo que tudo esteja perfeito.",
+      "visualDescription": "Escritório luxuoso com vista para o clube e decoração elegante."
     },
     {
       "id": "np-4",
-      "prompt": "Descoberta de segredos obscuros e traições",
-      "imageUrl": "https://pollinations.ai/p/Descoberta%20de%20segredos%20obscuros%20em%20ambiente%20elegante%20e%20tenso?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Viktor entrando no clube, chamando a atenção de todos com sua presença.",
+      "imageUrl": "https://pollinations.ai/p/Viktor%20entrando%20no%20clube,%20chamando%20a%20atenção%20de%20todos%20com%20sua%20presença.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
-      "text": "Scarlett descobre que Viktor não é quem parece. O jogo de sedução se torna mortal.",
-      "visualDescription": "Cena tensa com revelação de segredos em ambiente sofisticado"
+      "text": "Viktor entra no clube, sua presença imponente chama a atenção de todos, incluindo Scarlett.",
+      "visualDescription": "Entrada do clube com iluminação dramática e pessoas elegantes."
     },
     {
       "id": "np-5",
-      "prompt": "Confronto final passional e decisivo",
-      "imageUrl": "https://pollinations.ai/p/Confronto%20final%20passional%20entre%20casal%20em%20ambiente%20dramático?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Primeiro encontro sedutor entre Scarlett e Viktor no camarote VIP.",
+      "imageUrl": "https://pollinations.ai/p/Primeiro%20encontro%20sedutor%20elegante%20entre%20Scarlett%20e%20Viktor%20no%20camarote%20VIP.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Viktor observa Scarlett do camarote VIP. O olhar entre eles promete perigo e paixão.",
+      "visualDescription": "Camarote VIP com vista privilegiada do palco e decoração luxuosa."
+    },
+    {
+      "id": "np-6",
+      "prompt": "Scarlett e Viktor conversando no camarote, com tensão sexual no ar.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20e%20Viktor%20conversando%20no%20camarote,%20com%20tensão%20sexual%20no%20ar.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett e Viktor conversam no camarote, a tensão sexual entre eles é palpável.",
+      "visualDescription": "Camarote VIP com sofás luxuosos e iluminação íntima."
+    },
+    {
+      "id": "np-7",
+      "prompt": "Viktor convidando Scarlett para um jantar em sua cobertura.",
+      "imageUrl": "https://pollinations.ai/p/Viktor%20convidando%20Scarlett%20para%20um%20jantar%20em%20sua%20cobertura.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Viktor convida Scarlett para um jantar em sua cobertura, prometendo uma noite inesquecível.",
+      "visualDescription": "Camarote VIP com vista para a cidade e decoração elegante."
+    },
+    {
+      "id": "np-8",
+      "prompt": "Scarlett chegando à cobertura de Viktor, impressionada com a vista.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20chegando%20à%20cobertura%20de%20Viktor,%20impressionada%20com%20a%20vista.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett chega à cobertura de Viktor, impressionada com a vista e o luxo do lugar.",
+      "visualDescription": "Cobertura luxuosa com vista panorâmica da cidade e decoração moderna."
+    },
+    {
+      "id": "np-9",
+      "prompt": "Jantar romântico em cobertura luxuosa, com vista da cidade.",
+      "imageUrl": "https://pollinations.ai/p/Jantar%20romântico%20em%20cobertura%20luxuosa%20com%20vista%20da%20cidade.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Na cobertura de Viktor, o jantar íntimo revela segredos perigosos por trás do charme.",
+      "visualDescription": "Cobertura luxuosa com jantar romântico e vista noturna da cidade."
+    },
+    {
+      "id": "np-10",
+      "prompt": "Scarlett e Viktor conversando durante o jantar, com velas e taças de vinho.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20e%20Viktor%20conversando%20durante%20o%20jantar,%20com%20velas%20e%20taças%20de%20vinho.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Durante o jantar, Scarlett e Viktor conversam, descobrindo mais um sobre o outro.",
+      "visualDescription": "Mesa de jantar elegante com velas, taças de vinho e pratos sofisticados."
+    },
+    {
+      "id": "np-11",
+      "prompt": "Viktor mostrando a Scarlett sua coleção de arte na cobertura.",
+      "imageUrl": "https://pollinations.ai/p/Viktor%20mostrando%20a%20Scarlett%20sua%20coleção%20de%20arte%20na%20cobertura.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Viktor mostra a Scarlett sua coleção de arte, revelando seu lado mais pessoal.",
+      "visualDescription": "Sala de estar com obras de arte valiosas e decoração luxuosa."
+    },
+    {
+      "id": "np-12",
+      "prompt": "Scarlett descobrindo um segredo em um quadro na parede.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20descobrindo%20um%20segredo%20em%20um%20quadro%20na%20parede.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett descobre um segredo escondido em um dos quadros, intrigada com o mistério.",
+      "visualDescription": "Scarlett olhando para um quadro na parede, com expressão de curiosidade."
+    },
+    {
+      "id": "np-13",
+      "prompt": "Viktor surpreendendo Scarlett com um presente caro.",
+      "imageUrl": "https://pollinations.ai/p/Viktor%20surpreendendo%20Scarlett%20com%20um%20presente%20caro.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Viktor surpreende Scarlett com um presente caro, mostrando seu interesse por ela.",
+      "visualDescription": "Scarlett abrindo uma caixa de presente com joias caras, com expressão de surpresa."
+    },
+    {
+      "id": "np-14",
+      "prompt": "Scarlett e Viktor dançando lentamente na cobertura, com música suave.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20e%20Viktor%20dançando%20lentamente%20na%20cobertura,%20com%20música%20suave.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett e Viktor dançam lentamente, a música suave e a atmosfera romântica os envolvem.",
+      "visualDescription": "Scarlett e Viktor dançando juntos, com a cidade iluminada ao fundo."
+    },
+    {
+      "id": "np-15",
+      "prompt": "Descoberta de segredos obscuros e traições em um ambiente elegante e tenso.",
+      "imageUrl": "https://pollinations.ai/p/Descoberta%20de%20segredos%20obscuros%20e%20traições%20em%20ambiente%20elegante%20e%20tenso.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett descobre que Viktor não é quem parece. O jogo de sedução se torna mortal.",
+      "visualDescription": "Cena tensa com revelação de segredos em ambiente sofisticado."
+    },
+    {
+      "id": "np-16",
+      "prompt": "Scarlett confrontando Viktor sobre seus segredos, com expressão de raiva.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20confrontando%20Viktor%20sobre%20seus%20segredos,%20com%20expressão%20de%20raiva.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett confronta Viktor sobre seus segredos, sentindo-se traída e enganada.",
+      "visualDescription": "Scarlett e Viktor em uma discussão acalorada, com expressões de raiva e frustração."
+    },
+    {
+      "id": "np-17",
+      "prompt": "Viktor tentando explicar seus segredos a Scarlett, com expressão de arrependimento.",
+      "imageUrl": "https://pollinations.ai/p/Viktor%20tentando%20explicar%20seus%20segredos%20a%20Scarlett,%20com%20expressão%20de%20arrependimento.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Viktor tenta explicar seus segredos a Scarlett, mostrando um lado mais vulnerável.",
+      "visualDescription": "Viktor olhando para Scarlett com expressão de arrependimento, tentando se explicar."
+    },
+    {
+      "id": "np-18",
+      "prompt": "Scarlett refletindo sobre seus sentimentos por Viktor, olhando pela janela.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20refletindo%20sobre%20seus%20sentimentos%20por%20Viktor,%20olhando%20pela%20janela.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett reflete sobre seus sentimentos por Viktor, confundida e magoada.",
+      "visualDescription": "Scarlett olhando pela janela, com expressão de tristeza e reflexão."
+    },
+    {
+      "id": "np-19",
+      "prompt": "Madame Elena descobrindo a relação entre Scarlett e Viktor, com expressão de preocupação.",
+      "imageUrl": "https://pollinations.ai/p/Madame%20Elena%20descobrindo%20a%20relação%20entre%20Scarlett%20e%20Viktor,%20com%20expressão%20de%20preocupação.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Madame Elena descobre a relação entre Scarlett e Viktor, preocupada com as consequências.",
+      "visualDescription": "Madame Elena observando Scarlett e Viktor de longe, com expressão de preocupação."
+    },
+    {
+      "id": "np-20",
+      "prompt": "Madame Elena conversando com Scarlett sobre Viktor, com expressão de advertência.",
+      "imageUrl": "https://pollinations.ai/p/Madame%20Elena%20conversando%20com%20Scarlett%20sobre%20Viktor,%20com%20expressão%20de%20advertência.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Madame Elena conversa com Scarlett sobre Viktor, advertindo-a sobre os perigos.",
+      "visualDescription": "Madame Elena e Scarlett em uma conversa séria, com expressão de advertência."
+    },
+    {
+      "id": "np-21",
+      "prompt": "Scarlett decidindo confrontar Viktor sobre seus segredos, com expressão de determinação.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20decidindo%20confrontar%20Viktor%20sobre%20seus%20segredos,%20com%20expressão%20de%20determinação.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett decide confrontar Viktor sobre seus segredos, determinada a descobrir a verdade.",
+      "visualDescription": "Scarlett com expressão de determinação, pronta para confrontar Viktor."
+    },
+    {
+      "id": "np-22",
+      "prompt": "Scarlett e Viktor em um confronto final passional e decisivo, com alta tensão emocional.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20e%20Viktor%20em%20um%20confronto%20final%20passional%20e%20decisivo,%20com%20alta%20tensão%20emocional.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "No confronto final, paixão e traição se misturam. Só um pode sobreviver ao jogo.",
-      "visualDescription": "Confronto dramático e passional com alta tensão emocional"
+      "visualDescription": "Confronto dramático e passional com alta tensão emocional."
+    },
+    {
+      "id": "np-23",
+      "prompt": "Scarlett e Viktor em um beijo apaixonado, com a cidade iluminada ao fundo.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20e%20Viktor%20em%20um%20beijo%20apaixonado,%20com%20a%20cidade%20iluminada%20ao%20fundo.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett e Viktor se beijam apaixonadamente, a cidade iluminada ao fundo.",
+      "visualDescription": "Scarlett e Viktor em um beijo apaixonado, com a cidade iluminada ao fundo."
+    },
+    {
+      "id": "np-24",
+      "prompt": "Scarlett e Viktor em um abraço intenso, com expressão de paixão.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20e%20Viktor%20em%20um%20abraço%20intenso,%20com%20expressão%20de%20paixão.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett e Viktor se abraçam intensamente, a paixão entre eles é evidente.",
+      "visualDescription": "Scarlett e Viktor em um abraço intenso, com expressão de paixão."
+    },
+    {
+      "id": "np-25",
+      "prompt": "Scarlett e Viktor em uma discussão acalorada, com expressão de raiva.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20e%20Viktor%20em%20uma%20discussão%20acalorada,%20com%20expressão%20de%20raiva.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett e Viktor têm uma discussão acalorada, a raiva entre eles é palpável.",
+      "visualDescription": "Scarlett e Viktor em uma discussão acalorada, com expressão de raiva."
+    },
+    {
+      "id": "np-26",
+      "prompt": "Scarlett e Viktor em uma reconciliação emocional, com expressão de alívio.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20e%20Viktor%20em%20uma%20reconciliação%20emocional,%20com%20expressão%20de%20alívio.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett e Viktor se reconciliam emocionalmente, o alívio entre eles é evidente.",
+      "visualDescription": "Scarlett e Viktor em uma reconciliação emocional, com expressão de alívio."
+    },
+    {
+      "id": "np-27",
+      "prompt": "Scarlett e Viktor planejando seu futuro juntos, com expressão de esperança.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20e%20Viktor%20planejando%20seu%20futuro%20juntos,%20com%20expressão%20de%20esperança.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett e Viktor planejam seu futuro juntos, a esperança entre eles é evidente.",
+      "visualDescription": "Scarlett e Viktor planejando seu futuro juntos, com expressão de esperança."
+    },
+    {
+      "id": "np-28",
+      "prompt": "Scarlett e Viktor em uma festa elegante, dançando juntos.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20e%20Viktor%20em%20uma%20festa%20elegante,%20dançando%20juntos.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett e Viktor dançam juntos em uma festa elegante, a felicidade entre eles é evidente.",
+      "visualDescription": "Scarlett e Viktor em uma festa elegante, dançando juntos."
+    },
+    {
+      "id": "np-29",
+      "prompt": "Scarlett e Viktor em um momento íntimo, com expressão de amor.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20e%20Viktor%20em%20um%20momento%20íntimo,%20com%20expressão%20de%20amor.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett e Viktor compartilham um momento íntimo, o amor entre eles é evidente.",
+      "visualDescription": "Scarlett e Viktor em um momento íntimo, com expressão de amor."
+    },
+    {
+      "id": "np-30",
+      "prompt": "Scarlett e Viktor em um final feliz, com expressão de felicidade.",
+      "imageUrl": "https://pollinations.ai/p/Scarlett%20e%20Viktor%20em%20um%20final%20feliz,%20com%20expressão%20de%20felicidade.%20Estilo%20visual%20sofisticado%20e%20sensual,%20destacando%20a%20elegância%20dos%20cenários?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Scarlett e Viktor têm um final feliz, a felicidade entre eles é evidente.",
+      "visualDescription": "Scarlett e Viktor em um final feliz, com expressão de felicidade."
     }
   ],
   "createdAt": "2024-01-01T00:00:00.000Z",
