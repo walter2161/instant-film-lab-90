@@ -3,62 +3,400 @@
   "title": "X-Men: Evolução",
   "genre": "Super-Herói",
   "style": "Ficção Científica",
+  "imageStyle": "O filme deve ser renderizado com um estilo visual futurista e dinâmico, destacando os poderes únicos dos mutantes e os contrastes entre as cenas de ação e os momentos de desenvolvimento dos personagens. As cenas devem ter uma iluminação dramática e cores vibrantes que enfatizam a tensão e a emoção.",
   "duration": "2 minutos",
   "synopsis": "Mutantes com poderes extraordinários lutam por aceitação em um mundo que os teme, defendendo tanto humanos quanto mutantes.",
   "characters": [
-    { "name": "Professor X", "description": "Líder telepata dos X-Men", "voice": "male" },
-    { "name": "Tempestade", "description": "Mutante que controla o clima", "voice": "female" },
-    { "name": "Wolverine", "description": "Mutante com garras de adamantium", "voice": "male" }
+    {
+      "name": "Professor X",
+      "description": "O Professor X é um líder telepata dos X-Men, com cabelos grisalhos e uma expressão sábia. Ele é calmo e ponderado, sempre usando um terno elegante e uma cadeira de rodas.",
+      "voice": "male"
+    },
+    {
+      "name": "Tempestade",
+      "description": "Tempestade é uma mutante que controla o clima, com cabelos brancos e olhos penetrantes. Ela é forte e compassiva, usando roupas que refletem sua herança africana.",
+      "voice": "female"
+    },
+    {
+      "name": "Wolverine",
+      "description": "Wolverine é um mutante com garras de adamantium, com cabelos pretos e um olhar intenso. Ele é feroz e protetor, sempre usando seu uniforme característico amarelo e azul.",
+      "voice": "male"
+    },
+    {
+      "name": "Ciclope",
+      "description": "Ciclope é um mutante que dispara rajadas ópticas, com cabelos castanhos e óculos especiais. Ele é disciplinado e focado, sempre usando seu uniforme dos X-Men.",
+      "voice": "male"
+    },
+    {
+      "name": "Jean Grey",
+      "description": "Jean Grey é uma mutante com poderes telecinéticos e telepáticos, com cabelos ruivos e olhos verdes. Ela é poderosa e compassiva, sempre usando seu uniforme dos X-Men.",
+      "voice": "female"
+    }
   ],
   "scenes": [
     {
       "id": "xe-1",
-      "prompt": "Escola para jovens mutantes dotados",
-      "imageUrl": "https://pollinations.ai/p/Escola%20para%20jovens%20mutantes%20com%20poderes%20extraordinários?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Escola para jovens mutantes dotados, com o Professor X liderando uma aula.",
+      "imageUrl": "https://pollinations.ai/p/Escola%20futurista%20para%20jovens%20mutantes%20dotados,%20com%20o%20Professor%20X%20liderando%20uma%20aula.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Na Escola Xavier, jovens mutantes aprendem a controlar seus poderes únicos.",
-      "visualDescription": "Escola futurística com jovens mutantes treinando poderes especiais"
+      "visualDescription": "Escola futurística com jovens mutantes treinando poderes especiais."
     },
     {
       "id": "xe-2",
-      "prompt": "X-Men em missão de salvamento",
-      "imageUrl": "https://pollinations.ai/p/X-Men%20em%20missão%20de%20salvamento%20usando%20poderes%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Professor X conversando com Wolverine no salão da escola.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20conversando%20com%20Wolverine%20no%20salão%20da%20escola.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
-      "text": "Os X-Men usam seus poderes únicos para salvar tanto humanos quanto mutantes em perigo.",
-      "visualDescription": "Equipe de mutantes em ação usando poderes especiais coordenadamente"
+      "text": "Professor X e Wolverine discutem estratégias para proteger os jovens mutantes.",
+      "visualDescription": "Salão da escola com decoração futurista e móveis modernos."
     },
     {
       "id": "xe-3",
-      "prompt": "Confronto com sentinelas robóticas",
-      "imageUrl": "https://pollinations.ai/p/Batalha%20épica%20contra%20sentinelas%20robóticas%20gigantes?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Tempestade treinando jovens mutantes no pátio da escola.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20treinando%20jovens%20mutantes%20no%20pátio%20da%20escola.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
-      "text": "Robôs gigantes caçadores de mutantes atacam, forçando os X-Men a uma batalha épica.",
-      "visualDescription": "Batalha futurística contra robôs gigantes caçadores de mutantes"
+      "text": "Tempestade treina jovens mutantes no pátio, ensinando-os a controlar seus poderes.",
+      "visualDescription": "Pátio da escola com equipamentos de treinamento e jovens mutantes praticando."
     },
     {
       "id": "xe-4",
-      "prompt": "Tempestade controlando elementos naturais",
-      "imageUrl": "https://pollinations.ai/p/Tempestade%20controlando%20elementos%20naturais%20em%20batalha?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Jean Grey em uma sessão de meditação na biblioteca da escola.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20sessão%20de%20meditação%20na%20biblioteca%20da%20escola.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
-      "text": "Tempestade invoca raios e ventos poderosos para proteger seus companheiros mutantes.",
-      "visualDescription": "Mutante controlando tempestades e elementos naturais em batalha"
+      "text": "Jean Grey medita na biblioteca, tentando aprimorar seus poderes telecinéticos.",
+      "visualDescription": "Biblioteca da escola com estantes de livros e uma atmosfera tranquila."
     },
     {
       "id": "xe-5",
-      "prompt": "União entre humanos e mutantes pela paz",
-      "imageUrl": "https://pollinations.ai/p/União%20pacífica%20entre%20humanos%20e%20mutantes%20pelo%20futuro?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Ciclope praticando tiro ao alvo no campo de treinamento.",
+      "imageUrl": "https://pollinations.ai/p/Ciclope%20praticando%20tiro%20ao%20alvo%20no%20campo%20de%20treinamento.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Ciclope pratica tiro ao alvo, tentando melhorar sua precisão com suas rajadas ópticas.",
+      "visualDescription": "Campo de treinamento com alvos e equipamentos de prática."
+    },
+    {
+      "id": "xe-6",
+      "prompt": "X-Men em missão de salvamento, usando poderes mutantes em uma cidade.",
+      "imageUrl": "https://pollinations.ai/p/X-Men%20em%20missão%20de%20salvamento,%20usando%20poderes%20mutantes%20em%20uma%20cidade.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Os X-Men usam seus poderes únicos para salvar tanto humanos quanto mutantes em perigo.",
+      "visualDescription": "Cidade com prédios modernos e X-Men em ação usando poderes especiais."
+    },
+    {
+      "id": "xe-7",
+      "prompt": "Wolverine lutando contra inimigos em um armazém abandonado.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20lutando%20contra%20inimigos%20em%20um%20armazen%20abandonado.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Wolverine luta contra inimigos em um armazém abandonado, usando suas garras de adamantium.",
+      "visualDescription": "Armazém abandonado com iluminação dramática e Wolverine em ação."
+    },
+    {
+      "id": "xe-8",
+      "prompt": "Tempestade controlando elementos naturais em uma batalha épica.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20controlando%20elementos%20naturais%20em%20uma%20batalha%20épica.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Tempestade invoca raios e ventos poderosos para proteger seus companheiros mutantes.",
+      "visualDescription": "Tempestade controlando tempestades e elementos naturais em uma batalha épica."
+    },
+    {
+      "id": "xe-9",
+      "prompt": "Professor X usando seus poderes telepaticos para ajudar os X-Men.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20usando%20seus%20poderes%20telepaticos%20para%20ajudar%20os%20X-Men.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Professor X usa seus poderes telepáticos para coordenar os X-Men durante uma missão.",
+      "visualDescription": "Professor X em sua cadeira de rodas, com expressão de concentração e poder."
+    },
+    {
+      "id": "xe-10",
+      "prompt": "Jean Grey usando seus poderes telecinéticos para salvar um companheiro.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20usando%20seus%20poderes%20telecinéticos%20para%20salvar%20um%20companheiro.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Jean Grey usa seus poderes telecinéticos para salvar um companheiro em perigo.",
+      "visualDescription": "Jean Grey com expressão de determinação, usando seus poderes para mover objetos."
+    },
+    {
+      "id": "xe-11",
+      "prompt": "Ciclope liderando uma equipe de jovens mutantes em uma missão.",
+      "imageUrl": "https://pollinations.ai/p/Ciclope%20liderando%20uma%20equipe%20de%20jovens%20mutantes%20em%20uma%20missão.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Ciclope lidera uma equipe de jovens mutantes em uma missão perigosa.",
+      "visualDescription": "Ciclope com expressão de liderança, guiando jovens mutantes em uma missão."
+    },
+    {
+      "id": "xe-12",
+      "prompt": "Wolverine e Tempestade em uma batalha contra sentinelas robóticas.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20e%20Tempestade%20em%20uma%20batalha%20contra%20sentinelas%20robóticas.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Wolverine e Tempestade lutam juntos contra sentinelas robóticas, usando seus poderes únicos.",
+      "visualDescription": "Wolverine e Tempestade em ação, lutando contra robôs gigantes caçadores de mutantes."
+    },
+    {
+      "id": "xe-13",
+      "prompt": "Professor X e Jean Grey em uma sessão de treinamento telepático.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20e%20Jean%20Grey%20em%20uma%20sessão%20de%20treinamento%20telepático.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Professor X e Jean Grey treinam juntos, aprimorando seus poderes telepáticos.",
+      "visualDescription": "Professor X e Jean Grey em uma sessão de treinamento, com expressões de concentração."
+    },
+    {
+      "id": "xe-14",
+      "prompt": "X-Men em uma reunião estratégica na sala de guerra da escola.",
+      "imageUrl": "https://pollinations.ai/p/X-Men%20em%20uma%20reunião%20estratégica%20na%20sala%20de%20guerra%20da%20escola.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Os X-Men se reúnem na sala de guerra para planejar sua próxima missão.",
+      "visualDescription": "Sala de guerra com mapas e equipamentos de planejamento, X-Men em uma reunião estratégica."
+    },
+    {
+      "id": "xe-15",
+      "prompt": "Wolverine em um confronto solo contra um grupo de inimigos.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20em%20um%20confronto%20solo%20contra%20um%20grupo%20de%20inimigos.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Wolverine enfrenta um grupo de inimigos sozinho, usando suas garras de adamantium.",
+      "visualDescription": "Wolverine em ação, lutando contra um grupo de inimigos em um ambiente urbano."
+    },
+    {
+      "id": "xe-16",
+      "prompt": "Tempestade voando sobre a cidade, observando a paisagem.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20voando%20sobre%20a%20cidade,%20observando%20a%20paisagem.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Tempestade voa sobre a cidade, observando a paisagem e refletindo sobre sua missão.",
+      "visualDescription": "Tempestade voando sobre a cidade, com expressão de contemplação."
+    },
+    {
+      "id": "xe-17",
+      "prompt": "Jean Grey em uma batalha mental contra um inimigo telepático.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20batalha%20mental%20contra%20um%20inimigo%20telepático.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Jean Grey enfrenta um inimigo telepático em uma batalha mental, usando seus poderes únicos.",
+      "visualDescription": "Jean Grey com expressão de concentração, em uma batalha mental contra um inimigo."
+    },
+    {
+      "id": "xe-18",
+      "prompt": "Ciclope e Wolverine em uma missão de resgate em um prédio em chamas.",
+      "imageUrl": "https://pollinations.ai/p/Ciclope%20e%20Wolverine%20em%20uma%20missão%20de%20resgate%20em%20um%20prédio%20em%20chamas.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Ciclope e Wolverine trabalham juntos em uma missão de resgate em um prédio em chamas.",
+      "visualDescription": "Ciclope e Wolverine em ação, resgatando pessoas de um prédio em chamas."
+    },
+    {
+      "id": "xe-19",
+      "prompt": "Professor X em uma conversa com Tempestade sobre liderança.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20conversa%20com%20Tempestade%20sobre%20liderança.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Professor X conversa com Tempestade sobre liderança e responsabilidade.",
+      "visualDescription": "Professor X e Tempestade em uma conversa séria, com expressões de reflexão."
+    },
+    {
+      "id": "xe-20",
+      "prompt": "Jean Grey e Ciclope em um treinamento conjunto na sala de perigo.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20e%20Ciclope%20em%20um%20treinamento%20conjunto%20na%20sala%20de%20perigo.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Jean Grey e Ciclope treinam juntos na sala de perigo, aprimorando suas habilidades.",
+      "visualDescription": "Jean Grey e Ciclope em um treinamento conjunto, com expressões de concentração."
+    },
+    {
+      "id": "xe-21",
+      "prompt": "Wolverine em um confronto com um inimigo poderoso em uma floresta.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20em%20um%20confronto%20com%20um%20inimigo%20poderoso%20em%20uma%20floresta.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Wolverine enfrenta um inimigo poderoso em uma floresta, usando suas garras de adamantium.",
+      "visualDescription": "Wolverine em ação, lutando contra um inimigo em uma floresta densa."
+    },
+    {
+      "id": "xe-22",
+      "prompt": "Tempestade em uma batalha aérea contra um inimigo voador.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20em%20uma%20batalha%20aérea%20contra%20um%20inimigo%20voador.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Tempestade enfrenta um inimigo voador em uma batalha aérea, usando seus poderes de controle do clima.",
+      "visualDescription": "Tempestade em ação, voando e usando seus poderes contra um inimigo voador."
+    },
+    {
+      "id": "xe-23",
+      "prompt": "Professor X em uma sessão de meditação profunda em seu escritório.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20sessão%20de%20meditação%20profunda%20em%20seu%20escritório.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Professor X medita profundamente em seu escritório, tentando aprimorar seus poderes telepáticos.",
+      "visualDescription": "Professor X em seu escritório, com expressão de concentração e poder."
+    },
+    {
+      "id": "xe-24",
+      "prompt": "Jean Grey em uma missão solo para resgatar um mutante capturado.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20missão%20solo%20para%20resgatar%20um%20mutante%20capturado.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Jean Grey parte em uma missão solo para resgatar um mutante capturado, usando seus poderes telecinéticos.",
+      "visualDescription": "Jean Grey em ação, resgatando um mutante capturado em uma missão solo."
+    },
+    {
+      "id": "xe-25",
+      "prompt": "Ciclope em um confronto com um inimigo em um deserto.",
+      "imageUrl": "https://pollinations.ai/p/Ciclope%20em%20um%20confronto%20com%20um%20inimigo%20em%20um%20deserto.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Ciclope enfrenta um inimigo em um deserto, usando suas rajadas ópticas.",
+      "visualDescription": "Ciclope em ação, lutando contra um inimigo em um deserto árido."
+    },
+    {
+      "id": "xe-26",
+      "prompt": "Wolverine e Jean Grey em uma missão de infiltração em uma base inimiga.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20e%20Jean%20Grey%20em%20uma%20missão%20de%20infiltração%20em%20uma%20base%20inimiga.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Wolverine e Jean Grey trabalham juntos em uma missão de infiltração em uma base inimiga.",
+      "visualDescription": "Wolverine e Jean Grey em ação, infiltrando-se em uma base inimiga."
+    },
+    {
+      "id": "xe-27",
+      "prompt": "Professor X em uma conversa com Wolverine sobre estratégias de combate.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20conversa%20com%20Wolverine%20sobre%20estratégias%20de%20combate.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Professor X conversa com Wolverine sobre estratégias de combate e táticas de equipe.",
+      "visualDescription": "Professor X e Wolverine em uma conversa séria, com expressões de reflexão."
+    },
+    {
+      "id": "xe-28",
+      "prompt": "Tempestade em uma missão de resgate em um navio em alto mar.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20em%20uma%20missão%20de%20resgate%20em%20um%20navio%20em%20alto%20mar.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Tempestade parte em uma missão de resgate em um navio em alto mar, usando seus poderes de controle do clima.",
+      "visualDescription": "Tempestade em ação, resgatando pessoas de um navio em alto mar."
+    },
+    {
+      "id": "xe-29",
+      "prompt": "Jean Grey em uma batalha contra um inimigo em uma cidade destruída.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20batalha%20contra%20um%20inimigo%20em%20uma%20cidade%20destruída.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Jean Grey enfrenta um inimigo em uma cidade destruída, usando seus poderes telecinéticos.",
+      "visualDescription": "Jean Grey em ação, lutando contra um inimigo em uma cidade destruída."
+    },
+    {
+      "id": "xe-30",
+      "prompt": "Ciclope em uma missão de reconhecimento em uma floresta.",
+      "imageUrl": "https://pollinations.ai/p/Ciclope%20em%20uma%20missão%20de%20reconhecimento%20em%20uma%20floresta.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Ciclope parte em uma missão de reconhecimento em uma floresta, usando suas habilidades de liderança.",
+      "visualDescription": "Ciclope em ação, em uma missão de reconhecimento em uma floresta densa."
+    },
+    {
+      "id": "xe-31",
+      "prompt": "Wolverine em um confronto com um inimigo em um prédio abandonado.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20em%20um%20confronto%20com%20um%20inimigo%20em%20um%20prédio%20abandonado.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Wolverine enfrenta um inimigo em um prédio abandonado, usando suas garras de adamantium.",
+      "visualDescription": "Wolverine em ação, lutando contra um inimigo em um prédio abandonado."
+    },
+    {
+      "id": "xe-32",
+      "prompt": "Tempestade em uma batalha contra um inimigo em um deserto.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20em%20uma%20batalha%20contra%20um%20inimigo%20em%20um%20deserto.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Tempestade enfrenta um inimigo em um deserto, usando seus poderes de controle do clima.",
+      "visualDescription": "Tempestade em ação, lutando contra um inimigo em um deserto árido."
+    },
+    {
+      "id": "xe-33",
+      "prompt": "Professor X em uma conversa com Jean Grey sobre o futuro dos X-Men.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20conversa%20com%20Jean%20Grey%20sobre%20o%20futuro%20dos%20X-Men.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Professor X conversa com Jean Grey sobre o futuro dos X-Men e suas responsabilidades.",
+      "visualDescription": "Professor X e Jean Grey em uma conversa séria, com expressões de reflexão."
+    },
+    {
+      "id": "xe-34",
+      "prompt": "Jean Grey em uma missão de resgate em uma montanha.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20missão%20de%20resgate%20em%20uma%20montanha.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Jean Grey parte em uma missão de resgate em uma montanha, usando seus poderes telecinéticos.",
+      "visualDescription": "Jean Grey em ação, resgatando pessoas em uma montanha."
+    },
+    {
+      "id": "xe-35",
+      "prompt": "Ciclope em uma batalha contra um inimigo em uma cidade.",
+      "imageUrl": "https://pollinations.ai/p/Ciclope%20em%20uma%20batalha%20contra%20um%20inimigo%20em%20uma%20cidade.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Ciclope enfrenta um inimigo em uma cidade, usando suas rajadas ópticas.",
+      "visualDescription": "Ciclope em ação, lutando contra um inimigo em uma cidade."
+    },
+    {
+      "id": "xe-36",
+      "prompt": "Wolverine em uma missão de infiltração em uma base inimiga.",
+      "imageUrl": "https://pollinations.ai/p/Wolverine%20em%20uma%20missão%20de%20infiltração%20em%20uma%20base%20inimiga.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Wolverine parte em uma missão de infiltração em uma base inimiga, usando suas habilidades de combate.",
+      "visualDescription": "Wolverine em ação, infiltrando-se em uma base inimiga."
+    },
+    {
+      "id": "xe-37",
+      "prompt": "Tempestade em uma batalha contra um inimigo em uma floresta.",
+      "imageUrl": "https://pollinations.ai/p/Tempestade%20em%20uma%20batalha%20contra%20um%20inimigo%20em%20uma%20floresta.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Tempestade enfrenta um inimigo em uma floresta, usando seus poderes de controle do clima.",
+      "visualDescription": "Tempestade em ação, lutando contra um inimigo em uma floresta densa."
+    },
+    {
+      "id": "xe-38",
+      "prompt": "Professor X em uma conversa com Ciclope sobre liderança.",
+      "imageUrl": "https://pollinations.ai/p/Professor%20X%20em%20uma%20conversa%20com%20Ciclope%20sobre%20liderança.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Professor X conversa com Ciclope sobre liderança e responsabilidade.",
+      "visualDescription": "Professor X e Ciclope em uma conversa séria, com expressões de reflexão."
+    },
+    {
+      "id": "xe-39",
+      "prompt": "Jean Grey em uma missão de resgate em um prédio em chamas.",
+      "imageUrl": "https://pollinations.ai/p/Jean%20Grey%20em%20uma%20missão%20de%20resgate%20em%20um%20prédio%20em%20chamas.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Jean Grey parte em uma missão de resgate em um prédio em chamas, usando seus poderes telecinéticos.",
+      "visualDescription": "Jean Grey em ação, resgatando pessoas de um prédio em chamas."
+    },
+    {
+      "id": "xe-40",
+      "prompt": "União entre humanos e mutantes pela paz, em uma cena de celebração.",
+      "imageUrl": "https://pollinations.ai/p/União%20entre%20humanos%20e%20mutantes%20pela%20paz,%20em%20uma%20cena%20de%20celebração.%20Estilo%20visual%20futurista%20e%20dinâmico,%20destacando%20os%20poderes%20únicos%20dos%20mutantes?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "X-Men provam que mutantes e humanos podem coexistir em paz e harmonia.",
-      "visualDescription": "Cena de união pacífica entre humanos e mutantes"
+      "visualDescription": "Cena de união pacífica entre humanos e mutantes, em uma celebração."
     }
   ],
   "createdAt": "2024-01-01T00:00:00.000Z",
-  "thumbnail": "https://pollinations.ai/p/Cartaz%20X-Men%20Evolução%20super-heróis%20mutantes%20épico?width=768&height=1366&enhance=true&nologo=true",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20X-Men%20Evolução%20super-heróis%20mutantes%20ação%20futurista?width=768&height=1366&enhance=true&nologo=true",
   "aspectRatio": "16:9",
   "type": "movie"
 }
