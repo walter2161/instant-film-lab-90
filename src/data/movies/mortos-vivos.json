@@ -3,62 +3,310 @@
   "title": "Mortos Vivos",
   "genre": "Terror",
   "style": "Apocalipse Zumbi",
+  "imageStyle": "O filme deve ser renderizado com um estilo visual sombrio e dramático, destacando a atmosfera pós-apocalíptica e os detalhes assustadores dos zumbis. As cenas devem ter uma iluminação baixa e cores desaturadas que enfatizam a tensão e o horror. Os personagens são desenhados com traços realistas e expressões faciais intensas, refletindo suas emoções e o desespero da situação.",
   "duration": "2 minutos",
   "synopsis": "Sobreviventes lutam contra hordas de zumbis em um mundo pós-apocalíptico, descobrindo que o verdadeiro inimigo pode ser outros humanos.",
   "characters": [
-    { "name": "Rick Grimes", "description": "Xerife líder dos sobreviventes", "voice": "male" },
-    { "name": "Michonne", "description": "Guerreira especialista em katana", "voice": "female" },
-    { "name": "Negan", "description": "Líder tirânico de grupo rival", "voice": "male" }
+    {
+      "name": "Rick Grimes",
+      "description": "Homem de estatura média, pele clara, cabelos castanhos, barba por fazer, olhos azuis, usando roupas de xerife sujas e rasgadas, líder dos sobreviventes.",
+      "voice": "male"
+    },
+    {
+      "name": "Michonne",
+      "description": "Mulher alta, pele escura, cabelos pretos curtos, olhos castanhos, usando roupas de combate e carregando uma katana, guerreira especialista em katana.",
+      "voice": "female"
+    },
+    {
+      "name": "Negan",
+      "description": "Homem alto, pele clara, cabelos longos e barba, olhos azuis, usando roupas de couro e carregando um taco de beisebol com arame farpado, líder tirânico de grupo rival.",
+      "voice": "male"
+    },
+    {
+      "name": "Daryl Dixon",
+      "description": "Homem magro, pele clara, cabelos castanhos longos, olhos verdes, usando roupas de camuflagem e carregando uma besta, caçador habilidoso.",
+      "voice": "male"
+    },
+    {
+      "name": "Maggie Greene",
+      "description": "Mulher de estatura média, pele clara, cabelos castanhos longos, olhos castanhos, usando roupas práticas de trabalho, agricultora forte.",
+      "voice": "female"
+    }
   ],
   "scenes": [
     {
       "id": "mv-1",
-      "prompt": "Rick desperta em hospital pós-apocalíptico",
-      "imageUrl": "https://pollinations.ai/p/Hospital%20abandonado%20pós-apocalíptico%20com%20sobrevivente%20despertando?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem de estatura média, pele clara, cabelos castanhos, barba por fazer, olhos azuis, usando roupas de xerife sujas e rasgadas, desperta em um hospital abandonado e decadente, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20de%20estatura%20média,%20pele%20clara,%20cabelos%20castanhos,%20barba%20por%20fazer,%20olhos%20azuis,%20usando%20roupas%20de%20xerife%20sujas%20e%20rasgadas,%20desperta%20em%20um%20hospital%20abandonado%20e%20decadente,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
-      "text": "Rick desperta de um coma para descobrir que o mundo foi tomado por mortos-vivos.",
-      "visualDescription": "Hospital abandonado e decadente com atmosfera pós-apocalíptica"
+      "text": "Um homem desperta de um coma para descobrir que o mundo foi tomado por mortos-vivos.",
+      "visualDescription": "Hospital abandonado e decadente com atmosfera pós-apocalíptica."
     },
     {
       "id": "mv-2",
-      "prompt": "Grupo de sobreviventes fugindo de horda",
-      "imageUrl": "https://pollinations.ai/p/Grupo%20de%20sobreviventes%20fugindo%20de%20horda%20de%20zumbis?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem de estatura média, pele clara, cabelos castanhos, barba por fazer, olhos azuis, usando roupas de xerife sujas e rasgadas, saindo do hospital e descobrindo um mundo em ruínas, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20de%20estatura%20média,%20pele%20clara,%20cabelos%20castanhos,%20barba%20por%20fazer,%20olhos%20azuis,%20usando%20roupas%20de%20xerife%20sujas%20e%20rasgadas,%20saindo%20do%20hospital%20e%20descobrindo%20um%20mundo%20em%20ruínas,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
-      "text": "O grupo luta para sobreviver enquanto hordas de zumbis os perseguem constantemente.",
-      "visualDescription": "Fuga desesperada de sobreviventes perseguidos por zumbis"
+      "text": "Um homem sai do hospital e descobre um mundo em ruínas, tomado por zumbis.",
+      "visualDescription": "Rua deserta com prédios destruídos e zumbis vagando."
     },
     {
       "id": "mv-3",
-      "prompt": "Michonne lutando com katana contra zumbis",
-      "imageUrl": "https://pollinations.ai/p/Guerreira%20lutando%20com%20katana%20contra%20zumbis%20apocalípticos?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem de estatura média, pele clara, cabelos castanhos, barba por fazer, olhos azuis, usando roupas de xerife sujas e rasgadas, encontra um zumbi feminino sem as pernas se arrastando pelo chão, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20de%20estatura%20média,%20pele%20clara,%20cabelos%20castanhos,%20barba%20por%20fazer,%20olhos%20azuis,%20usando%20roupas%20de%20xerife%20sujas%20e%20rasgadas,%20encontra%20um%20zumbi%20feminino%20sem%20as%20pernas%20se%20arrastando%20pelo%20chão,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
-      "text": "Michonne usa sua katana letal para atravessar hordas de mortos-vivos.",
-      "visualDescription": "Guerreira habilidosa lutando com espada contra zumbis"
+      "text": "Um homem encontra um zumbi feminino sem as pernas se arrastando pelo chão e precisa lutar para sobreviver.",
+      "visualDescription": "Zumbi decadente e assustador em um beco escuro."
     },
     {
       "id": "mv-4",
-      "prompt": "Confronto com Negan e seu grupo",
-      "imageUrl": "https://pollinations.ai/p/Confronto%20tenso%20entre%20grupos%20rivais%20de%20sobreviventes?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Homem de estatura média, pele clara, cabelos castanhos, barba por fazer, olhos azuis, usando roupas de xerife sujas e rasgadas, encontra um grupo de pessoas assustadas em um acampamento improvisado, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20de%20estatura%20média,%20pele%20clara,%20cabelos%20castanhos,%20barba%20por%20fazer,%20olhos%20azuis,%20usando%20roupas%20de%20xerife%20sujas%20e%20rasgadas,%20encontra%20um%20grupo%20de%20pessoas%20assustadas%20em%20um%20acampamento%20improvisado,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
-      "text": "O verdadeiro perigo surge quando Negan e seu grupo ameaçam os sobreviventes.",
-      "visualDescription": "Confronto tenso entre grupos rivais em ambiente pós-apocalíptico"
+      "text": "Um homem encontra um grupo de pessoas assustadas e se junta a elas para aumentar suas chances de sobrevivência.",
+      "visualDescription": "Grupo de pessoas em um acampamento improvisado."
     },
     {
       "id": "mv-5",
-      "prompt": "Sobreviventes unidos contra ameaça comum",
-      "imageUrl": "https://pollinations.ai/p/Sobreviventes%20unidos%20lutando%20contra%20ameaça%20zumbi%20comum?width=1920&height=1080&enhance=true&nologo=true",
+      "prompt": "Grupo de pessoas assustadas fugindo de uma horda de zumbis em uma estrada deserta, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Grupo%20de%20pessoas%20assustadas%20fugindo%20de%20uma%20horda%20de%20zumbis%20em%20uma%20estrada%20deserta,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O grupo luta para sobreviver enquanto hordas de zumbis os perseguem constantemente.",
+      "visualDescription": "Fuga desesperada de pessoas assustadas perseguidas por zumbis."
+    },
+    {
+      "id": "mv-6",
+      "prompt": "Mulher alta, pele escura, cabelos pretos curtos, olhos castanhos, usando roupas de combate e carregando uma katana, lutando contra zumbis em um ambiente urbano, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Mulher%20alta,%20pele%20escura,%20cabelos%20pretos%20curtos,%20olhos%20castanhos,%20usando%20roupas%20de%20combate%20e%20carregando%20uma%20katana,%20lutando%20contra%20zumbis%20em%20um%20ambiente%20urbano,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma mulher usa sua katana letal para atravessar hordas de mortos-vivos.",
+      "visualDescription": "Guerreira habilidosa lutando com espada contra zumbis."
+    },
+    {
+      "id": "mv-7",
+      "prompt": "Homem alto, pele clara, cabelos longos e barba, olhos azuis, usando roupas de couro e carregando um taco de beisebol com arame farpado, confrontando um grupo de sobreviventes em um ambiente pós-apocalíptico, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20alto,%20pele%20clara,%20cabelos%20longos%20e%20barba,%20olhos%20azuis,%20usando%20roupas%20de%20couro%20e%20carregando%20um%20taco%20de%20beisebol%20com%20arame%20farpado,%20confrontando%20um%20grupo%20de%20sobreviventes%20em%20um%20ambiente%20pós-apocalíptico,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O verdadeiro perigo surge quando um líder tirânico e seu grupo ameaçam os sobreviventes.",
+      "visualDescription": "Confronto tenso entre grupos rivais em ambiente pós-apocalíptico."
+    },
+    {
+      "id": "mv-8",
+      "prompt": "Grupo de pessoas unidas lutando contra uma ameaça zumbi comum em um ambiente urbano, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Grupo%20de%20pessoas%20unidas%20lutando%20contra%20uma%20ameaça%20zumbi%20comum%20em%20um%20ambiente%20urbano,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
       "audioUrl": "",
       "duration": 8,
       "text": "Os grupos se unem para enfrentar uma ameaça zumbi maior, descobrindo força na união.",
-      "visualDescription": "Grupos unidos em batalha épica contra horda massiva de zumbis"
+      "visualDescription": "Grupos unidos em batalha épica contra horda massiva de zumbis."
+    },
+    {
+      "id": "mv-9",
+      "prompt": "Homem magro, pele clara, cabelos castanhos longos, olhos verdes, usando roupas de camuflagem e carregando uma besta, caçando em uma floresta densa, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20magro,%20pele%20clara,%20cabelos%20castanhos%20longos,%20olhos%20verdes,%20usando%20roupas%20de%20camuflagem%20e%20carregando%20uma%20besta,%20caçando%20em%20uma%20floresta%20densa,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um homem caça em uma floresta densa, usando suas habilidades de sobrevivência.",
+      "visualDescription": "Homem caçando em uma floresta densa e escura."
+    },
+    {
+      "id": "mv-10",
+      "prompt": "Mulher de estatura média, pele clara, cabelos castanhos longos, olhos castanhos, usando roupas práticas de trabalho, trabalhando em uma fazenda abandonada, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Mulher%20de%20estatura%20média,%20pele%20clara,%20cabelos%20castanhos%20longos,%20olhos%20castanhos,%20usando%20roupas%20práticas%20de%20trabalho,%20trabalhando%20em%20uma%20fazenda%20abandonada,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma mulher trabalha em uma fazenda abandonada, tentando cultivar alimentos para o grupo.",
+      "visualDescription": "Mulher trabalhando em uma fazenda abandonada e sombria."
+    },
+    {
+      "id": "mv-11",
+      "prompt": "Homem de estatura média, pele clara, cabelos castanhos, barba por fazer, olhos azuis, usando roupas de xerife sujas e rasgadas, liderando um grupo de sobreviventes em uma missão perigosa, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20de%20estatura%20média,%20pele%20clara,%20cabelos%20castanhos,%20barba%20por%20fazer,%20olhos%20azuis,%20usando%20roupas%20de%20xerife%20sujas%20e%20rasgadas,%20liderando%20um%20grupo%20de%20sobreviventes%20em%20uma%20missão%20perigosa,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um homem lidera um grupo de sobreviventes em uma missão perigosa.",
+      "visualDescription": "Grupo de sobreviventes em uma missão perigosa e tensa."
+    },
+    {
+      "id": "mv-12",
+      "prompt": "Mulher alta, pele escura, cabelos pretos curtos, olhos castanhos, usando roupas de combate e carregando uma katana, treinando jovens sobreviventes em um pátio abandonado, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Mulher%20alta,%20pele%20escura,%20cabelos%20pretos%20curtos,%20olhos%20castanhos,%20usando%20roupas%20de%20combate%20e%20carregando%20uma%20katana,%20treinando%20jovens%20sobreviventes%20em%20um%20pátio%20abandonado,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma mulher treina jovens sobreviventes em um pátio abandonado.",
+      "visualDescription": "Mulher treinando jovens sobreviventes em um pátio abandonado e sombrio."
+    },
+    {
+      "id": "mv-13",
+      "prompt": "Homem alto, pele clara, cabelos longos e barba, olhos azuis, usando roupas de couro e carregando um taco de beisebol com arame farpado, em um confronto tenso com um grupo rival em um ambiente pós-apocalíptico, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20alto,%20pele%20clara,%20cabelos%20longos%20e%20barba,%20olhos%20azuis,%20usando%20roupas%20de%20couro%20e%20carregando%20um%20taco%20de%20beisebol%20com%20arame%20farpado,%20em%20um%20confronto%20tenso%20com%20um%20grupo%20rival%20em%20um%20ambiente%20pós-apocalíptico,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um líder tirânico confronta um grupo rival em um ambiente pós-apocalíptico.",
+      "visualDescription": "Confronto tenso entre grupos rivais em um ambiente pós-apocalíptico."
+    },
+    {
+      "id": "mv-14",
+      "prompt": "Grupo de pessoas unidas lutando contra uma horda de zumbis em uma estrada deserta, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Grupo%20de%20pessoas%20unidas%20lutando%20contra%20uma%20horda%20de%20zumbis%20em%20uma%20estrada%20deserta,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Os grupos se unem para enfrentar uma horda de zumbis em uma estrada deserta.",
+      "visualDescription": "Grupos unidos em batalha épica contra horda massiva de zumbis."
+    },
+    {
+      "id": "mv-15",
+      "prompt": "Homem magro, pele clara, cabelos castanhos longos, olhos verdes, usando roupas de camuflagem e carregando uma besta, em uma missão de reconhecimento em uma cidade abandonada, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20magro,%20pele%20clara,%20cabelos%20castanhos%20longos,%20olhos%20verdes,%20usando%20roupas%20de%20camuflagem%20e%20carregando%20uma%20besta,%20em%20uma%20missão%20de%20reconhecimento%20em%20uma%20cidade%20abandonada,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um homem parte em uma missão de reconhecimento em uma cidade abandonada.",
+      "visualDescription": "Homem em uma missão de reconhecimento em uma cidade abandonada e sombria."
+    },
+    {
+      "id": "mv-16",
+      "prompt": "Mulher de estatura média, pele clara, cabelos castanhos longos, olhos castanhos, usando roupas práticas de trabalho, em uma missão de resgate em um prédio em chamas, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Mulher%20de%20estatura%20média,%20pele%20clara,%20cabelos%20castanhos%20longos,%20olhos%20castanhos,%20usando%20roupas%20práticas%20de%20trabalho,%20em%20uma%20missão%20de%20resgate%20em%20um%20prédio%20em%20chamas,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma mulher parte em uma missão de resgate em um prédio em chamas.",
+      "visualDescription": "Mulher em uma missão de resgate em um prédio em chamas e sombrio."
+    },
+    {
+      "id": "mv-17",
+      "prompt": "Homem de estatura média, pele clara, cabelos castanhos, barba por fazer, olhos azuis, usando roupas de xerife sujas e rasgadas, em uma conversa séria com uma mulher alta, pele escura, cabelos pretos curtos, olhos castanhos, usando roupas de combate e carregando uma katana, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20de%20estatura%20média,%20pele%20clara,%20cabelos%20castanhos,%20barba%20por%20fazer,%20olhos%20azuis,%20usando%20roupas%20de%20xerife%20sujas%20e%20rasgadas,%20em%20uma%20conversa%20séria%20com%20uma%20mulher%20alta,%20pele%20escura,%20cabelos%20pretos%20curtos,%20olhos%20castanhos,%20usando%20roupas%20de%20combate%20e%20carregando%20uma%20katana,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um homem e uma mulher têm uma conversa séria sobre estratégias de sobrevivência.",
+      "visualDescription": "Homem e mulher em uma conversa séria e tensa."
+    },
+    {
+      "id": "mv-18",
+      "prompt": "Mulher alta, pele escura, cabelos pretos curtos, olhos castanhos, usando roupas de combate e carregando uma katana, em uma batalha contra zumbis em um ambiente urbano, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Mulher%20alta,%20pele%20escura,%20cabelos%20pretos%20curtos,%20olhos%20castanhos,%20usando%20roupas%20de%20combate%20e%20carregando%20uma%20katana,%20em%20uma%20batalha%20contra%20zumbis%20em%20um%20ambiente%20urbano,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma mulher luta contra zumbis em um ambiente urbano.",
+      "visualDescription": "Mulher em uma batalha contra zumbis em um ambiente urbano e sombrio."
+    },
+    {
+      "id": "mv-19",
+      "prompt": "Homem alto, pele clara, cabelos longos e barba, olhos azuis, usando roupas de couro e carregando um taco de beisebol com arame farpado, em um confronto com um homem magro, pele clara, cabelos castanhos longos, olhos verdes, usando roupas de camuflagem e carregando uma besta, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20alto,%20pele%20clara,%20cabelos%20longos%20e%20barba,%20olhos%20azuis,%20usando%20roupas%20de%20couro%20e%20carregando%20um%20taco%20de%20beisebol%20com%20arame%20farpado,%20em%20um%20confronto%20com%20um%20homem%20magro,%20pele%20clara,%20cabelos%20castanhos%20longos,%20olhos%20verdes,%20usando%20roupas%20de%20camuflagem%20e%20carregando%20uma%20besta,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um líder tirânico confronta um caçador habilidoso em um ambiente sombrio.",
+      "visualDescription": "Confronto tenso entre dois homens em um ambiente sombrio."
+    },
+    {
+      "id": "mv-20",
+      "prompt": "Grupo de pessoas unidas em uma celebração após uma vitória contra os zumbis, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Grupo%20de%20pessoas%20unidas%20em%20uma%20celebração%20após%20uma%20vitória%20contra%20os%20zumbis,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Os grupos celebram uma vitória contra os zumbis, encontrando força na união.",
+      "visualDescription": "Grupo de pessoas unidas em uma celebração após uma vitória contra os zumbis."
+    },
+    {
+      "id": "mv-21",
+      "prompt": "Homem de estatura média, pele clara, cabelos castanhos, barba por fazer, olhos azuis, usando roupas de xerife sujas e rasgadas, em uma missão de resgate em um prédio em chamas, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20de%20estatura%20média,%20pele%20clara,%20cabelos%20castanhos,%20barba%20por%20fazer,%20olhos%20azuis,%20usando%20roupas%20de%20xerife%20sujas%20e%20rasgadas,%20em%20uma%20missão%20de%20resgate%20em%20um%20prédio%20em%20chamas,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um homem parte em uma missão de resgate em um prédio em chamas.",
+      "visualDescription": "Homem em uma missão de resgate em um prédio em chamas e sombrio."
+    },
+    {
+      "id": "mv-22",
+      "prompt": "Mulher alta, pele escura, cabelos pretos curtos, olhos castanhos, usando roupas de combate e carregando uma katana, em uma batalha contra zumbis em um ambiente rural, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Mulher%20alta,%20pele%20escura,%20cabelos%20pretos%20curtos,%20olhos%20castanhos,%20usando%20roupas%20de%20combate%20e%20carregando%20uma%20katana,%20em%20uma%20batalha%20contra%20zumbis%20em%20um%20ambiente%20rural,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma mulher luta contra zumbis em um ambiente rural.",
+      "visualDescription": "Mulher em uma batalha contra zumbis em um ambiente rural e sombrio."
+    },
+    {
+      "id": "mv-23",
+      "prompt": "Homem magro, pele clara, cabelos castanhos longos, olhos verdes, usando roupas de camuflagem e carregando uma besta, em uma missão de reconhecimento em uma floresta densa, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20magro,%20pele%20clara,%20cabelos%20castanhos%20longos,%20olhos%20verdes,%20usando%20roupas%20de%20camuflagem%20e%20carregando%20uma%20besta,%20em%20uma%20missão%20de%20reconhecimento%20em%20uma%20floresta%20densa,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um homem parte em uma missão de reconhecimento em uma floresta densa.",
+      "visualDescription": "Homem em uma missão de reconhecimento em uma floresta densa e sombria."
+    },
+    {
+      "id": "mv-24",
+      "prompt": "Mulher de estatura média, pele clara, cabelos castanhos longos, olhos castanhos, usando roupas práticas de trabalho, em uma missão de resgate em um prédio abandonado, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Mulher%20de%20estatura%20média,%20pele%20clara,%20cabelos%20castanhos%20longos,%20olhos%20castanhos,%20usando%20roupas%20práticas%20de%20trabalho,%20em%20uma%20missão%20de%20resgate%20em%20um%20prédio%20abandonado,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma mulher parte em uma missão de resgate em um prédio abandonado.",
+      "visualDescription": "Mulher em uma missão de resgate em um prédio abandonado e sombrio."
+    },
+    {
+      "id": "mv-25",
+      "prompt": "Homem de estatura média, pele clara, cabelos castanhos, barba por fazer, olhos azuis, usando roupas de xerife sujas e rasgadas, em uma conversa com um homem alto, pele clara, cabelos longos e barba, olhos azuis, usando roupas de couro e carregando um taco de beisebol com arame farpado, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20de%20estatura%20média,%20pele%20clara,%20cabelos%20castanhos,%20barba%20por%20fazer,%20olhos%20azuis,%20usando%20roupas%20de%20xerife%20sujas%20e%20rasgadas,%20em%20uma%20conversa%20com%20um%20homem%20alto,%20pele%20clara,%20cabelos%20longos%20e%20barba,%20olhos%20azuis,%20usando%20roupas%20de%20couro%20e%20carregando%20um%20taco%20de%20beisebol%20com%20arame%20farpado,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um homem tem uma conversa tensa com um líder tirânico.",
+      "visualDescription": "Homens em uma conversa tensa e dramática."
+    },
+    {
+      "id": "mv-26",
+      "prompt": "Mulher alta, pele escura, cabelos pretos curtos, olhos castanhos, usando roupas de combate e carregando uma katana, em uma batalha contra zumbis em um ambiente urbano, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Mulher%20alta,%20pele%20escura,%20cabelos%20pretos%20curtos,%20olhos%20castanhos,%20usando%20roupas%20de%20combate%20e%20carregando%20uma%20katana,%20em%20uma%20batalha%20contra%20zumbis%20em%20um%20ambiente%20urbano,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma mulher luta contra zumbis em um ambiente urbano.",
+      "visualDescription": "Mulher em uma batalha contra zumbis em um ambiente urbano e sombrio."
+    },
+    {
+      "id": "mv-27",
+      "prompt": "Homem magro, pele clara, cabelos castanhos longos, olhos verdes, usando roupas de camuflagem e carregando uma besta, em uma missão de reconhecimento em uma floresta densa, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20magro,%20pele%20clara,%20cabelos%20castanhos%20longos,%20olhos%20verdes,%20usando%20roupas%20de%20camuflagem%20e%20carregando%20uma%20besta,%20em%20uma%20missão%20de%20reconhecimento%20em%20uma%20floresta%20densa,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um homem parte em uma missão de reconhecimento em uma floresta densa.",
+      "visualDescription": "Homem em uma missão de reconhecimento em uma floresta densa e sombria."
+    },
+    {
+      "id": "mv-28",
+      "prompt": "Mulher de estatura média, pele clara, cabelos castanhos longos, olhos castanhos, usando roupas práticas de trabalho, em uma missão de resgate em um prédio abandonado, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Mulher%20de%20estatura%20média,%20pele%20clara,%20cabelos%20castanhos%20longos,%20olhos%20castanhos,%20usando%20roupas%20práticas%20de%20trabalho,%20em%20uma%20missão%20de%20resgate%20em%20um%20prédio%20abandonado,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma mulher parte em uma missão de resgate em um prédio abandonado.",
+      "visualDescription": "Mulher em uma missão de resgate em um prédio abandonado e sombrio."
+    },
+    {
+      "id": "mv-29",
+      "prompt": "Homem alto, pele clara, cabelos longos e barba, olhos azuis, usando roupas de couro e carregando um taco de beisebol com arame farpado, em um confronto com um homem magro, pele clara, cabelos castanhos longos, olhos verdes, usando roupas de camuflagem e carregando uma besta, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Homem%20alto,%20pele%20clara,%20cabelos%20longos%20e%20barba,%20olhos%20azuis,%20usando%20roupas%20de%20couro%20e%20carregando%20um%20taco%20de%20beisebol%20com%20arame%20farpado,%20em%20um%20confronto%20com%20um%20homem%20magro,%20pele%20clara,%20cabelos%20castanhos%20longos,%20olhos%20verdes,%20usando%20roupas%20de%20camuflagem%20e%20carregando%20uma%20besta,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um líder tirânico confronta um caçador habilidoso em um ambiente sombrio.",
+      "visualDescription": "Confronto tenso entre dois homens em um ambiente sombrio."
+    },
+    {
+      "id": "mv-30",
+      "prompt": "Grupo de pessoas unidas em uma celebração após uma vitória contra os zumbis, com uma atmosfera sombria e dramática.",
+      "imageUrl": "https://pollinations.ai/p/Grupo%20de%20pessoas%20unidas%20em%20uma%20celebração%20após%20uma%20vitória%20contra%20os%20zumbis,%20com%20uma%20atmosfera%20sombria%20e%20dramática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Os grupos celebram uma vitória contra os zumbis, encontrando força na união.",
+      "visualDescription": "Grupo de pessoas unidas em uma celebração após uma vitória contra os zumbis."
     }
   ],
   "createdAt": "2024-01-01T00:00:00.000Z",
-  "thumbnail": "https://pollinations.ai/p/Cartaz%20Mortos%20Vivos%20terror%20apocalipse%20zumbi?width=768&height=1366&enhance=true&nologo=true",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Mortos%20Vivos%20terror%20apocalipse%20zumbi%20sombrio%20e%20dramático?width=768&height=1366&enhance=true&nologo=true",
   "aspectRatio": "16:9",
   "type": "movie"
 }
