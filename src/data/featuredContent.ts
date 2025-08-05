@@ -68,49 +68,62 @@ const generateExpandedScenes = async (baseScenes: any[], movieTitle: string) => 
   return expandedScenes;
 };
 
+// Função para transformar dados do catálogo para o formato Movie
+const transformCatalogMovie = (catalogMovie: any): Movie => {
+  return {
+    ...catalogMovie,
+    scenes: catalogMovie.scenes.map((scene: any) => ({
+      ...scene,
+      visualDescription: scene.prompt || scene.text || "" // Usar prompt como visualDescription
+    }))
+  };
+};
+
 // Filmes com arquivos JSON existentes
-export const FEATURED_MOVIES: Movie[] = [
-  ladroesMemoria as Movie,
-  cacadoresTesouro as Movie,
-  cidadeEspelhos as Movie,
-  imperioPerdido as Movie,
-  noiteEterna as Movie,
-  oceanoInfinito as Movie,
-  reinoSombras as Movie,
-  ultimoSamurai as Movie,
-  guerreirosTempo as Movie,
-  planetaVermelho as Movie,
-  sombrasDigitais as Movie,
-  vingancaCyber as Movie,
-  portalDimensao as Movie,
-  assassinoRobos as Movie,
-  herdeiroRragao as Movie,
-  pesadeloRealidade as Movie,
-  amorTempo as Movie,
-  detectiveFantasma as Movie,
-  comediaExtraterrestre as Movie,
-  escolaMagica as Movie,
-  amazoniaSelvagem as Movie,
-  aventurasEspaciais as Movie,
-  sangueNeon as Movie,
-  casamentoMaluco as Movie,
-  noitesProibidas as Movie,
-  sonhosBroadway as Movie,
-  segredosOceano as Movie,
-  robosAmigos as Movie,
-  meiaNoiteUnderground as Movie,
-  gospelEsperanca as Movie,
-  mundoMagico as Movie,
-  codigoDivino as Movie,
-  senhorAneis as Movie,
-  cinquentaTons as Movie,
-  sagaVampiros as Movie,
-  cavaleiroTrevas as Movie,
-  homemAranha as Movie,
-  xmenEvolucao as Movie,
-  mulherMaravilha as Movie,
-  mortosVivos as Movie
+const RAW_FEATURED_MOVIES = [
+  ladroesMemoria,
+  cacadoresTesouro,
+  cidadeEspelhos,
+  imperioPerdido,
+  noiteEterna,
+  oceanoInfinito,
+  reinoSombras,
+  ultimoSamurai,
+  guerreirosTempo,
+  planetaVermelho,
+  sombrasDigitais,
+  vingancaCyber,
+  portalDimensao,
+  assassinoRobos,
+  herdeiroRragao,
+  pesadeloRealidade,
+  amorTempo,
+  detectiveFantasma,
+  comediaExtraterrestre,
+  escolaMagica,
+  amazoniaSelvagem,
+  aventurasEspaciais,
+  sangueNeon,
+  casamentoMaluco,
+  noitesProibidas,
+  sonhosBroadway,
+  segredosOceano,
+  robosAmigos,
+  meiaNoiteUnderground,
+  gospelEsperanca,
+  mundoMagico,
+  codigoDivino,
+  senhorAneis,
+  cinquentaTons,
+  sagaVampiros,
+  cavaleiroTrevas,
+  homemAranha,
+  xmenEvolucao,
+  mulherMaravilha,
+  mortosVivos
 ];
+
+export const FEATURED_MOVIES: Movie[] = RAW_FEATURED_MOVIES.map(transformCatalogMovie);
 
 export const FEATURED_MOVIES_COMPLETE = FEATURED_MOVIES;
 

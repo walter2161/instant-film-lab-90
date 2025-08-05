@@ -6,6 +6,9 @@ import { PlayerControls } from "./PlayerControls";
 import { SceneNavigation } from "./SceneNavigation";
 import { AudioControls } from "./AudioControls";
 import { useMoviePlayer } from "./useMoviePlayer";
+import { MovieService } from "@/services/movieService";
+import { useToast } from "@/hooks/use-toast";
+import { useNavigate } from "react-router-dom";
 
 interface MoviePlayerProps {
   movie: Movie;
@@ -16,6 +19,74 @@ export const MoviePlayer = ({ movie }: MoviePlayerProps) => {
   const [imageError, setImageError] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLImageElement>(null);
+  const { toast } = useToast();
+  const navigate = useNavigate();
+  
+  // Verificar se o filme foi criado pelo usuário
+  const isUserCreated = useCallback(() => {
+    const savedMovies = MovieService.getSavedMovies();
+    return savedMovies.some(savedMovie => savedMovie.id === movie.id);
+  }, [movie.id]);
+  
+  // Função para editar o filme
+  const handleEdit = useCallback(() => {
+    navigate('/create', { state: { editMovie: movie } });
+  }, [movie, navigate]);
+  
+  // Função para baixar JSON
+  const handleDownloadJson = useCallback(() => {
+    try {
+      // Converter o filme para o formato dos dados do catálogo
+      const movieJson = {
+        id: movie.id,
+        title: movie.title,
+        genre: movie.genre,
+        style: movie.style,
+        imageStyle: movie.style,
+        duration: movie.duration,
+        synopsis: movie.synopsis,
+        characters: movie.characters.map(char => ({
+          name: char.name,
+          description: char.description,
+          voice: char.voice
+        })),
+        scenes: movie.scenes.map(scene => ({
+          id: scene.id,
+          prompt: scene.prompt,
+          imageUrl: scene.imageUrl,
+          audioUrl: scene.audioUrl,
+          duration: scene.duration,
+          text: scene.text,
+          dialogue: scene.text || "" // Mapeando text para dialogue para compatibilidade
+        })),
+        createdAt: movie.createdAt,
+        thumbnail: movie.thumbnail,
+        aspectRatio: movie.aspectRatio,
+        type: movie.type || 'movie'
+      };
+      
+      const dataStr = JSON.stringify(movieJson, null, 2);
+      const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
+      
+      const exportFileDefaultName = `${movie.title.replace(/[^a-z0-9]/gi, '_').toLowerCase()}.json`;
+      
+      const linkElement = document.createElement('a');
+      linkElement.setAttribute('href', dataUri);
+      linkElement.setAttribute('download', exportFileDefaultName);
+      linkElement.click();
+      
+      toast({
+        title: "JSON baixado com sucesso!",
+        description: `O arquivo ${exportFileDefaultName} foi baixado.`
+      });
+    } catch (error) {
+      toast({
+        title: "Erro ao baixar JSON",
+        description: "Houve um problema ao gerar o arquivo JSON.",
+        variant: "destructive"
+      });
+    }
+  }, [movie, toast]);
   
   const {
     currentSceneIndex,
@@ -108,15 +179,6 @@ export const MoviePlayer = ({ movie }: MoviePlayerProps) => {
 
 
         
-        {/* Fullscreen Toggle */}
-        <Button
-          variant="ghost"
-          size="sm"
-          onClick={toggleFullscreen}
-          className="absolute top-4 right-4 text-white hover:bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"
-        >
-          {isFullscreen ? <Minimize className="w-4 h-4" /> : <Maximize className="w-4 h-4" />}
-        </Button>
 
         {/* Slide Counter */}
         <div className="absolute top-4 left-4 text-white bg-black/50 px-3 py-1 rounded-full text-sm z-10">
@@ -134,11 +196,17 @@ export const MoviePlayer = ({ movie }: MoviePlayerProps) => {
           totalDuration={totalDuration}
           currentSceneText={currentScene.text}
           soundtrackUrl={movie.soundtrack}
+          movie={movie}
+          isUserCreated={isUserCreated()}
+          isFullscreen={isFullscreen}
           onPlay={handlePlay}
           onPause={handlePause}
           onPrevScene={handlePrevScene}
           onNextScene={handleNextScene}
           onVolumeChange={handleVolumeChange}
+          onEdit={handleEdit}
+          onDownloadJson={handleDownloadJson}
+          onToggleFullscreen={toggleFullscreen}
           isFirstScene={currentSceneIndex === 0}
           isLastScene={isLastScene}
           isLoading={isLoading}

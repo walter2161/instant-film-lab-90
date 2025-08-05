@@ -1,10 +1,11 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
-import { Play, Pause, SkipBack, SkipForward, Volume2 } from "lucide-react";
+import { Play, Pause, SkipBack, SkipForward, Volume2, Edit, Download, Maximize, Minimize } from "lucide-react";
 import { AudioControls } from "./AudioControls";
 import { SoundtrackPlayer } from "./SoundtrackPlayer";
 import { useWebSpeechTTS } from "@/hooks/useWebSpeechTTS";
+import { Movie } from "@/types/movie";
 
 interface PlayerControlsProps {
   isPlaying: boolean;
@@ -16,11 +17,17 @@ interface PlayerControlsProps {
   totalDuration: number;
   currentSceneText?: string;
   soundtrackUrl?: string;
+  movie?: Movie;
+  isUserCreated?: boolean;
+  isFullscreen?: boolean;
   onPlay: () => void;
   onPause: () => void;
   onPrevScene: () => void;
   onNextScene: () => void;
   onVolumeChange: (volume: number[]) => void;
+  onEdit?: () => void;
+  onDownloadJson?: () => void;
+  onToggleFullscreen?: () => void;
   isFirstScene: boolean;
   isLastScene: boolean;
   isLoading?: boolean;
@@ -36,11 +43,17 @@ export const PlayerControls = ({
   totalDuration,
   currentSceneText = "",
   soundtrackUrl,
+  movie,
+  isUserCreated = false,
+  isFullscreen = false,
   onPlay,
   onPause,
   onPrevScene,
   onNextScene,
   onVolumeChange,
+  onEdit,
+  onDownloadJson,
+  onToggleFullscreen,
   isFirstScene,
   isLastScene,
   isLoading = false
@@ -81,7 +94,27 @@ export const PlayerControls = ({
       </div>
       
       <div className="flex items-center justify-between text-white">
-        {/* Controles Principais */}
+        {/* Lado Esquerdo - Tempo e Maximizar */}
+        <div className="flex items-center gap-4">
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={onToggleFullscreen}
+            className="text-white hover:bg-white/20"
+          >
+            {isFullscreen ? (
+              <Minimize className="w-4 h-4" />
+            ) : (
+              <Maximize className="w-4 h-4" />
+            )}
+          </Button>
+          
+          <div className="text-sm text-white/80">
+            {formatTime(currentTime)} / {formatTime(totalDuration)}
+          </div>
+        </div>
+        
+        {/* Centro - Controles Principais */}
         <div className="flex items-center gap-4">
           <Button 
             variant="ghost" 
@@ -118,13 +151,9 @@ export const PlayerControls = ({
           </Button>
         </div>
         
-        {/* Informações do Tempo */}
-        <div className="text-sm text-white/80 hidden sm:block">
-          {formatTime(currentTime)} / {formatTime(totalDuration)}
-        </div>
-        
-        {/* Info da Cena e Narração */}
+        {/* Lado Direito - Info da Cena, Volume e Ações */}
         <div className="flex items-center gap-4">
+          {/* Info da Cena e Narração */}
           <div className="text-sm text-white/80 flex items-center gap-2">
             <span>{currentSceneIndex + 1}/{totalScenes}</span>
             {isLoading && (
@@ -149,6 +178,31 @@ export const PlayerControls = ({
               className="w-20"
             />
           </div>
+          
+          {/* Botões de Ação para Filmes do Usuário */}
+          {isUserCreated && (
+            <div className="flex items-center gap-2">
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={onEdit}
+                className="text-white hover:bg-white/20"
+                title="Editar filme"
+              >
+                <Edit className="w-4 h-4" />
+              </Button>
+              
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={onDownloadJson}
+                className="text-white hover:bg-white/20"
+                title="Baixar JSON"
+              >
+                <Download className="w-4 h-4" />
+              </Button>
+            </div>
+          )}
         </div>
       </div>
     </div>
