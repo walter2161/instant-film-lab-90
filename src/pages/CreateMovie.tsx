@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Layout } from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -7,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Textarea } from "@/components/ui/textarea";
 import { MovieService } from "@/services/movieService";
 import { CreateMovieRequest } from "@/types/movie";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { toast } from "sonner";
 import { Sparkles, Film, Clock, Palette, Wand2, Monitor } from "lucide-react";
 
@@ -27,6 +27,7 @@ const DURATIONS = [
 
 export const CreateMovie = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const [isLoading, setIsLoading] = useState(false);
   const [formData, setFormData] = useState<CreateMovieRequest>({
     genre: "",
@@ -35,6 +36,20 @@ export const CreateMovie = () => {
     customPrompt: "",
     aspectRatio: "9:16"
   });
+
+  // Preencher formulário com dados do filme existente quando estiver editando
+  useEffect(() => {
+    if (location.state?.editMovie) {
+      const movie = location.state.editMovie;
+      setFormData({
+        genre: movie.genre || "",
+        style: movie.style || "",
+        duration: movie.duration || "",
+        customPrompt: movie.synopsis || "",
+        aspectRatio: movie.aspectRatio || "9:16"
+      });
+    }
+  }, [location.state]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -71,11 +86,14 @@ export const CreateMovie = () => {
             <div className="flex items-center justify-center gap-3 mb-4">
               <Wand2 className="w-8 h-8 text-primary" />
               <h1 className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                Criar Filme com IA
+                {location.state?.editMovie ? "Reeditar Filme" : "Criar Filme com IA"}
               </h1>
             </div>
             <p className="text-muted-foreground text-lg">
-              Configure as opções abaixo e nossa IA criará um filme único para você
+              {location.state?.editMovie 
+                ? "Modifique as opções abaixo e nossa IA recriará seu filme"
+                : "Configure as opções abaixo e nossa IA criará um filme único para você"
+              }
             </p>
           </div>
 
@@ -209,7 +227,7 @@ export const CreateMovie = () => {
                   ) : (
                     <>
                       <Wand2 className="w-5 h-5" />
-                      Criar Filme com IA
+                      {location.state?.editMovie ? "Recriar Filme com IA" : "Criar Filme com IA"}
                     </>
                   )}
                 </Button>
