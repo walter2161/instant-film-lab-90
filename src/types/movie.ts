@@ -52,6 +52,9 @@ export interface CreateMovieRequest {
   duration: string;
   customPrompt?: string;
   aspectRatio: '16:9' | '9:16';
+  title?: string;
+  thumbnailDescription?: string;
+  keywords?: string;
 }
 
 export interface CreateSeriesRequest {

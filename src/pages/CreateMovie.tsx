@@ -9,7 +9,8 @@ import { MovieService } from "@/services/movieService";
 import { CreateMovieRequest } from "@/types/movie";
 import { useNavigate, useLocation } from "react-router-dom";
 import { toast } from "sonner";
-import { Sparkles, Film, Clock, Palette, Wand2, Monitor } from "lucide-react";
+import { Sparkles, Film, Clock, Palette, Wand2, Monitor, Bot, Loader2, Type, Image, Tags } from "lucide-react";
+import { Input } from "@/components/ui/input";
 
 const GENRES = [
   "Terror", "Romance", "Ação", "Comédia", "Drama", "Ficção Científica",
@@ -34,8 +35,12 @@ export const CreateMovie = () => {
     style: "",
     duration: "",
     customPrompt: "",
-    aspectRatio: "9:16"
+    aspectRatio: "9:16",
+    title: "",
+    thumbnailDescription: "",
+    keywords: ""
   });
+  const [isGeneratingPrompt, setIsGeneratingPrompt] = useState(false);
 
   // Preencher formulário com dados do filme existente quando estiver editando
   useEffect(() => {
@@ -46,10 +51,60 @@ export const CreateMovie = () => {
         style: movie.style || "",
         duration: movie.duration || "",
         customPrompt: movie.synopsis || "",
-        aspectRatio: movie.aspectRatio || "9:16"
+        aspectRatio: movie.aspectRatio || "9:16",
+        title: movie.title || "",
+        thumbnailDescription: movie.thumbnailDescription || "",
+        keywords: movie.keywords || ""
       });
     }
   }, [location.state]);
+
+  const generatePrompt = async () => {
+    if (!formData.genre || !formData.style) {
+      toast.error("Preencha pelo menos o gênero e estilo antes de gerar o prompt.");
+      return;
+    }
+
+    setIsGeneratingPrompt(true);
+    
+    try {
+      const prompt = `Crie um prompt criativo para um filme de ${formData.genre} no estilo ${formData.style}${formData.duration ? ` com duração de ${formData.duration}` : ''}${formData.title ? ` com o título "${formData.title}"` : ''}${formData.keywords ? ` incluindo elementos: ${formData.keywords}` : ''}. O prompt deve ser único, envolvente e cinematográfico.`;
+      
+      const response = await fetch('https://api.mistral.ai/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer aynCSftAcQBOlxmtmpJqVzco8K4aaTDQ`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          model: 'mistral-large-latest',
+          messages: [
+            {
+              role: 'user',
+              content: prompt
+            }
+          ],
+          temperature: 0.8,
+          max_tokens: 500
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Erro ao gerar prompt');
+      }
+
+      const data = await response.json();
+      const generatedPrompt = data.choices[0].message.content;
+      
+      setFormData(prev => ({ ...prev, customPrompt: generatedPrompt }));
+      toast.success("Prompt gerado com sucesso!");
+    } catch (error) {
+      console.error("Erro ao gerar prompt:", error);
+      toast.error("Erro ao gerar prompt. Tente novamente.");
+    } finally {
+      setIsGeneratingPrompt(false);
+    }
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -200,9 +255,68 @@ export const CreateMovie = () => {
                   </Select>
                 </div>
 
+                {/* Title */}
+                <div className="space-y-2">
+                  <Label className="flex items-center gap-2">
+                    <Type className="w-4 h-4 text-primary" />
+                    Título do Filme (Opcional)
+                  </Label>
+                  <Input
+                    placeholder="Digite o título do seu filme..."
+                    value={formData.title}
+                    onChange={(e) => setFormData(prev => ({ ...prev, title: e.target.value }))}
+                    className="bg-secondary border-border"
+                  />
+                </div>
+
+                {/* Thumbnail Description */}
+                <div className="space-y-2">
+                  <Label className="flex items-center gap-2">
+                    <Image className="w-4 h-4 text-primary" />
+                    Descrição da Thumbnail (Opcional)
+                  </Label>
+                  <Textarea
+                    placeholder="Descreva como deve ser a imagem de capa do filme..."
+                    value={formData.thumbnailDescription}
+                    onChange={(e) => setFormData(prev => ({ ...prev, thumbnailDescription: e.target.value }))}
+                    className="bg-secondary border-border min-h-[80px] resize-none"
+                  />
+                </div>
+
+                {/* Keywords */}
+                <div className="space-y-2">
+                  <Label className="flex items-center gap-2">
+                    <Tags className="w-4 h-4 text-primary" />
+                    Palavras-chave (Opcional)
+                  </Label>
+                  <Input
+                    placeholder="Exemplo: futurista, robôs, aventura..."
+                    value={formData.keywords}
+                    onChange={(e) => setFormData(prev => ({ ...prev, keywords: e.target.value }))}
+                    className="bg-secondary border-border"
+                  />
+                </div>
+
                 {/* Custom Prompt */}
                 <div className="space-y-2">
-                  <Label>Prompt Personalizado (Opcional)</Label>
+                  <div className="flex items-center justify-between">
+                    <Label>Prompt Personalizado (Opcional)</Label>
+                    <Button
+                      type="button"
+                      variant="outline"
+                      size="sm"
+                      onClick={generatePrompt}
+                      disabled={isGeneratingPrompt || !formData.genre || !formData.style}
+                      className="gap-2"
+                    >
+                      {isGeneratingPrompt ? (
+                        <Loader2 className="w-4 h-4 animate-spin" />
+                      ) : (
+                        <Bot className="w-4 h-4" />
+                      )}
+                      Gerar com IA
+                    </Button>
+                  </div>
                   <Textarea
                     placeholder="Descreva elementos específicos que você gostaria no seu filme..."
                     value={formData.customPrompt}
