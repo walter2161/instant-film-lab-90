@@ -11,12 +11,21 @@ export class MovieService {
       const script = await this.generateScript(request);
       
       // 2. Gerar cenas com imagens e áudio
-      const scenes = await this.generateScenes(script.scenes, request.aspectRatio);
+      const scenes = await this.generateScenes(script.scenes, request.aspectRatio, request.genre, request.style);
       
-      // 3. Criar objeto do filme
+      // 3. Gerar thumbnail personalizada se especificada
+      let thumbnailUrl = scenes[0]?.imageUrl;
+      if (request.thumbnailDescription) {
+        const themePrefix = this.getThemePrefix(request.genre, request.style);
+        const thumbnailPrompt = `${themePrefix} ${request.thumbnailDescription}, cartaz de filme, poster cinematográfico, alta qualidade`;
+        const encodedThumbnailPrompt = encodeURIComponent(thumbnailPrompt);
+        thumbnailUrl = `https://pollinations.ai/p/${encodedThumbnailPrompt}?width=768&height=1366&model=flux&enhance=true&nologo=true`;
+      }
+      
+      // 4. Criar objeto do filme
       const movie: Movie = {
         id: crypto.randomUUID(),
-        title: script.title,
+        title: request.title || script.title,
         genre: request.genre,
         style: request.style,
         duration: request.duration,
@@ -24,7 +33,7 @@ export class MovieService {
         characters: script.characters,
         scenes,
         createdAt: new Date().toISOString(),
-        thumbnail: scenes[0]?.imageUrl,
+        thumbnail: thumbnailUrl,
         aspectRatio: request.aspectRatio,
         type: 'movie',
         soundtrack: this.generateSoundtrack(request.genre, request.style)
@@ -143,16 +152,17 @@ export class MovieService {
     return JSON.parse(jsonMatch[0]);
   }
   
-  private static async generateScenes(scriptScenes: any[], aspectRatio: '16:9' | '9:16' = '16:9'): Promise<MovieScene[]> {
+  private static async generateScenes(scriptScenes: any[], aspectRatio: '16:9' | '9:16' = '16:9', genre?: string, style?: string): Promise<MovieScene[]> {
     const scenes: MovieScene[] = [];
+    const themePrefix = this.getThemePrefix(genre || '', style || '');
     
     for (let i = 0; i < scriptScenes.length; i++) {
       const scriptScene = scriptScenes[i];
       
       try {
-        // Gerar imagem usando Pollinations.ai
+        // Gerar imagem usando Pollinations.ai com tema obrigatório no início
         const visualPrompt = scriptScene.visualDescription || scriptScene.prompt;
-        const enhancedPrompt = `${visualPrompt}, cinematic composition, high quality, detailed, professional cinematography, movie scene`;
+        const enhancedPrompt = `${themePrefix} ${visualPrompt}, cinematic composition, high quality, detailed, professional cinematography, movie scene`;
         
         // Codificar o prompt para URL
         const encodedPrompt = encodeURIComponent(enhancedPrompt);
@@ -177,8 +187,9 @@ export class MovieService {
         
       } catch (error) {
         console.error(`Erro ao gerar cena ${i + 1}:`, error);
-        // Continuar com placeholder se uma cena falhar
-        const encodedPrompt = encodeURIComponent(scriptScene.visualDescription || scriptScene.prompt);
+        // Continuar com placeholder se uma cena falhar - também com tema no início
+        const fallbackPrompt = `${themePrefix} ${scriptScene.visualDescription || scriptScene.prompt}`;
+        const encodedPrompt = encodeURIComponent(fallbackPrompt);
         const dimensions = aspectRatio === '16:9' 
           ? { width: 1024, height: 576 }
           : { width: 576, height: 1024 };
@@ -260,5 +271,50 @@ export class MovieService {
     
     // Se não conseguir parsear, usar 30 segundos como padrão
     return totalSeconds || 30;
+  }
+
+  private static getThemePrefix(genre: string, style: string): string {
+    // Mapeamento de gêneros e estilos para temas visuais específicos
+    const themeMap: { [key: string]: string } = {
+      // Gêneros principais
+      'Faroeste': 'faroeste',
+      'Western': 'faroeste',
+      'Cyberpunk': 'cyberpunk',
+      'Animação': 'animação',
+      'Animação 3D': 'animação 3d',
+      'Desenho': 'desenho animado',
+      'Romance': 'romance',
+      'Terror': 'terror',
+      'Horror': 'terror',
+      'Aventura': 'aventura',
+      'Ação': 'ação',
+      'Ficção Científica': 'ficção científica',
+      'Fantasia': 'fantasia',
+      'Drama': 'drama',
+      'Comédia': 'comédia',
+      'Thriller': 'thriller',
+      'Mistério': 'mistério',
+      'Musical': 'musical',
+      'Documentário': 'documentário',
+      'Super-Herói': 'super-herói',
+      'Cult': 'cult',
+      
+      // Estilos específicos
+      'Cyberpunk Noir': 'cyberpunk noir',
+      'Space Opera': 'space opera',
+      'Épico Medieval': 'épico medieval',
+      'Underground Experimental': 'underground experimental',
+      'Teatro Musical': 'teatro musical',
+      'Aventura Mitológica': 'aventura mitológica',
+      'Aventura Mágica': 'aventura mágica',
+      'Futurismo Infantil': 'futurismo infantil',
+      'Vida Marinha': 'vida marinha',
+      'Gospel Contemporâneo': 'gospel contemporâneo'
+    };
+
+    // Primeiro tenta pelo gênero, depois pelo estilo
+    const theme = themeMap[genre] || themeMap[style] || genre.toLowerCase();
+    
+    return theme;
   }
 }
