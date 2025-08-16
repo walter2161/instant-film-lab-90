@@ -49,7 +49,7 @@ export class MovieService {
   private static async generateScript(request: CreateMovieRequest) {
     // Calcular número de cenas - cada cena tem 12 segundos (24 frames / 2 fps)
     const durationInSeconds = this.parseDurationToSeconds(request.duration);
-    const numberOfScenes = Math.max(5, Math.floor(durationInSeconds / 12)); // Mínimo 5 cenas, 12 segundos por cena
+    const numberOfScenes = Math.max(15, Math.floor(durationInSeconds / 12)); // Mínimo 15 cenas, 12 segundos por cena
     
     const prompt = `Você é um roteirista especialista da Netflix. Crie um roteiro cinematográfico de alta qualidade para um ${request.genre} no estilo ${request.style} com duração de ${request.duration}.
     ${request.customPrompt ? `Tema específico: ${request.customPrompt}` : ''}
@@ -142,7 +142,10 @@ export class MovieService {
     }
 
     const data = await response.json();
-    const content = data.choices[0].message.content;
+    let content = data.choices[0].message.content;
+    
+    // Limpar formatação markdown antes de extrair JSON
+    content = content.replace(/\*\*/g, '').replace(/\*/g, '');
     
     // Extrair JSON do response
     const jsonMatch = content.match(/\{[\s\S]*\}/);
@@ -150,7 +153,11 @@ export class MovieService {
       throw new Error("Formato de resposta inválido");
     }
     
-    return JSON.parse(jsonMatch[0]);
+    let jsonString = jsonMatch[0];
+    // Limpar possíveis caracteres problemáticos
+    jsonString = jsonString.replace(/[\u0000-\u001F\u007F-\u009F]/g, '');
+    
+    return JSON.parse(jsonString);
   }
   
   private static async generateScenes(scriptScenes: any[], aspectRatio: '16:9' | '9:16' = '16:9', genre?: string, style?: string): Promise<MovieScene[]> {
