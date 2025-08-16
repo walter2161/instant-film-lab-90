@@ -144,8 +144,8 @@ export class MovieService {
     const data = await response.json();
     let content = data.choices[0].message.content;
     
-    // Limpar formatação markdown antes de extrair JSON
-    content = content.replace(/\*\*/g, '').replace(/\*/g, '');
+    // Limpar formatação markdown e caracteres especiais
+    content = content.replace(/\*\*/g, '').replace(/\*/g, '').replace(/```json/g, '').replace(/```/g, '');
     
     // Extrair JSON do response
     const jsonMatch = content.match(/\{[\s\S]*\}/);
@@ -154,10 +154,20 @@ export class MovieService {
     }
     
     let jsonString = jsonMatch[0];
-    // Limpar possíveis caracteres problemáticos
-    jsonString = jsonString.replace(/[\u0000-\u001F\u007F-\u009F]/g, '');
+    // Limpar caracteres problemáticos e quebras de linha mal formadas
+    jsonString = jsonString
+      .replace(/[\u0000-\u001F\u007F-\u009F]/g, '')
+      .replace(/,(\s*[}\]])/g, '$1') // Remove vírgulas extras antes de } ou ]
+      .replace(/([}\]])(\s*)([^,}\]\s])/g, '$1,$2$3') // Adiciona vírgulas faltantes
+      .trim();
     
-    return JSON.parse(jsonString);
+    try {
+      return JSON.parse(jsonString);
+    } catch (parseError) {
+      console.error("Erro ao parsear JSON:", parseError);
+      console.error("JSON string:", jsonString);
+      throw new Error("Formato de resposta JSON inválido");
+    }
   }
   
   private static async generateScenes(scriptScenes: any[], aspectRatio: '16:9' | '9:16' = '16:9', genre?: string, style?: string): Promise<MovieScene[]> {
