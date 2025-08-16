@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
-import { Movie } from "@/types/movie";
+import { Movie, MovieFrame } from "@/types/movie";
 import { Button } from "@/components/ui/button";
 import { Play, Pause, SkipBack, SkipForward, Maximize, Minimize } from "lucide-react";
 import { PlayerControls } from "./PlayerControls";
@@ -17,8 +17,10 @@ interface MoviePlayerProps {
 export const MoviePlayer = ({ movie }: MoviePlayerProps) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [imageError, setImageError] = useState(false);
+  const [currentFrameIndex, setCurrentFrameIndex] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLImageElement>(null);
+  const frameIntervalRef = useRef<NodeJS.Timeout | null>(null);
   const { toast } = useToast();
   const navigate = useNavigate();
   
@@ -50,15 +52,15 @@ export const MoviePlayer = ({ movie }: MoviePlayerProps) => {
           description: char.description,
           voice: char.voice
         })),
-        scenes: movie.scenes.map(scene => ({
-          id: scene.id,
-          prompt: scene.prompt,
-          imageUrl: scene.imageUrl,
-          audioUrl: scene.audioUrl,
-          duration: scene.duration,
-          text: scene.text,
-          dialogue: scene.text || "" // Mapeando text para dialogue para compatibilidade
-        })),
+          scenes: movie.scenes.map(scene => ({
+            id: scene.id,
+            prompt: scene.prompt,
+            imageUrl: scene.frames[0]?.imageUrl || "", // Usar primeiro frame como imagem da cena
+            audioUrl: scene.audioUrl,
+            duration: scene.duration,
+            text: scene.text,
+            dialogue: scene.text || "" // Mapeando text para dialogue para compatibilidade
+          })),
         createdAt: movie.createdAt,
         thumbnail: movie.thumbnail,
         aspectRatio: movie.aspectRatio,
@@ -128,7 +130,29 @@ export const MoviePlayer = ({ movie }: MoviePlayerProps) => {
   // Reset error state quando muda de cena
   useEffect(() => {
     setImageError(false);
+    setCurrentFrameIndex(0);
   }, [currentSceneIndex]);
+
+  // Controlar reprodução de frames
+  useEffect(() => {
+    if (isPlaying && currentScene.frames && currentScene.frames.length > 1) {
+      frameIntervalRef.current = setInterval(() => {
+        setCurrentFrameIndex(prev => (prev + 1) % currentScene.frames.length);
+      }, 500); // 2 fps = 500ms por frame
+    } else {
+      if (frameIntervalRef.current) {
+        clearInterval(frameIntervalRef.current);
+        frameIntervalRef.current = null;
+      }
+    }
+
+    return () => {
+      if (frameIntervalRef.current) {
+        clearInterval(frameIntervalRef.current);
+        frameIntervalRef.current = null;
+      }
+    };
+  }, [isPlaying, currentScene.frames]);
 
   const handleImageError = useCallback(() => {
     console.log("Erro ao carregar imagem, usando placeholder");
@@ -139,8 +163,9 @@ export const MoviePlayer = ({ movie }: MoviePlayerProps) => {
     if (imageError) {
       return "/placeholder.svg";
     }
-    return currentScene.imageUrl;
-  }, [imageError, currentScene.imageUrl]);
+    const currentFrame = currentScene.frames?.[currentFrameIndex];
+    return currentFrame?.imageUrl || currentScene.frames?.[0]?.imageUrl || "/placeholder.svg";
+  }, [imageError, currentScene.frames, currentFrameIndex]);
 
   console.log("MoviePlayer render:", {
     currentSlide: currentSceneIndex + 1,
@@ -180,10 +205,25 @@ export const MoviePlayer = ({ movie }: MoviePlayerProps) => {
 
         
 
-        {/* Slide Counter */}
+        {/* Scene & Frame Counter */}
         <div className="absolute top-4 left-4 text-white bg-black/50 px-3 py-1 rounded-full text-sm z-10">
-          Slide {currentSceneIndex + 1} de {movie.scenes.length}
+          Cena {currentSceneIndex + 1}/{movie.scenes.length} • Frame {currentFrameIndex + 1}/24
         </div>
+        
+        {/* Frame Progress Bar */}
+        {currentScene.frames && currentScene.frames.length > 1 && (
+          <div className="absolute top-4 right-4 text-white bg-black/50 px-3 py-1 rounded-full text-xs z-10">
+            <div className="flex items-center gap-2">
+              <span>2 FPS</span>
+              <div className="w-16 h-1 bg-white/20 rounded-full overflow-hidden">
+                <div 
+                  className="h-full bg-primary transition-all duration-100"
+                  style={{ width: `${((currentFrameIndex + 1) / 24) * 100}%` }}
+                />
+              </div>
+            </div>
+          </div>
+        )}
         
         {/* Bottom Controls */}
         <PlayerControls

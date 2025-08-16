@@ -1,4 +1,4 @@
-import { Movie, CreateMovieRequest, MovieScene } from "@/types/movie";
+import { Movie, CreateMovieRequest, MovieScene, MovieFrame } from "@/types/movie";
 import { CharacterPersona } from "@/types/character";
 
 const MISTRAL_API_KEY = "aynCSftAcQBOlxmtmpJqVzco8K4aaTDQ";
@@ -14,7 +14,7 @@ export class MovieService {
       const scenes = await this.generateScenes(script.scenes, request.aspectRatio, request.genre, request.style);
       
       // 3. Gerar thumbnail personalizada se especificada
-      let thumbnailUrl = scenes[0]?.imageUrl;
+      let thumbnailUrl = scenes[0]?.frames[0]?.imageUrl;
       if (request.thumbnailDescription) {
         const themePrefix = this.getThemePrefix(request.genre, request.style);
         const thumbnailPrompt = `${themePrefix} ${request.thumbnailDescription}, cartaz de filme, poster cinematográfico, alta qualidade`;
@@ -47,9 +47,9 @@ export class MovieService {
   }
   
   private static async generateScript(request: CreateMovieRequest) {
-    // Calcular número de cenas - mínimo 30 para filmes
+    // Calcular número de cenas - cada cena tem 12 segundos (24 frames / 2 fps)
     const durationInSeconds = this.parseDurationToSeconds(request.duration);
-    const numberOfScenes = Math.max(30, Math.floor(durationInSeconds / 2)); // Mínimo 30 cenas, 2 segundos por cena
+    const numberOfScenes = Math.max(5, Math.floor(durationInSeconds / 12)); // Mínimo 5 cenas, 12 segundos por cena
     
     const prompt = `Você é um roteirista especialista da Netflix. Crie um roteiro cinematográfico de alta qualidade para um ${request.genre} no estilo ${request.style} com duração de ${request.duration}.
     ${request.customPrompt ? `Tema específico: ${request.customPrompt}` : ''}
@@ -99,7 +99,7 @@ export class MovieService {
         {
           "text": "Diálogo natural e envolvente OU narração cinematográfica que avança a história (cada cena deve ser ÚNICA e específica)",
           "visualDescription": "Composição visual cinematográfica detalhada - ângulo de câmera, iluminação, atmosfera, cenário específico, ações dos personagens (SEM repetições)",
-          "duration": 2,
+          "duration": 12,
           "characters": ["personagens específicos na cena"]
         }
       ]
@@ -111,6 +111,7 @@ export class MovieService {
       * ATO 2: ${Math.floor(numberOfScenes * 0.5)} cenas (desenvolvimento e confrontos)
       * ATO 3: ${numberOfScenes - Math.floor(numberOfScenes * 0.25) - Math.floor(numberOfScenes * 0.5)} cenas (clímax e resolução)
     - CADA cena deve ter texto e visual COMPLETAMENTE diferentes
+    - CADA cena terá 24 frames com 2 fps (12 segundos por cena)
     - Progressão narrativa clara seguindo a estrutura de 3 atos
     - Inclua diálogos realistas entre personagens quando apropriado
     - Varie tipos de cena: apresentação, conflito, desenvolvimento, ação, suspense, revelação, clímax, resolução
@@ -156,57 +157,160 @@ export class MovieService {
     const scenes: MovieScene[] = [];
     const themePrefix = this.getThemePrefix(genre || '', style || '');
     
+    // Definir dimensões baseadas no aspect ratio
+    const dimensions = aspectRatio === '16:9' 
+      ? { width: 320, height: 240 }
+      : { width: 240, height: 320 };
+    
     for (let i = 0; i < scriptScenes.length; i++) {
       const scriptScene = scriptScenes[i];
       
       try {
-        // Gerar imagem usando Pollinations.ai com tema obrigatório no início
-        const visualPrompt = scriptScene.visualDescription || scriptScene.prompt;
-        const enhancedPrompt = `${themePrefix} ${visualPrompt}, cinematic composition, high quality, detailed, professional cinematography, movie scene`;
+        // Gerar 24 frames usando o agente cineasta
+        const framePrompts = await this.generateCinematicFramePrompts(
+          scriptScene.visualDescription || scriptScene.prompt,
+          themePrefix
+        );
         
-        // Codificar o prompt para URL
-        const encodedPrompt = encodeURIComponent(enhancedPrompt);
+        const frames: MovieFrame[] = [];
         
-        // Definir dimensões baseadas no aspect ratio
-        const dimensions = aspectRatio === '16:9' 
-          ? { width: 1024, height: 576 }
-          : { width: 576, height: 1024 };
-        
-        // Usar Pollinations.ai
-        const imageUrl = `https://pollinations.ai/p/${encodedPrompt}?width=${dimensions.width}&height=${dimensions.height}&model=flux&enhance=true&nologo=true`;
-        
-        scenes.push({
-          id: crypto.randomUUID(),
-          prompt: visualPrompt,
-          imageUrl,
-          audioUrl: "", // Vazio para usar narração sintética
-          duration: scriptScene.duration || 2,
-          text: scriptScene.text,
-          visualDescription: scriptScene.visualDescription || scriptScene.prompt
-        });
-        
-      } catch (error) {
-        console.error(`Erro ao gerar cena ${i + 1}:`, error);
-        // Continuar com placeholder se uma cena falhar - também com tema no início
-        const fallbackPrompt = `${themePrefix} ${scriptScene.visualDescription || scriptScene.prompt}`;
-        const encodedPrompt = encodeURIComponent(fallbackPrompt);
-        const dimensions = aspectRatio === '16:9' 
-          ? { width: 1024, height: 576 }
-          : { width: 576, height: 1024 };
+        // Gerar cada frame
+        for (let frameIndex = 0; frameIndex < 24; frameIndex++) {
+          const framePrompt = framePrompts[frameIndex] || framePrompts[framePrompts.length - 1];
+          const enhancedPrompt = `${themePrefix} ${framePrompt}, cinematic composition, high quality, detailed, professional cinematography, movie frame`;
+          const encodedPrompt = encodeURIComponent(enhancedPrompt);
+          
+          const imageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=${dimensions.width}&height=${dimensions.height}&nologo=true&seed=${Math.floor(Math.random() * 1000000)}`;
+          
+          frames.push({
+            id: crypto.randomUUID(),
+            prompt: framePrompt,
+            imageUrl,
+            frameNumber: frameIndex + 1
+          });
+        }
         
         scenes.push({
           id: crypto.randomUUID(),
           prompt: scriptScene.visualDescription || scriptScene.prompt,
-          imageUrl: `https://pollinations.ai/p/${encodedPrompt}?width=${dimensions.width}&height=${dimensions.height}&seed=${Math.floor(Math.random() * 10000)}&nologo=true&enhance=true`,
-          audioUrl: "",
-          duration: scriptScene.duration || 2,
+          frames,
+          audioUrl: "", // Vazio para usar narração sintética
+          duration: 12, // 24 frames / 2 fps = 12 segundos
           text: scriptScene.text,
-          visualDescription: scriptScene.visualDescription || scriptScene.prompt
+          visualDescription: scriptScene.visualDescription || scriptScene.prompt,
+          fps: 2
+        });
+        
+      } catch (error) {
+        console.error(`Erro ao gerar cena ${i + 1}:`, error);
+        // Fallback: gerar frames simples sem agente cineasta
+        const frames: MovieFrame[] = [];
+        const fallbackPrompt = `${themePrefix} ${scriptScene.visualDescription || scriptScene.prompt}`;
+        
+        for (let frameIndex = 0; frameIndex < 24; frameIndex++) {
+          const encodedPrompt = encodeURIComponent(fallbackPrompt);
+          const imageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=${dimensions.width}&height=${dimensions.height}&seed=${Math.floor(Math.random() * 10000)}&nologo=true`;
+          
+          frames.push({
+            id: crypto.randomUUID(),
+            prompt: fallbackPrompt,
+            imageUrl,
+            frameNumber: frameIndex + 1
+          });
+        }
+        
+        scenes.push({
+          id: crypto.randomUUID(),
+          prompt: scriptScene.visualDescription || scriptScene.prompt,
+          frames,
+          audioUrl: "",
+          duration: 12,
+          text: scriptScene.text,
+          visualDescription: scriptScene.visualDescription || scriptScene.prompt,
+          fps: 2
         });
       }
     }
     
     return scenes;
+  }
+
+  // Agente Cineasta para gerar prompts de frames com continuidade
+  private static async generateCinematicFramePrompts(sceneDescription: string, themePrefix: string): Promise<string[]> {
+    const systemPrompt = `
+Você é um cineasta AI especialista em continuidade e direção de cena.
+
+Sua tarefa: dado uma descrição de cena, gerar 24 descrições de frames numerados de 1 a 24 com continuidade visual.
+
+🔹 Regras de composição:
+- O cenário deve ser sempre descrito (ambiente, clima, hora do dia, cores dominantes).
+- Os objetos devem ser posicionados em um **grid imaginário** de 16 colunas (A–P) por 9 linhas (1–9).  
+   Exemplo de quadrantes: A1 (canto superior esquerdo), H5 (meio da tela), P9 (canto inferior direito).
+- Cada frame deve mencionar em quais quadrantes os objetos principais estão ou se movem.
+- Caso um objeto cubra mais de um quadrante, indicar a faixa (ex: "ocupando de G4 a I6").
+- O movimento deve ser descrito como transição entre quadrantes de um frame para outro.
+- A câmera também deve ser descrita: ângulo, altura, movimento (pan, tilt, dolly, zoom), e qual quadrante centraliza.
+- A iluminação deve ser coerente com o ambiente e evoluir suavemente (ex: nascer do sol → manhã clara → entardecer).
+- Deve haver **continuidade visual e narrativa**: os objetos e cenários não podem mudar de forma abrupta, apenas evoluir.
+- Se houver personagens, eles devem manter roupas, posição relativa e coerência de ações.
+- SEMPRE incluir o tema "${themePrefix}" no início de cada descrição.
+
+Formato de saída:
+- Lista numerada simples, cada linha um prompt no seguinte formato:
+"Frame [n]: ${themePrefix} [descrição detalhada do cenário, iluminação, objetos com quadrantes, posição da câmera]."
+
+Exemplo:
+Frame 1: ${themePrefix} Uma estrada ao amanhecer, céu laranja suave. Um carro vermelho aparece no quadrante G6. A câmera está em H4, em leve movimento dolly-in. Luz difusa do sol nascente no horizonte.
+Frame 2: ${themePrefix} O carro vermelho se move de G6 para H6. A câmera acompanha em travelling lateral entre F4 e H4. O fundo mantém a estrada e árvores estáveis, luz aumentando.
+`;
+
+    const userPrompt = `Gere 24 frames cinematográficos com continuidade para esta cena: ${sceneDescription}`;
+
+    try {
+      const response = await fetch(MISTRAL_API_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${MISTRAL_API_KEY}`
+        },
+        body: JSON.stringify({
+          model: "mistral-small-latest",
+          messages: [
+            { role: "system", content: systemPrompt },
+            { role: "user", content: userPrompt }
+          ],
+          temperature: 0.7
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error("Falha ao gerar prompts de frames");
+      }
+
+      const data = await response.json();
+      const content = data.choices[0].message.content;
+
+      // Extrair prompts numerados
+      const framePrompts = content.split(/\n+/)
+        .map((line: string) => line.replace(/^Frame \d+:\s*/, "").trim())
+        .filter((line: string) => line.length > 0)
+        .slice(0, 24);
+
+      // Garantir que temos 24 frames
+      while (framePrompts.length < 24) {
+        framePrompts.push(framePrompts[framePrompts.length - 1] || `${themePrefix} ${sceneDescription}`);
+      }
+
+      return framePrompts;
+    } catch (error) {
+      console.error("Erro ao gerar prompts cinematográficos:", error);
+      // Fallback: repetir a descrição da cena com variações mínimas
+      const fallbackPrompts: string[] = [];
+      for (let i = 0; i < 24; i++) {
+        fallbackPrompts.push(`${themePrefix} ${sceneDescription}, frame ${i + 1} de 24`);
+      }
+      return fallbackPrompts;
+    }
   }
   
   static saveMovie(movie: Movie) {

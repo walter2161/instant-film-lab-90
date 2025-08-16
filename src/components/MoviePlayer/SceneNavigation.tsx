@@ -33,7 +33,7 @@ export const SceneNavigation = ({
           >
             <div className="relative">
               <img 
-                src={scene.imageUrl} 
+                src={scene.frames?.[0]?.imageUrl || "/placeholder.svg"} 
                 alt={`Cena ${index + 1}`}
                 className={`w-full ${movie.aspectRatio === '16:9' ? 'aspect-[16/9]' : 'aspect-[9/16]'} object-cover transition-all duration-300 ${
                   index === currentSceneIndex ? 'brightness-110' : 'group-hover:brightness-110'
