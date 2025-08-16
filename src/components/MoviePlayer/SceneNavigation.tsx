@@ -77,7 +77,7 @@ export const SceneNavigation = ({
             {movie.scenes[currentSceneIndex].duration}s
           </span>
           <span className="bg-muted text-muted-foreground px-2 py-1 rounded">
-            {movie.scenes[currentSceneIndex].prompt.substring(0, 50)}...
+            {movie.scenes[currentSceneIndex].visualDescription?.substring(0, 50) || 'Sem descrição'}...
           </span>
         </div>
       </div>
