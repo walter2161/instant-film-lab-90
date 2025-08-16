@@ -1,47 +1,64 @@
 {
   "id": "aventuras-espaciais",
   "title": "Aventuras Espaciais",
-  "genre": "Ficção Científica",
-  "style": "Space Opera",
-  "duration": "3 minutos",
-  "synopsis": "Uma tripulação corajosa embarca em uma jornada épica através da galáxia para salvar civilizações em perigo.",
+  "genre": "Animação Infantil",
+  "style": "Família",
+  "duration": "2 minutos",
+  "synopsis": "Um pequeno astronauta coelho e seus amigos exploram planetas coloridos em busca de cristais mágicos para salvar sua nave espacial.",
   "characters": [
-    {
-      "name": "Capitão Nova",
-      "description": "Comandante experiente da nave estelar, líder nato e estrategista",
-      "voice": "alloy"
-    },
-    {
-      "name": "Zara Cosmos",
-      "description": "Engenheira espacial brilhante, especialista em tecnologia alienígena",
-      "voice": "shimmer"
-    }
+    { "name": "Coelho Cosmic", "description": "Pequeno astronauta corajoso", "voice": "male" },
+    { "name": "Estrela", "description": "Amiga robô brilhante", "voice": "female" },
+    { "name": "Plutão", "description": "Cachorro espacial divertido", "voice": "male" }
   ],
   "scenes": [
     {
       "id": "ae-1",
-      "text": "A nave estelar se prepara para uma missão perigosa nos confins da galáxia desconhecida.",
-      "visualDescription": "space opera nave estelar futurista preparando-se para salto hiperespacial, estrelas brilhantes",
-      "duration": 12,
-      "fps": 2,
-      "frames": [
-        {
-          "id": "ae-1-f1",
-          "prompt": "space opera ponte de comando da nave nos quadrantes D3-L7, Capitão Nova em G5, telas holográficas em E4-F6, estrelas brilhantes pela janela A1-C9, câmera em H4",
-          "imageUrl": "https://image.pollinations.ai/prompt/space%20opera%20ponte%20de%20comando%20da%20nave%20nos%20quadrantes%20D3-L7%2C%20Capit%C3%A3o%20Nova%20em%20G5%2C%20telas%20hologr%C3%A1ficas%20em%20E4-F6%2C%20estrelas%20brilhantes%20pela%20janela%20A1-C9%2C%20c%C3%A2mera%20em%20H4?width=320&height=240&nologo=true&seed=4001",
-          "frameNumber": 1
-        },
-        {
-          "id": "ae-1-f2",
-          "prompt": "space opera Capitão Nova movendo-se de G5 para H4, Zara Cosmos aparecendo em I6, luzes da ponte piscando em azul, estrelas começando a se mover, câmera panorâmica para I4",
-          "imageUrl": "https://image.pollinations.ai/prompt/space%20opera%20Capit%C3%A3o%20Nova%20movendo-se%20de%20G5%20para%20H4%2C%20Zara%20Cosmos%20aparecendo%20em%20I6%2C%20luzes%20da%20ponte%20piscando%20em%20azul%2C%20estrelas%20come%C3%A7ando%20a%20se%20mover%2C%20c%C3%A2mera%20panor%C3%A2mica%20para%20I4?width=320&height=240&nologo=true&seed=4002",
-          "frameNumber": 2
-        }
-      ]
+      "prompt": "Nave espacial colorida dos amigos em apuros",
+      "imageUrl": "https://pollinations.ai/p/Nave%20espacial%20colorida%20infantil%20com%20personagens%20fofinhos%20em%20apuros?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A nave arco-íris de Coelho Cosmic está sem energia! Eles precisam encontrar cristais mágicos.",
+      "visualDescription": "Nave espacial colorida e fofa com personagens animados preocupados"
+    },
+    {
+      "id": "ae-2",
+      "prompt": "Planeta doce com montanhas de algodão",
+      "imageUrl": "https://pollinations.ai/p/Planeta%20doce%20infantil%20com%20montanhas%20de%20algodão%20doce%20colorido?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No Planeta Doce, tudo é feito de açúcar! Mas onde estão os cristais brilhantes?",
+      "visualDescription": "Planeta fantástico com paisagem de doces e cores vibrantes"
+    },
+    {
+      "id": "ae-3",
+      "prompt": "Planeta oceano com sereias amigáveis",
+      "imageUrl": "https://pollinations.ai/p/Planeta%20oceano%20infantil%20com%20sereias%20amigáveis%20e%20peixes%20coloridos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "As sereias do Planeta Oceano ajudam nossos heróis na busca pelos cristais perdidos!",
+      "visualDescription": "Mundo aquático com sereias fofinhas e vida marinha colorida"
+    },
+    {
+      "id": "ae-4",
+      "prompt": "Encontro dos cristais mágicos brilhantes",
+      "imageUrl": "https://pollinations.ai/p/Cristais%20mágicos%20brilhantes%20infantis%20sendo%20descobertos%20pelos%20heróis?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Finalmente! Os cristais arco-íris são encontrados na caverna das estrelas cadentes!",
+      "visualDescription": "Caverna mágica com cristais coloridos e brilhantes"
+    },
+    {
+      "id": "ae-5",
+      "prompt": "Volta para casa com a nave restaurada",
+      "imageUrl": "https://pollinations.ai/p/Nave%20espacial%20infantil%20restaurada%20voando%20feliz%20pelo%20espaço?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Com os cristais, a nave brilha mais que nunca! Nossos heróis voltam para casa vitoriosos!",
+      "visualDescription": "Nave espacial brilhante voando pelo espaço estrelado com personagens felizes"
     }
   ],
   "createdAt": "2024-01-01T00:00:00.000Z",
-  "thumbnail": "https://image.pollinations.ai/prompt/space%20opera%20poster%20cinematogr%C3%A1fico%20Aventuras%20Espaciais%2C%20nave%20estelar%20entre%20gal%C3%A1xias%20coloridas?width=768&height=1366&nologo=true",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20animação%20infantil%20Aventuras%20Espaciais%20colorido?width=768&height=1366&enhance=true&nologo=true",
   "aspectRatio": "16:9",
   "type": "movie"
 }

@@ -2,46 +2,153 @@
   "id": "cacadores-tesouro",
   "title": "Caçadores de Tesouro",
   "genre": "Aventura",
-  "style": "Aventura Clássica",
-  "duration": "3 minutos",
-  "synopsis": "Uma expedição de arqueólogos aventureiros segue pistas misteriosas em busca de um tesouro lendário escondido em uma pirâmide perdida.",
+  "style": "Expedição",
+  "duration": "2 minutos",
+  "synopsis": "Uma equipe de arqueólogos busca um tesouro perdido nas selvas amazônicas, enfrentando armadilhas antigas e mercenários modernos.",
   "characters": [
-    {
-      "name": "Dr. Indiana Stone",
-      "description": "Arqueólogo aventureiro experiente, corajoso e esperto",
-      "voice": "onyx"
-    },
-    {
-      "name": "Sarah Explorer",
-      "description": "Cartógrafa e especialista em línguas antigas, inteligente e determinada",
-      "voice": "shimmer"
-    }
+    { "name": "Dr. Lucas Andrade", "description": "Arqueólogo brasileiro especialista em civilizações perdidas", "voice": "male" },
+    { "name": "Maya Torrens", "description": "Guia experiente da selva amazônica", "voice": "female" },
+    { "name": "Viktor Kozlov", "description": "Mercenário russo líder dos antagonistas", "voice": "male" }
   ],
   "scenes": [
     {
       "id": "ct-1",
-      "text": "Os arqueólogos descobrem um mapa antigo que revela a localização de uma pirâmide perdida.",
-      "visualDescription": "aventura Dr. Indiana Stone e Sarah Explorer examinando mapa antigo à luz de lamparina, biblioteca repleta de livros antigos",
-      "duration": 12,
-      "fps": 2,
-      "frames": [
-        {
-          "id": "ct-1-f1",
-          "prompt": "aventura biblioteca antiga com Dr. Indiana Stone em F5-G6 e Sarah Explorer em H5-I6, mapa antigo sobre mesa nos quadrantes G4-I5, lamparina dourada em H3, estantes de livros em A1-P9, câmera em G2",
-          "imageUrl": "https://image.pollinations.ai/prompt/aventura%20biblioteca%20antiga%20com%20Dr.%20Indiana%20Stone%20em%20F5-G6%20e%20Sarah%20Explorer%20em%20H5-I6%2C%20mapa%20antigo%20sobre%20mesa%20nos%20quadrantes%20G4-I5%2C%20lamparina%20dourada%20em%20H3%2C%20estantes%20de%20livros%20em%20A1-P9%2C%20c%C3%A2mera%20em%20G2?width=320&height=240&nologo=true&seed=5001",
-          "frameNumber": 1
-        },
-        {
-          "id": "ct-1-f2",
-          "prompt": "aventura Dr. Indiana Stone apontando para o mapa de G5 para H4, Sarah Explorer aproximando-se de I6 para H6, luz da lamparina oscilando suavemente, sombras dançando nas paredes, câmera zoom-in para H3",
-          "imageUrl": "https://image.pollinations.ai/prompt/aventura%20Dr.%20Indiana%20Stone%20apontando%20para%20o%20mapa%20de%20G5%20para%20H4%2C%20Sarah%20Explorer%20aproximando-se%20de%20I6%20para%20H6%2C%20luz%20da%20lamparina%20oscilando%20suavemente%2C%20sombras%20dan%C3%A7ando%20nas%20paredes%2C%20c%C3%A2mera%20zoom-in%20para%20H3?width=320&height=240&nologo=true&seed=5002",
-          "frameNumber": 2
-        }
-      ]
+      "prompt": "Descoberta do mapa do tesouro em sítio arqueológico",
+      "imageUrl": "https://pollinations.ai/p/Arqueólogo%20descobrindo%20mapa%20antigo%20em%20escavação%20amazônica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Dr. Lucas encontra um mapa em pedra que revela a localização de um tesouro inca perdido.",
+      "visualDescription": "Sítio arqueológico na Amazônia com arqueólogo examinando mapa em pedra antiga"
+    },
+    {
+      "id": "ct-2",
+      "prompt": "Equipe se reúne para a expedição",
+      "imageUrl": "https://pollinations.ai/p/Equipe%20de%20aventureiros%20se%20preparando%20para%20expedição%20na%20selva?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Lucas recruta Maya e outros especialistas para uma perigosa jornada pela Amazônia.",
+      "visualDescription": "Grupo de aventureiros com equipamentos se preparando para expedição"
+    },
+    {
+      "id": "ct-3",
+      "prompt": "Entrada na selva amazônica densa",
+      "imageUrl": "https://pollinations.ai/p/Expedição%20entrando%20na%20selva%20amazônica%20densa%20e%20misteriosa?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A equipe adentra a selva fechada, onde cada passo pode esconder perigos mortais.",
+      "visualDescription": "Selva amazônica densa com equipe de exploradores abrindo caminho"
+    },
+    {
+      "id": "ct-4",
+      "prompt": "Primeira armadilha antiga é descoberta",
+      "imageUrl": "https://pollinations.ai/p/Armadilha%20inca%20antiga%20com%20mecanismos%20perigosos%20na%20selva?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Maya salva a equipe de uma armadilha inca com lanças que emergem do chão.",
+      "visualDescription": "Armadilha antiga ativada com lanças e mecanismos de pedra"
+    },
+    {
+      "id": "ct-5",
+      "prompt": "Mercenários começam a perseguir a equipe",
+      "imageUrl": "https://pollinations.ai/p/Mercenários%20armados%20perseguindo%20arqueólogos%20na%20selva%20amazônica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Viktor e seus mercenários seguem as pegadas da equipe, determinados a roubar o tesouro.",
+      "visualDescription": "Mercenários armados em perseguição através da vegetação densa"
+    },
+    {
+      "id": "ct-6",
+      "prompt": "Descoberta de ruínas incas escondidas",
+      "imageUrl": "https://pollinations.ai/p/Ruínas%20incas%20majestosas%20escondidas%20na%20selva%20amazônica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A equipe descobre ruínas magnificas cobertas pela vegetação, guardando segredos milenares.",
+      "visualDescription": "Complexo de ruínas incas parcialmente cobertas pela selva"
+    },
+    {
+      "id": "ct-7",
+      "prompt": "Confronto com os mercenários nas ruínas",
+      "imageUrl": "https://pollinations.ai/p/Batalha%20entre%20arqueólogos%20e%20mercenários%20em%20ruínas%20antigas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um tiroteio eclode nas ruínas enquanto ambos os grupos buscam controlar o local.",
+      "visualDescription": "Combate intenso entre estruturas de pedra antiga na selva"
+    },
+    {
+      "id": "ct-8",
+      "prompt": "Lucas decifra hieróglifos para abrir passagem",
+      "imageUrl": "https://pollinations.ai/p/Arqueólogo%20decifrando%20hieróglifos%20incas%20para%20abrir%20câmara%20secreta?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Lucas usa seus conhecimentos para decifrar o código que abre a câmara do tesouro.",
+      "visualDescription": "Hieróglifos incas sendo decifrados com tocha iluminando símbolos"
+    },
+    {
+      "id": "ct-9",
+      "prompt": "Descoberta da câmara do tesouro",
+      "imageUrl": "https://pollinations.ai/p/Câmara%20de%20tesouro%20inca%20repleta%20de%20ouro%20e%20artefatos%20preciosos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A câmara se abre revelando montanhas de ouro e artefatos incas inestimáveis.",
+      "visualDescription": "Câmara dourada com tesouros incas, ouro e artefatos preciosos"
+    },
+    {
+      "id": "ct-10",
+      "prompt": "Armadilha final da câmara se ativa",
+      "imageUrl": "https://pollinations.ai/p/Armadilha%20final%20inca%20se%20ativando%20com%20paredes%20se%20fechando?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A retirada de um artefato ativa a armadilha final - as paredes começam a se fechar.",
+      "visualDescription": "Câmara do tesouro com paredes de pedra se fechando como armadilha"
+    },
+    {
+      "id": "ct-11",
+      "prompt": "Fuga dramática da câmara em colapso",
+      "imageUrl": "https://pollinations.ai/p/Fuga%20dramática%20de%20câmara%20em%20colapso%20com%20pedras%20caindo?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A equipe corre contra o tempo para escapar antes que a câmara desabe completamente.",
+      "visualDescription": "Corrida desesperada através de câmara desabando com pedras caindo"
+    },
+    {
+      "id": "ct-12",
+      "prompt": "Viktor tenta roubar o tesouro",
+      "imageUrl": "https://pollinations.ai/p/Mercenário%20tentando%20roubar%20artefatos%20preciosos%20durante%20o%20caos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Viktor aproveita o caos para tentar escapar com os artefatos mais valiosos.",
+      "visualDescription": "Mercenário carregando tesouros durante fuga em meio ao colapso"
+    },
+    {
+      "id": "ct-13",
+      "prompt": "Maya salva a equipe com conhecimento local",
+      "imageUrl": "https://pollinations.ai/p/Guia%20amazônica%20salvando%20equipe%20usando%20conhecimento%20ancestral%20da%20selva?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Maya usa conhecimento ancestral para encontrar uma saída secreta das ruínas.",
+      "visualDescription": "Guia indígena revelando passagem secreta em meio à vegetação"
+    },
+    {
+      "id": "ct-14",
+      "prompt": "Tesouros são entregues a museu",
+      "imageUrl": "https://pollinations.ai/p/Artefatos%20incas%20sendo%20exibidos%20em%20museu%20para%20preservação%20cultural?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Lucas garante que os artefatos sejam exibidos em museu, preservando a herança cultural.",
+      "visualDescription": "Museu moderno exibindo artefatos incas para educação pública"
+    },
+    {
+      "id": "ct-15",
+      "prompt": "Nova expedição sendo planejada",
+      "imageUrl": "https://pollinations.ai/p/Arqueólogos%20planejando%20nova%20expedição%20com%20mapas%20e%20descobertas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Inspirados pelo sucesso, Lucas e Maya planejam nova expedição para descobrir mais tesouros perdidos.",
+      "visualDescription": "Escritório de arqueologia com mapas e planos para próxima aventura"
     }
   ],
   "createdAt": "2024-01-01T00:00:00.000Z",
-  "thumbnail": "https://image.pollinations.ai/prompt/aventura%20poster%20cinematogr%C3%A1fico%20Ca%C3%A7adores%20de%20Tesouro%2C%20arque%C3%B3logos%20em%20pir%C3%A2mide%20no%20deserto?width=768&height=1366&nologo=true",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Caçadores%20de%20Tesouro%2C%20aventura%20expedição%2C%20arqueólogos%20na%20Amazônia?width=768&height=1366&enhance=true&nologo=true",
   "aspectRatio": "16:9",
   "type": "movie"
 }

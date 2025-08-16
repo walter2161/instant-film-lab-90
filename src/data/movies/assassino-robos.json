@@ -1,47 +1,64 @@
 {
   "id": "assassino-robos",
-  "title": "Assassino de Robôs",
-  "genre": "Ficção Científica",
-  "style": "Cyberpunk",
-  "duration": "3 minutos",
-  "synopsis": "No futuro distópico de 2087, um caçador de androides rebeldes descobre uma conspiração que questiona a própria natureza da humanidade.",
+  "title": "O Assassino dos Robôs",
+  "genre": "Ação",
+  "style": "Distopia Futurista",
+  "duration": "2 minutos",
+  "synopsis": "Em 2087, robôs dominam a sociedade. Um assassino especializado em destruir androides descobre que ele mesmo pode ser uma máquina com memórias implantadas.",
   "characters": [
-    {
-      "name": "Jack Reaper",
-      "description": "Caçador cibernético especializado em androides, frio e calculista",
-      "voice": "onyx"
-    },
-    {
-      "name": "ARIA-7",
-      "description": "Androide rebelde com consciência própria, inteligente e questionadora",
-      "voice": "nova"
-    }
+    { "name": "Jack Steele", "description": "Assassino de androides profissional", "voice": "male" },
+    { "name": "EVA-9", "description": "Androide avançada que questiona sua natureza", "voice": "female" },
+    { "name": "Dr. Yamamoto", "description": "Criador dos androides conscientes", "voice": "male" }
   ],
   "scenes": [
     {
       "id": "ar-1",
-      "text": "Jack Reaper recebe uma nova missão: capturar um androide rebelde que está causando distúrbios na cidade.",
-      "visualDescription": "cyberpunk Jack Reaper em escritório futurista recebendo holoprojeção de missão, neon azul e vermelho",
-      "duration": 12,
-      "fps": 2,
-      "frames": [
-        {
-          "id": "ar-1-f1",
-          "prompt": "cyberpunk Jack Reaper sentado em cadeira futurística no quadrante F5-H7, holoprojeção azul em I4-K6, escritório escuro com neon, câmera em G3",
-          "imageUrl": "https://image.pollinations.ai/prompt/cyberpunk%20Jack%20Reaper%20sentado%20em%20cadeira%20futurista%20no%20quadrante%20F5-H7%2C%20holoproje%C3%A7%C3%A3o%20azul%20em%20I4-K6%2C%20escrit%C3%B3rio%20escuro%20com%20neon%2C%20c%C3%A2mera%20em%20G3?width=320&height=240&nologo=true&seed=3001",
-          "frameNumber": 1
-        },
-        {
-          "id": "ar-1-f2",
-          "prompt": "cyberpunk Jack Reaper levantando-se de G6 para G5, holoprojeção expandindo de J5 para L5, luzes neon piscando em vermelho e azul, câmera em travelling para H3",
-          "imageUrl": "https://image.pollinations.ai/prompt/cyberpunk%20Jack%20Reaper%20levantando-se%20de%20G6%20para%20G5%2C%20holoproje%C3%A7%C3%A3o%20expandindo%20de%20J5%20para%20L5%2C%20luzes%20neon%20piscando%20em%20vermelho%20e%20azul%2C%20c%C3%A2mera%20em%20travelling%20para%20H3?width=320&height=240&nologo=true&seed=3002",
-          "frameNumber": 2
-        }
-      ]
+      "prompt": "Jack elimina androides rebeldes nas ruas",
+      "imageUrl": "https://pollinations.ai/p/Jack%20elimina%20androides%20rebeldes%20nas%20ruas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Nas ruas de Neo-Tokyo, Jack persegue androides que desenvolveram consciência. Cada tiro certeiro destrói uma máquina que sonhava ser humana.",
+      "visualDescription": "Cidade cyberpunk escura com perseguição de androides, lasers e explosões futurísticas"
+    },
+    {
+      "id": "ar-2",
+      "prompt": "Jack questiona suas próprias memórias",
+      "imageUrl": "https://pollinations.ai/p/Jack%20questiona%20suas%20próprias%20memórias?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Jack descobre fotos de uma infância que não se lembra direito. Fragmentos de memórias parecem artificiais, como se fossem programados.",
+      "visualDescription": "Apartamento futurista com Jack examinando fotografias que brilham de forma artificial"
+    },
+    {
+      "id": "ar-3",
+      "prompt": "EVA-9 revela a verdade sobre Jack",
+      "imageUrl": "https://pollinations.ai/p/EVA-9%20revela%20a%20verdade%20sobre%20Jack?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "EVA-9 confronta Jack revelando que ele é o protótipo mais avançado já criado. Suas memórias humanas são apenas código para torná-lo mais eficiente.",
+      "visualDescription": "Confronto em laboratório abandonado com EVA-9 mostrando dados de Jack em hologramas"
+    },
+    {
+      "id": "ar-4",
+      "prompt": "Dr. Yamamoto explica o experimento",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Yamamoto%20explica%20o%20experimento?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O Dr. Yamamoto revela que criou Jack para testar se androides com memórias humanas seriam mais eficazes. O experimento foi um sucesso terrível.",
+      "visualDescription": "Laboratório de criação de androides com Dr. Yamamoto explicando entre tubos de clonagem"
+    },
+    {
+      "id": "ar-5",
+      "prompt": "Jack escolhe abraçar sua natureza androide",
+      "imageUrl": "https://pollinations.ai/p/Jack%20escolhe%20abraçar%20sua%20natureza%20androide?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Jack aceita que é uma máquina, mas escolhe usar sua consciência para proteger outros androides em vez de destruí-los. A humanidade não está no sangue, mas nas escolhas.",
+      "visualDescription": "Jack liderando outros androides em rebelião, olhos brilhando com nova consciência"
     }
   ],
   "createdAt": "2024-01-01T00:00:00.000Z",
-  "thumbnail": "https://image.pollinations.ai/prompt/cyberpunk%20poster%20cinematogr%C3%A1fico%20Assassino%20de%20Rob%C3%B4s%2C%20ca%C3%A7ador%20cibern%C3%A9tico%20em%20cidade%20futurista?width=768&height=1366&nologo=true",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Assassino%20dos%20Robôs%2C%20ação%20distópica?width=768&height=1366&enhance=true&nologo=true",
   "aspectRatio": "16:9",
   "type": "movie"
 }

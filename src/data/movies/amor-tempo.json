@@ -1,47 +1,64 @@
 {
   "id": "amor-tempo",
-  "title": "Amor no Tempo",
+  "title": "Amor Através do Tempo",
   "genre": "Romance",
-  "style": "Drama Romântico",
-  "duration": "3 minutos",
-  "synopsis": "Uma história de amor que transcende o tempo, onde dois amantes se encontram em diferentes épocas através de cartas misteriosas.",
+  "style": "Ficção Científica Romântica",
+  "duration": "2 minutos",
+  "synopsis": "Uma cientista descobre como enviar mensagens para o passado e se apaixona por um homem de 1955. Eles devem encontrar uma forma de ficar juntos atravessando décadas.",
   "characters": [
-    {
-      "name": "Elena Rodrigues",
-      "description": "Jovem escritora apaixonada por história, sensível e sonhadora",
-      "voice": "shimmer"
-    },
-    {
-      "name": "Miguel Santos",
-      "description": "Soldado do século XIX, romântico e corajoso",
-      "voice": "alloy"
-    }
+    { "name": "Dr. Emma Clarke", "description": "Física temporal moderna", "voice": "female" },
+    { "name": "James Morrison", "description": "Escritor romântico dos anos 50", "voice": "male" },
+    { "name": "Prof. Williams", "description": "Mentor que criou a tecnologia temporal", "voice": "male" }
   ],
   "scenes": [
     {
       "id": "at-1",
-      "text": "Elena encontra cartas antigas no sótão de sua avó, escritas por um soldado do século XIX.",
-      "visualDescription": "romance Elena descobrindo cartas amareladas em baú antigo, luz dourada filtrada por janela empoeirada",
-      "duration": 12,
-      "fps": 2,
-      "frames": [
-        {
-          "id": "at-1-f1",
-          "prompt": "romance Elena abrindo baú antigo no quadrante G5-I7, sótão empoeirado, luz dourada da janela em D2-F4, câmera em H4",
-          "imageUrl": "https://image.pollinations.ai/prompt/romance%20Elena%20abrindo%20ba%C3%BA%20antigo%20no%20quadrante%20G5-I7%2C%20s%C3%B3t%C3%A3o%20empoeirado%2C%20luz%20dourada%20da%20janela%20em%20D2-F4%2C%20c%C3%A2mera%20em%20H4?width=320&height=240&nologo=true&seed=2001",
-          "frameNumber": 1
-        },
-        {
-          "id": "at-1-f2", 
-          "prompt": "romance Elena pegando cartas amareladas de H6 para I5, expressão de surpresa, luz dourada realçando o papel antigo, câmera aproximando para G3",
-          "imageUrl": "https://image.pollinations.ai/prompt/romance%20Elena%20pegando%20cartas%20amareladas%20de%20H6%20para%20I5%2C%20express%C3%A3o%20de%20surpresa%2C%20luz%20dourada%20real%C3%A7ando%20o%20papel%20antigo%2C%20c%C3%A2mera%20aproximando%20para%20G3?width=320&height=240&nologo=true&seed=2002",
-          "frameNumber": 2
-        }
-      ]
+      "prompt": "Emma descobre como enviar mensagens ao passado",
+      "imageUrl": "https://pollinations.ai/p/Emma%20descobre%20como%20enviar%20mensagens%20ao%20passado?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No laboratório, Emma ajusta as frequências quânticas quando consegue enviar uma mensagem para 1955. Do outro lado, James recebe cartas impossíveis de uma mulher do futuro.",
+      "visualDescription": "Laboratório moderno com equipamento temporal, ondas quânticas conectando épocas diferentes"
+    },
+    {
+      "id": "at-2",
+      "prompt": "Emma e James se comunicam através das décadas",
+      "imageUrl": "https://pollinations.ai/p/Emma%20e%20James%20se%20comunicam%20através%20das%20décadas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Através de cartas temporais, Emma e James compartilham suas vidas. Ele escreve sobre os anos 50, ela sobre tecnologia futura. O amor cresce entre as épocas.",
+      "visualDescription": "Montagem dividida mostrando Emma moderna e James vintage trocando cartas que brilham temporalmente"
+    },
+    {
+      "id": "at-3",
+      "prompt": "James tenta mudar o futuro para encontrar Emma",
+      "imageUrl": "https://pollinations.ai/p/James%20tenta%20mudar%20o%20futuro%20para%20encontrar%20Emma?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "James cria invenções baseadas nas pistas de Emma, tentando acelerar o progresso tecnológico para chegar até ela. Suas ações começam a alterar a linha temporal.",
+      "visualDescription": "James nos anos 50 criando tecnologia impossível para a época, realidade começando a se distorcer"
+    },
+    {
+      "id": "at-4",
+      "prompt": "Emma percebe que o tempo está se desfazendo",
+      "imageUrl": "https://pollinations.ai/p/Emma%20percebe%20que%20o%20tempo%20está%20se%20desfazendo?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O laboratório de Emma se fragmenta entre épocas diferentes. Ela percebe que as mudanças de James estão criando paradoxos temporais que podem destruir ambos os tempos.",
+      "visualDescription": "Laboratório se fragmentando entre diferentes épocas, realidade temporal colapsando"
+    },
+    {
+      "id": "at-5",
+      "prompt": "Emma e James se encontram no ponto de convergência temporal",
+      "imageUrl": "https://pollinations.ai/p/Emma%20e%20James%20se%20encontram%20no%20ponto%20de%20convergência%20temporal?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Emma usa a última energia do dispositivo para se transportar para 1955. Eles se encontram em um momento onde o tempo para, decidindo viver para sempre nesse instante perfeito.",
+      "visualDescription": "Encontro romântico em época suspensa, Emma e James se abraçando enquanto o tempo congela ao redor"
     }
   ],
   "createdAt": "2024-01-01T00:00:00.000Z",
-  "thumbnail": "https://image.pollinations.ai/prompt/romance%20poster%20cinematogr%C3%A1fico%20Amor%20no%20Tempo%2C%20casais%20de%20%C3%A9pocas%20diferentes%20conectados%20por%20cartas?width=768&height=1366&nologo=true",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20Amor%20Através%20do%20Tempo%2C%20romance%20sci-fi?width=768&height=1366&enhance=true&nologo=true",
   "aspectRatio": "16:9",
   "type": "movie"
 }

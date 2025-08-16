@@ -1,47 +1,289 @@
 {
   "id": "amazonia-selvagem",
   "title": "Amazônia Selvagem",
-  "genre": "Aventura",
-  "style": "Documentário Natural",
-  "duration": "3 minutos",
-  "synopsis": "Uma expedição científica enfrenta os perigos da selva amazônica em busca de uma espécie perdida, descobrindo segredos ancestrais.",
+  "genre": "Documentário",
+  "style": "Natureza",
+  "imageStyle": "O filme deve ser renderizado com um estilo visual realista e vibrante, destacando as cores exuberantes da floresta e a vida selvagem. As cenas devem ter uma iluminação natural, com detalhes nítidos e profundidade de campo para enfatizar a grandiosidade da Amazônia. Os personagens, tanto humanos quanto animais, devem ser representados de forma realista e respeitosa, com atenção aos detalhes culturais e biológicos.",
+  "duration": "2 minutos",
+  "synopsis": "Uma jornada épica pela Amazônia revelando segredos da maior floresta tropical do mundo e sua vida selvagem única.",
   "characters": [
-    {
-      "name": "Dr. Marina Costa",
-      "description": "Bióloga especialista em fauna amazônica, determinada e corajosa",
-      "voice": "shimmer"
-    },
-    {
-      "name": "João Ribeiro", 
-      "description": "Guia local experiente, conhece todos os segredos da floresta",
-      "voice": "alloy"
-    }
+    { "name": "Dr. Ana Silva", "description": "Bióloga especialista em fauna amazônica", "voice": "female" },
+    { "name": "Cacique Raoni", "description": "Líder indígena guardião da floresta", "voice": "male" }
   ],
   "scenes": [
     {
       "id": "as-1",
-      "text": "Dr. Marina Costa prepara sua expedição para a Amazônia, determinada a encontrar uma espécie considerada extinta.",
-      "visualDescription": "aventura amazônica Dr. Marina Costa organizando equipamentos científicos em laboratório iluminado",
-      "duration": 12,
-      "fps": 2,
-      "frames": [
-        {
-          "id": "as-1-f1",
-          "prompt": "aventura amazônica Dr. Marina Costa no laboratório, organizando equipamentos científicos nos quadrantes E5-F7, câmera em H4, iluminação fluorescente branca",
-          "imageUrl": "https://image.pollinations.ai/prompt/aventura%20amaz%C3%B4nica%20Dr.%20Marina%20Costa%20no%20laborat%C3%B3rio%2C%20organizando%20equipamentos%20cient%C3%ADficos%20nos%20quadrantes%20E5-F7%2C%20c%C3%A2mera%20em%20H4%2C%20ilumina%C3%A7%C3%A3o%20fluorescente%20branca?width=320&height=240&nologo=true&seed=1001",
-          "frameNumber": 1
-        },
-        {
-          "id": "as-1-f2",
-          "prompt": "aventura amazônica Dr. Marina Costa pegando binóculos de G5 para H5, câmera aproximando-se de F4 para G4",
-          "imageUrl": "https://image.pollinations.ai/prompt/aventura%20amaz%C3%B4nica%20Dr.%20Marina%20Costa%20pegando%20bin%C3%B3culos%20de%20G5%20para%20H5%2C%20c%C3%A2mera%20aproximando-se%20de%20F4%20para%20G4?width=320&height=240&nologo=true&seed=1002",
-          "frameNumber": 2
-        }
-      ]
+      "prompt": "Vista aérea majestosa da floresta amazônica",
+      "imageUrl": "https://pollinations.ai/p/Vista%20aérea%20majestosa%20da%20floresta%20amazônica%20ao%20nascer%20do%20sol?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Do alto, a Amazônia se estende infinitamente como um mar verde, lar de milhões de espécies.",
+      "visualDescription": "Vista aérea da floresta amazônica com rios serpenteando"
+    },
+    {
+      "id": "as-2",
+      "prompt": "Jaguares caçando na mata fechada",
+      "imageUrl": "https://pollinations.ai/p/Jaguar%20caçando%20na%20mata%20fechada%20da%20Amazônia?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O jaguar, predador supremo, move-se silenciosamente pela vegetação densa.",
+      "visualDescription": "Jaguar em posição de caça na floresta amazônica"
+    },
+    {
+      "id": "as-3",
+      "prompt": "Aves exóticas voando sobre o dossel",
+      "imageUrl": "https://pollinations.ai/p/Aves%20exóticas%20coloridas%20voando%20sobre%20dossel%20amazônico?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Araras e tucanos pintam o céu com suas cores vibrantes, guardiões do ar amazônico.",
+      "visualDescription": "Bandos de aves coloridas voando sobre a copa das árvores"
+    },
+    {
+      "id": "as-4",
+      "prompt": "Tribos indígenas preservando tradições",
+      "imageUrl": "https://pollinations.ai/p/Tribo%20indígena%20amazônica%20preservando%20tradições%20ancestrais?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Os povos originários mantêm viva a sabedoria ancestral, verdadeiros guardiões da floresta.",
+      "visualDescription": "Aldeia indígena com membros da tribo em atividades tradicionais"
+    },
+    {
+      "id": "as-5",
+      "prompt": "Rio Amazonas serpenteando pela floresta",
+      "imageUrl": "https://pollinations.ai/p/Rio%20Amazonas%20serpenteando%20pela%20floresta%20com%20vida%20aquática?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O poderoso Rio Amazonas é a artéria vital que alimenta toda esta biodiversidade única.",
+      "visualDescription": "Rio Amazonas com vida aquática abundante e floresta nas margens"
+    },
+    {
+      "id": "as-6",
+      "prompt": "Dr. Ana Silva coletando amostras de plantas",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Ana%20Silva%20coletando%20amostras%20de%20plantas%20na%20Amazônia?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A Dra. Ana Silva coleta amostras de plantas para estudar a biodiversidade da região.",
+      "visualDescription": "Dr. Ana Silva em meio à vegetação densa, coletando amostras de plantas"
+    },
+    {
+      "id": "as-7",
+      "prompt": "Cacique Raoni contando histórias da floresta",
+      "imageUrl": "https://pollinations.ai/p/Cacique%20Raoni%20contando%20histórias%20da%20floresta%20para%20crianças%20indígenas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Cacique Raoni compartilha histórias ancestrais com as crianças da tribo, transmitindo conhecimento e tradições.",
+      "visualDescription": "Cacique Raoni sentado em um círculo com crianças indígenas, contando histórias"
+    },
+    {
+      "id": "as-8",
+      "prompt": "Macacos pulando entre as árvores",
+      "imageUrl": "https://pollinations.ai/p/Macacos%20pulando%20entre%20as%20árvores%20da%20floresta%20amazônica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Macacos brincam e pulam entre as árvores, exibindo sua agilidade e destreza.",
+      "visualDescription": "Macacos pulando entre as árvores da floresta amazônica"
+    },
+    {
+      "id": "as-9",
+      "prompt": "Pôr do sol sobre a floresta amazônica",
+      "imageUrl": "https://pollinations.ai/p/Pôr%20do%20sol%20sobre%20a%20floresta%20amazônica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O pôr do sol pinta o céu de cores vibrantes, encerrando mais um dia na Amazônia.",
+      "visualDescription": "Pôr do sol sobre a floresta amazônica com cores vibrantes no céu"
+    },
+    {
+      "id": "as-10",
+      "prompt": "Dr. Ana Silva analisando amostras em seu laboratório",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Ana%20Silva%20analisando%20amostras%20em%20seu%20laboratório%20na%20Amazônia?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "No laboratório, a Dra. Ana Silva analisa as amostras coletadas, buscando entender melhor a biodiversidade da Amazônia.",
+      "visualDescription": "Dr. Ana Silva em seu laboratório, analisando amostras de plantas"
+    },
+    {
+      "id": "as-11",
+      "prompt": "Cacique Raoni em uma cerimônia tradicional",
+      "imageUrl": "https://pollinations.ai/p/Cacique%20Raoni%20em%20uma%20cerimônia%20tradicional%20indígena?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Cacique Raoni lidera uma cerimônia tradicional, celebrando a conexão espiritual com a floresta.",
+      "visualDescription": "Cacique Raoni em uma cerimônia tradicional com membros da tribo"
+    },
+    {
+      "id": "as-12",
+      "prompt": "Boto-cor-de-rosa nadando no Rio Amazonas",
+      "imageUrl": "https://pollinations.ai/p/Boto-cor-de-rosa%20nadando%20no%20Rio%20Amazonas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O boto-cor-de-rosa, um dos símbolos da Amazônia, nada graciosamente nas águas do Rio Amazonas.",
+      "visualDescription": "Boto-cor-de-rosa nadando nas águas do Rio Amazonas"
+    },
+    {
+      "id": "as-13",
+      "prompt": "Dr. Ana Silva e Cacique Raoni discutindo a preservação da floresta",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Ana%20Silva%20e%20Cacique%20Raoni%20discutindo%20a%20preservação%20da%20floresta?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Dra. Ana Silva e Cacique Raoni discutem estratégias para preservar a floresta e sua biodiversidade.",
+      "visualDescription": "Dr. Ana Silva e Cacique Raoni em uma conversa séria sobre a preservação da floresta"
+    },
+    {
+      "id": "as-14",
+      "prompt": "Vista noturna da floresta amazônica",
+      "imageUrl": "https://pollinations.ai/p/Vista%20noturna%20da%20floresta%20amazônica%20com%20estrelas%20brilhantes?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "À noite, a floresta ganha vida com sons e luzes, sob um céu estrelado.",
+      "visualDescription": "Vista noturna da floresta amazônica com estrelas brilhantes no céu"
+    },
+    {
+      "id": "as-15",
+      "prompt": "Dr. Ana Silva e Cacique Raoni em uma expedição pela floresta",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Ana%20Silva%20e%20Cacique%20Raoni%20em%20uma%20expedição%20pela%20floresta%20amazônica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Dra. Ana Silva e Cacique Raoni embrenham-se na floresta em uma expedição para descobrir novas espécies.",
+      "visualDescription": "Dr. Ana Silva e Cacique Raoni caminhando pela floresta densa"
+    },
+    {
+      "id": "as-16",
+      "prompt": "Cachoeira no meio da floresta amazônica",
+      "imageUrl": "https://pollinations.ai/p/Cachoeira%20no%20meio%20da%20floresta%20amazônica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma cachoeira majestosa no meio da floresta, um oásis de beleza e tranquilidade.",
+      "visualDescription": "Cachoeira no meio da floresta amazônica com água cristalina"
+    },
+    {
+      "id": "as-17",
+      "prompt": "Dr. Ana Silva registrando dados em seu caderno de campo",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Ana%20Silva%20registrando%20dados%20em%20seu%20caderno%20de%20campo%20na%20Amazônia?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Dra. Ana Silva registra meticulosamente os dados coletados em seu caderno de campo.",
+      "visualDescription": "Dr. Ana Silva sentada em um tronco, registrando dados em seu caderno de campo"
+    },
+    {
+      "id": "as-18",
+      "prompt": "Cacique Raoni ensinando técnicas de sobrevivência na floresta",
+      "imageUrl": "https://pollinations.ai/p/Cacique%20Raoni%20ensinando%20técnicas%20de%20sobrevivência%20na%20floresta%20para%20jovens%20indígenas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Cacique Raoni ensina técnicas de sobrevivência na floresta para os jovens da tribo.",
+      "visualDescription": "Cacique Raoni demonstrando técnicas de sobrevivência para jovens indígenas"
+    },
+    {
+      "id": "as-19",
+      "prompt": "Borboletas coloridas em um jardim na floresta",
+      "imageUrl": "https://pollinations.ai/p/Borboletas%20coloridas%20em%20um%20jardim%20na%20floresta%20amazônica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Borboletas coloridas dançam em um jardim florido, adicionando mais beleza à floresta.",
+      "visualDescription": "Borboletas coloridas voando em um jardim florido na floresta amazônica"
+    },
+    {
+      "id": "as-20",
+      "prompt": "Dr. Ana Silva e Cacique Raoni em uma canoa no Rio Amazonas",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Ana%20Silva%20e%20Cacique%20Raoni%20em%20uma%20canoa%20no%20Rio%20Amazonas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Dra. Ana Silva e Cacique Raoni navegam pelo Rio Amazonas em uma canoa, explorando a vida aquática.",
+      "visualDescription": "Dr. Ana Silva e Cacique Raoni em uma canoa no Rio Amazonas"
+    },
+    {
+      "id": "as-21",
+      "prompt": "Vista aérea de uma aldeia indígena na floresta",
+      "imageUrl": "https://pollinations.ai/p/Vista%20aérea%20de%20uma%20aldeia%20indígena%20na%20floresta%20amazônica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Uma vista aérea revela a harmonia entre a aldeia indígena e a floresta ao seu redor.",
+      "visualDescription": "Vista aérea de uma aldeia indígena integrada à floresta amazônica"
+    },
+    {
+      "id": "as-22",
+      "prompt": "Dr. Ana Silva e Cacique Raoni em uma conversa com outros líderes indígenas",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Ana%20Silva%20e%20Cacique%20Raoni%20em%20uma%20conversa%20com%20outros%20líderes%20indígenas?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Dra. Ana Silva e Cacique Raoni discutem a preservação da floresta com outros líderes indígenas.",
+      "visualDescription": "Dr. Ana Silva e Cacique Raoni em uma reunião com outros líderes indígenas"
+    },
+    {
+      "id": "as-23",
+      "prompt": "Vista subaquática do Rio Amazonas",
+      "imageUrl": "https://pollinations.ai/p/Vista%20subaquática%20do%20Rio%20Amazonas%20com%20peixes%20coloridos?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "A vida subaquática do Rio Amazonas é tão rica e diversificada quanto a floresta acima.",
+      "visualDescription": "Vista subaquática do Rio Amazonas com peixes coloridos e plantas aquáticas"
+    },
+    {
+      "id": "as-24",
+      "prompt": "Dr. Ana Silva e Cacique Raoni em uma caminhada noturna pela floresta",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Ana%20Silva%20e%20Cacique%20Raoni%20em%20uma%20caminhada%20noturna%20pela%20floresta%20amazônica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Dra. Ana Silva e Cacique Raoni exploram a floresta à noite, descobrindo sua vida noturna.",
+      "visualDescription": "Dr. Ana Silva e Cacique Raoni com lanternas, caminhando pela floresta à noite"
+    },
+    {
+      "id": "as-25",
+      "prompt": "Vista panorâmica da floresta amazônica ao amanhecer",
+      "imageUrl": "https://pollinations.ai/p/Vista%20panorâmica%20da%20floresta%20amazônica%20ao%20amanhecer?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O amanhecer na Amazônia traz consigo a promessa de um novo dia cheio de descobertas.",
+      "visualDescription": "Vista panorâmica da floresta amazônica ao amanhecer com névoa e luz suave"
+    },
+    {
+      "id": "as-26",
+      "prompt": "Dr. Ana Silva e Cacique Raoni em uma cerimônia de agradecimento à natureza",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Ana%20Silva%20e%20Cacique%20Raoni%20em%20uma%20cerimônia%20de%20agradecimento%20à%20natureza?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Dra. Ana Silva e Cacique Raoni participam de uma cerimônia de agradecimento à natureza, celebrando sua beleza e abundância.",
+      "visualDescription": "Dr. Ana Silva e Cacique Raoni em uma cerimônia de agradecimento com membros da tribo"
+    },
+    {
+      "id": "as-27",
+      "prompt": "Vista aérea de um encontro de rios na Amazônia",
+      "imageUrl": "https://pollinations.ai/p/Vista%20aérea%20de%20um%20encontro%20de%20rios%20na%20Amazônia?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "O encontro dos rios na Amazônia cria um espetáculo natural de águas que se misturam.",
+      "visualDescription": "Vista aérea de um encontro de rios na Amazônia com águas de cores diferentes"
+    },
+    {
+      "id": "as-28",
+      "prompt": "Dr. Ana Silva e Cacique Raoni em uma expedição para estudar plantas medicinais",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Ana%20Silva%20e%20Cacique%20Raoni%20em%20uma%20expedição%20para%20estudar%20plantas%20medicinais%20na%20Amazônia?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Dra. Ana Silva e Cacique Raoni exploram a floresta em busca de plantas medicinais, estudando suas propriedades.",
+      "visualDescription": "Dr. Ana Silva e Cacique Raoni coletando amostras de plantas medicinais na floresta"
+    },
+    {
+      "id": "as-29",
+      "prompt": "Vista de um lago isolado no meio da floresta",
+      "imageUrl": "https://pollinations.ai/p/Vista%20de%20um%20lago%20isolado%20no%20meio%20da%20floresta%20amazônica?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Um lago isolado no meio da floresta reflete a beleza e a tranquilidade da Amazônia.",
+      "visualDescription": "Vista de um lago isolado no meio da floresta amazônica com água cristalina"
+    },
+    {
+      "id": "as-30",
+      "prompt": "Dr. Ana Silva e Cacique Raoni em uma despedida emocionante",
+      "imageUrl": "https://pollinations.ai/p/Dr.%20Ana%20Silva%20e%20Cacique%20Raoni%20em%20uma%20despedida%20emocionante%20na%20Amazônia?width=1920&height=1080&enhance=true&nologo=true",
+      "audioUrl": "",
+      "duration": 8,
+      "text": "Dra. Ana Silva e Cacique Raoni se despedem, prometendo continuar sua missão de preservar a Amazônia.",
+      "visualDescription": "Dr. Ana Silva e Cacique Raoni em um abraço emocionante de despedida"
     }
   ],
   "createdAt": "2024-01-01T00:00:00.000Z",
-  "thumbnail": "https://image.pollinations.ai/prompt/aventura%20amaz%C3%B4nica%20poster%20cinematogr%C3%A1fico%20Amaz%C3%B4nia%20Selvagem%2C%20floresta%20tropical%20exuberante?width=768&height=1366&nologo=true",
+  "thumbnail": "https://pollinations.ai/p/Cartaz%20documentário%20Amazônia%20Selvagem%2C%20natureza%20exuberante?width=768&height=1366&enhance=true&nologo=true",
   "aspectRatio": "16:9",
   "type": "movie"
 }

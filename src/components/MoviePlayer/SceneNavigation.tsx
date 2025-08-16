@@ -33,7 +33,7 @@ export const SceneNavigation = ({
           >
             <div className="relative">
               <img 
-                src={scene.frames?.[0]?.imageUrl || "/placeholder.svg"} 
+                src={scene.imageUrl} 
                 alt={`Cena ${index + 1}`}
                 className={`w-full ${movie.aspectRatio === '16:9' ? 'aspect-[16/9]' : 'aspect-[9/16]'} object-cover transition-all duration-300 ${
                   index === currentSceneIndex ? 'brightness-110' : 'group-hover:brightness-110'
@@ -77,7 +77,7 @@ export const SceneNavigation = ({
             {movie.scenes[currentSceneIndex].duration}s
           </span>
           <span className="bg-muted text-muted-foreground px-2 py-1 rounded">
-            {movie.scenes[currentSceneIndex].visualDescription?.substring(0, 50) || 'Sem descrição'}...
+            {movie.scenes[currentSceneIndex].prompt.substring(0, 50)}...
           </span>
         </div>
       </div>

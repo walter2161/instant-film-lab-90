@@ -1,19 +1,11 @@
-export interface MovieFrame {
-  id: string;
-  prompt: string;
-  imageUrl: string;
-  frameNumber: number; // 1 a 24
-}
-
 export interface MovieScene {
   id: string;
   prompt: string;
-  frames: MovieFrame[]; // 24 frames por cena
+  imageUrl: string;
   audioUrl: string;
-  duration: number; // em segundos (sempre 12 segundos - 24 frames / 2 fps)
+  duration: number; // em segundos
   text: string; // Narração/falas visíveis para o usuário
   visualDescription: string; // Descrição detalhada da cena apenas para a IA
-  fps: number; // sempre 2 fps
 }
 
 export interface MovieCharacter {
