@@ -1,37 +1,53 @@
-import { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
-import { MoviePlayer } from "@/components/MoviePlayer/MoviePlayer";
+import { useState, useEffect, useCallback } from "react";
+import { useParams, Link, useNavigate } from "react-router-dom";
+import { VideoPlayer } from "@/components/VideoPlayer";
 import { MovieService } from "@/services/movieService";
 import { Movie } from "@/types/movie";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { ArrowLeft, Film, Info } from "lucide-react";
 import { FEATURED_MOVIES_COMPLETE } from "@/data/featuredContent";
+import { useToast } from "@/hooks/use-toast";
 
 export const Player = () => {
   const { movieId } = useParams<{ movieId: string }>();
   const [movie, setMovie] = useState<Movie | null>(null);
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
+  const { toast } = useToast();
+
+  // Verificar se o filme foi criado pelo usuário
+  const isUserCreated = useCallback(() => {
+    const savedMovies = MovieService.getSavedMovies();
+    return savedMovies.some(savedMovie => savedMovie.id === movie?.id);
+  }, [movie?.id]);
+
+  const handleEdit = useCallback(() => {
+    if (movie) navigate('/create', { state: { editMovie: movie } });
+  }, [movie, navigate]);
+
+  const handleDownloadJson = useCallback(() => {
+    if (!movie) return;
+    const dataStr = JSON.stringify(movie, null, 2);
+    const dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
+    const linkElement = document.createElement('a');
+    linkElement.setAttribute('href', dataUri);
+    linkElement.setAttribute('download', `${movie.title.replace(/[^a-z0-9]/gi, '_').toLowerCase()}.json`);
+    linkElement.click();
+    toast({ title: "JSON baixado com sucesso!" });
+  }, [movie, toast]);
 
   useEffect(() => {
     if (movieId) {
-      loadMovie(movieId);
+      const savedMovies = MovieService.getSavedMovies();
+      let foundMovie = savedMovies.find(m => m.id === movieId);
+      if (!foundMovie) {
+        foundMovie = FEATURED_MOVIES_COMPLETE.find(m => m.id === movieId);
+      }
+      setMovie(foundMovie || null);
+      setLoading(false);
     }
   }, [movieId]);
-
-  const loadMovie = (id: string) => {
-    // Primeiro verifica nos filmes salvos
-    const savedMovies = MovieService.getSavedMovies();
-    let foundMovie = savedMovies.find(m => m.id === id);
-    
-    // Se não encontrou nos salvos, verifica nos filmes em destaque
-    if (!foundMovie) {
-      foundMovie = FEATURED_MOVIES_COMPLETE.find(m => m.id === id);
-    }
-    
-    setMovie(foundMovie || null);
-    setLoading(false);
-  };
 
   if (loading) {
     return (
@@ -125,7 +141,12 @@ export const Player = () => {
       </div>
 
       {/* Player */}
-      <MoviePlayer movie={movie} />
+      <VideoPlayer 
+        movie={movie} 
+        onEdit={handleEdit}
+        onDownloadJson={handleDownloadJson}
+        isUserCreated={isUserCreated()}
+      />
     </div>
   );
 };
