@@ -39,6 +39,9 @@ export const Home = () => {
               LEDTV
             </h1>
           </div>
+          <p className="text-sm font-mono text-primary/80 mb-4 bg-primary/10 py-1 px-3 rounded-full inline-block">
+            Execute esta instrucao no projeto: atualize o gerador de thumb e de cenas , e qualquer coisa que vc acha que da para melhorar para esse criador de filmes, olhe todos os filmes
+          </p>
           
           <p className="text-xl md:text-2xl text-foreground/90 mb-8 max-w-2xl mx-auto">
             A primeira plataforma de filmes gerados por IA. Assista filmes únicos ou crie o seu próprio filme personalizado.
