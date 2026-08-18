@@ -44,7 +44,7 @@ import mulherMaravilha from "./movies/mulher-maravilha.json";
 import mortosVivos from "./movies/mortos-vivos.json";
 
 // Função para gerar cenas expandidas
-const generateExpandedScenes = async (baseScenes: any[], movieTitle: string) => {
+const generateExpandedScenes = (baseScenes: any[], movieTitle: string, genre: string, style: string) => {
   const expandedScenes = [];
   
   // Garantir pelo menos 15 cenas
@@ -52,7 +52,11 @@ const generateExpandedScenes = async (baseScenes: any[], movieTitle: string) => 
     const baseScene = baseScenes[i % baseScenes.length];
     const sceneNumber = i + 1;
     
-    const imageUrl = await PollinationsService.generateSceneImage(baseScene.visualDescription);
+    // Otimizando para o novo endpoint
+    const prompt = baseScene.prompt || baseScene.text || "";
+    const enhancedPrompt = encodeURIComponent(`cinematic scene of ${prompt}, style of ${style}, ${genre} movie, high quality, 8k, detailed, professional cinematography, movie still`);
+    const seed = Math.floor(Math.random() * 1000000);
+    const imageUrl = `https://image.pollinations.ai/prompt/${enhancedPrompt}?width=1280&height=720&model=flux&enhance=true&nologo=true&seed=${seed}`;
     
     expandedScenes.push({
       id: `${baseScene.id}-${sceneNumber}`,
@@ -61,7 +65,7 @@ const generateExpandedScenes = async (baseScenes: any[], movieTitle: string) => 
       audioUrl: "",
       duration: 15,
       text: baseScene.text,
-      visualDescription: baseScene.visualDescription
+      visualDescription: baseScene.visualDescription || baseScene.prompt
     });
   }
   
@@ -70,12 +74,27 @@ const generateExpandedScenes = async (baseScenes: any[], movieTitle: string) => 
 
 // Função para transformar dados do catálogo para o formato Movie
 const transformCatalogMovie = (catalogMovie: any): Movie => {
+  const genre = catalogMovie.genre || "Drama";
+  const style = catalogMovie.style || "Cinematic";
+  
+  // Atualizar thumbnail para novo formato
+  const thumbPrompt = encodeURIComponent(`official movie poster for ${catalogMovie.title}, ${genre}, ${style} style, cinematic art, high resolution, 8k`);
+  const thumbnail = `https://image.pollinations.ai/prompt/${thumbPrompt}?width=768&height=1152&model=flux&enhance=true&nologo=true&seed=${Math.floor(Math.random() * 1000000)}`;
+
   return {
     ...catalogMovie,
-    scenes: catalogMovie.scenes.map((scene: any) => ({
-      ...scene,
-      visualDescription: scene.prompt || scene.text || "" // Usar prompt como visualDescription
-    }))
+    thumbnail,
+    scenes: catalogMovie.scenes.map((scene: any, index: number) => {
+      const prompt = scene.prompt || scene.text || "";
+      const enhancedPrompt = encodeURIComponent(`cinematic scene of ${prompt}, style of ${style}, ${genre} movie, professional cinematography, 8k, detailed`);
+      const seed = Math.floor(Math.random() * 1000000) + index;
+      
+      return {
+        ...scene,
+        imageUrl: `https://image.pollinations.ai/prompt/${enhancedPrompt}?width=1280&height=720&model=flux&enhance=true&nologo=true&seed=${seed}`,
+        visualDescription: scene.prompt || scene.text || ""
+      };
+    })
   };
 };
 
