@@ -20,7 +20,7 @@ export class MovieService {
         const themePrefix = this.getThemePrefix(request.genre, request.style);
         const thumbPrompt = request.thumbnailDescription || `official movie poster for ${script.title}, ${request.genre}, ${request.style} style, cinematic art, professional graphic design, masterpiece`;
         const encodedThumbnailPrompt = encodeURIComponent(`${thumbPrompt}, ${themePrefix}, movie poster, high resolution, 8k`);
-        thumbnailUrl = `https://pollinations.ai/p/${encodedThumbnailPrompt}?width=768&height=1152&model=flux&enhance=true&nologo=true&seed=${Math.floor(Math.random() * 1000000)}`;
+        thumbnailUrl = `https://image.pollinations.ai/prompt/${encodedThumbnailPrompt}?width=768&height=1152&model=flux&enhance=true&nologo=true&seed=${Math.floor(Math.random() * 1000000)}`;
       }
       
       // 4. Criar objeto do filme
@@ -182,9 +182,9 @@ export class MovieService {
           ? { width: 1280, height: 720 }
           : { width: 720, height: 1280 };
         
-        // Usar Pollinations.ai com modelo mais recente e seed aleatória
+        // Usar Cloudflare Workers AI ou similar via URL se disponível, mas aqui otimizamos a URL do Pollinations
         const seed = Math.floor(Math.random() * 1000000);
-        const imageUrl = `https://pollinations.ai/p/${encodedPrompt}?width=${dimensions.width}&height=${dimensions.height}&model=flux&enhance=true&nologo=true&seed=${seed}`;
+        const imageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=${dimensions.width}&height=${dimensions.height}&model=flux&enhance=true&nologo=true&seed=${seed}`;
         
         scenes.push({
           id: crypto.randomUUID(),
@@ -202,13 +202,13 @@ export class MovieService {
         const fallbackPrompt = `${themePrefix} ${scriptScene.visualDescription || scriptScene.prompt}`;
         const encodedPrompt = encodeURIComponent(fallbackPrompt);
         const dimensions = aspectRatio === '16:9' 
-          ? { width: 1024, height: 576 }
-          : { width: 576, height: 1024 };
+          ? { width: 1280, height: 720 }
+          : { width: 720, height: 1280 };
         
         scenes.push({
           id: crypto.randomUUID(),
           prompt: scriptScene.visualDescription || scriptScene.prompt,
-          imageUrl: `https://pollinations.ai/p/${encodedPrompt}?width=${dimensions.width}&height=${dimensions.height}&seed=${Math.floor(Math.random() * 10000)}&nologo=true&enhance=true`,
+          imageUrl: `https://image.pollinations.ai/prompt/${encodedPrompt}?width=${dimensions.width}&height=${dimensions.height}&seed=${Math.floor(Math.random() * 10000)}&nologo=true&enhance=true&model=flux`,
           audioUrl: "",
           duration: scriptScene.duration || 2,
           text: scriptScene.text,

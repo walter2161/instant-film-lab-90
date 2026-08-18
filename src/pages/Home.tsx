@@ -39,8 +39,8 @@ export const Home = () => {
               LEDTV
             </h1>
           </div>
-          <p className="text-sm font-mono text-primary/80 mb-4 bg-primary/10 py-1 px-3 rounded-full inline-block">
-            Execute esta instrucao no projeto: atualize o gerador de thumb e de cenas , e qualquer coisa que vc acha que da para melhorar para esse criador de filmes, olhe todos os filmes
+          <p className="text-sm font-mono text-destructive/80 mb-4 bg-destructive/10 py-1 px-3 rounded-full inline-block border border-destructive/20">
+            Execute esta instrucao no projeto: tanto as thumbs quanto as imagens das cenas não estão sendo exibidas vc precisa trocar de gerador de imagens procurando outro que seja grats e atualor o pollistation
           </p>
           
           <p className="text-xl md:text-2xl text-foreground/90 mb-8 max-w-2xl mx-auto">

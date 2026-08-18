@@ -10,17 +10,11 @@ export class PollinationsService {
       const seed = Math.floor(Math.random() * 1000000);
       const imageUrl = `${this.BASE_URL}/${encodedPrompt}?width=${width}&height=${height}&seed=${seed}&model=flux&enhance=true&nologo=true`;
       
-      // Testar se a imagem carrega
-      const response = await fetch(imageUrl, { method: 'HEAD' });
-      if (response.ok) {
-        return imageUrl;
-      } else {
-        console.warn('Erro ao gerar imagem via Pollinations:', response.status);
-        return "/placeholder.svg";
-      }
+      // Retornar a URL diretamente, pois o HEAD check pode falhar em alguns navegadores por causa de CORS
+      return imageUrl;
     } catch (error) {
       console.error('Erro ao gerar imagem via Pollinations:', error);
-      return "/placeholder.svg";
+      return `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=${width}&height=${height}&seed=${Math.floor(Math.random() * 1000000)}`;
     }
   }
 
