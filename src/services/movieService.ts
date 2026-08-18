@@ -202,13 +202,13 @@ export class MovieService {
         const fallbackPrompt = `${themePrefix} ${scriptScene.visualDescription || scriptScene.prompt}`;
         const encodedPrompt = encodeURIComponent(fallbackPrompt);
         const dimensions = aspectRatio === '16:9' 
-          ? { width: 1024, height: 576 }
-          : { width: 576, height: 1024 };
+          ? { width: 1280, height: 720 }
+          : { width: 720, height: 1280 };
         
         scenes.push({
           id: crypto.randomUUID(),
           prompt: scriptScene.visualDescription || scriptScene.prompt,
-          imageUrl: `https://pollinations.ai/p/${encodedPrompt}?width=${dimensions.width}&height=${dimensions.height}&seed=${Math.floor(Math.random() * 10000)}&nologo=true&enhance=true`,
+          imageUrl: `https://image.pollinations.ai/prompt/${encodedPrompt}?width=${dimensions.width}&height=${dimensions.height}&seed=${Math.floor(Math.random() * 10000)}&nologo=true&enhance=true&model=flux`,
           audioUrl: "",
           duration: scriptScene.duration || 2,
           text: scriptScene.text,
