@@ -1,16 +1,14 @@
 export class PollinationsService {
   private static readonly BASE_URL = 'https://image.pollinations.ai/prompt';
   
-  static async generateImage(prompt: string, width: number = 1024, height: number = 576): Promise<string> {
+  static async generateImage(prompt: string, width: number = 1280, height: number = 720): Promise<string> {
     try {
-      // Garantir que o prompt está em português e bem detalhado
-      const enhancedPrompt = `${prompt}, cinematográfico, alta qualidade, iluminação profissional, composição dramática, estilo Netflix, 4K`;
+      // Prompt aprimorado para qualidade cinematográfica superior
+      const enhancedPrompt = `${prompt}, cinematic masterpiece, professional color grading, ultra-detailed, 8k resolution, photorealistic, cinematic lighting, movie still`;
       
-      // Encodar o prompt para URL
       const encodedPrompt = encodeURIComponent(enhancedPrompt);
-      
-      // Construir URL da API Pollinations
-      const imageUrl = `${this.BASE_URL}/${encodedPrompt}?width=${width}&height=${height}&seed=${Math.floor(Math.random() * 1000000)}`;
+      const seed = Math.floor(Math.random() * 1000000);
+      const imageUrl = `${this.BASE_URL}/${encodedPrompt}?width=${width}&height=${height}&seed=${seed}&model=flux&enhance=true&nologo=true`;
       
       // Testar se a imagem carrega
       const response = await fetch(imageUrl, { method: 'HEAD' });

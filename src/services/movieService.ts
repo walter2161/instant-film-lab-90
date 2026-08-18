@@ -15,11 +15,11 @@ export class MovieService {
       
       // 3. Gerar thumbnail personalizada se especificada
       let thumbnailUrl = scenes[0]?.imageUrl;
-      if (request.thumbnailDescription) {
+      if (request.thumbnailDescription || script.title) {
         const themePrefix = this.getThemePrefix(request.genre, request.style);
-        const thumbnailPrompt = `${themePrefix} ${request.thumbnailDescription}, cartaz de filme, poster cinematográfico, alta qualidade`;
-        const encodedThumbnailPrompt = encodeURIComponent(thumbnailPrompt);
-        thumbnailUrl = `https://pollinations.ai/p/${encodedThumbnailPrompt}?width=768&height=1366&model=flux&enhance=true&nologo=true`;
+        const thumbPrompt = request.thumbnailDescription || `official movie poster for ${script.title}, ${request.genre}, ${request.style} style, cinematic art, professional graphic design, masterpiece`;
+        const encodedThumbnailPrompt = encodeURIComponent(`${thumbPrompt}, ${themePrefix}, movie poster, high resolution, 8k`);
+        thumbnailUrl = `https://pollinations.ai/p/${encodedThumbnailPrompt}?width=768&height=1152&model=flux&enhance=true&nologo=true&seed=${Math.floor(Math.random() * 1000000)}`;
       }
       
       // 4. Criar objeto do filme
@@ -47,9 +47,9 @@ export class MovieService {
   }
   
   private static async generateScript(request: CreateMovieRequest) {
-    // Calcular número de cenas - mínimo 30 para filmes
+    // Aumentar número de cenas para melhor fluidez - 40 cenas mínimo
     const durationInSeconds = this.parseDurationToSeconds(request.duration);
-    const numberOfScenes = Math.max(30, Math.floor(durationInSeconds / 2)); // Mínimo 30 cenas, 2 segundos por cena
+    const numberOfScenes = Math.max(40, Math.floor(durationInSeconds / 1.5)); // Mais cenas, transições mais rápidas
     
     const prompt = `Você é um roteirista especialista da Netflix. Crie um roteiro cinematográfico de alta qualidade para um ${request.genre} no estilo ${request.style} com duração de ${request.duration}.
     ${request.customPrompt ? `Tema específico: ${request.customPrompt}` : ''}
@@ -118,7 +118,8 @@ export class MovieService {
     - NUNCA repita textos, situações ou descrições visuais
     - Foque na qualidade cinematográfica de cada momento
     - Português brasileiro autêntico e natural
-    - Cada ato deve ter ritmo e propósito narrativo distintos`;
+    - Cada ato deve ter ritmo e propósito narrativo distintos.
+    - O ROTEIRO DEVE SER EM PORTUGUÊS BRASILEIRO, MAS AS DESCRIÇÕES VISUAIS (visualDescription e prompt) DEVEM SER EM INGLÊS TÉCNICO DE CINEMA PARA MELHOR PERFORMANCE DA IA DE IMAGEM.`;
 
     const response = await fetch(MISTRAL_API_URL, {
       method: "POST",
@@ -128,11 +129,18 @@ export class MovieService {
       },
       body: JSON.stringify({
         model: "mistral-large-latest",
-        messages: [{
-          role: "user",
-          content: prompt
-        }],
-        temperature: 0.7
+        messages: [
+          {
+            role: "system",
+            content: "Você é um roteirista premiado da HBO/Netflix, especialista em narrativa visual e consistência de personagens. Seus roteiros são detalhados, imersivos e nunca repetitivos."
+          },
+          {
+            role: "user",
+            content: prompt
+          }
+        ],
+        temperature: 0.8,
+        response_format: { type: "json_object" }
       })
     });
 
@@ -160,20 +168,22 @@ export class MovieService {
       const scriptScene = scriptScenes[i];
       
       try {
-        // Gerar imagem usando Pollinations.ai com tema obrigatório no início
+        // Gerar imagem usando Pollinations.ai com melhorias de prompt
         const visualPrompt = scriptScene.visualDescription || scriptScene.prompt;
-        const enhancedPrompt = `${themePrefix} ${visualPrompt}, cinematic composition, high quality, detailed, professional cinematography, movie scene`;
+        const themePrefix = this.getThemePrefix(genre || '', style || '');
+        const enhancedPrompt = `cinematic scene of ${visualPrompt}, style of ${style}, ${genre} movie, professional cinematography, highly detailed, 8k, masterwork, dramatic lighting, shot on 35mm lens, photorealistic, ${themePrefix}`;
         
         // Codificar o prompt para URL
         const encodedPrompt = encodeURIComponent(enhancedPrompt);
         
         // Definir dimensões baseadas no aspect ratio
         const dimensions = aspectRatio === '16:9' 
-          ? { width: 1024, height: 576 }
-          : { width: 576, height: 1024 };
+          ? { width: 1280, height: 720 }
+          : { width: 720, height: 1280 };
         
-        // Usar Pollinations.ai
-        const imageUrl = `https://pollinations.ai/p/${encodedPrompt}?width=${dimensions.width}&height=${dimensions.height}&model=flux&enhance=true&nologo=true`;
+        // Usar Pollinations.ai com modelo mais recente e seed aleatória
+        const seed = Math.floor(Math.random() * 1000000);
+        const imageUrl = `https://pollinations.ai/p/${encodedPrompt}?width=${dimensions.width}&height=${dimensions.height}&model=flux&enhance=true&nologo=true&seed=${seed}`;
         
         scenes.push({
           id: crypto.randomUUID(),
