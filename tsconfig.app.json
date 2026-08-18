@@ -5,9 +5,9 @@
     "lib": [
       "ES2020",
       "DOM",
-      "DOM.Iterable",
-      "Node"
+      "DOM.Iterable"
     ],
+    "types": ["node"],
     "module": "ESNext",
     "skipLibCheck": true,
     "moduleResolution": "bundler",
