@@ -1,5 +1,6 @@
 import { Movie, CreateMovieRequest, MovieScene } from "@/types/movie";
 import { CharacterPersona } from "@/types/character";
+import { FEATURED_MOVIES_COMPLETE } from "@/data/featuredContent";
 
 const MISTRAL_API_KEY = "aynCSftAcQBOlxmtmpJqVzco8K4aaTDQ";
 const MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions";
@@ -233,7 +234,6 @@ export class MovieService {
   static getAllMovies(): Movie[] {
     // Combina filmes salvos com filmes em destaque (incluindo os do Oscar)
     const savedMovies = this.getSavedMovies();
-    const { FEATURED_MOVIES_COMPLETE } = require("@/data/featuredContent");
     
     // Remove duplicatas baseado no ID
     const allMovies = [...FEATURED_MOVIES_COMPLETE, ...savedMovies];
